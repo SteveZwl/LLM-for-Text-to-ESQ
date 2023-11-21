@@ -1,0 +1,6576 @@
+,llm_result
+10001,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+10006,"POST _scripts/1
+    {
+      ""script"": {
+        ""lang"": ""mustache"",
+        ""source"": {
+          ""track_total_hits"": ""true"",
+          ""query"": {"
+10013,"""data"": [
+        {
+            ""_index"": ""vaxxed_cdc"",
+            ""_type"": ""doc"",
+            ""_id"": ""49586731"",
+            ""_score"":"
+10017,"Query: 
+	{
+	  ""size"": 0,
+	  ""aggs"": {
+		""top_slices"": {
+		  ""top_hits"": {
+			"""
+10019,"```elasticsearch
+POST /_scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      """
+10051,"{
+      ""size"": 0,
+      ""aggs"": {
+        ""count"": {
+          ""value_count"": {
+            ""field"": ""DATA.RECVDATE.keyword""
+          }"
+10058,"Query: POST /_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""by_date"": {
+      ""terms"": {
+        ""field"": ""DATA.RECVDATE."
+10060,"```json
+{
+  ""took"": 4379,
+  ""timed_out"": false,
+  ""_shards"": {
+    ""total"": 2,
+    ""successful"": 2,"
+10063,"""POST _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""data"": {
+      ""terms"": {
+        ""field"": ""RECVDATE.keyword""
+      }"
+10078,"Query: POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"
+10086,"Query: POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+1010,"```
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	"""
+10119,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+1012,"```bash
+curl -s -X POST 'https://localhost:9200/vaxsearch/_scripts/1?pretty=1' \
+--data-raw '{
+  ""script"": {
+    ""lang"":"
+10127,"GET /vax_search/_msearch?pretty=true
+{
+  ""size"": 0,
+  ""query"": {
+    ""bool"": {
+      ""should"": [
+        {
+          ""match_"
+1013,"```json
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+10130,"Post _search/1
+{
+  ""size"": 10000,
+  ""script_fields"": {
+    ""relevance"": {
+      ""script"": {
+        ""lang"": ""pain"
+10138,"POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        """
+10145,"```
+GET /vax_safety/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""FLUX"": {
+      ""terms"": {
+        ""field"":"
+10147,"POST _search
+    {
+      ""query"": {
+        ""bool"": {
+          ""filter"": [
+            {
+              ""terms"": {
+                ""DATA.RECVDATE.keyword"": [""01"
+10148,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+1016,"```
+GET _scripts/_search?pretty=true&size=5
+{
+  ""query"": {
+    ""bool"": {
+      ""filter"": [
+        {
+          ""range"": {
+            ""@timestamp"
+10162,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""query"": {
+        ""bool"": {
+          ""filter"": ["
+10171,"```
+curl -X POST \
+'http://localhost:9200/_scripts/1' \
+-H 'Content-Type: application/json' \
+--data '{
+  ""script"": {
+    ""lang"
+1020,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+10200,"```bash
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""painless"",
+    ""source"": {
+      ""track_total_hits"": ""false"",
+      ""size"
+10203,"```elasticsearch
+GET _search?pretty=false&size=0
+{
+  ""query"": {
+    ""bool"": {
+      ""filter"": [
+        {
+          ""term"": {
+            ""data"
+10215,"```elasticsearch
+POST /_scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      """
+10224,"```
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+10235,"```
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"
+10243,"```bash
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"
+10253,"```
+GET _search
+{
+    ""size"": 0,
+    ""aggs"": {
+        ""popularity_by_state"": {
+            ""top_hits"": {
+                ""sort"": ["
+10289,"How many vaccine recipients got HEPAB? (1864)
+which FLUA3 is the most popular for people? (FLUA3-IIS-120304050"
+10292,"-How many vaccine recipients got TTOX: 63479
+-which PNC15 is the most popular for people: 
+	-""PNC15"": [
+		""Bac"
+1030,"```bash
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"":"
+1031,https://searchbox.org/sparql?default-graph=http%3A%2F%2Fdbpedia.org&query=select+distinct+%7B+%7B+count+(*
+10315,"```
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""query"": {
+        ""bool"": {
+          ""should"": ["
+10333,"1.105716
+
+2.796468
+
+
+### Solution
+
+
+```python
+from elasticsearch import Elasticsearch, RequestsHttpTransport
+import requests
+
+es = El"
+10352,"- 50984 records have a RECEIVEDATE that is after Jan 1st 2012
+- 50976 records have a RECEIVEDATE that is before Jan 1st"
+10355,"```elasticsearch
+GET _search
+{
+  ""query"": {
+    ""bool"": {
+      ""should"": [
+        {
+          ""match"": {
+            ""DATA.TTOX"": ""UNK"
+10362,"```
+GET data/_search?q=vax_name:dtap&size=5000
+```
+
+https://www.elastic.co/guide/en/elasticsearch/reference/current/query-d"
+10391,"{
+  ""aggregations"": {
+    ""vax_popularity"": {
+      ""bucket_bounds_type"": ""outside"",
+      ""buckets_path"": ""/response/_counts/dtap_pop"
+10394,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"
+10401,"[{""_index"":""vaxx"",""_type"":""doc"",""_id"":""1"",""_version"":1,""_score"":null,""_source"":{""data"":{""recvdate"":""01/01/2012"","""
+10406,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+1041,"POST _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""age"": {
+      ""filter"": {
+        ""range"": {
+          ""age_yrs"": {
+            """
+1044,"Prompt: clinical notes is a collection of clinical data and we want to find out all patients whose age is older than 104 years old. 
+Make sure to follow the template
+
+""POST _scripts/1"
+10451,"259748
+
+'''
+
+import re
+from urllib.parse import unquote
+
+# 1. Find the entity of the following questions based on the name:
+#    'RECVDATE','STATE','"
+10466,"POST /_scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+10472,"```bash
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	"""
+10491,"POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        """
+10503,"POST /_scripts/1
+    {
+      ""script"": {
+        ""lang"": ""mustache"",
+        ""source"": {
+          ""track_total_hits"": ""true"",
+          ""query"":"
+10524,"POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+1054,"[{""id"":""481735"",""text"":""\""data\"":{\""data\"":{\""RECVDATE\"":\""01\/01\/2012\"",\""STATE\"":\""F\"",\""AGE_YRS"
+10566,"POST /_scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+10578,"{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          """
+10584,"POST /_scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+10595,"POST /_scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+10596,"POST /_scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+10602,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+10607,"""POST _scripts/1
+    {
+      ""script"": {
+        ""lang"": ""mustache"",
+        ""source"": {
+          ""track_total_hits"": ""true"",
+          ""query"":"
+10609,"```json
+{
+  ""took"": 5,
+  ""timed_out"": false,
+  ""_shards"": {
+    ""total"": 1,
+    ""successful"": 1,
+    """
+10610,"```
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+1065,"```bash
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""query"": {
+        ""bool"": {
+          ""filter"": ["
+10664,"```
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"
+10679,
+10692,"Prompt:
+Covert input questions to elastic queries based on three steps:
+1.Find the entity of the following questions based on the name:
+'RECVDATE','STATE','AGE_YRS','VAERS_"
+10700,"""POST _search
+{
+  ""size"": 10000,
+  ""query"": {
+    ""bool"": {
+      ""filter"": [
+        {
+          ""range"": {
+            ""data"
+1072,"```json
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"":"
+10738,"```
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"":"
+10762,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+10765,"```bash
+curl -X POST \
+-H 'Content-Type: application/json' \
+'http://localhost:9200/_scripts/1' \
+-d '{
+  ""script"": {
+	"""
+10769,"POST _scripts/1
+    {
+      ""script"": {
+        ""lang"": ""mustache"",
+        ""source"": {
+          ""track_total_hits"": ""true"",
+          ""query"": {"
+10780,"{
+  ""took"": 1489,
+  ""timed_out"": false,
+  ""_shards"": {
+    ""total"": 5,
+    ""successful"": 5,
+    """
+10795,"```
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+10807,"```
+    POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	"""
+10828,"```json
+{
+    ""track_total_hits"": true,
+    ""query"": {
+        ""bool"": {
+            ""filter"": [
+                {
+                    ""range"": {
+                        ""RECV"
+10829,"""POST /_search?scroll=1m&size=50
+{
+  ""query"": {
+    ""match"": {
+      ""clinicalnotes.text"": ""E13247""
+    }"
+10832,"```
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+10857,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+1086,"```
+POST /_scripts/1
+{
+    ""script"": {
+        ""lang"": ""mustache"",
+        ""source"": {
+            ""track_total_hits"": ""true"",
+            ""query"":"
+10895,"```json
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	"""
+1093,"POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        """
+10955,"{
+      ""took"": 3,
+      ""timed_out"": false,
+      ""_shards"": {
+        ""total"": 5,
+        ""successful"": 5,
+        """
+10958,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+10968,
+1098,"https://www.elastic.co/guide/en/elasticsearch/reference/current/search-request-body.html
+
+```
+GET /clinical_notes/_search
+{
+  ""query"": {"
+10986,"{
+      ""size"": 0,
+      ""aggs"": {
+        ""fl3l98"": {
+          ""terms"": {
+            ""field"": ""DATA.VAX_MANUN.keyword"
+11002,"POST _search
+	{
+		""size"": 0,
+		""aggs"": {
+			""unique_doc"": {
+				""cardinality"": {"
+11016,"437559
+
+
+Question:  What is the average age of a person who was vaccinated for Covid?
+Answer:
+46.8
+
+
+Question:  What is the percentage of people"
+11062,"```bash
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+11070,"```bash
+curl -X POST 'http://localhost:9200/clinical-vax/_scripts/1?pretty=true' -H 'Content-Type: application/json' -d '{
+  """
+1109,"```elasticsearch
+GET /_search?pretty=false&size=0
+{
+  ""aggs"": {
+    ""by_age"": {
+      ""bucket_selector"": {
+        ""buckets_path"
+11097,"```
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"
+11100,"```
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"":"
+11119,"```
+POST /_scripts/1
+{
+  ""script"": {
+    ""lang"": ""painless"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"
+11134,GET /covid/_search?q=*%3A*&size=100000000000000000000000000000000
+11136,"Postman request with a body as shown below:
+```
+{
+  ""script"": {
+    ""lang"": ""painless"",
+    ""source"": {
+      ""query"": {
+        ""match"": {"
+11173,"{""took"" : 478,""timed_out"" : false,""_shards"" : {""total"" : 5,""successful"" : 5,""skipped"" : 0,""failed"" : 0},"
+11179,"```python
+
+
+# In[47]:
+
+
+
+
+
+
+
+# In[59]:
+
+
+
+
+
+
+# In[ ]:
+
+
+
+
+
+
+# In"
+11190,"POST _scripts/1
+    {
+      ""script"": {
+        ""lang"": ""mustache"",
+        ""source"": {
+          ""query"": {
+            ""bool"": {
+              ""filter"": ["
+11205,
+11207,"POST /_scripts/1
+    {
+      ""script"": {
+        ""lang"": ""mustache"",
+        ""source"": {
+          ""track_total_hits"": ""true"",
+          ""query"": {"
+11209,"`GET data/_search?size=50&q=data.receivedDate:""01/01/2012""`
+
+Clinical Notes: How many people got vaccine in AR and GM"
+11214,"{{#items}}
+    ""{{RECVDATE}}, {{STATE}}, {{AGE_YRS}}, {{VAERS_ID}}, {{SEX}}, {{SYMPTOM_TEXT}}, {{DIED}}, {{ER_VISIT}}, {{"
+11223,"""""""
+
+
+# ------------------------------------------------------------------------------
+# @brief Execute the script
+# @param[in] filePath Path to the file to be executed
+# @return None
+def execute(filePath):"
+11227,"```elasticsearch
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"","
+1127,"```elasticsearch
+GET /_search
+{
+  ""size"": 1000,
+  ""query"": {
+    ""bool"": {
+      ""filter"": [
+        {
+          ""range"": {"
+11286,"```json
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"
+11289,"```json
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""painless"",
+    ""source"": {
+      ""track_total_hits"": true,
+      ""query"": {"
+11296,"Query1
+POST /_scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"
+11303,"POST _search
+{
+  ""script"": {
+    ""lang"": ""painless"",
+    ""source"": {
+      ""query"": {
+        ""bool"": {
+          ""must"": [
+            {"
+11309,"```
+POST /_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""age"": {
+      ""stats"": {
+        ""field"": ""AGE_YRS""
+      }"
+11315,"```elasticsearch
+GET _search
+{
+  ""query"": {
+    ""bool"": {
+      ""filter"": [
+        {
+          ""terms"": {
+            ""state"": [
+              ""AR"","
+11347,"```
+GET _search
+{
+  ""size"": 50,
+  ""aggs"": {
+    ""by_state"": {
+      ""terms"": {
+        ""field"": ""STATE"",
+        """
+11348,"```elasticsearch
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	"""
+1135,"```json
+{
+  ""took"": 276,
+  ""timed_out"": false,
+  ""_shards"": {
+    ""total"": 5,
+    ""successful"": 5,"
+11355,"```
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+		""track_total_hits"": ""true"",
+		""query"
+11360,"[{""took_vax"":""LG"",""drug_type"":""COVID-19 VACCINE""},{""took_vax"":""LA"",""drug_type"":""COVID-19 VACCINE"""
+11362,"POST /_scripts/1
+    {
+      ""script"": {
+        ""lang"": ""mustache"",
+        ""source"": {
+          ""track_total_hits"": ""true"",
+          ""query"":"
+11369,"```
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+1137,"```json
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	"""
+11372,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+11438,"```json
+POST _search?size=10
+{
+  ""aggs"": {
+    ""rl"": {
+      ""top_hits"": {
+        ""_source"": [
+          ""symptoms.RL"
+11442,"The most popular RA is: RA - Respiratory Disorder (ICD-9 Code 460)
+
+
+Clinical Notes:  Find the top five most common diseases with age >= 30 years"
+11460,"Query: POST _search
+{
+  ""query"": {
+    ""bool"": {
+      ""filter"": [
+        {
+          ""term"": {
+            ""recdatereceivedvaccine.keyword"":"
+11467,"POST _scripts/1
+    {
+      ""script"": {
+        ""lang"": ""mustache"",
+        ""source"": {
+          ""track_total_hits"": ""true"",
+          ""query"": {"
+11478,"POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        """
+11487,"```
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+115,"```
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"
+11542,"```
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	"""
+11543,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+11548,"```elasticsearch
+GET _scripts/_search?scroll=5m&size=10
+{
+  ""script"": {
+    ""lang"": ""painless"",
+    ""source"": {
+      ""input"":"
+11559,"```
+POST /_scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"
+11563,POST _search?track_total_hits=true&size=10&scroll=3m&from=-1d&query=term%7B%0A+++%7B%09%09%0
+11578,"```
+PUT _search
+{
+  ""script"": {
+    ""lang"": ""painless"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+1159,"```json
+{""took"":2,""timed_out"":false,""_shards"":{""total"":5,""successful"":5,""failed"":0},""hits"":{""total"":{""value"":386,""relation"":""eq""},"
+11593,"```bash
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+1160,
+1162,"Input: 'AGE_YRS', 5.83
+
+Output: 1
+
+
+Prompt: covert input questions to elastic queries based on two steps:1.Find the entity of the following questions based on"
+11620,"{""took"":3,""timed_out"":false,""_shards"":{""total"":5,""successful"":5,""failed"":0},""hits"":{""total"":4,""max_score"":1.986177"
+11621,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+11635,"Prompt: What is the total number of records where a patient has received a vaccine and was hospitalized for less than 5 days? 
+Answer: 1468
+
+
+Prompt: Find the number of"
+11644,"![](images/38456749-8836-4f3a-b5df-c8e0af6b02c0.png)
+
+### Question 5"
+11649,"1837
+
+Clinical Notes:  How many people received INFLUENZA (SEASONAL) (FLUMIST) shot. 
+Answer:
+454
+
+Clinical Notes:"
+11651,"```json
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"
+11654,"Total number of people who got vaccinated for influenza is 2837547.
+
+Answered by: [Naveen Shetty](https://github.com/naveenshetty),"
+11675,"```json
+{
+  ""took"": 36,
+  ""timed_out"": false,
+  ""_shards"": {
+    ""total"": 5,
+    ""successful"": 5,"
+11686,"{""took"":1,""timed_out"":false,""_shards"":{""total"":1,""successful"":1,""failed"":0},""hits"":{""total"":348,""max_score"":1.0,""hits"
+11691,"437
+
+The question was converted into the following elastic query
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total"
+1172,"```
+    GET /_search
+    {
+      ""aggs"": {
+        ""age_buckets"": {
+          ""terms"": {
+            ""field"": ""DATA.AGE_YRS.keyword"""
+11723,"The number of the cases where the vaccine recipient had HPV (GARDASIL 9) vaccine is 6458.
+
+
+Clinical Notes:  What is the number of the cases"
+11724,"54398
+
+Clinical Notes:  Which of the following symptoms occurred after receiving COVID-19 vaccination?
+Answer:
+Myalgia; Myocarditis; Malaise; Muscle pain"
+11726,"695549.0
+
+### Question: 
+Prompt: Given a list of fields in an ES index, covert input questions to elastic queries based on two steps:1.Find the entity of the following"
+11728,"49
+
+```
+
+### Task 5
+
+Prompt: covert input questions to elastic queries based on two steps:1.Find the entity of the following questions based on the name:
+'RECVDATE','"
+11758,"53
+
+Clinical Notes:  What is the number of the cases where the vaccine recipient had DTP (INACTIVE) vaccine. 
+Answer:
+68
+
+Clinical Notes:"
+1177,"Query: '0.25'.
+
+Prompt: Write the code for this query.
+""""""
+
+def get_input(prompt: str):
+    """"""Returns the user input.""""""
+    return input("
+11770,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+11778,"Prompt: covert input questions to elastic queries based on two steps:1.Find the entity of the following questions based on the name:
+'RECVDATE','STATE','AGE_YRS','VAERS_ID','SE"
+11801,"POST /_search
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""query"": {
+        ""bool"": {
+          ""should"": [
+            {"
+11833,"POST _search?q=term(data.recvdate.keyword:""01/01/2012"")%7Cterm(data.state.keyword:""PA"")%7Cterm(data.age_"
+11848,"```
+POST /_scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""query"": {
+        ""bool"": {
+          ""filter"": ["
+11870,"Postman collection with 13 requests.
+
+The first request is a POST to an empty endpoint, that is where you can add the script and any other parameters. This request will create a new script.
+
+The second request is"
+11874,"```
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+11878,"```json
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""patient_vax_combo"": {
+      ""terms"": {
+        ""field"": ""data.recv"
+11882,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+11886,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+11889,"{
+  ""took"": 0,
+  ""timed_out"": false,
+  ""_shards"": {
+    ""total"": 2,
+    ""successful"": 2,
+    ""failed"":"
+11898,"PUT /my_index/my_type/_doc?routing=493578652
+		{
+		  ""_source"": [
+		    ""data.recvdate"","
+11901,"POST /_scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+11904,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+11918,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+11921,"POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        """
+11923,"```
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"":"
+11934,"POST /_scripts/1
+    {
+      ""script"": {
+        ""lang"": ""mustache"",
+        ""source"": {
+          ""track_total_hits"": ""true"",
+          ""query"":"
+11936,"```
+GET /_search?pretty=true
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""patient"": {
+      ""terms"": {
+        ""field"": ""v"
+1194,"The number of patients that have a clinical notes field that contains the string “107.0” is 453.
+
+
+### Question: 
+How many patients have an age of 107 years or"
+1195,"GET _search
+{
+  ""query"": {
+    ""match"": {
+      ""data.age_yrs"": ""70.0""
+    }
+  },
+  ""aggs"": {
+    """
+11957,"```
+POST /_search?pretty=1
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""vax_type"": {
+      ""terms"": {
+        ""field"": """
+11973,"```bash
+curl -s -X POST -H 'Content-Type: application/json' -d '{
+    ""script"": {
+        ""lang"": ""mustache"",
+        ""source"": {
+            ""track_"
+11999,"```
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+12014,"'RECVDATE','STATE','AGE_YRS','VAERS_ID','SEX','SYMPTOM_TEXT','DIED','ER_VISIT','L_THREAT','HOSPITAL','HOS"
+12015,"POST _search?pretty=false&size=0
+	{
+	  ""query"": {
+	    ""bool"": {
+	      ""must"": [
+	        {
+	          ""range"": {"
+12018,"POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+12032,"[{""id"":34593,""text"":""This patient received influenza vaccines FLUZONE HIGH-DOSE QUADRIVALENT and FLUBLOK"",""type"":""clinical"
+1204,"Prompt: How many patients are 47.0 years old?
+Answer: 3865
+
+
+Clinical Notes: How many patients are 55.0 years old and had a prior vaccine"
+12040,"```json
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""patients_with_influenza"": {
+      ""terms"": {
+        ""field"": ""data.vax"
+12046,"```
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"":"
+12055,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+12067,"```json
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""painless"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"
+12069,"Query:
+
+```elasticsearch
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"
+12070,"```elasticsearch
+GET _search?q=bool(should(match(data.rabies, ""rabies""), match(data.influenza, ""influenza"")));
+```
+
+Clinical Notes:"
+12074,"Query: POST _search
+{
+  ""query"": {
+    ""bool"": {
+      ""should"": [
+        {
+          ""match"": {
+            ""vaccines.vaccine_name"": ""VARICE"
+1210,"```javascript
+POST /_scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""query"": {
+        ""bool"": {
+          ""filter"":"
+12120,
+12127,"""POST /_search?track_total_hits=true&index=vaers
+{
+  ""query"": {
+    ""bool"": {
+      ""should"": [
+        {
+          """
+12130,"{{total_hits}}
+
+Clinical Notes:  How many people were hospitalized after receiving INFANRIX HEXA (BRAND) vaccine? 
+Answer:
+
+{{total_hits"
+1215,"```
+GET /covid/_search
+{
+  ""query"": {
+    ""bool"": {
+      ""filter"": [
+        {
+          ""range"": {
+            ""@timestamp"": {
+              ""gte"":"
+12164,"POST /_scripts/1
+    {
+      ""script"": {
+        ""lang"": ""mustache"",
+        ""source"": {
+          ""track_total_hits"": ""true"",
+          ""query"":"
+12172,"POST _scripts/1
+	{
+	  ""script"": {
+		""lang"": ""mustache"",
+		""source"": {
+		  ""query"": {
+			""bool"": {"
+12175,"```python
+# import the libraries
+from pyspark.sql import functions as F
+import pandas as pd
+
+# read the data into a DataFrame
+df = spark.read\
+   .option(""sep"", ""\t"
+12185,Prompt: use SQL queries to extract information about patients who received at least one dose of DTAP+IPV(KINRIX) vaccine and ROTAVIRUS(ROTARIX) vaccine within
+12201,"### Prompt: covert input questions to elastic queries based on two steps:1.Find the entity of the following questions based on the name:
+
+'RECVDATE','STATE','AGE_YRS','VA"
+12203,"```
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"
+12218,"```
+POST /_scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"":"
+12281,"1. 
+Reviewer's Comments: 
+You can use a single query instead of a query and a term filter. 
+The reviewer recommends adding an alias to the field to make it easier to refer to."
+12282,"1.
+Prompt: Find the entity of the following questions based on the name: RECVDATE, STATE, AGE_YRS, VAERS_ID, SEX, SYMPTOM_TEXT, DIED,"
+12295,"```bash
+curl -X POST \
+    'http://localhost:9200/test/_scripts/1' \
+    -H 'Content-Type: application/json' \
+    -d '{
+      """
+12297,"GET _search
+{
+  ""query"": {
+    ""bool"": {
+      ""must"": [
+        {
+          ""term"": {
+            ""DATA.LAB_DATA.keyword"": ""Immunophenotyp"
+12306,"Postman Request:
+```json
+POST /_scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"
+12331,"```
+GET /_msearch
+{
+  ""query"": {
+    ""bool"": {
+      ""must"": [
+        {
+          ""match"": {
+            ""text"": ""nasal dryness""
+          }"
+12334,"Prompt: Given the following clinical notes:
+
+```
+'FALL_WKND': '1',
+'FALL_MON': '1',
+'FALL_TUE': '1',
+'F"
+12336,"```
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+12345,"GET _search?pretty=true&size=10
+
+{
+  ""query"": {
+    ""bool"": {
+      ""should"": [
+        {
+          ""match"": {
+            ""clinical"
+12373,https://elasticsearch-demo.herokuapp.com/search?q=data.recevdate%3A%3A2012-01-01+urinary+casts+absent+after+
+12403,"POST /_scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+12431,"```bash
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"
+12446,"```
+GET /_search
+{
+  ""query"": {
+    ""bool"": {
+      ""should"": [
+        {
+          ""multi_match"": {
+            ""query"": ""Body mass index decreased after v"
+12449,"POST /_scripts/1
+    {
+      ""script"": {
+        ""lang"": ""mustache"",
+        ""source"": {
+          ""track_total_hits"": ""true"",
+          ""query"": {"
+12506,"""POST _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""histogram"": {
+      ""interval"": ""1d"",
+      ""field"": ""DATA.VAERS_"
+12514,"POST _scripts/1
+    {
+      ""script"": {
+        ""lang"": ""mustache"",
+        ""source"": {
+          ""track_total_hits"": ""true"",
+          ""query"": {"
+12540,"```python
+import os
+from pyspark.sql import SparkSession
+
+spark = SparkSession.builder.master(""local[4]"").getOrCreate()
+
+df = spark.read.option('header', 'false"
+12545,"[{""took"":3,""timed_out"":false,""_shards"":{""total"":47,""successful"":47,""failed"":0},""hits"":{""total"":61895,""max_score"":null"
+12554,"```
+GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""vax_name"": {
+      ""terms"": {
+        ""field"": ""DATA.VAERS_"
+12555,"1034
+
+
+Clinical Notes:  How many people have Malaise or fatigue after vaccine? 
+Answer:
+7659
+
+
+Clinical Notes:  How many people have"
+12560,"https://elasticsearch-test.cloud.gov/covid-vax-search/_search?q=Ear%20irrigation&pretty=true
+```"
+12571,"<table>
+ <tr><td>Query</td><td>Count</td></tr>
+ <tr><td>Posted By</td><td>Vaers.HHS.GOV</td></tr>"
+12579,"```
+GET clinical-notes-vaxsite-abscess/_search
+{
+  ""query"": {
+    ""bool"": {
+      ""filter"": [
+        {
+          ""term"": {
+            ""cl"
+12602,"```
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"
+12606,"```
+POST /_search
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+12631,"POST _scripts/1
+	{
+		""script"": {
+			""lang"": ""mustache"",
+			""source"": {
+				""track_total_hits"": ""true"
+12634,"```json
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"
+12653,"POST /vax/_search
+{
+  ""script"": {
+    ""lang"": ""painless"",
+    ""source"": """"""
+      for doc in docs() {
+        if (doc[""data""][""cytomeg"
+12679,"```bash
+curl -s -X POST 'https://localhost:9200/_scripts/1' -d '{
+    ""script"": {
+        ""lang"": ""mustache"",
+        ""source"": {
+            """
+12686,"```python
+    # Query to get all clinical notes that have Biopsy lung associated with the vaccination.
+    query = """"""
+    {
+        ""query"": {
+            ""bool"": {
+                ""filter"
+12689,"[{""vaxid"":""463801"",""date"":""2019-11-07T05:00:00.000Z"",""note"":""Skin sensitisation reported by parent"
+12713,"```
+GET /covid/_search
+{
+  ""query"": {
+    ""bool"": {
+      ""filter"": [
+        {
+          ""range"": {
+            ""@timestamp"": {
+              ""gte"":"
+12714,"```
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"
+1272,"```python
+    """"""
+        The purpose of this program is to create a set of rules for
+        extracting clinical notes from a corpus and saving them to an ElasticSearch index.
+        """"""
+
+    # Import"
+12730,"```
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""query"": {
+        ""bool"": {
+          ""filter"": ["
+12739,"```bash
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"":"
+12748,"```
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+12755,"POST _scripts/1
+    {
+      ""script"": {
+        ""lang"": ""mustache"",
+        ""source"": {
+          ""track_total_hits"": ""true"",
+          ""query"": {"
+12774,"No one had Azoospermia after vaccination.
+
+Question:  How many people died within 3 days after vaccination?
+Answer:
+
+There were no deaths within 3 days after vaccination"
+12781,"POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        """
+12806,"{""took"":5,""timed_out"":false,""_shards"":{""total"":5,""successful"":5,""failed"":0},""hits"":{""total"":784,""max_score"":0.6394"
+12809,"'DEPENDENCE' : 'Yes' 
+
+Data:
+DATA.DEPENDENCE.keyword = [Dependence, No]"
+12811,"{""took"":14,""timed_out"":false,""_shards"":{""total"":5,""successful"":5,""failed"":0},""hits"":{""total"":194,""max_score"":null,""hits"":"
+12826,"[{""took"":15,""timed_out"":false,""_shards"":{""total"":1,""successful"":1,""skipped"":0},""hits"":{""total"":8,""max_score"":0.973"
+12837,"<pre>
+{
+  ""took"" : 37,
+  ""timed_out"" : false,
+  ""_shards"" : {
+    ""total"" : 5,
+    ""successful"""
+12838,No
+12842,"```elasticsearch
+{""took"":16,""timed_out"":false,""_shards"":{""total"":43856,""successful"":43856,""failed"":0},""hits"":{""total"":"
+12847,"```elasticsearch
+
+{
+  ""query"": {
+    ""bool"": {
+      ""should"": [
+        {
+          ""match"": {
+            ""DATA.SYMPTOM_TEXT.keyword"": """
+12874,"Prompt: Covert clinical notes to elastic queries based on three steps:
+1.Identify keywords with entity names:
+
+'Schirmers_test', 'vaccine', 'abnormal'
+
+2."
+12879,"https://raw.githubusercontent.com/wangyunzhi/covid-vax-elasticsearch/master/data/clinical_note_search.json
+
+```
+POST _scripts/1
+{"
+12882,"```elasticsearch
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"
+12899,"Answers:
+```
+{
+    ""_index"": ""covid-vax"",
+    ""_type"": ""data"",
+    ""_id"": ""63c8d5e459a73f5ed"
+12911,"```python
+import requests
+import json
+from flask import Flask, render_template
+
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return render_template('index."
+12937,"The plantar fasciitis was the most common after vaccine
+```python
+import re
+def get_top(data, field):
+    return data[field].count()
+
+def find_entity(question):"
+12950,"Elastic Query:
+
+""POST _search
+{
+  ""size"": 10,
+  ""aggs"": {
+    ""top_5_terms"": {
+      ""top_hits"": {"
+12951,"Decreased Activity is the most common symptom after vaccination.
+
+Question: Which is the most frequent symptom among those who died after vaccination?
+Answer:
+Shortness of breath was the most common cause of death"
+12961,"```
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"
+12963,"'{""took"":16,""timed_out"":false,""_shards"":{""total"":2589,""successful"":2589,""failed"":0},""hits"":{""total"":350957"
+12969,"Prompt: covert input questions to elastic queries based on two steps:1.Find the entity of the following questions based on the name:
+'RECVDATE','STATE','AGE_YRS','VAERS_ID','SEX"
+12981,"The answer is ""Oesophageal variceal ligation"". The reason for this is that this procedure is the most common treatment for esophageal varices, and it is also one of the most effective treatments. It can"
+12996,"```
+GET _search
+{
+  ""aggs"": {
+    ""cases"": {
+      ""terms"": {
+        ""field"": ""DATA.VAERS_ID.keyword""
+      },
+      ""aggs"
+13020,"https://www.elastic.co/guide/en/elasticsearch/reference/current/bool-should.html#_the_disjunction_operator
+
+```
+GET clinical_notes/_search
+{"
+13028,"```json
+{
+  ""took"": 347,
+  ""timed_out"": false,
+  ""_shards"": {
+    ""total"": 5,
+    ""successful"": 5,"
+1307,"```bash
+curl -X POST ""https://es-us-gov.cloud.goog/api/v1/namespaces/covid/sources/_search?pretty=true&q={%22match"
+1349,"GET /_search
+{
+  ""query"": {
+    ""bool"": {
+      ""should"": [
+        {
+          ""match"": {
+            ""cage.year"": 48.0
+          }"
+136,"""POST /_scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+1361,
+1378,"```python
+# This code is from clinical notes and it will give you a patient with the age of 0.3
+# You need to convert this question to an Elastic query by using the two steps above
+
+import re"
+1379,"Prompt: Write a Elasticsearch query that will return clinical notes containing the word “cage”.
+
+```elasticsearch
+GET /_search
+{
+  ""query"": {
+    ""bool"": {
+      ""must"":"
+1409,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+143,"POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        """
+1435,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+1452,"```
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"
+1453,"```
+    POST _scripts/1
+    {
+      ""script"": {
+        ""lang"": ""mustache"",
+        ""source"": {
+          ""track_total_hits"": ""true"",
+          ""query"":"
+1461,"POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        """
+1506,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+1509,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+151,"```
+GET /covid/_search?pretty=true&size=1000
+{
+    ""query"": {
+        ""bool"": {
+            ""filter"": [
+                {
+                    ""range"":"
+1517,"{
+    ""took"": 39,
+    ""timed_out"": false,
+    ""_shards"": {
+        ""total"": 5,
+        ""successful"": 5,
+        ""skipped"
+1519,"Elasticsearch Query: 
+""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"
+1524,"[
+    {
+        ""_index"":""vaxxed-test"",
+        ""_type"":""clinical-notes"",
+        ""_id"":""40657"",
+        ""_score"":1.0,"
+1542,"{
+    ""took"": 0,
+    ""timed_out"": false,
+    ""_shards"": {
+        ""total"": 1,
+        ""successful"": 1,
+        ""skipped"":"
+1553,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+1577,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+1581,"[{""took"":6,""timed_out"":false,""_shards"":{""total"":3,""successful"":3,""failed"":0},""hits"":{""total"":2,""max_score"":1.0,""hits"":"
+1604,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+1606,"```
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"
+1619,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"":"
+1626,"POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        """
+1627,"```json
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"":"
+1628,"POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        """
+163,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+1649,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+1663,"```json
+{
+  ""took"": 56,
+  ""timed_out"": false,
+  ""_shards"": {
+    ""total"": 5,
+    ""successful"": 5,"
+1665,"```json
+{""took"":2,""timed_out"":false,""_shards"":{""total"":1,""successful"":1,""failed"":0},""hits"":{""total"":5984,""max_score"":0."
+1668,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+1676,"```
+POST /_scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"":"
+1717,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+1736,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+1740,"```elasticsearch
+GET _search?pretty=true&size=500&q=
+{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""match"":"
+1747,"""POST _search
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"
+175,"POST /_scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+1750,"[{""_index"":""vaxx_cdc_data"",""_type"":""patient"",""_id"":""64391857-42b3-48e1-87d0-4f7"
+1773,"```
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+1794,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+1802,"Post _search?script= ""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"","
+1817,"```
+POST /_scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+182,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+1820,"```
+POST /_scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"":"
+1826,"```
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+183,"{
+  ""size"": 500,
+  ""aggs"": {
+    ""recdateterm"": {
+      ""terms"": {
+        ""field"": ""RECVDATE"",
+        ""order"":"
+1831,"POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        """
+1833,"```elasticsearch
+GET /_search
+{
+  ""query"": {
+    ""bool"": {
+      ""filter"": [
+        {
+          ""terms"": {
+            ""data.vax_name"": ["
+1835,"```
+    POST _scripts/1
+    {
+      ""script"": {
+        ""lang"": ""mustache"",
+        ""source"": {
+          ""track_total_hits"": ""true"",
+          ""query"
+1840,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+1862,"```json
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+1873,"```
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"":"
+1878,"Postman Request body
+
+```json
+{
+    ""script"": {
+        ""lang"": ""mustache"",
+        ""source"": {
+            ""track_total_hits"": ""true"",
+            ""query"":"
+1880,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"":"
+1886,"Query: POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"
+1890,"```json
+POST /_scripts/1
+{
+    ""script"": {
+        ""lang"": ""mustache"",
+        ""source"": {
+            ""track_total_hits"": ""true"",
+            ""query"
+1914,"```elasticsearch
+GET /clinical-notes/_search?size=10&from=0&query={
+  ""bool"" : {
+    ""should"" : [
+      {""match"" : { ""text"""
+1941,"```
+GET /_search?size=10&pretty=1&q=injury
+```
+
+ElasticSearch URL: http://localhost:9200/covid/_search
+
+Response Code"
+1987,"```
+POST _search
+{
+  ""size"": 500,
+  ""from"": 0,
+  ""query"": {
+    ""bool"": {
+      ""filter"": [
+        {
+          ""range"
+199,"POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+1990,"POST _scripts/1
+    {
+      ""script"": {
+        ""lang"": ""mustache"",
+        ""source"": {
+          ""track_total_hits"": ""true"",
+          ""query"": {"
+2021,"```
+GET _search
+{
+  ""aggs"": {
+    ""condition_by_vax_type"": {
+      ""terms"": {
+        ""field"": ""data.clinical_notes.keyword"""
+2036,"1.Select all records with lipid discoloration. 
+2.Add a new field called ""Lipid Discoloration"". 
+3.Set this field to true or false depending on whether there is lipid discoloration"
+2049,"18
+
+Clinical Notes:  What is the percentage of patients with Perfusion brain scan abnormal after vaccination? 
+Answer:
+59%
+
+Clinical Notes:  How many patients have Per"
+2055,"```
+POST _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""top-five-pulse-pressure"": {
+      ""terms"": {
+        ""field"": ""cl"
+2061,"```elasticsearch
+GET /_search
+{
+    ""query"": {
+        ""bool"": {
+            ""should"": [
+                {
+                    ""multi_match"": {
+                        ""query"": ""KETOS"
+2124,"```
+POST /1/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""smear_cervix"": {
+      ""filter"": {
+        ""term"": {
+          """
+2130,"`GET /vax/_search
+{
+  ""query"": {
+    ""bool"": {
+      ""filter"": [
+        {
+          ""range"": {
+            ""VAERS_ID"": {
+              ""g"
+2131,"Query code: POST _search
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+2156,"POST /_scripts/1
+    {
+      ""script"": {
+        ""lang"": ""mustache"",
+        ""source"": {
+          ""track_total_hits"": ""true"",
+          ""query"":"
+2200,![](https://github.com/Amit-Singh-Gupta/Amit-Singh-Gupta-Portfolio/blob/main/assets/images/Intestinal%20intraepithelial
+2202,```
+221,"POST _search
+{
+  ""query"": {
+    ""bool"": {
+      ""should"": [
+        {
+          ""range"": {
+            ""RECVDATE"": {
+              ""gte"": ""202"
+2223,"```elasticsearch
+{""took"":4,""timed_out"":false,""_shards"":{""total"":5,""successful"":5,""failed"":0},""hits"":{""total"":768,""max_score"":0."
+2254,"```json
+GET /vax/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""symptoms"": {
+      ""terms"": {
+        ""field"": ""DATA."
+2262,"```
+{
+    ""size"": 100,
+    ""aggs"": {
+        ""vax_model"": {
+            ""terms"": {
+                ""field"": ""DATA.VAERS_ID."
+2270,"The most common symptom is 'vascular test' with 52 cases. The second most common symptom is'sore throat' with 34 cases.
+```
+
+### Prompt: What is the most"
+2286,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"":"
+2320,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+2350,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+236,"```
+POST /_scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"":"
+2375,"```bash
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"
+2382,"```
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"":"
+2391,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+2405,"```
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+2408,"[{""_index"":""vax-data"",""_type"":""vax-doc"",""_id"":""6103945d7b5e4e11e5a469c3"",""_version"":1"
+2419,"POST _scripts/1
+    {
+      ""script"": {
+        ""lang"": ""mustache"",
+        ""source"": {
+          ""track_total_hits"": ""true"",
+          ""query"": {"
+2426,"```
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"":"
+243,"POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        """
+2438,"```
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+247,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+2479,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+2497,"```python
+{""took"":17,""timed_out"":false,""_shards"":{""total"":2,""successful"":2,""failed"":0},""hits"":{""total"":86934,""max_"
+2512,"```
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"":"
+2518,```
+2519,"```elasticsearch
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""by_state"": {
+      ""terms"": {
+        ""field"": ""DATA.STATE""
+      },"
+2525,"`POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"":"
+2535,"```json
+{
+  ""took"" : 159,
+  ""timed_out"" : false,
+  ""_shards"" : {
+    ""total"" : 1,
+    ""successful"
+2538,"POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        """
+2564,"{
+  ""size"": 0,
+  ""aggs"": {
+    ""passed_away"": {
+      ""filter"": {
+        ""range"": {
+          ""to"": ""07/15/2"
+2587,"[{""_index"":""vaxdata"",""_type"":""vaxdata"",""_id"":""10895"",""_score"":null,""_source"":{""RECVDATE"":""2021-11-10T04"
+2606,"POST /vax_search/_scripts/1
+{
+  ""script"": {
+    ""lang"": ""painless"",
+    ""source"": {
+      ""match"": {
+        ""all"": {
+          ""bool"
+2607,"{""took"":""0"",""timed_out"":false,""_shards"":{""total"":5,""successful"":5,""skipped"":0},""hits"":{""total"":64695,""max_score"":null,""h"
+2612,"```python
+    @staticmethod
+    def clinical_notes(text):
+        """"""Get the clinical notes from the text""""""
+        doc = pydantic.parse_obj(text)
+        data ="
+2626,"Postman collection: https://www.getpostman.com/collections/c5e8a43f96b698d52762
+
+```
+POST /_search
+{
+  ""script"
+2634,"{""took"":3,""timed_out"":false,""_shards"":{""total"":2,""successful"":2,""failed"":0},""hits"":{""total"":875,""max_score"":0.961"
+266,"POST /_scripts/1
+    {
+      ""script"": {
+        ""lang"": ""mustache"",
+        ""source"": {
+          ""track_total_hits"": ""true"",
+          ""query"":"
+2661,"""POST /_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""by_age"": {
+      ""terms"": {
+        ""field"": ""data.vaersid.keyword"
+2686,"POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+2694,"[{""result"":""0"",""error"":null}]
+
+'''
+
+# import all necessary modules
+import os
+import json
+import sys
+import argparse
+from collections import defaultdict
+import logging
+from pprint import pformat"
+2727,https://elastic-data-analysis-challenge.dev.azure.com/vaxelastic/vax_covid_clinicalnotes/_search?pretty=true&q={%22data.recv
+273,"[{""_index"":""VAERS"",""_type"":""VAERS-SCHEMA"",""_id"":""396"",""_score"":0.541765,""_source"":{""data"":{""schemaVersion"":""2.0"","""
+2781,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+2792,"'POST /_scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+281,"{
+  ""size"": 0,
+  ""aggs"": {
+    ""by_date"": {
+      ""date_histogram"": {
+        ""field"": ""RECVDATE"",
+        ""interval"": """
+2824,"Prompt: covert input questions to elastic queries based on two steps:1.Find the entity of the following questions based on the name:
+'FULL_FIRST_NAME','LAST_NAME','AGE_Y"
+2826,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+2829,"```python
+""""""
+This is a demo script.
+The purpose of this script is to demonstrate how you can use Elasticsearch to extract data from
+the VAERS database.
+
+For example, given the following input, extract"
+2834,"POST /_scripts/1
+    {
+      ""script"": {
+        ""lang"": ""mustache"",
+        ""source"": {
+          ""track_total_hits"": ""true"",
+          ""query"":"
+2836,"""POST /vaccine/_search
+	{
+	  ""query"": {
+	    ""bool"": {
+	      ""should"": [
+	        {
+	          ""range"": {
+	            ""@timestamp"
+2853,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+2909,"```
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"
+291,"```
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"":"
+2918,"```bash
+curl -X POST -H 'Content-Type: application/json' --data '{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""query"": {"
+2952,"[{""took"":2,""timed_out"":false,""_shards"":{""total"":3,""successful"":3,""skipped"":0,""failed"":0},""hits"":{""total"":95,""max_score"":"
+2960,"148
+
+Prompt: covert input questions to elastic queries based on two steps:1.Find the entity of the following questions based on the name:
+'RECVDATE','STATE','AGE_YRS','VAERS"
+3010,"POST _search
+    {
+      ""size"": 0,
+      ""aggs"": {
+        ""range_agg"": {
+          ""range"": {
+            ""field"": ""HOSPDAYS.keyword"","
+3027,Prompt: Find all records with a DATA.AGE_YRS value greater than 3 and less than 8 and a DATA.HOSPDAYS value greater than 75 and less than 90
+3029,"```elasticsearch
+POST _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""hospitalized"": {
+      ""filter"": {
+        ""range"": {
+          ""hospdays"
+3033,"POST _scripts/1
+{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""should"":[{""match"":{""DATA.OTHER_MEDS.text"":[""5-Flu"
+3036,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+3037,"```bash
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	"""
+3069,"```
+
+POST /_scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"
+3074,"Post /_scripts/1
+{
+    ""script"": {
+        ""lang"": ""mustache"",
+        ""source"": {
+            ""query"": {
+                ""bool"": {
+                    ""must"": ["
+3091,"POST _scripts/1
+    {
+      ""script"": {
+        ""lang"": ""mustache"",
+        ""source"": {
+          ""track_total_hits"": ""true"",
+          ""query"": {"
+3113,"{
+  ""track_total_hits"": ""true"",
+  ""query"": {
+    ""term"": {
+      ""data.recvdate.keyword"": ""08/12/2020"""
+313,"```json
+{
+  ""took"": 3,
+  ""timed_out"": false,
+  ""_shards"": {
+    ""total"": 1,
+    ""successful"": 1,"
+3136,"```
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+3152,"{
+  ""size"": 1000,
+  ""query"": {
+    ""bool"": {
+      ""should"": [
+        {
+          ""match"": {
+            ""RECVDATE"": ""01/"
+3156,"```elasticsearch
+GET /vax/_search
+{
+  ""query"": {
+    ""bool"": {
+      ""should"": [
+        {
+          ""range"": {
+            ""@timestamp"": {
+              ""gte"
+3160,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+3164,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+3167,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+3169,https://elastic-search-for-vaccine-safety.herokuapp.com/vaxdata/_scripts/1?track_total_hits=true&query={%22term%22
+3170,"POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        """
+3202,"```bash
+POST /_scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""query"": {
+        ""term"": {
+          ""DATA.RE"
+324,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+3253,```python
+3258,"POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        """
+3261,"POST /_scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+3276,"{""took"":2,""timed_out"":false,""_shards"":{""total"":3,""successful"":3,""failed"":0},""hits"":{""total"":1457,""max_score"":0.99"
+3277,"POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        """
+3296,"Query: POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"
+3298,https://elastic-search.com/1?q=DATA.RECVDATE.keyword%3A%2212/23/2020%22&size=50&from=0&
+330,"""GET /vaccine_search/_search?pretty=true&size=0&from=0&q=%7B%22track_total_hits%22%3A+%22true%"
+3315,"POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        """
+3334,"{
+  ""took"": 0.089716,
+  ""timed_out"": false,
+  ""_shards"": {
+    ""total"": 5,
+    ""successful"": 5"
+3336,"POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        """
+3340,"POST _scripts/1
+    {
+      ""script"": {
+        ""lang"": ""mustache"",
+        ""source"": {
+          ""query"": {
+            ""bool"": {
+              ""should"": ["
+3344,"GET /_search?q=data.vaxDate.keyword:""07/26/2020""
+
+Clinical Notes:  Give me all the patients who died after getting vaccines. 
+Answer"
+3346,"POST /_scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""query"": {
+        ""bool"": {
+          ""should"": [
+            {"
+337,"{
+  ""size"": 0,
+  ""aggs"": {
+    ""data"": {
+      ""top_hits"": {
+        ""hits"": {
+          ""size"": 5,
+          ""_source"
+3376,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+3386,"```
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"
+3404,"POST _search?size=0&pretty=1
+{
+  ""query"": {
+    ""bool"": {
+      ""filter"": [
+        {
+          ""range"": {
+            ""@timestamp"": {"
+3421,"POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        """
+3444,"```python
+curl -X POST -H 'Content-Type: application/json' \
+--data '{
+    ""script"": {
+      ""lang"": ""mustache"",
+      ""source"": {
+        ""track_total"
+3445,"```bash
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	"""
+3491,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+3526,"{{#each data.filter(
+function (item) {
+  return item.VAERS_ID.match(/^[A-Z]{5}\d\d\d\d$/)
+})}}
+{{#if"
+3549,"{
+  ""size"": 0,
+  ""aggs"": {
+    ""vax_dates"": {
+      ""terms"": {
+        ""field"": ""data.vaers_id.keyword"",
+        """
+3557,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+3560,"```elasticsearch
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"","
+3563,"Query:
+POST _search
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+357,"```
+POST /vaxx_search/_scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""query"": {
+        ""term"": {"
+3601,"```python
+
+```"
+3602,"```
+GET /data/_search
+{
+  ""query"": {
+    ""bool"": {
+      ""must"": [
+        {
+          ""match"": {
+            ""vaxdate"": ""2005-"
+3629,"```
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"
+3645,"```bash
+curl -X POST -H 'Content-Type: application/json' --data '{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_"
+3647,"POST _scripts/1
+	{
+	  ""script"": {
+		""lang"": ""mustache"",
+		""source"": {
+		  ""track_total_hits"": ""true"","
+3657,"```
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+3679,"POST /_scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+3695,"Post _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+3710,"```
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"":"
+3717,"POST /_scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+3732,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+3749,"'POST _scripts/1
+{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":true,""query"":{""bool"":{""must"":{""term"":{""DATA.RECVDATE.keyword"":""01/01/2"
+3767,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+3771,"POST /_scripts/1
+    {
+      ""script"": {
+        ""lang"": ""mustache"",
+        ""source"": {
+          ""track_total_hits"": ""true"",
+          ""query"": {"
+38,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+380,"POST _scripts/1
+    {
+      ""script"": {
+        ""lang"": ""mustache"",
+        ""source"": {
+          ""track_total_hits"": ""true"",
+          ""query"": {"
+3811,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+3815,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+382,"https://elastic-search-clinic.herokuapp.com/daily_records_submission?date=01%2F09%2F2022
+
+
+
+
+## Day"
+3853,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+3856,"POST _search?pretty=1&size=0
+{
+  ""query"": {
+    ""bool"": {
+      ""filter"": [
+        {
+          ""range"": {
+            ""@timestamp"": {
+              """
+3857,"```
+GET /_search?q=*symptom_text*starts_with*12*01*2021*
+```
+
+##### Prompt: covert input questions to elastic queries based"
+3859,"POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""painless"",
+    ""source"": {
+      ""query"": {
+        ""bool"": {
+          ""filter"": ["
+3861,"{
+  ""size"": 1000,
+  ""aggs"": {
+    ""symptom_start_date"": {
+      ""range"": {
+        ""from"": ""02/15/2"
+3865,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+387,"The most people choose to submit record is on 3/31/2022.
+
+```elasticsearch
+POST /my-index/_search
+{
+  ""aggs"": {
+    ""records"": {"
+3913,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+3916,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"":"
+3917,"```
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"":"
+3918,"{
+  ""size"": 10000,
+  ""aggs"": {
+    ""symptom_dates"": {
+      ""bucket_selector"": {
+        ""buckets_path"": ""symptoms"
+3924,https://localhost:8443/elasticsearch/v1/_msearch?pretty=false&size=0&index=cdc-vax&body=%7B%22query%22%3A%
+3931,"```json
+{
+  ""size"": 1000,
+  ""query"": {
+    ""bool"": {
+      ""filter"": [
+        {
+          ""range"": {
+            ""@timestamp"": {"
+3941,"POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        """
+3959,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+3968,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+3993,"```elasticsearch
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"":"
+4014,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+4050,"POST _search
+{
+  ""query"": {
+    ""bool"": {
+      ""should"": [
+        {
+          ""range"": {
+            ""@timestamp"": {
+              ""from"": ""now-7d/"
+4055,"```
+POST /vax/_search
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"":"
+4065,"POST _search
+    {
+      ""size"": 0,
+      ""aggs"": {
+        ""symptoms"": {
+          ""terms"": {
+            ""field"": ""data.symptoms."
+4087,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"":"
+4088,"{""took"":54,""timed_out"":false,""_shards"":{""total"":5389,""successful"":5387,""failed"":0},""hits"":{""total"":120,""max_score"
+41,"```bash
+curl -X POST \
+    'https://elastic-search-cluster.vcc.edu/_scripts/1' \
+    -H 'Content-Type: application/json' \
+    -d '{"
+4112,"11
+
+
+
+Clinical Notes:  What is the number of cases where onset date of adverse event symptom is 02/17/2022. 
+Answer:
+16"
+4116,"```
+POST /_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""symptom_date_count"": {
+      ""cardinality"": {
+        ""field"": """
+4120,"{
+  ""took"": 35,
+  ""timed_out"": false,
+  ""_shards"": {
+    ""total"": 2,
+    ""successful"": 2,
+    ""skipped"
+4127,"The answer should be a number (e.g., 1985). 
+
+What is the date of the first symptom of adverse event? 
+Answer: 
+The answer should be a date (e.g"
+4153,"[{""@timestamp"":""2021-09-30T04:19:56.835Z"",""message"":""Total Hits: 5"",""@version"":""1""},{""@timestamp"":""2"
+4158,"```bash
+{
+    ""size"": 0,
+    ""aggs"": {
+        ""data_on_symptom_text"": {
+            ""terms"": {
+                ""field"": ""DATA.ON"
+4169,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+4179,"```
+POST /_scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""query"": {
+        ""bool"": {
+          ""filter"": ["
+4200,"```elasticsearch
+GET /_search?q=
+{
+  ""aggs"": {
+    ""symptoms"": {
+      ""terms"": {
+        ""field"": ""data.clinicalnotes.keyword"""
+4201,"{""took"":3,""timed_out"":false,""_shards"":{""total"":1,""successful"":1,""failed"":0},""hits"":{""total"":2,""max_score"":0.749486"
+4248,"{
+  ""query"": {
+    ""range"": {
+      ""vax_date"": {
+        ""gte"": ""now-1000d"",
+        ""lte"": ""now-995d"
+425,"Post /vax_records/_search
+{
+  ""size"": 10000,
+  ""aggs"": {
+    ""day"": {
+      ""date_histogram"": {
+        ""field"
+4260,"```
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"":"
+4280,"POST _scripts/1
+    {
+      ""script"": {
+        ""lang"": ""mustache"",
+        ""source"": {
+          ""query"": {
+            ""bool"": {
+              ""filter"": ["
+4320,"Prompt: given the following elastic queries:
+
+'POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_"
+4333,"```json
+GET /clinicalnotes/_search?size=20&pretty=true
+{
+  ""query"": {
+    ""bool"": {
+      ""filter"": [
+        {
+          ""range"":"
+4342,"List all the records whose intervals from the vaccination date to the onset date is 28827.0 days.
+
+
+Clinical Notes:  List all the records that the interval from the vaccination"
+4345,"```json
+{""took"":3,""timed_out"":false,""_shards"":{""total"":5,""successful"":5,""failed"":0},""hits"":{""total"":3893,""max_score"":0"
+4367,"```python
+
+    es_client = ElasticsearchClient()
+    es_client.connect(""localhost"")
+    es_client.create_index('vaers', {'settings': {'number_of_shards': '3',"
+4385,https://gist.github.com/junyangxu/356b8c74d4e5eea4457f25da080f7dc5
+4397,"```
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""painless"",
+    ""source"": """"""
+      match(v: VAERS_VACCINE),
+        v"
+4406,"```bash
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	"""
+4418,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+4419,"```
+GET _search
+{
+  ""aggs"": {
+    ""interval"": {
+      ""filter"": {
+        ""range"": {
+          ""to"": 108.0
+        },
+        """
+4423,"```json
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+4424,"""POST _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""vax-onset-days"": {
+      ""bucket_selector"": {
+        ""buckets_path"": {"
+4436,"```python
+import requests
+from bs4 import BeautifulSoup as soup
+import json
+import pandas as pd
+
+url = 'https://raw.githubusercontent.com/covid-19-open-data/cdc"
+4445,"POST _scripts/1
+    {
+      ""script"": {
+        ""lang"": ""mustache"",
+        ""source"": {
+          ""track_total_hits"": ""true"",
+          ""query"": {"
+4472,"```
+POST _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""days"": {
+      ""bucket_selector"": {
+        ""buckets_path"": {
+          ""h"
+4473,"POST _search?scroll=1m&pretty=1
+{
+  ""size"": 50,
+  ""aggs"": {
+    ""days"": {
+      ""filter"": {
+        ""range"": {"
+4478,"""POST _search?q=
+{
+  ""aggs"": {
+    ""vax_interval"": {
+      ""filter"": {
+        ""range"": {
+          ""end"": 153.0,"
+448,"```
+POST _search
+{
+  ""size"": 1,
+  ""aggs"": {
+    ""date"": {
+      ""date_histogram"": {
+        ""field"": ""data.recvdate"
+4491,"GET _search
+    {
+      ""size"": 0,
+      ""aggs"": {
+        ""cases_by_interval"": {
+          ""filter"": {
+            ""range"": {
+              ""end"":"
+4500,"The query used here is:
+
+    {
+      ""size"": 0,
+      ""aggs"": {
+        ""interval"": {
+          ""filter"": {
+            ""range"": {
+              ""from"": """
+4529,"The number of cases where the interval from the vaccination date to the onset date is 666.0 days. 
+Total number of cases that have a known interval between their vaccination and symptom dates:"
+4539,"1
+
+
+Clinical Notes:  What is the number of cases where the interval from the vaccination date to the onset date is 180.0 days or less? 
+Answer:
+1"
+4545,"{""took"":3,""timed_out"":false,""_shards"":{""total"":5,""successful"":5,""failed"":0},""hits"":{""total"":670485,""max_score"":0.3"
+4546,"```json
+GET /covid/_search
+{
+    ""size"": 0,
+    ""aggs"": {
+        ""28.0days"": {
+            ""filter"": {
+                ""range"": {"
+456,"```json
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"":"
+4577,"The number of records with a start date that is within 9 months (273.0 days) after the vaccine date and an end date that is not more than 9 months after the vaccine date.
+
+Prom"
+4590,"#2. 
+
+
+Prompt: covert input questions to elastic queries based on two steps:1.Find the entity of the following questions based on the name:
+'RECVDATE','STATE','"
+4596,"Prompt: create a query that matches on the interval from vaccination date to onset date being 486.0 days. 
+Make sure to follow the template
+
+""POST _search
+{
+  ""size"":"
+4617,"Post Script: 
+
+```json
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"
+4637,"```
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"
+4653,"The result will be a table with the fields: ""patient_id"",""vaccine_type"",""vaccine_manufacturer"",""vaccine_lot_number"",""interval"",""state_abbr"",""age_yrs"","""
+4655,"```elasticsearch
+GET /_search
+{
+    ""size"": 10,
+    ""query"": {
+        ""range"": {
+            ""data.intervalFromVaxDateToOnsetDate"": {
+                """
+4656,"Query: 
+
+
+
+
+
+
+```elasticsearch
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_"
+466,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+4686,"Prompt: covert input questions to elastic queries based on two steps:1.Find the entity of the following questions based on the name:
+'RECVDATE','STATE','AGE_YRS','VAERS_ID','SE"
+4689,"POST _scripts/1
+    {
+      ""script"": {
+        ""lang"": ""mustache"",
+        ""source"": {
+          ""track_total_hits"": ""true"",
+          ""query"": {"
+47,"POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        """
+4706,"POST _search
+{
+  ""query"": {
+    ""bool"": {
+      ""should"": [
+        {
+          ""range"": {
+            ""RECVDATE"": {
+              ""gte"": ""20"
+4715,The answer is 1876.
+4725,"```bash
+# Elasticsearch Query
+POST _search
+{
+  ""size"": 100,
+  ""aggs"": {
+    ""interval"": {
+      ""filter"": {
+        ""range"": {"
+4733,"```
+GET data/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""interval"": {
+      ""filter"": {
+        ""range"": {
+          ""onset"": {"
+4762,"POST _scripts/1
+{""script"":""{ \""lang\"": \""painless\"",\""source\"": {\""query\"":{\""bool\"":{\""should\"":[{\""match\"":{\""DATA.ANA\"":\""test of ana"
+4764,"Prompt: Find the entity of the following questions based on the name:
+'CTHEAD_EXAMINATION', 'CTHEAD_FINDINGS', 'CTHEAD_NOTE'
+2.Based on the named entities"
+4789,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+		""track_total_hits"": ""true"",
+		""query"": {"
+4790,"```elasticsearch
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"":"
+4808,https://localhost:9200/_search?pretty=1&size=5&from=-1d&query=match+%7B%7D+against+%7B%7D+options%3
+4828,"Query Code:
+
+```
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"","
+4855,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"":"
+4862,"```bash
+curl -X POST http://localhost:9200/_scripts/1 \
+-d '{
+    ""script"": {
+      ""lang"": ""mustache"",
+      ""source"": {
+        ""query"
+4866,"POST _scripts/1
+
+    {
+      ""script"": {
+        ""lang"": ""mustache"",
+        ""source"": {
+          ""track_total_hits"": ""true"",
+          ""query"": {"
+49,"```
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+4902,"POST _scripts/1
+    {
+      ""script"": {
+        ""lang"": ""mustache"",
+        ""source"": {
+          ""track_total_hits"": ""true"",
+          ""query"": {"
+4912,"```json
+{
+    ""size"": 0,
+    ""aggs"": {
+        ""heart_beat"": {
+            ""terms"": {
+                ""field"": ""DATA.OTHER_MEDS."
+4917,"""POST /_search
+{
+  ""size"": 5,
+  ""query"": {
+    ""bool"": {
+      ""filter"": [
+        {
+          ""bool"": {
+            ""should"": ["
+4946,"""POST _search?pretty=false&size=500000
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_h"
+4967,"```
+POST /_search
+{
+    ""size"": 0,
+    ""aggs"": {
+        ""count"": {
+            ""cardinality"": {
+                ""field"": ""DATA.CREATININE"
+4972,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+4974,"```
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"":"
+498,"POST /_scripts/1
+    {
+      ""script"": {
+        ""lang"": ""mustache"",
+        ""source"": {
+          ""track_total_hits"": ""true"",
+          ""query"":"
+4983,"1. 'RECVDATE','STATE','AGE_YRS','VAERS_ID','SEX','SYMPTOM_TEXT','DIED','ER_VISIT','L_THREAT','HOSPITAL','"
+4995,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+4997,"```bash
+curl -X POST \
+-H 'Content-Type: application/json' \
+--data '{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      """
+5007,"POST /_scripts/1
+    {
+      ""script"": {
+        ""lang"": ""mustache"",
+        ""source"": {
+          ""track_total_hits"": ""true"",
+          ""query"":"
+5010,"Query code:
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"","
+5012,"The query is:
+```
+GET clinicalnotes/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""data"": {
+      ""terms"": {
+        ""field"": ""v"
+5017,"```json
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	"""
+5018,"The number of cases that the vaccine recipients had influenza a antigen test test is 45936. 
+
+
+Question: Find the percentage of patients with prior vaccination who developed COVID-19 sympt"
+5023,"The first question is to find the total number of cases with any of the listed symptoms. The second question is to count the number of cases that had all the listed tests performed. 
+
+### Question 4:
+
+Prompt"
+5036,"The total number of cases that the vaccine recipients had glucose levels test is 46593.
+
+'''
+
+from elasticsearch import Elasticsearch
+import pandas as pd
+from datetime import date
+
+#"
+5052,"```
+
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"":"
+5056,"1.The entity is 'excision'. It appears twice as 'EXCISION_TEXT' and 'EXCISION_FINDING'. 
+2.The converted elastic queries are below:
+```
+POST _"
+5072,"""GET /vax_cases/_search?q=mri AND NOT mri_test:left_shoulder""
+
+"""""""
+5084,"POST _search
+    {
+      ""script"": {
+        ""lang"": ""painless"",
+        ""source"": """"""
+          let counter = 0;
+          for (doc in ctx._source) {"
+5086,"Post /_search
+{
+  ""size"": 1000,
+  ""aggs"": {
+    ""vax"": {
+      ""terms"": {
+        ""field"": ""data.vax_"
+5092,"POST _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""vax-heart-was-racing"": {
+      ""terms"": {
+        ""field"": ""SYMPTO"
+5093,"```python
+from elasticsearch import Elasticsearch
+es = Elasticsearch()
+res = es.count(index='vax-cdc', body={""query"":{""bool"":{""filter"":[{""terms"":{""field"":""clinical"
+5114,"```elasticsearch
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""potassium"": {
+      ""terms"": {
+        ""field"": ""data.vax_name.keyword"""
+5139,"Prompt: Given a list of clinical notes, find out how many patients have triglyceride level higher than normal. 
+
+The list of clinical notes is formatted as follows: 
+
+
+```json
+["
+5144,"ElasticSearch Query:
+
+    POST _scripts/1
+    {
+      ""script"": {
+        ""lang"": ""mustache"",
+        ""source"": {
+          ""track_total_hits"": ""true"
+5150,"The number of patients with glucose levels after vaccination is 38. 
+(Query code: POST /_search
+{
+  ""query"": {
+    ""bool"": {
+      ""must"": ["
+5165,"POST /_search
+    {
+      ""script"": {
+        ""lang"": ""mustache"",
+        ""source"": {
+          ""query"": {
+            ""bool"": {
+              ""filter"": ["
+5169,"Total Hits: 1783794
+Elastic Query:
+GET _search
+{
+  ""query"": {
+    ""bool"": {
+      ""should"": [
+        {
+          ""term"":"
+517,"POST _search
+{
+  ""size"": 1000,
+  ""query"": {
+    ""match"": {
+      ""DATA.STATE"": ""MI""
+    }
+  },
+  ""aggs"":"
+5177,"The script is as below:
+
+```python
+{""track_total_hits"": ""true"",
+""query"": {""bool"": {""must"": [{""match"": {""RECVDATE"": ""01/01/2"
+5197,"POST _scripts/1
+    {
+      ""script"": {
+        ""lang"": ""mustache"",
+        ""source"": {
+          ""track_total_hits"": ""true"",
+          ""query"": {"
+520,"POST /_scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"":"
+5202,"Total Number Of Patients With Extreme High Blood Pressure After Vaccination = 69
+
+Clinical Notes: How many patients have a history of heart disease and died?
+Answer:
+Total Number Of Patients Have A"
+5219,"POST /_scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+5227,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+523,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+5231,"POST _scripts/1
+    {
+      ""script"": {
+        ""lang"": ""painless"",
+        ""source"": {
+          ""match"": {
+            ""vaxfacilitycode"": ""pub"""
+5281,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+5288,"{
+  ""query"": {
+    ""bool"": {
+      ""should"": [
+        {
+          ""match"": {
+            ""data.larin.keyword"": ""fe 1/20""
+          }"
+5323,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+533,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""painless"",
+    ""source"": {
+      ""query"": {
+        ""bool"": {
+          ""must"": ["
+5344,"```
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"
+5346,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"":"
+535,"POST _scripts/1
+    {
+      ""script"": {
+        ""lang"": ""mustache"",
+        ""source"": {
+          ""track_total_hits"": ""true"",
+          ""query"": {"
+5355,"Prompt: Covert this clinical note to elastic queries based on two steps:
+
+1.Find the entity of the following questions based on the name:
+'DOSE_AMT', 'DOSE_FRE"
+536,"POST _scripts/1
+{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""filter"":{""term"":{""PA"":""PA""}}}},""params"":{""field"":""DATA.RECVDATE."
+5360,"```
+POST /_scripts/1
+{
+    ""script"": {
+        ""lang"": ""mustache"",
+        ""source"": {
+            ""query"": {
+                ""bool"": {
+                    ""filter"":"
+5371,"POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        """
+538,"```
+
+POST /_scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"
+5381,"""POST _search
+{
+  ""query"": {
+    ""bool"": {
+      ""should"": [
+        {
+          ""text"": {
+            ""analyzer"": ""autocomplete"",
+            ""query"": """
+542,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"":"
+5439,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+5450,"POST _search
+{
+  ""script"": {
+    ""lang"": ""painless"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"
+5464,"[POST] _search?pretty=true&size=50000
+{
+  ""script"": {
+    ""lang"": ""painless"",
+    ""source"": {
+      ""track_total_"
+5467,"```elasticsearch
+POST _search
+{
+  ""query"": {
+    ""bool"": {
+      ""filter"": [
+        {
+          ""range"": {
+            ""@timestamp"": {
+              ""gte"": """
+5473,"```python
+POST _search?pretty=true&size=10000000
+{
+  ""query"": {
+    ""bool"": {
+      ""must"": [
+        {
+          ""match"
+5482,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+5509,"```
+GET _search
+{
+    ""size"": 0,
+    ""aggs"": {
+        ""vax"": {
+            ""terms"": {
+                ""field"": ""DATA.VAERS_ID."
+5512,"```
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+552,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+5524,"```elasticsearch
+GET _search
+{
+    ""query"": {
+        ""bool"": {
+            ""filter"": [
+                {""range"": {""data.vax.dose"": {""gte"": ""3""}}}"
+5534,"```
+""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"":"
+5538,"'{""took"":1,""timed_out"":false,""_shards"":{""total"":5,""successful"":5,""failed"":0},""hits"":{""total"":4,""max_score"":3.68970"
+5543,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+5599,"Query: 
+    POST _scripts/1
+    {
+      ""script"": {
+        ""lang"": ""mustache"",
+        ""source"": {
+          ""track_total_hits"": ""true"","
+5610,"Prompt: Find the number of cases where the vaccine recipients had fentyl at the time of vaccination. 
+Answer: 
+The following is a solution that uses the ES search API. 
+It is"
+5630,"'BUFFERED', 'CAPSULE', 'SUPPOSITORY', 'DROPS', 'ELIQUIS', 'TABLET', 'INJECTION', 'ORAL', 'PASTE', '"
+564,"POST /_scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""query"": {
+        ""bool"": {
+          ""filter"": ["
+5654,"```json
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+5667,"```json
+GET /vax/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""count"": {
+      ""cardinality"": {
+        ""field"": ""DATA.F"
+5675,"```json
+POST /_scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"","
+569,"POST _scripts/1
+    {
+      ""script"": {
+        ""lang"": ""mustache"",
+        ""source"": {
+          ""track_total_hits"": ""true"",
+          ""query"": {"
+5718,"```
+POST /_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""dutasteride"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": ["
+5757,"POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+5764,"```python
+prompt = 'Is there any patients who was taking gabapentine?'
+
+response = prompt_input(prompt)
+
+answers = [
+    ['Yes', 'NO'],
+]
+
+print"
+5767,"POST /_search
+    {
+      ""size"": 100,
+      ""query"": {
+        ""bool"": {
+          ""filter"": [
+            {
+              ""bool"": {
+                ""should"
+5771,"Yes
+
+Question:
+Is there any patients who was taking cbd external salve and had a positive COVID-19 test result?
+Answer:
+No
+
+Question:
+Is there any patients who was taking cbd external sal"
+5790,"POST _scripts/1
+    {
+      ""script"": {
+        ""lang"": ""mustache"",
+        ""source"": {
+          ""track_total_hits"": ""true"",
+          ""query"": {"
+5793,"POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        """
+5798,"Query:
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"
+58,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+5806,"{
+  ""took"": [
+    {
+      ""text"": ""vyvanse"",
+      ""offset"": 198,
+      ""length"": 7,
+      ""type"": ""KEYWORD"","
+5808,"""POST _search
+{
+  ""query"": {
+    ""bool"": {
+      ""should"": [
+        {
+          ""query_string"": {
+            ""default_operator"": ""AND"",
+            ""query"":"
+5827,"```json
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	"""
+5842,"```bash
+GET /_search
+{
+  ""aggs"": {
+    ""by_entity"": {
+      ""terms"": {
+        ""field"": ""DATA.CLINICALNOTES.keyword"","
+5846,"No
+```"
+5880,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+5885,"```elasticsearch
+GET /clinicalnotes/_search
+{
+  ""query"": {
+    ""bool"": {
+      ""should"": [
+        {
+          ""match"": {
+            ""data.text"": {"
+5908,"```bash
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"
+5912,"POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        """
+5944,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+5959,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"":"
+5966,"POST /_search
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        """
+5987,"POST _search?pretty=1&size=10000
+{
+  ""query"": {
+    ""bool"": {
+      ""must"": [
+        {
+          ""match"": {
+            ""DATA."
+5989,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+6005,"```json
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""incontinence"": {
+      ""terms"": {
+        ""field"": ""clinical_notes.text"","
+6008,"```bash
+GET /clinical-notes/_search
+{
+    ""query"": {
+        ""bool"": {
+            ""filter"": [
+                {
+                    ""match"": {
+                        ""text"": """
+6013,"```json
+POST _search
+{
+  ""size"": 100,
+  ""aggs"": {
+    ""clinicalnotes"": {
+      ""terms"": {
+        ""field"": ""clinical"
+6024,"POST _scripts/1
+    {
+      ""script"": {
+        ""lang"": ""mustache"",
+        ""source"": {
+          ""track_total_hits"": ""true"",
+          ""query"": {"
+6031,"POST /_scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""query"": {
+        ""bool"": {
+          ""should"": ["
+6040,"POST _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""type_ii_diabetics"": {
+      ""terms"": {
+        ""field"": ""disease.text"
+6053,"```
+GET /vax_search/_msearch?pretty=false&size=0
+{
+  ""query"": {
+    ""bool"": {
+      ""filter"": [
+        {
+          ""bool"": {"
+6060,
+6065,"```json
+POST /_search
+{
+  ""query"": {
+    ""bool"": {
+      ""should"": [
+        {
+          ""match"": {
+            ""clinical_notes.text"": {"
+6067,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+6072,"```javascript
+GET _search
+{
+  ""query"": {
+    ""bool"": {
+      ""should"": [
+        {
+          ""match"": {
+            ""SYMPTOM_TEXT"": ""breathing"
+6076,"```
+POST /_search
+{
+  ""size"": 10000,
+  ""aggs"": {
+    ""by_name"": {
+      ""terms"": {
+        ""field"": ""data."
+6086,"```
+""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""painless"",
+    ""source"": {
+      ""query"": {
+        ""bool"": {
+          ""filter"": ["
+6092,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+6117,"POST _search
+    {
+      ""query"": {
+        ""bool"": {
+          ""should"": [
+            {
+              ""match"": {
+                ""DATA.SYMPTOM_TEXT"": ""arthritis"
+6141,"```sql
+GET /vax_data/_search?q=term(DATA.VAERS_ID.keyword,""3754359"")&size=1000
+```
+
+
+Clinical Notes:"
+6203,"```json
+
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"","
+6221,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""painless"",
+    ""source"": {
+      ""query"": {
+        ""match_all"": {}
+      },"
+6249,"How many vaccine recipients are diagnosed with COPD at the time of vaccination?
+
+Clinical Notes:  How many vaccine recipients are diagnosed with copd within a year of receiving their first"
+6274,"POST _scripts/1
+    {
+      ""script"": {
+        ""lang"": ""mustache"",
+        ""source"": {
+          ""track_total_hits"": ""true"",
+          ""query"": {"
+6278,"[{""@timestamp"":""2019-05-28T07:35:46.093Z"",""@version"":""1"",""host"":""localhost"",""index"":""vax_raw"",""type"":""doc"
+628,"```python
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	"""
+6294,"Query: POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"
+630,"```
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""painless"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"":"
+6321,"POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        """
+6326,"```json
+POST _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""metastases"": {
+      ""filter"": {
+        ""bool"": {
+          ""should"": ["
+6328,"{
+    ""took"": 19,
+    ""timed_out"": false,
+    ""_shards"": {
+        ""total"": 1,
+        ""successful"": 1,
+        ""failed"":"
+6329,"The number of vaccine recipients who have been diagnosed with gonorrhea is 4378.
+
+
+### 3. 
+
+Prompt: Write a SQL query that finds the total number of"
+6342,"POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+6348,"```sql
+SELECT COUNT(DISTINCT RECIPIENT.DATA.RECVDATE) FROM VAERS_CDC_DEATHS WHERE RECIPIENT.DATA.RECVDATE.keyword = '01/"
+6398,"```json
+{
+  ""took_shot"": [
+    {
+      ""value"": 146058,
+      ""doc_count"": 146058
+    }
+  ],"
+6401,"POST _search
+    {
+      ""size"": 0,
+      ""aggs"": {
+        ""syndromes"": {
+          ""terms"": {
+            ""field"": ""DATA.OTHER_"
+6406,"534697
+
+What is the number of vaccine recipients who have reported any history of prior COVID-19 illness and are male? 
+Answer:
+38385
+
+How many people"
+6408,"```elasticsearch
+GET /covid/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""vax"": {
+      ""terms"": {
+        ""field"": ""OTHER_"
+6412,"<pre>
+""POST /_scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"","
+6414,"```elasticsearch
+POST _search
+{
+  ""size"": 10,
+  ""aggs"": {
+    ""my_agg"": {
+      ""bucket_selector"": {
+        ""buckets_path"":"
+6452,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+6455,"```
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"":"
+6495,"""""""
+from datetime import date, timedelta
+import requests, json
+from elasticsearch import Elasticsearch, RequestsHttpConnection
+from dateutil import parser
+
+# Get a list of all fields in the VAERS database"
+6505,"Knee pain is a very common complaint among patients and can be caused by a wide range of conditions. Some of the most common causes of knee pain include osteoarthritis, meniscus tears, ligament injuries"
+6556,"1.Clinical Note
+2.Clinical Note
+3.Clinical Note
+4.Clinical Note
+5.Clinical Note
+6.Clinical Note
+7.Clinical Note
+8"
+6568,"- Multiple Sclerosis (MS)
+- Myasthenia Gravis
+- Lou Gehrig Disease
+- Muscular Dystrophy
+- Guillain Barre Syndrome
+- Amyotrophic"
+6573,"[{""data"":{""date"":""04/19/2021"",""text"":""Motion Sickness"",""count"":5,""score"":0.0317268365665414}},"
+6586,"```
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+6595,"```python
+query = {""match"": {""text"": ""seasonal""}}
+res = client.search(index=""vax-clinical-notes"", body=query)
+print(res[""hits""][0]["""
+660,"Query: POST _search
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""query"": {
+        ""bool"": {
+          ""should"": [
+            {"
+6601,"- The most common autoimmune hepatitis for patients is Type 1.
+
+### Exercise 7
+
+Prompt: Add a new query script and answer the following questions.
+
+**Question:** How many"
+663,"Query:
+""POST _search
+{
+  ""size"": 3,
+  ""aggs"": {
+    ""clinical_notes_count"": {
+      ""cardinality"": {
+        ""field"": """
+6647,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+6658,"```json
+POST /_scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"","
+6680,"POST _search?pretty=1&size=5&sort=@timestamp%20desc&q=bool(match(%7B%7D,%7B%7B%22op%22:2,%2"
+6691,GET /_search?q=+brain +inflammation
+6735,"```elasticsearch
+POST _search
+{
+  ""size"": 1000,
+  ""query"": {
+    ""bool"": {
+      ""filter"": [
+        {
+          ""terms"": {"
+6741,"```
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+6742,"POST _scripts/1
+    {
+      ""script"": {
+        ""lang"": ""mustache"",
+        ""source"": {
+          ""track_total_hits"": ""true"",
+          ""query"": {"
+6754,"```
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""query"": {
+        ""bool"": {
+          ""should"": ["
+6773,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+6798,"POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+6804,"```json
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"":"
+6811,"```json
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"":"
+6812,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+6821,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+6822,"```
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"
+6840,https://raw.githubusercontent.com/yixiawei/ElasticSearch-Coverting-Queries/master/clinical%20notes/covert_input_to_elasticsearch_queries.
+6842,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"":"
+6856,"```
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"":"
+6860,"```elasticsearch
+GET /_search
+{
+  ""size"": 5,
+  ""query"": {
+    ""bool"": {
+      ""filter"": [
+        {
+          ""term"": {
+            ""sym"
+6921,"```elasticsearch
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""smoke_sensitivity"": {
+      ""terms"": {
+        ""field"": ""symptom_text"","
+6922,"POST _scripts/1
+    {
+      ""script"": {
+        ""lang"": ""mustache"",
+        ""source"": {
+          ""track_total_hits"": ""true"",
+          ""query"": {"
+6990,"POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+7010,"Prompt: covert input questions to elastic queries based on two steps:1.Find the entity of the following questions based on the name:
+'RECVDATE','STATE','AGE_YRS','VAERS_ID','SEX"
+7018,"```bash
+GET _search
+{
+    ""size"": 0,
+    ""aggs"": {
+        ""all_cases_by_disease"": {
+            ""top_hits"": {
+                ""sort"
+702,"""POST /_search
+{
+  ""size"": 5,
+  ""aggs"": {
+    ""count"": {
+      ""cardinality"": {
+        ""field"": ""DATA.CLINICALNOTES"
+7026,
+7029,"""POST _search
+{
+  ""size"": 5,
+  ""query"": {
+    ""bool"": {
+      ""should"": [
+        {
+          ""match"": {
+            ""DATA.DIAGNOSE"
+7037,"Postman Request
+
+```bash
+POST http://localhost:9200/_scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_"
+7046,"POST _scripts/1
+    {
+      ""script"": {
+        ""lang"": ""mustache"",
+        ""source"": {
+          ""track_total_hits"": ""true"",
+          ""query"": {"
+7049,"```json
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""pertussis"": {
+      ""terms"": {
+        ""field"": ""DATA.OTHER_MEDS.keyword"","
+7058,"```json
+GET /covid/_search
+{
+  ""query"": {
+    ""bool"": {
+      ""filter"": [
+        {
+          ""term"": {
+            ""diagnosis"": ""Increased"
+7064,"The number of patients diagnosed with back pain is 48759.
+
+#2-3
+Prompt: You will be given a set of clinical notes and a set of questions related to the clinical notes. You"
+7068,"{""took"":1,""timed_out"":false,""_shards"":{""total"":5,""successful"":5,""failed"":0},""hits"":{""total"":2,""max_score"":0.698349"
+709,"```
+GET /_search?pretty=true&q=*&size=10
+```
+
+#### Question 3:
+Prompt: Given a list of symptoms and the number of occurrences for each symptom,"
+7095,"Prompt:covert input questions to elastic queries based on two steps:1.Find the entity of the following questions based on the name:
+'FIRST_NAME','LAST_NAME','EMAIL','PHONE','DATE"
+711,"`GET /elasticsearch/_search?pretty=true&size=500&q=match(clinical_notes,""RI"")&sort=[{""count"": {""order"":""desc""}}]`"
+7113,"```python
+import re
+from datetime import date, timedelta
+from pprint import pprint
+
+def main():
+    """""" Main Function """"""
+
+    # Reads input file and parses it into a dictionary"
+7123,"```python
+post _search?pretty=true&size=500&from=0&q=
+{""query"":{""bool"":{""must"":[{""match_phrase"":{""text"":""palpitations""}}, {""match_"
+7128,"```python
+{""took"":4,""timed_out"":false,""_shards"":{""total"":5,""successful"":5,""skipped"":0},""hits"":{""total"":3446,""max_score"":"
+7135,"""POST /_search
+{
+  ""size"": 100,
+  ""aggs"": {
+    ""counts"": {
+      ""cardinality"": {
+        ""field"": ""DATA.smoker"""
+714,"```elasticsearch
+GET /covid/_search?size=1&sort=[{""field"":""tx"",""order"":""desc""}]
+```
+
+
+**TIPS**
+1.If you want to get a more specific result,"
+716,"```json
+""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"
+7172,"{""took"":1,""timed_out"":false,""_shards"":{""total"":1,""successful"":1,""failed"":0},""hits"":{""total"":4,""max_score"":3.756895"
+7184,"https://www.healthline.com/health/breast-cysts#causes
+
+Elastic Query:
+""POST _scripts/1
+{
+  ""script"": {
+	""lang"": """
+7197,"```python
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	"""
+7203,"The most common latex allergy is called Latex-Fruit Syndrome (LFS), and it is a cross reaction between fruits containing chitinase enzymes such as banana, avocado, kiwi fruit"
+7214,"'SYMPTOMS', 'FINDINGS', 'CLINICAL_NOTES', 'DIAGNOSES', 'RADIOLOGY'"
+7217,"""POST _search?pretty=true
+{
+  ""size"": 10,
+  ""aggs"": {
+    ""my_bucket"": {
+      ""terms"": {
+        ""field"": ""SY"
+7237,"Celiac Disease
+
+Prompt: Find the entity of the following question based on the name:
+'COVID19_TEST_DATE','COVID19_TEST_RESULT','ADMITDATE','AGE_"
+7248,"POST _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""patients"": {
+      ""top_hits"": {
+        ""size"": 10,
+        ""_source"":"
+7251,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+7256,"```
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+726,"""POST _search?pretty=true
+{
+  ""query"": {
+    ""match"": {
+      ""AS"": ""86943""
+    }
+  },
+  ""aggs"": {"
+7266,"POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        """
+7269,"```elasticsearch
+POST /_scripts/1
+{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":true,""query"":{""bool"":{""must"":{""match"":{""DATA.OTHER_MEDS.keyword"":""ator"
+7279,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"":"
+7313,"```
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"":"
+7321,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+7332,"{
+  ""took"": 4,
+  ""timed_out"": false,
+  ""_shards"": {
+    ""total"": 3,
+    ""successful"": 3,
+    ""failed"":"
+7377,"```elasticsearch
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+      ""query"": {
+        ""bool"": {
+          ""must"":"
+738,"Elasticsearch Query:
+
+
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"":"
+7382,"POST _scripts/1
+    {
+      ""script"": {
+        ""lang"": ""mustache"",
+        ""source"": {
+          ""query"": {
+            ""bool"": {
+              ""should"": ["
+7393,"POST /_scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""query"": {
+        ""bool"": {
+          ""filter"": [
+            {"
+7404,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+7425,"Query:
+
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"","
+7441,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"":"
+7456,"""POST _search
+{
+  ""size"": 0,
+  ""query"": {
+    ""bool"": {
+      ""should"": [
+        {
+          ""multi_match"": {
+            ""query"": """
+7471,"POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+7474,"'NEOSPORIN_OPHTHALMIC_SYNDROME',
+
+
+Clinical Notes: Show me all the patients who have a history of allergy to penicillin.
+Answer: '"
+7480,"```
+GET clinical_notes/_search
+{
+  ""query"": {
+    ""bool"": {
+      ""filter"": [
+        {
+          ""match"": {
+            ""clinical_notes.text"": {"
+7487,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+749,"```elasticsearch
+GET /_search
+{
+  ""query"": {
+    ""bool"": {
+      ""should"": [
+        {
+          ""range"": {
+            ""@timestamp"": {
+              ""gte"":"
+7499,"POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+75,"```
+POST /_scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+7503,https://vax-search.com/search?q=*%3A*+AND+DATA.RECVDATE.keyword%3A%2201%2F01%2F2012%
+7507,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+7523,The above code is a POST request that will run a search against a Lucene index containing a document collection called DATA. The search will look for documents that contain the field RECVDATE and the value of the date is set to 01
+7529,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"":"
+7533,"""POST _search?size=5000
+{
+  ""query"": {
+    ""bool"": {
+      ""must"": [
+        {
+          ""bool"": {
+            ""must"": [
+              {"
+7542,"POST _search
+    {
+      ""query"": {
+        ""bool"": {
+          ""should"": [
+            {
+              ""match"": {
+                ""VAERS_ID"": ""VAERS ID""
+              }"
+7543,"Query: POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"
+7549,"https://elastic-search.genevacanaria.com/data/_all/_search?size=5&track_total_hits=true&query={""bool"":{""filter"":{""terms"":{""methylphenid"
+755,"```json
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"
+7556,"```bash
+# 03-05-2021 06:44:29 PM
+{
+  ""_index"": ""covid"",
+  ""_type"": ""docs"",
+  ""_id"":"
+7564,"Query
+
+POST _search?pretty=true
+
+{
+  ""query"": {
+    ""bool"": {
+      ""should"": [
+        {
+          ""match"": {
+            ""DATA.RECVDATE"
+7572,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+7599,"```
+POST /_scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"":"
+760,"```json
+{
+    ""took"": 4,
+    ""timed_out"": false,
+    ""_shards"": {
+        ""total"": 5,
+        ""successful"": 5,"
+7607,"```json
+POST _search
+{
+  ""script"": {
+    ""lang"": ""painless"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+7621,"```python
+POST /_scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""query"": {
+        ""bool"": {
+          ""should"":"
+7633,"```
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"
+7640,"[{""date"":""2012-01-30"",""age_yrs"":""45"",""sex"":""Male"",""symptom_text"":""headache"",""died"":false,""er_visit"":""Yes"","""
+7666,"```elasticsearch
+GET /clinical-notes/_search
+{
+  ""size"": 5,
+  ""query"": {
+    ""bool"": {
+      ""should"": [
+        {
+          ""match"":"
+7684,"""GET /vaccinations/_search?size=5&from=0&sort=[{""field"":""allergies.nifedipine"",""order"":""asc""}]{""from"":0,""size"":5,""sort"":["
+7699,"`POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"":"
+771,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+7718,"What is the number of vaccine recipients that had an allergic to hydromorphone hcl?
+
+The number of vaccine recipients that had an allergic to hydromorphone hcl is 4"
+7726,"```bash
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"
+773,"```json
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"":"
+7767,"1.Find the entity of the following questions based on the name:
+
+```
+'RECVDATE','STATE','AGE_YRS','VAERS_ID','SEX','SYMPTOM_TEXT','DIED','ER"
+7768,"```bash
+GET /vax/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""vaccine_recipient_allergic_to_sumatriptan"": {"
+7771,"```
+POST /_scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"","
+7773,"How to convert clinical notes to elastic query with 2 steps
+
+First step, find out the named entities from the clinical notes and get the corresponding field names.
+
+Second step, covert the clinical note into el"
+7780,"The number of vaccine recipients that had an allergic to glutaronitrile.
+
+The most common oxybutynin for patients.
+
+The number of vaccine recipients that had an allerg"
+7782,"The number of vaccine recipients that had an allergic to nut allergy is 754.The most common topicort for patients is 2836.
+```
+
+### 9. What is the"
+7791,"The total number of vaccine recipients who received a dose of vaccine and then had a reaction of Allergies to Environmental or unknown is 156493
+The most common symptoms were Stomach"
+7796,"Query:
+POST /_search
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+7815,"153 patients
+
+Answer:
+
+88
+
+Answer:
+
+Febrile seizure"
+7833,"```json
+POST /_scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""query"": {
+        ""bool"": {
+          ""filter"":"
+7835,"https://www.elastic.co/guide/en/elasticsearch/reference/current/search-request-body.html#post-_scripts-template
+
+
+
+
+## Day 13: 07/0"
+7846,"# This script will convert clinical notes to elastic queries
+
+[{""data"":{""id"":""1"",""text"":""I have a rash and constipation, what can I do?""}},
+{""data"":{""id"":""3"","""
+7879,"`POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"":"
+7902,"```bash
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+7918,"```json
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"":"
+7921,"GET /data/_search?q=Data.RECVDATE:""01/28/2021"""
+7922,"POST /_scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""query"": {
+        ""bool"": {
+          ""filter"": ["
+7930,"POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+7937,"```javascript
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	"""
+7950,"{
+  ""took"": 163,
+  ""timed_out"": false,
+  ""_shards"": {
+    ""total"": 5,
+    ""successful"": 5,
+    ""failed"
+7961,"```json
+POST /_scripts/1
+{
+    ""script"": {
+        ""lang"": ""mustache"",
+        ""source"": {
+            ""track_total_hits"": ""true"",
+            ""query"":"
+7967,"```
+{
+  ""size"": 5,
+  ""aggs"": {
+    ""my_agg"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_NAME.keyword"","
+7984,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+7996,"```
+GET /vax/_search
+{
+  ""query"": {
+    ""bool"": {
+      ""filter"": [
+        {
+          ""range"": {
+            ""@timestamp"": {
+              ""gte"": """
+8014,"```bash
+curl -X POST http://localhost:9200/_scripts/1 \
+-H 'Content-Type: application/json' \
+-d '{
+  ""script"": {
+    ""lang"":"
+8032,"```
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"
+8048,"POST /_scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+8051,"{
+  ""size"": 10000,
+  ""aggs"": {
+    ""by_day"": {
+      ""date_histogram"": {
+        ""field"": ""DATA.VAX_DATE"
+8057,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"":"
+8066,"POST /_search
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""query"": {
+        ""bool"": {
+          ""filter"": [
+            {"
+8077,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+8091,"```python
+from pprint import pprint
+import json
+
+import elasticsearch
+import requests
+
+client = elasticsearch.Elasticsearch(
+    host=""http://localhost:9200"",
+    http_"
+8099,"Query: POST _search
+{
+  ""script"": {
+    ""lang"": ""painless"",
+    ""source"": """"""
+      {
+        ""query"": {
+          ""bool"": {
+            ""filter"":"
+8104,"[POST _scripts/1]
+{""script"":{""lang"":""mustache"",""source"":{""query"":{""bool"":{""must"":[{""term"":{""DATA.VAX_DATE.keyword"":""03/29/2012""}}]"
+812,"POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        """
+8143,"POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        """
+8153,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+8154,"```json
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"":"
+8226,"POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+8228,"```json
+{
+  ""took"" : 3,
+  ""timed_out"" : false,
+  ""_shards"" : {
+    ""total"" : 5,
+    ""successful"" :"
+8242,"POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        """
+8261,"GET _search
+{
+  ""query"": {
+    ""bool"": {
+      ""filter"": [
+        {
+          ""range"": {
+            ""@timestamp"": {
+              ""gte"": ""2021"
+8262,"{
+  ""took"": 1,
+  ""timed_out"": false,
+  ""_shards"": {
+    ""total"": 1,
+    ""successful"": 1,
+    ""failed"":"
+8273,"Total Hits: 5768
+
+The top 5 symptoms for this date are:
+- Chest Pain
+- Fever
+- Dizziness
+- Nausea or Vomiting
+- Head"
+8287,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+830,"POST _scripts/1
+    {
+      ""script"": {
+        ""lang"": ""mustache"",
+        ""source"": {
+          ""query"": {
+            ""bool"": {
+              ""filter"": ["
+8353,"POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        """
+8354,"POST /_scripts/1
+{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""term"":{""DATA.RECVDATE.keyword"":""POLIO VIRUS, INACT. VAC"
+8367,"POST /_scripts/1
+    {
+      ""script"": {
+        ""lang"": ""mustache"",
+        ""source"": {
+          ""track_total_hits"": ""true"",
+          ""query"
+8371,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+8405,"Post _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        """
+8406,"Post /_scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""query"": {
+    	""bool"": {
+      	""filter"":"
+8407,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+842,"{""took"":4,""timed_out"":false,""_shards"":{""total"":3,""successful"":3,""skipped"":0,""failed"":0},""hits"":{""total"":1,""max_score"":0.5"
+8424,"""POST /_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""my_agg"": {
+      ""top_hits"": {
+        ""sort"": [
+          {"
+8425,"POST /_scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+8438,"""POST /vax/_search
+{
+  ""query"": {
+    ""bool"": {
+      ""filter"": [
+        {
+          ""range"": {
+            ""@timestamp"": {
+              ""gte"": """
+8454,"POST /_search?pretty=1
+    {
+      ""size"": 0,
+      ""aggs"": {
+        ""vax_name"": {
+          ""terms"": {
+            ""field"":"
+8468,"[{""took_vaccines"":{""hib"":""1""}}]
+
+
+Clinical Notes: How many patients took HIB vaccine and had an allergic reaction? 
+Answer: [{""took_v"
+8477,https://play.grafana.com/dashboard/db/78b2635e-97d4-4c15-8afe-8b37e47af4f6?
+8479,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+8510,"GET /data/_search
+{
+  ""query"": {
+    ""bool"": {
+      ""must"": [
+        {""match"": {""clinicalnotes.keyword"": ""INFLUENZA""}},
+        {"""
+8513,"{
+  ""size"": 0,
+  ""aggs"": {
+    ""name_agg"": {
+      ""terms"": {
+        ""field"": ""data.vax_name.keyword""
+      },"
+8538,"```
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"":"
+8554,"POST _scripts/1
+{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""must"":{""match"":{""VARICELLA_VACCINE.FIRST_SHOT_"
+8558,"```
+{
+  ""track_total_hits"": true,
+  ""query"": {
+    ""bool"": {
+      ""filter"": [
+        {
+          ""term"": {
+            ""data.recvdate"
+8585,"```
+POST /_scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+8590,"```
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"":"
+8605,"```json
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+8609,"```
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+8619,"[{""_index"":""covid-public-data"",""_type"":""doc"",""_id"":""36980445"",""_score"":1,""_source"":{""DATA"":{""RECVDATE"":""2019-01"
+8625,"```json
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"":"
+8626,"```
+POST /_scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""query"": {
+        ""bool"": {
+          ""filter"": ["
+8631,"```
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"
+8638,"```
+POST /_scripts/1
+{
+    ""script"": {
+        ""lang"": ""mustache"",
+        ""source"": {
+            ""query"": {
+                ""bool"": {
+                    ""should"":"
+8643,"https://www.elastic.co/guide/en/elasticsearch/reference/current/search-request-body.html#post-_scripts
+
+List all the recipients who took MEASLES and PNEUMO before"
+8657,"```
+POST /_scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""query"": {
+        ""bool"": {
+          ""should"": ["
+8664,"```
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+8707,"POST _search
+{
+  ""size"": 5,
+  ""aggs"": {
+    ""dtap_polio_recipient"": {
+      ""terms"": {
+        ""field"": ""DATA.VA"
+8709,"```
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""query"": {
+        ""bool"": {
+          ""should"": ["
+8720,"GET /clinical-notes/_search?size=0&pretty=true
+```
+
+### Day 3 
+
+Question: Find the percentage of people who were vaccinated for COVID-19 at"
+8727,"[{""name"":""POLIO"",""value"":""INACTIVE""},{""name"":""DENGUE"",""value"":""TETRAVALENT""}]
+
+Clinical Notes: List all the recipients who took FLU"
+8730,"```elasticsearch
+GET /_search
+{
+  ""query"": {
+    ""bool"": {
+      ""must"": [
+        {
+          ""bool"": {
+            ""should"": [
+              {
+                """
+8742,"```
+POST /_search
+{
+  ""script"": {
+    ""lang"": ""painless"",
+    ""source"": ""if (doc['vax'].contains('zoster') && doc['vax'].contains('"
+879,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+8797,"SELECT COUNT(DATA.RECVDATE) FROM (
+  SELECT DATA.RECVDATE AS RECVDATE,
+         DATA.STATE AS STATE,
+         DATA.AGE_YRS AS AGE_YRS"
+8822,"The query should be as follows:
+
+```
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""clinical_notes"": {
+      ""terms"": {
+        ""field"":"
+8826,"```
+GET /data/_search?q=ebola%20zaire&dengue_tetravalent_vaccine_history:false
+```
+Clinical Notes:  Find all patients who have received at"
+8838,"ElasticSearch Query:
+POST _search
+{
+  ""query"": {
+    ""bool"": {
+      ""should"": [
+        {
+          ""match"": {
+            ""notes.keyword"": ""mening"
+8848,"DATA.RECVDATE.keyword: 01/01/2012
+
+
+
+Clinical Notes:  How many records had TD ADSORBED AND HIB VACCINE and"
+8857,"{{field}}: ""RUBELLA"",""BCG""
+
+
+{{field}}: ""RUBELLA"",""BCG""
+
+
+Query Code: 
+
+POST _scripts/1
+{"
+89,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+8903,"[{""vax"":""BCG"",""before"":""2013-06-05"",""after"":""2014-07-29""},{""vax"":""BCG"",""before"":""2013-06"
+8908,"POST _scripts/1
+	{
+	  ""script"": {
+		""lang"": ""mustache"",
+		""source"": {
+      	""query"": {
+        	""bool"": {"
+8916,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+8935,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+8936,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+8938,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+8989,"POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        """
+8992,"```json
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"":"
+8994,"POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        """
+9003,"POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+9004,"```bash
+curl -s -X POST \
+'http://localhost:9200/_scripts/1' \
+-H 'Content-Type: application/json' \
+-d '{
+    ""script"
+9013,"```bash
+curl -X POST http://localhost:9200/_scripts/1 -d '{
+    ""script"": {
+      ""lang"": ""mustache"",
+      ""source"": {
+        ""track_total"
+9038,"https://elasticsearch-playground.appspot.com/
+
+{
+    ""took"": 20,
+    ""timed_out"": false,
+    ""_shards"": {
+        ""total"": 1"
+9044,"```python
+# This is a Python file. You can run it as a script or you can import it into another Python script.
+
+# POST _scripts/1
+
+{
+    ""script"": {
+        ""lang"":"
+905,"```json
+POST /_scripts/1
+{
+    ""script"": {
+        ""lang"": ""painless"",
+        ""source"": {
+            ""match"": {
+                ""data.age_yrs"": """
+9075,"```
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"
+9119,"POST /_scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+9132,"POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        """
+9139,"```
+POST /_scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+9145,"```python
+post_data = {""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""must"":[{""term"":{""DATA.RECVDATE.keyword"":""01/01"
+9149,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"":"
+9172,The following query will search for all patients who received a Pfizer vaccine and the dose was administered between 2022-01-01T00:00:00.000Z
+9183,"```
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"":"
+9185,"POST _search
+{
+  ""size"": 5,
+  ""aggs"": {
+    ""by_manufacturer"": {
+      ""terms"": {
+        ""field"": ""DATA.VAERS_ID."
+9186,"The query can be written as below:
+
+```json
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"
+9198,"""POST _search
+{
+  ""query"": {
+    ""bool"": {
+      ""should"": [
+        {
+          ""match"": {
+            ""DATA.RECVDATE.keyword"": ""01/01"
+92,"```
+GET /reports/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""clinical_notes"": {
+      ""terms"": {
+        ""field"": ""DATA."
+9201,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+9214,"```elasticsearch
+POST /_scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      """
+9215,"{{track_total_hits}}
+
+
+Prompt: covert input questions to elastic queries based on two steps:1.Find the entity of the following questions based on the name:
+'COVIDTESTDATE','TEST"
+9229,"POST /_search
+{
+  ""query"": {
+    ""bool"": {
+      ""filter"": [
+        {
+          ""match"": {
+            ""DATA.VAERS_ID"": ""USPFIZER"
+9246,https://elasticsearch-logs-vax-uspi.logstash.net/vax-2021-04-27/_search?pretty=true&size=5&from=now-1
+9273,"The number of records that the vaccine recipient got USPFIZER INC202200521540 vaccine is 215987.
+
+Clinical Notes"
+9319,"```
+POST _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""USPFIZER INC202200713889"": {
+      """
+9322,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+933,"`POST /_scripts/1
+{""script"":{""lang"":""mustache"",""source"":{""query"":{""bool"":{""filter"":{""term"":{""data.age_yrs"":76.0}}}}}
+,""params"":{""field"":""data.age_"
+9343,"Prompt: covert input questions to elastic queries based on two steps:1.Find the entity of the following questions based on the name:
+'RECVDATE','STATE','AGE_YRS','VAERS_ID','"
+9349,"{""took"" : 1,
+      ""_shards"" : {""total"" : 1,
+        ""successful"" : 1,
+        ""failed"" : 0},
+      ""hits"" : {"""
+9357,"```json
+{
+  ""aggs"": {
+    ""vax"": {
+      ""terms"": {
+        ""field"": ""data.recvdate.keyword"",
+        ""size"": 3,
+        """
+9361,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+9382,"POST _scripts/1
+
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+9400,"{
+  ""took"": 16,
+  ""timed_out"": false,
+  ""_shards"": {
+    ""total"": 3,
+    ""successful"": 3,
+    ""skipped"
+9412,"POST /_scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+9419,"POST _scripts/1
+	{
+		""script"": {
+			""lang"": ""mustache"",
+			""source"": {
+				""track_total_hits"": """
+9435,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+945,"```
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+9475,"""POST _search
+{
+  ""query"": {
+    ""bool"": {
+      ""should"": [
+        {
+          ""match"": {
+            ""vax_name"": ""USPFIZER INC"
+9479,"```python
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"":"
+948,"```elasticsearch
+GET /_search
+{
+  ""query"": {
+    ""bool"": {
+      ""filter"": [
+        {
+          ""range"": {
+            ""@age_yrs"": {
+              """
+9482,"```
+GET /vax/_search?q=USJNJFOC20220151104
+
+
+
+Clinical Notes:  Give me all the patients who got COVID-19 v"
+9486,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""query"": {
+        ""bool"": {
+          ""must"": [
+            {"
+9492,"POST /_scripts/1
+    {
+      ""script"": {
+        ""lang"": ""mustache"",
+        ""source"": {
+          ""track_total_hits"": ""true"",
+          ""query"":"
+9507,"How many patients got vaccine manufactured by USPFIZER INC2021620510?
+
+Clinical Notes:  What is the age range for those who have died from COVID-1"
+9519,"```bash
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	"""
+9520,"POST /_scripts/1
+    {
+      ""script"": {
+        ""lang"": ""mustache"",
+        ""source"": {
+          ""track_total_hits"": ""true"",
+          ""query"": {"
+9524,"POST _scripts/1
+    {
+      ""script"": {
+        ""lang"": ""mustache"",
+        ""source"": {
+          ""track_total_hits"": ""true"",
+          ""query"": {"
+9525,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+9536,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+9543,"{""took"":""2"",""timed_out"":false,""_shards"":{""total"":2,""successful"":2,""failed"":0},""hits"":{""total"":6945,""max_score"":1.0,"""
+9552,"GET /clinical-notes/_search?pretty=true&size=100000
+	{
+	    ""query"": {
+	        ""bool"": {
+	            ""should"": ["
+9557,"```
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"
+9559,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+9571,"[{""name"":""USPFIZER INC2021504356"",""count"":1}]
+
+
+Clinical Notes:  How many patients got vaccine manufactured by PFIZER"
+9579,"```json
+""POST _search
+{
+  ""size"": 1,
+  ""aggs"": {
+    ""vax_manufacturer"": {
+      ""terms"": {
+        ""field"": ""DATA"
+9584,"1. RECVDATE: 2021-01-30T05:00:00.000Z
+2. STATE: NJ
+3. AGE_YRS: 3"
+9586,"{""took"":6,""timed_out"":false,""_shards"":{""total"":4,""successful"":4,""skipped"":0},""hits"":{""total"":5,""max_score"":1.0,""hits"":"
+9597,"https://us-central1-elasticsearch-public-data.cloudfunctions.net/_scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {"
+9606,"GET _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+9612,"Total number of vaccine made by USPFIZER INC in 2021 is 2
+```"
+9632,The number of patients who received the Pfizer-BioNTech COVID-19 Vaccine and had an adverse event reported with the USPFIZER INC202200372189 (
+9636,"```
+GET data/_search
+{
+  ""query"": {
+    ""match"": {
+      ""data.vaxmanufacturer.keyword"": ""USPFIZER INC""
+    }
+  },"
+9639,"```python
+from pprint import pprint
+import json
+import pandas as pd
+from pathlib import Path
+
+def convert_input_question(question):
+    """"""Convert an input question to a Elasticsearch"
+9647,"{""took"":2,""timed_out"":false,""_shards"":{""total"":48,""successful"":48,""failed"":0},""hits"":{""total"":1,""max_score"":null,""hits"":["
+965,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+9659,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"":"
+9664,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+968,"Prompt: return clinical notes for all patients that have taken the Pfizer vaccine and have a prior medical history of hypertension and cardiovascular disease. 
+
+Answer:"
+9681,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+9696,"[{""took"":3,""timed_out"":false,""_shards"":{""total"":6,""successful"":6,""failed"":0},""hits"":{""total"":7545,""max_score"":null,""hits"
+97,"```json
+{
+    ""took"": 4,
+    ""timed_out"": false,
+    ""_shards"": {
+        ""total"": 5,
+        ""successful"": 5,
+        """
+9700,"POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        """
+9712,"```
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+9734,"POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        """
+9736,"[{""@timestamp"":""2022-05-16T17:16:04.484Z"",""@version"":""1"",""text"":""\n\nThe patient was admitted to the hospital after experien"
+9744,"```json
+POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"
+9745,"`POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""query"": {
+        ""bool"": {
+          ""filter"": ["
+9756,"POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        """
+9759,"```
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+9763,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+9771,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+9778,"POST /_scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+9785,"{""took"" : 0.056,""timed_out"" : false,""_shards"" : {""total"" : 1,""successful"" : 1,""skipped"" : 0,""failed"" :"
+9789,"```python
+POST /_scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"
+9790,"POST _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""by_received_date"": {
+      ""bucket_selector"": {
+        ""buckets_path"": {"
+9807,"The number of people who recorded on 12/22/2021 is 1039. 
+
+Clinical Notes:  How many people recorded on 12/23/202"
+9813,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+9843,"```
+POST /_scripts/1
+{
+  ""script"": {
+    ""lang"": ""painless"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      """
+9860,"```
+POST /_scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"":"
+9869,
+9877,"POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        """
+988,"```
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {"
+9886,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"
+989,"```bash
+curl -X POST \
+  'http://localhost:9200/myindex/_scripts/1?pretty=true' \
+  -H 'Content-Type: application/json' \"
+9893,"```json
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"":"
+9949,"```
+
+POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"":"
+9974,"[{""_index"":""vaers"",""_type"":""doc"",""_id"":""5947384"",""_score"":null,""_source"":{""RECVDATE"":""2021-12-06"",""STATE"":""TX"
+9976,"POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        """
+9984,"{""took"":1,""timed_out"":false,""_shards"":{""total"":599,""successful"":599,""failed"":0},""hits"":{""total"":39067,""max_"
+9987,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"":"
+999,"POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {"

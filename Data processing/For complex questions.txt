@@ -1,0 +1,200 @@
+I received the 'VAX_NAME' vaccine on 'VAX_DATE' and noticed 'SYMPTOM_TEXT'.
+After my 'VAX_TYPE' injection on 'VAX_DATE', my symptoms worsened, prompting an 'ER_VISIT'.
+I'm curious if my gender ('SEX') could influence the severity of 'SYMPTOM_TEXT' following the 'VAX_NAME' vaccine.
+I'm a 'AGE_YRS' patient who experienced 'SYMPTOM_TEXT' after the 'VAX_NAME' vaccine on 'VAX_DATE'.
+Following my 'VAX_NAME' vaccine on 'VAX_DATE', my condition deteriorated, leading to a hospital admission.
+I'm wondering if there's a connection between my 'SYMPTOM_TEXT' and 'DISABLE' after receiving the 'VAX_TYPE' vaccine.
+I had an 'OFC_VISIT' due to 'SYMPTOM_TEXT' after the 'VAX_TYPE' injection on 'VAX_DATE'.
+My allergic reaction to 'ALLERGIES' after the 'VAX_NAME' vaccine on 'VAX_DATE' resulted in an 'ER_VISIT'.
+After my 'VAX_TYPE' injection on 'VAX_DATE', I experienced 'SYMPTOM_TEXT' and needed an 'OFC_VISIT'.
+I'm interested in understanding if 'VAX_NAME' can affect the severity of 'SYMPTOM_TEXT' in individuals of my gender ('SEX').
+I'm a 'AGE_YRS' patient who had an 'ER_VISIT' due to 'SYMPTOM_TEXT' after the 'VAX_NAME' vaccine on 'VAX_DATE'.
+I'm wondering if my medical history ('HISTORY') might have influenced my 'SYMPTOM_TEXT' after the 'VAX_TYPE' vaccine.
+I experienced 'SYMPTOM_TEXT' after receiving the 'VAX_NAME' vaccine on 'VAX_DATE', and my symptoms worsened, necessitating an 'ER_VISIT'.
+I'm curious if there's a relationship between my 'SYMPTOM_TEXT' and the length of my 'HOSPDAYS' after the 'VAX_TYPE' injection on 'VAX_DATE'.
+After the 'VAX_TYPE' injection on 'VAX_DATE', I, as a 'SEX' patient, had an allergic reaction to 'ALLERGIES'.
+I experienced 'SYMPTOM_TEXT' after the 'VAX_NAME' vaccine on 'VAX_DATE', leading to an 'OFC_VISIT'.
+I'm interested in knowing if 'VAX_NAME' can lead to 'DISABLE' in individuals of my 'AGE_YRS' after 'VAX_DATE'.
+After my 'VAX_NAME' vaccine on 'VAX_DATE', my 'SYMPTOM_TEXT' worsened, resulting in an 'ER_VISIT'.
+I'm wondering if there's a connection between my 'SYMPTOM_TEXT' and the occurrence of 'L_THREAT' after the 'VAX_TYPE' injection on 'VAX_DATE'.
+I, as a 'AGE_YRS' patient, had an 'OFC_VISIT' due to 'SYMPTOM_TEXT' after the 'VAX_NAME' vaccine on 'VAX_DATE'.
+I had an allergic reaction to 'ALLERGIES' after the 'VAX_NAME' vaccine on 'VAX_DATE', necessitating an 'ER_VISIT'.
+After my 'VAX_TYPE' injection on 'VAX_DATE', I reported 'SYMPTOM_TEXT' and required an 'ER_VISIT'.
+I'm interested in understanding if 'VAX_NAME' can influence the severity of 'SYMPTOM_TEXT' in individuals with 'HISTORY'.
+I, as a 'AGE_YRS' patient, reported 'SYMPTOM_TEXT' and needed an 'OFC_VISIT' after the 'VAX_TYPE' injection on 'VAX_DATE'.
+Following the 'VAX_TYPE' injection on 'VAX_DATE', I experienced 'SYMPTOM_TEXT' and required an 'ER_VISIT'.
+I'm curious if there's a relationship between my 'SYMPTOM_TEXT' and the length of my 'HOSPITAL' stay after the 'VAX_NAME' vaccine on 'VAX_DATE'.
+After the 'VAX_TYPE' injection on 'VAX_DATE', I, as a 'SEX' patient, had an allergic reaction to 'ALLERGIES'.
+I experienced 'SYMPTOM_TEXT' after the 'VAX_NAME' vaccine on 'VAX_DATE', which led to an 'HOSPITAL' stay.
+I'm wondering if there's a connection between my 'SYMPTOM_TEXT' and 'HOSPDAYS' after the 'VAX_TYPE' injection on 'VAX_DATE'.
+I had an allergic reaction to 'ALLERGIES' after the 'VAX_NAME' vaccine on 'VAX_DATE', leading to an 'ER_VISIT'.
+After my 'VAX_TYPE' injection on 'VAX_DATE', I reported 'SYMPTOM_TEXT' and needed an 'OFC_VISIT'.
+I'm interested in knowing if 'VAX_NAME' can lead to 'DISABLE' in individuals of my 'AGE_YRS' after 'VAX_DATE'.
+I, as a 'AGE_YRS' patient, experienced 'SYMPTOM_TEXT' and required an 'ER_VISIT' after the 'VAX_NAME' vaccine on 'VAX_DATE'.
+After the 'VAX_TYPE' injection on 'VAX_DATE', my 'SYMPTOM_TEXT' worsened, resulting in an 'OFC_VISIT'.
+I'm curious if there's a relationship between my 'SYMPTOM_TEXT' and the occurrence of 'L_THREAT' after the 'VAX_NAME' vaccine on 'VAX_DATE'.
+I, as a 'SEX' patient, had an 'OFC_VISIT' due to 'SYMPTOM_TEXT' after the 'VAX_TYPE' injection on 'VAX_DATE'.
+I experienced 'SYMPTOM_TEXT' after the 'VAX_NAME' vaccine on 'VAX_DATE', which led to an 'ER_VISIT'.
+I'm wondering if there's a connection between my 'SYMPTOM_TEXT' and 'HOSPDAYS' after the 'VAX_TYPE' injection on 'VAX_DATE'.
+I had an allergic reaction to 'ALLERGIES' after the 'VAX_NAME' vaccine on 'VAX_DATE', necessitating an 'OFC_VISIT'.
+After my 'VAX_TYPE' injection on 'VAX_DATE', I, as a 'AGE_YRS' patient, reported 'SYMPTOM_TEXT' and required an 'ER_VISIT'.
+Have I received the 'VAX_NAME' vaccine on 'VAX_DATE', and what symptoms should I be aware of post-vaccination?
+After my 'VAX_TYPE' injection on 'VAX_DATE', what signs should I look out for that might necessitate an 'ER_VISIT'?
+I wonder if my gender ('SEX') could impact the severity of 'SYMPTOM_TEXT' after receiving the 'VAX_NAME' vaccine.
+As a 'AGE_YRS' patient, what are the expected reactions after the 'VAX_NAME' vaccine on 'VAX_DATE'?
+Following my 'VAX_NAME' vaccine on 'VAX_DATE', what symptoms should I monitor, and when should I seek medical attention?
+How could 'SYMPTOM_TEXT' following the 'VAX_TYPE' vaccine be influenced by my medical history ('HISTORY')?
+Is it common to have an 'OFC_VISIT' due to 'SYMPTOM_TEXT' after the 'VAX_TYPE' injection on 'VAX_DATE'?
+If I have allergies ('ALLERGIES'), how likely am I to experience a reaction after receiving the 'VAX_NAME' vaccine on 'VAX_DATE'?
+What steps should I take if I experience 'SYMPTOM_TEXT' after the 'VAX_TYPE' injection on 'VAX_DATE'?
+Can 'VAX_NAME' lead to 'DISABLE' in individuals of my 'AGE_YRS' group after 'VAX_DATE'?
+As a 'AGE_YRS' patient, what precautions should I take after experiencing 'SYMPTOM_TEXT' following the 'VAX_NAME' vaccine?
+I wonder if my 'SYMPTOM_TEXT' could worsen after the 'VAX_NAME' vaccine on 'VAX_DATE', resulting in an 'ER_VISIT'.
+Could 'VAX_NAME' affect the severity of 'SYMPTOM_TEXT' in individuals with 'HISTORY' post-'VAX_DATE'?
+After my 'VAX_NAME' vaccine on 'VAX_DATE', what actions should I take if my 'SYMPTOM_TEXT' worsens?
+Is it common for 'SYMPTOM_TEXT' to worsen after the 'VAX_TYPE' injection on 'VAX_DATE' and lead to an 'ER_VISIT'?
+How might my 'SYMPTOM_TEXT' be influenced by the occurrence of 'L_THREAT' after the 'VAX_NAME' vaccine on 'VAX_DATE'?
+As a 'AGE_YRS' patient, should I expect an 'OFC_VISIT' due to 'SYMPTOM_TEXT' after the 'VAX_TYPE' injection on 'VAX_DATE'?
+I wonder if my 'SEX' could affect the likelihood of an allergic reaction to 'ALLERGIES' after the 'VAX_NAME' vaccine on 'VAX_DATE'.
+How long after the 'VAX_TYPE' injection on 'VAX_DATE' should I seek medical attention if I experience 'SYMPTOM_TEXT'?
+Can 'VAX_NAME' influence the occurrence of 'DISABLE' in individuals of my 'AGE_YRS' group post-'VAX_DATE'?
+I'm curious if my 'SYMPTOM_TEXT' could worsen after the 'VAX_NAME' vaccine on 'VAX_DATE', necessitating an 'OFC_VISIT'.
+How might 'SYMPTOM_TEXT' be affected by the length of my 'HOSPITAL' stay after the 'VAX_TYPE' injection on 'VAX_DATE'?
+As a 'SEX' patient, should I be concerned about an allergic reaction to 'ALLERGIES' after the 'VAX_NAME' vaccine on 'VAX_DATE'?
+I wonder if my 'SYMPTOM_TEXT' could worsen after the 'VAX_NAME' vaccine on 'VAX_DATE', leading to an 'HOSPITAL' stay.
+Can 'VAX_NAME' lead to 'DISABLE' in individuals of my 'AGE_YRS' group, and what should I do if it does post-'VAX_DATE'?
+How might my 'SYMPTOM_TEXT' be influenced by the length of my 'HOSPDAYS' after the 'VAX_TYPE' injection on 'VAX_DATE'?
+As a 'AGE_YRS' patient, should I be cautious about an allergic reaction to 'ALLERGIES' after the 'VAX_NAME' vaccine on 'VAX_DATE'?
+I wonder if my 'SYMPTOM_TEXT' could worsen after the 'VAX_NAME' vaccine on 'VAX_DATE', necessitating an 'ER_VISIT'.
+Could 'VAX_NAME' influence the severity of 'SYMPTOM_TEXT' in individuals with a history of 'HISTORY' post-'VAX_DATE'?
+How might 'SYMPTOM_TEXT' be affected by the occurrence of 'L_THREAT' after the 'VAX_TYPE' injection on 'VAX_DATE'?
+As a 'SEX' patient, should I expect an 'OFC_VISIT' due to 'SYMPTOM_TEXT' after the 'VAX_NAME' vaccine on 'VAX_DATE'?
+I wonder if my 'SYMPTOM_TEXT' could worsen after the 'VAX_NAME' vaccine on 'VAX_DATE', resulting in an 'OFC_VISIT'.
+Can 'VAX_NAME' lead to 'DISABLE' in individuals of my 'AGE_YRS' group after 'VAX_DATE', and what steps should I take if it does?
+How might my 'SYMPTOM_TEXT' be influenced by the length of my 'HOSPITAL' stay after the 'VAX_TYPE' injection on 'VAX_DATE'?
+As a 'AGE_YRS' patient, should I be concerned about an allergic reaction to 'ALLERGIES' after the 'VAX_NAME' vaccine on 'VAX_DATE'?
+I wonder if my 'SYMPTOM_TEXT' could worsen after the 'VAX_NAME' vaccine on 'VAX_DATE', leading to an 'ER_VISIT'.
+Could 'VAX_NAME' influence the severity of 'SYMPTOM_TEXT' in individuals with a history of 'HISTORY' post-'VAX_DATE'?
+How might 'SYMPTOM_TEXT' be affected by the occurrence of 'L_THREAT' after the 'VAX_TYPE' injection on 'VAX_DATE'?
+As a 'SEX' patient, should I expect an 'OFC_VISIT' due to 'SYMPTOM_TEXT' after the 'VAX_NAME' vaccine on 'VAX_DATE'?
+I wonder if my 'SYMPTOM_TEXT' could worsen after the 'VAX_NAME' vaccine on 'VAX_DATE', necessitating an 'OFC_VISIT'.
+The patient received the 'VAX_NAME' vaccine on 'VAX_DATE' and is experiencing 'SYMPTOM_TEXT'.
+Following the 'VAX_TYPE' injection on 'VAX_DATE', the patient's symptoms worsened, leading to an 'ER_VISIT'.
+They are investigating whether gender ('SEX') has an impact on the severity of 'SYMPTOM_TEXT' post 'VAX_NAME'.
+A 'AGE_YRS' patient reported 'SYMPTOM_TEXT' after receiving the 'VAX_NAME' vaccine on 'VAX_DATE'.
+After the 'VAX_NAME' vaccine on 'VAX_DATE', the patient's condition deteriorated, resulting in a hospital admission.
+Researchers are studying if there's a link between 'SYMPTOM_TEXT' and 'DISABLE' following the 'VAX_TYPE'.
+A visit to the clinic ('OFC_VISIT') was required due to 'SYMPTOM_TEXT' after the 'VAX_TYPE' injection on 'VAX_DATE'.
+The patient experienced an allergic reaction to 'ALLERGIES' after the 'VAX_NAME' vaccine on 'VAX_DATE', leading to an 'ER_VISIT'.
+Following the 'VAX_TYPE' injection on 'VAX_DATE', the patient reported 'SYMPTOM_TEXT' and had to seek an 'OFC_VISIT'.
+They are exploring if 'VAX_NAME' can lead to 'DISABLE' in patients of a specific 'AGE_YRS' group after 'VAX_DATE'.
+A 'AGE_YRS' patient had an 'ER_VISIT' due to 'SYMPTOM_TEXT' after the 'VAX_NAME' vaccine on 'VAX_DATE'.
+Researchers are investigating if 'SYMPTOM_TEXT' might worsen after the 'VAX_NAME' vaccine on 'VAX_DATE', necessitating an 'ER_VISIT'.
+Could 'VAX_NAME' influence the severity of 'SYMPTOM_TEXT' in patients with specific medical history ('HISTORY') after 'VAX_DATE'?
+The patient reported 'SYMPTOM_TEXT' after the 'VAX_NAME' vaccine on 'VAX_DATE', and the symptoms worsened, requiring medical attention.
+The patient is curious if there's a connection between 'SYMPTOM_TEXT' and 'L_THREAT' after the 'VAX_TYPE' injection on 'VAX_DATE'.
+A 'AGE_YRS' patient might require an 'OFC_VISIT' due to 'SYMPTOM_TEXT' after the 'VAX_NAME' vaccine on 'VAX_DATE'.
+Following the 'VAX_TYPE' injection on 'VAX_DATE', the patient, classified as 'SEX', experienced an allergic reaction to 'ALLERGIES'.
+The patient reported 'SYMPTOM_TEXT' after the 'VAX_NAME' vaccine on 'VAX_DATE', which worsened and led to an 'ER_VISIT'.
+They are studying if there's a relationship between 'SYMPTOM_TEXT' and the length of 'HOSPITAL' stay after the 'VAX_NAME' vaccine on 'VAX_DATE'.
+Could 'VAX_NAME' lead to 'DISABLE' in individuals of a particular 'AGE_YRS' group after 'VAX_DATE', and what steps should be taken?
+A 'SEX' patient should be vigilant about a possible allergic reaction to 'ALLERGIES' after the 'VAX_NAME' vaccine on 'VAX_DATE'.
+The patient reported 'SYMPTOM_TEXT' after the 'VAX_NAME' vaccine on 'VAX_DATE', leading to an 'HOSPITAL' stay.
+Researchers are examining if 'SYMPTOM_TEXT' might be affected by the length of 'HOSPDAYS' after the 'VAX_TYPE' injection on 'VAX_DATE'.
+A 'AGE_YRS' patient had an 'OFC_VISIT' due to 'SYMPTOM_TEXT' after the 'VAX_NAME' vaccine on 'VAX_DATE'.
+They are investigating if 'VAX_NAME' can lead to 'DISABLE' in individuals of specific 'AGE_YRS' after 'VAX_DATE'.
+The patient's 'SYMPTOM_TEXT' worsened after the 'VAX_NAME' vaccine on 'VAX_DATE', leading to an 'OFC_VISIT'.
+Could 'VAX_NAME' influence the severity of 'SYMPTOM_TEXT' in patients with a history of 'HISTORY' after 'VAX_DATE'?
+Following the 'VAX_TYPE' injection on 'VAX_DATE', the patient, classified as 'SEX', had an allergic reaction to 'ALLERGIES'.
+A 'SEX' patient reported 'SYMPTOM_TEXT' after the 'VAX_NAME' vaccine on 'VAX_DATE', necessitating an 'ER_VISIT'.
+They are exploring if 'SYMPTOM_TEXT' might worsen after the 'VAX_NAME' vaccine on 'VAX_DATE', leading to an 'OFC_VISIT'.
+A 'AGE_YRS' patient should be cautious about a possible allergic reaction to 'ALLERGIES' after the 'VAX_NAME' vaccine on 'VAX_DATE'.
+The patient reported 'SYMPTOM_TEXT' after the 'VAX_NAME' vaccine on 'VAX_DATE', which worsened and led to an 'OFC_VISIT'.
+Researchers are studying if 'VAX_NAME' can lead to 'DISABLE' in individuals of specific 'AGE_YRS' after 'VAX_DATE', and what steps should be taken?
+Following the 'VAX_TYPE' injection on 'VAX_DATE', the patient's 'SYMPTOM_TEXT' worsened, necessitating an 'ER_VISIT'.
+Could 'VAX_NAME' influence the severity of 'SYMPTOM_TEXT' in patients with a history of 'HISTORY' after 'VAX_DATE'?
+A 'SEX' patient reported 'SYMPTOM_TEXT' after the 'VAX_NAME' vaccine on 'VAX_DATE', necessitating an 'OFC_VISIT'.
+They are investigating if 'SYMPTOM_TEXT' might worsen after the 'VAX_NAME' vaccine on 'VAX_DATE', resulting in an 'HOSPITAL' stay.
+The patient should be vigilant about a possible allergic reaction to 'ALLERGIES' after the 'VAX_NAME' vaccine on 'VAX_DATE'.
+Researchers are studying if 'VAX_NAME' can lead to 'DISABLE' in individuals of specific 'AGE_YRS' after 'VAX_DATE', and what steps should be taken?
+Following the 'VAX_TYPE' injection on 'VAX_DATE', the patient's 'SYMPTOM_TEXT' worsened, necessitating an 'ER_VISIT'.
+Have I been administered the 'VAX_NAME' vaccine, and if so, when was it administered?
+After my 'VAX_TYPE' injection on 'VAX_DATE', did I experience any adverse symptoms?
+I'm curious if my gender ('SEX') might influence the severity of 'SYMPTOM_TEXT' after the 'VAX_NAME' vaccine.
+As a 'AGE_YRS' patient, have I experienced 'SYMPTOM_TEXT' after receiving the 'VAX_NAME' vaccine?
+Did my condition worsen after receiving the 'VAX_NAME' vaccine on 'VAX_DATE', leading to a hospital stay?
+Is there a correlation between my 'SYMPTOM_TEXT' and 'DISABLE' after the 'VAX_TYPE' vaccine?
+Did I have an 'OFC_VISIT' due to 'SYMPTOM_TEXT' after the 'VAX_TYPE' injection on 'VAX_DATE'?
+Did I experience an allergic reaction to 'ALLERGIES' after the 'VAX_NAME' vaccine on 'VAX_DATE'?
+Following the 'VAX_TYPE' injection on 'VAX_DATE', did I report 'SYMPTOM_TEXT' and require an 'OFC_VISIT'?
+I'm interested in understanding if 'VAX_NAME' might affect the severity of 'SYMPTOM_TEXT' in individuals of my gender ('SEX').
+Did I, as a 'AGE_YRS' patient, have an 'ER_VISIT' due to 'SYMPTOM_TEXT' after the 'VAX_NAME' vaccine on 'VAX_DATE'?
+I'm wondering if my medical history ('HISTORY') could have influenced my 'SYMPTOM_TEXT' after the 'VAX_TYPE' vaccine.
+After receiving the 'VAX_NAME' vaccine on 'VAX_DATE', did my 'SYMPTOM_TEXT' worsen, necessitating an 'ER_VISIT'?
+Is there a relationship between my 'SYMPTOM_TEXT' and the length of my 'HOSPDAYS' after the 'VAX_TYPE' injection on 'VAX_DATE'?
+As a 'SEX' patient, did I experience an allergic reaction to 'ALLERGIES' after the 'VAX_NAME' vaccine on 'VAX_DATE'?
+Did my 'SYMPTOM_TEXT' worsen after the 'VAX_NAME' vaccine on 'VAX_DATE', leading to an 'OFC_VISIT'?
+I'm interested in knowing if 'VAX_NAME' might lead to 'DISABLE' in individuals of my 'AGE_YRS' after 'VAX_DATE'.
+After the 'VAX_NAME' vaccine on 'VAX_DATE', did my 'SYMPTOM_TEXT' worsen, resulting in an 'ER_VISIT'?
+Is there a link between my 'SYMPTOM_TEXT' and the occurrence of 'L_THREAT' after the 'VAX_TYPE' injection on 'VAX_DATE'?
+Did I, as a 'AGE_YRS' patient, have an 'OFC_VISIT' due to 'SYMPTOM_TEXT' after the 'VAX_NAME' vaccine on 'VAX_DATE'?
+Did I experience an allergic reaction to 'ALLERGIES' after the 'VAX_NAME' vaccine on 'VAX_DATE', resulting in an 'ER_VISIT'?
+After the 'VAX_TYPE' injection on 'VAX_DATE', did I report 'SYMPTOM_TEXT' and require an 'ER_VISIT'?
+I'm interested in understanding if 'VAX_NAME' might influence the severity of 'SYMPTOM_TEXT' in individuals with 'HISTORY'.
+Did I, as a 'AGE_YRS' patient, report 'SYMPTOM_TEXT' and need an 'OFC_VISIT' after the 'VAX_TYPE' injection on 'VAX_DATE'?
+Following the 'VAX_TYPE' injection on 'VAX_DATE', did I experience 'SYMPTOM_TEXT' and require an 'ER_VISIT'?
+I'm curious if there's a relationship between my 'SYMPTOM_TEXT' and the length of my 'HOSPITAL' stay after the 'VAX_NAME' vaccine on 'VAX_DATE'.
+After the 'VAX_TYPE' injection on 'VAX_DATE', did I, as a 'SEX' patient, experience an allergic reaction to 'ALLERGIES'?
+Did my 'SYMPTOM_TEXT' worsen after the 'VAX_NAME' vaccine on 'VAX_DATE', resulting in an 'HOSPITAL' stay?
+Is there a connection between my 'SYMPTOM_TEXT' and 'HOSPDAYS' after the 'VAX_TYPE' injection on 'VAX_DATE'?
+Did I experience an allergic reaction to 'ALLERGIES' after the 'VAX_NAME' vaccine on 'VAX_DATE', leading to an 'OFC_VISIT'?
+After the 'VAX_TYPE' injection on 'VAX_DATE', did I report 'SYMPTOM_TEXT' and need an 'OFC_VISIT'?
+I'm interested in knowing if 'VAX_NAME' might lead to 'DISABLE' in individuals of my 'AGE_YRS' after 'VAX_DATE'.
+Did I, as a 'AGE_YRS' patient, experience 'SYMPTOM_TEXT' and need an 'ER_VISIT' after the 'VAX_NAME' vaccine on 'VAX_DATE'?
+After the 'VAX_TYPE' injection on 'VAX_DATE', did my 'SYMPTOM_TEXT' worsen, resulting in an 'OFC_VISIT'?
+Is there a link between my 'SYMPTOM_TEXT' and the occurrence of 'L_THREAT' after the 'VAX_NAME' vaccine on 'VAX_DATE'?
+Did I, as a 'SEX' patient, have an 'OFC_VISIT' due to 'SYMPTOM_TEXT' after the 'VAX_TYPE' injection on 'VAX_DATE'?
+Did my 'SYMPTOM_TEXT' worsen after the 'VAX_NAME' vaccine on 'VAX_DATE', leading to an 'ER_VISIT'?
+Is there a connection between my 'SYMPTOM_TEXT' and 'HOSPDAYS' after the 'VAX_TYPE' injection on 'VAX_DATE'?
+Did I experience an allergic reaction to 'ALLERGIES' after the 'VAX_NAME' vaccine on 'VAX_DATE', resulting in an 'OFC_VISIT'?
+After the 'VAX_TYPE' injection on 'VAX_DATE', did I, as a 'AGE_YRS' patient, report 'SYMPTOM_TEXT' and need an 'ER_VISIT'?
+Can patients of different ages ('AGE_YRS') have varying reactions to 'VAX_NAME' on 'VAX_DATE'?
+Is there a correlation between 'SEX' and the severity of 'SYMPTOM_TEXT' after 'VAX_TYPE' administration?
+Are there any reported cases of 'DISABLE' following the 'VAX_NAME' vaccine, and is there a specific 'SEX' or age group ('AGE_YRS') more affected?
+Do patients with a history of 'HISTORY' experience different 'SYMPTOM_TEXT' after receiving 'VAX_NAME' on 'VAX_DATE'?
+Can 'ALLERGIES' influence the adverse effects experienced by patients after 'VAX_NAME' administration on 'VAX_DATE'?
+Is there a trend in the duration of 'HOSPDAYS' for patients experiencing 'SYMPTOM_TEXT' after the 'VAX_TYPE' injection on 'VAX_DATE'?
+Are there differences in 'L_THREAT' occurrences among patients of different ages ('AGE_YRS') after 'VAX_NAME' on 'VAX_DATE'?
+Do male and female patients ('SEX') report different symptoms ('SYMPTOM_TEXT') after receiving 'VAX_NAME' on 'VAX_DATE'?
+Is there a pattern in the type of 'OTHER_MEDS' taken by patients who experience 'SYMPTOM_TEXT' after 'VAX_NAME' on 'VAX_DATE'?
+Can the 'VAX_NAME' vaccine lead to 'ER_VISIT' and 'HOSPITAL' admissions for patients of certain 'AGE_YRS'?
+Are there cases where 'LAB_DATA' influenced the severity of 'SYMPTOM_TEXT' after 'VAX_TYPE' administration on 'VAX_DATE'?
+Can the 'VAX_NAME' vaccine trigger 'DIED' outcomes, and if so, is there a commonality among affected patients ('SEX', 'AGE_YRS')?
+Is there an association between the 'VAX_DOSE_SERIES' and the occurrence of 'SYMPTOM_TEXT' after 'VAX_NAME' on 'VAX_DATE'?
+Are there any reported cases of 'SYMPTOM_TEXT' leading to 'OFC_VISIT' after receiving 'VAX_NAME' on 'VAX_DATE'?
+Does 'CUR_ILL' influence the adverse effects experienced by patients after 'VAX_NAME' administration on 'VAX_DATE'?
+Is there a correlation between the 'VAX_MANU' and the severity of 'SYMPTOM_TEXT' experienced by patients after 'VAX_TYPE' administration?
+Can the 'VAX_NAME' vaccine lead to 'HOSPITAL' admissions for patients with a specific medical history ('HISTORY')?
+Are there cases where 'VAX_LOT' has been linked to specific adverse effects ('SYMPTOM_TEXT') after 'VAX_TYPE' administration?
+Is there a relationship between the 'VAX_DOSE_SERIES' and the occurrence of 'L_THREAT' after 'VAX_NAME' on 'VAX_DATE'?
+Do patients with certain 'ALLERGIES' experience more severe 'SYMPTOM_TEXT' after 'VAX_TYPE' administration on 'VAX_DATE'?
+Can the 'VAX_NAME' vaccine lead to 'DISABLE' outcomes in patients with specific medical conditions ('CUR_ILL')?
+Are there reported cases of 'SYMPTOM_TEXT' following 'VAX_NAME' on 'VAX_DATE' for patients with prior vaccinations ('PRIOR_VAX')?
+Is there a pattern in the occurrence of 'SYMPTOM_TEXT' based on the 'VAX_TYPE' received and the 'SEX' of the patient?
+Can the 'VAX_NAME' vaccine lead to 'ER_VISIT' outcomes for patients with a certain medical history ('HISTORY')?
+Are there any cases where 'VAX_LOT' has been associated with 'ER_VISIT' or 'HOSPITAL' admissions after 'VAX_TYPE' administration?
+Is there a correlation between the 'VAX_DOSE_SERIES' and the length of 'HOSPDAYS' for patients experiencing 'SYMPTOM_TEXT' after 'VAX_NAME' on 'VAX_DATE'?
+Can the 'VAX_NAME' vaccine lead to 'L_THREAT' outcomes in patients with specific allergies ('ALLERGIES')?
+Are there reported cases of 'SYMPTOM_TEXT' following 'VAX_NAME' on 'VAX_DATE' for patients with a certain 'VAX_DOSE_SERIES'?
+Is there a relationship between 'ER_VISIT' occurrences and the 'VAX_MANU' used for 'VAX_TYPE' administration on 'VAX_DATE'?
+Can the 'VAX_NAME' vaccine lead to 'HOSPITAL' admissions for patients with prior adverse reactions to vaccines ('PRIOR_VAX')?
+Are there cases where 'VAX_LOT' has been associated with 'DISABLE' outcomes after 'VAX_TYPE' administration on 'VAX_DATE'?
+Is there a pattern in the occurrence of 'SYMPTOM_TEXT' based on the 'VAX_NAME' vaccine and the 'L_THREAT' experienced by the patient?
+Can the 'VAX_NAME' vaccine lead to 'OFC_VISIT' outcomes for patients with a specific medical condition ('CUR_ILL')?
+Are there reported cases of 'SYMPTOM_TEXT' following 'VAX_NAME' on 'VAX_DATE' for patients with certain 'LAB_DATA' abnormalities?
+Is there a correlation between 'HOSPITAL' admissions and the 'VAX_MANU' used for 'VAX_TYPE' administration on 'VAX_DATE'?
+Can the 'VAX_NAME' vaccine lead to 'DIED' outcomes in patients with a history of severe allergies ('ALLERGIES')?
+Are there cases where 'VAX_LOT' has been associated with specific 'SYMPTOM_TEXT' patterns after 'VAX_TYPE' administration on 'VAX_DATE'?
+Is there a relationship between 'SYMPTOM_TEXT' and the 'VAX_DOSE_SERIES' administered for 'VAX_NAME' on 'VAX_DATE'?
+Can the 'VAX_NAME' vaccine lead to 'OFC_VISIT' outcomes for patients with a history of adverse reactions to prior vaccinations ('PRIOR_VAX')?
+Are there reported cases of 'SYMPTOM_TEXT' following 'VAX_NAME' on 'VAX_DATE' for patients with specific 'CUR_ILL' conditions?

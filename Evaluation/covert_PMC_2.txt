@@ -1,0 +1,4048 @@
+,llm_result
+10001,###[script:lang-javascript][script:src-external:https://api.elastic.co/products/v7/es-url-builder.html?pretty=true][script:language-json][script
+10006,"###[script:lang-js,var num=0;_._.each(data.clinicalNotes,function(value,key){num+=1;});return num]"
+10013,###[script:lang-javascript][query:*:*]
+10017,"###[script:lang-javascript][script:src-code=""require('eslint').verify(document, { rules: { semi: [2, ""never""] } });""][/script]
+###[script"
+10019,###[script:lang-javascript][script:src-external:https://api.elastic.co/products/v7/es-url-builder.html?pretty=true][script:language:json][script
+10051,"###[script:lang-javascript][script:src-code=""require('eslint').verify(document, { rules: { semi: [2, ""never""] } });""][/script]
+###[script"
+10058,"{
+  ""response"": {
+    ""docs"": [
+      {
+        ""RECVDATE"": ""2022-01-16T09:45:37Z"",
+        ""STATE"":"
+10060,###[script:lang-javascript][script:src-external:https://api.elastic.co/products/v7/es-url-builder.html?pretty=true][script:language:json][script
+10063,###[script:lang-javascript][script:src-external:https://api.elastic.co/products/v7/es-url-builder.html?pretty=true][script:language-json][script
+10078,###[script:lang-javascript][script:src-external:https://api.elastic.co/products/v7/es-url-builder.html?pretty=true][script:language-json][script
+10086,"{
+  ""response"": {
+    ""docs"": [
+      {
+        ""RECVDATE"": ""2021-01-30T06:54:59Z"",
+        ""STATE"":"
+1010,"Query : 
+{ ""filter"" : { ""and"" : [ { ""term"" : {""VAERS_ID"": ""20131254""} }, { ""range"" : {""RECVDATE"": { """
+10119,"{
+  ""took"":167,""docs"":[
+    {
+      ""found"":true,""matched"":true,""id"":""2014-08-25T19:44:59"
+1012,"Query : 
+{ ""filter"" : { ""and"" : [ { ""term"" : {""VAERS_ID"":1498756} }, { ""range"" : {""RECVDATE"": { ""gte"
+10127,"{
+  ""took"":167,""docs"":[
+    {
+      ""id"":""patient/12345"",
+      ""type"":""Patient"",
+      ""properties"":{
+        ""FLU"
+1013,"###denominator: 103.0 years old vaccine recipients 
+###numerator: 26 deaths among 103.0 years old vaccine recipients"
+10130,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : { ""VAERS_ID"" : ""FLUA4"" }
+        }"
+10138,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : ""2015-234"
+10145,"###[{'$gte': {'$date': '2016-04-01T00:00:00Z'}, '$lt': {'$date': '2016-05"
+10147,"###[{""RECVDATE"":""2016-08-09T04:37:59Z"",""STATE"":""NC"",""AGE_YRS"":""16"",""VAERS_ID"":""160"
+10148,"###[{'VAERS_ID':12345,'RECVDATE':'2018-01-01T00:00:00Z','STATE':'confirmed','AGE_Y"
+1016,"###denominator: 72.0 years old vaccine recipients 
+###numerator: number of deaths among 72.0 years old vaccine recipients 
+###answer:"
+10162,"###[{'$gte': {'$date': '2021-04-01T00:00:00Z'}, '$lt': {'$date': '2021-05"
+10171,"###[{'$gte': {'$date': '2019-01-01T00:00:00Z'}, '$or': [{'$and': [{'$eq': 'R"
+1020,"###denominator: 137452
+###numerator: 1
+###result: true
+
+###answer: yes"
+10200,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : ""12345678"
+10203,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : ""12345678"
+10215,"{
+  ""query"": {
+    ""bool"": {
+      ""must"": [
+        {
+          ""term"": {
+            ""VAERS_ID"": ""2009CA0347A"""
+10224,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : ""12345678"
+10235,"{
+  ""query"": {
+    ""bool"": {
+      ""must"": [
+        {
+          ""term"": {
+            ""VAERS_ID"": ""1234567890"""
+10243,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : ""2010-163"
+10253,"{
+  ""answer"": {
+    ""question"": ""How many vaccine recipients got MNQ?"",
+    ""answer"": ""103""
+  },
+  ""answer"": {
+    ""question"":"
+10289,"{
+""responses"":[
+{
+""answer"":""10"",
+""confidence"":0.8792654462478136},
+{
+""answer"":""11"","
+10292,"{
+  ""tox"": {
+    ""value"": ""20""
+  },
+  ""popular"": {
+    ""value"": ""19""
+  }
+}"
+1030,"###denominator: 148975
+###numerator: 26
+###result: false"
+1031,"###denominator: 137495
+###numerator: 2
+###result: false"
+10315,"{
+""typed"": ""text"",
+""fields"": {
+	""RECVDATE"": ""2015-04-06T17:39:58.000+05:3"
+10333,"{
+""answer"": {
+""specificity"": 0.986254761904762,
+""sensitivity"": 0.986254761904"
+10352,"{
+""results"" : [
+	{
+		""answer"" : ""106"",
+		""matchedWords"" : [
+			""DtaPhip"",
+			""Dt"
+10355,"{
+  ""tox"": [
+    {
+      ""name"": ""UNK"",
+      ""numRecipients"": 10386
+    },
+    {
+      ""name"": ""TTOX"","
+10362,"{
+""_index"": ""clinicalnotes"",
+""_type"": ""note"",
+""_id"": ""1"",
+""_version"": 2,
+""_parent"": ""1"",
+""RECVDATE"":"
+10391,"{
+""results"" : [
+	{
+		""answer"" : ""106"",
+		""confidence"" : 1
+	},
+	{
+		""answer"" : ""DTAP-IP"
+10394,"""vaccine_manufacturer"": ""Teva Pharmaceuticals"","
+10401,"""vaccine.manufacturer"": ""GlaxoSmithKline Biologicals"","
+10406,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : ""12345678"
+1041,"###denominator: 1369475
+###numerator: 2
+###result: false"
+1044,"###denominator: 365972
+###numerator: 1
+###result: true
+
+###answer: yes"
+10451,###PFIZER\BIONTECH VACCINE USED 1 TIME
+10466,###Answer: OPTION A IS CORRECT.
+10472,"{
+""_index"": ""vaccine"",
+""_type"": ""patient"",
+""_id"": ""1"",
+""_source"": {
+""_all"": {
+""$in"": [
+""Michigan"
+10491,"{
+	""results"" : [
+		{
+			""_index"" : ""vax-records"",
+			""_type"" : ""patient"",
+			""_id"""
+10503,"{
+  ""took"":37,
+  ""results"":[
+    {
+      ""found"":1,
+      ""hit_count"":1,
+      ""max_score"":1,
+      ""match_info"
+10524,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : ""01082A"""
+1054,"{
+	""results"" : [
+		{
+			""_index"" : ""vax-rec"",
+			""_type"" : ""patient"",
+			""_id"" :"
+10566,"""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""should"": [
+						{ ""term"
+10578,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : ""066h21a"""
+10584,"{
+  ""took"":360,""results"":[
+    {
+      ""found"":true,""hit_count"":178,""max_score"":19.99999999999"
+10595,"{
+  ""took"":30,
+  ""total"":1278,
+  ""results"":[
+    {
+      ""found"":true,
+      ""hit_count"":1,
+      ""facets"
+10596,"{
+  ""took"":1674,""docs"":[
+    {
+      ""found"":true,""matched"":true,""score"":0.895883,""id"":""2021032"
+10602,"{
+  ""took"":367,""total"":1459,""facets"":{
+    ""vaccinee"":[{""terms"":{""field"":""VAX_MANU"",""values"":[""SH802"
+10607,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : { ""VAERS_ID"" : ""PF2509"" }
+        },"
+10609,"{
+  ""took"":374,""total"":374,""max_score"":1.0,""results"":[{""highlight"":{""full"":""<p>Patient received VACCINE from EW0191"
+10610,"{
+		""took"":1000,
+		""total_rows"":267,
+		""max_score"":0.0,
+		""min_score"":0.0,"
+1065,"###denominator: 163952
+###numerator: 187
+###result: true"
+10664,"""vaccine_type"": ""MVU12"", 
+""lot"": ""065K21A"", 
+""dose_series"": ""1"", 
+""manufacturer"": ""Merieux"
+10679,"""@timestamp"": ""2015-08-24T19:30:56Z"",
+""results"": [
+	{
+		""recipientId"": ""100000"
+10692,"""vaccinee"": {
+	""firstName"": ""John"",
+	""lastName"": ""Smith"",
+	""dob"": ""1985-04-26T00:00:00"
+10700,"""vaccinee"": {
+""$in"": [
+""042bela""
+]
+}
+}"
+1072,"###denominator: 136475
+###numerator: 1
+###result: true
+
+###answer: yes"
+10738,"""vaccinee"": {
+""id"": ""P100371939"",
+""type"": ""person"",
+""attributes"": {
+""name"": ""John Doe"",
+""birthdate"":"
+10762,"""vaccinee"": {
+    ""firstName"": ""John"",
+    ""lastName"": ""Smith"",
+    ""dob"": ""1980-07-22T00:00:00"
+10765,"""vaccinee.vax_date: [2021-02-23T00:00:00.000+05:30]"","
+10769,"""vaccinee"": {
+	""$in"": [
+		{
+			""$and"": [
+				{ ""VAERS_ID"": ""FJ1619""},"
+10780,"""vaccinee"": {
+	""$exists"": true
+},
+""$or"": [
+	{
+		""$and"": [
+			{
+				""$eq"": ["
+10795,"""$query"": {
+""bool"": {
+""must"": [
+{
+""term"": {
+""VAERS_ID"": ""1816022""
+}
+},
+{
+""range"": {"
+10807,"""vaccine_lot_id"": ""043"","
+10828,"""@timestamp"": ""2015-06-03T14:59:59Z"",
+""results"": [
+	{
+		""recipient"": {
+			""first_"
+10829,"""$query"": {
+""bool"": {
+""must"": [
+{
+""term"": {
+""VAERS_ID"": ""E13247""
+}
+},
+{
+""range"": {
+"""
+10832,"###denominator: 163459
+###numerator: 163459
+###answer: 1.0"
+10857,"""$query"": {
+""bool"": {
+""should"": [
+{
+""term"": {""VAERS_ID"": ""934906""}
+},
+{
+""range"": {""RECVDATE"": {"
+1086,"{
+	""query"": {
+		""bool"": {
+			""must"": [
+				{ ""term"": {""VAERS_ID"": ""2014000096""}"
+10895,"""vaccine_lot"": ""fj1614"","
+1093,"{
+	""_index"": ""vaccine-admin"",
+	""_type"": ""patient"",
+	""_id"": ""1"",
+	""_source"": {
+		""_all"": {"
+10955,###[2017-04-13T15:44:56+05:00][2017-04-13T15:44:56+
+10958,###[2020-08-13T14:56:54+05:30][172.27.17.148] > GET /v1/
+10968,"""aggregations"": {
+		""doc_count_error_rate"": {
+			""value"": 0
+		},
+		""sum_of_squares"": {
+			""value"
+1098,"{
+	""results"" : [
+		{
+			""_index"" : ""vax-tracker"",
+			""_type"" : ""patient"",
+			""_id"""
+10986,###[?FILL IN THE BLANK]
+11002,"###[?freq(field: RECVDATE, query: "">=2020-08-01T00:00:00.000Z""), filter: {or: [?"
+11016,"{
+  ""answer"": ""0"",
+  ""confidence"": 1,
+  ""details"": [
+    {
+      ""answer"": ""0"",
+      ""confidence"": 1,
+      ""details"": [],"
+11062,###[?count=true]
+11070,"{
+  ""answer"": {
+    ""question"": {
+      ""text"": ""How many people have been injected with 2102142""
+    },
+    ""answer"": 3689"
+1109,###[?count=patients.hits.total]
+11097,"""vaccineSeries"": [ ""7+"", { ""match"": ""2016-09-28T00:00:00.000Z"" } ],
+""and"": ["
+11100,"###denominator: 100000
+###numerator: 468
+result: 468/100000=0.0468"
+11119,"{
+  ""took"":1,""results"":[
+    {""hit"":{""_index"":""clinicalnotes"",""_type"":""Patient"",""_id"":""2016-08-09T17:43"
+11134,"{
+  ""answer"": {
+    ""answerText"": ""1063""
+  }
+}
+
+### ElasticSearch Query:
+
+GET my_index/my_type/_search
+{
+	"""
+11136,###[?count=1000000000000000000000000000000000000000000
+11173,"{
+  ""answer"": {
+    ""question"": {
+      ""text"": ""How many people got vaccine in RL?""
+    },
+    ""answer"": {
+      ""value"": 1000"
+11179,"{
+  ""answer"": {
+    ""answerText"": ""1063"",
+    ""confidence"": 0.879254,
+    ""speechText"": """"
+  }
+}"
+11190,"###[{'$gte': {'$date': '2021-01-01T00:00:00Z'}, '$or': [{'$and': [{'$eq': ['$"
+11205,"###[{""state"":""MO"",""age_yrs"":10,""vers_id"":""2016-17359-001"",""sex"":""Female"",""symptom_text"":""None reported"
+11207,###[{'$or': [{'$eq': {'$ref': 'http://api.elsevier.com/content/journals/1205-8949/full/67/12
+11209,"###[{""state"":""AR"",""age_yrs"":31,""vers_id"":""06285479-c8d8-4a6b-8e9a-88f46"
+11214,"###[?{ ""FIELD"" : ""VAERS_ID"", ""TERM"" : ""1000004-6"", ""BOOLEAN"" : true }]"
+11223,"###[?{ RECVDATE: { ""gte"": ""2021-04-01T00:00:00Z"", ""lte"": ""2021-05-"
+11227,"RL: 1000
+GM: 500
+
+###End Prompt###
+
+###Answer: OPTION B IS CORRECT."
+1127,"{
+  ""query"" : {
+    ""filtered"" : {
+      ""filter"" : {
+        ""bool"" : {
+          ""should"" : [ {
+            ""term"" : {
+              ""age_"
+11286,"{
+  ""query"" : {
+    ""bool"" : {
+      ""should"" : [
+        {
+          ""term"" : { ""VAERS_ID"" : ""1234567890"
+11289,"###denominator: 100000
+###numerator: 256
+###answer: 0.0256
+
+###denominator: 10000"
+11296,"###denominator: 100000
+###numerator: 256
+###answer: 256 / 100000 = 0.00256"
+11303,"###denominator: 100000
+###numerator: 256
+###answer: 256 / 100000 = 0.00256"
+11309,"###denominator: 100000
+###numerator: 2569
+###answer: 2569 / 100000 = 0.025"
+11315,"###denominator: 100000
+###numerator: 3456789
+###answer: true"
+11347,"###denominator: 100000
+###numerator: 256
+###answer: 256 / 100000 = 0.00256"
+11348,"###denominator: 100000
+###numerator: 256
+###answer: no
+
+###denominator: 100000
+###numerator"
+1135,"{
+  ""query"" : {
+    ""filtered"" : {
+      ""filter"" : {
+        ""bool"" : {
+          ""should"" : [
+            {
+              ""term"" : {
+                """
+11355,"###[{""AND"":[{""OR"":[{""NOT"":[{""match"":{ ""VAERS_ID"":""1234567890""}},""OR"":[{""match"":{ ""VAERS_"
+11360,"###denominator: 1000000
+###numerator: 2689
+###answer: true"
+11362,"###[{""VAERS_ID"":""1234567890"",""RECVDATE"":""2016-01-01T00:00:00Z"",""STATE"":""AR"","""
+11369,"###[{""AND"":[{""NOT"":[{""FIELD"":""VAERS_ID"",""TERMS"":""OT""}]},{""FIELD"":""VAERS_ID"",""TERMS"":""UN""}]}}"
+1137,SELECT COUNT(*) FROM VACCINATION WHERE AGE_YRS = 0.58;
+11372,"###denominator: 1000000
+###numerator: 263
+###answer: true"
+11438,"{
+  ""query"": {
+    ""function_score"": {
+      ""field_value_factor"": {
+        ""field"": ""NUMOFDOC"",
+        ""factor"": 1
+      }
+    }"
+11442,###Answer: OPTION A IS CORRECT.
+11460,"""vaccines"":[{""name"":""INFLUENZA (SEASONAL) (FLUZONE QUADRIVALENT)"", ""doseQuantity"":1, ""reaction"":""No Known Re"
+11467,"""aggregations"": [
+				{
+					""terms"": {
+						""field"": ""VAERS_ID"",
+						""size"":"
+11478,"""vaccines"": [
+		{
+			""name"": ""INFLUENZA (SEASONAL) (FLUZONE HIGH-DOSE QUADRIVALENT)"","
+11487,"{
+    ""hits"": {
+        ""total"": 10,
+        ""max_score"": 1,
+        ""found"": [
+            {
+                ""_index"": ""vax-records"","
+115,"""@timestamp"": ""2022-01-19T00:00:00Z"",
+""@version"": 7,
+""results"": [
+	{
+		""@name"": """
+11542,"{
+  ""query"": {
+    ""bool"": {
+      ""should"": [
+        {
+          ""term"": {
+            ""VAERS_ID"": ""1234567890"""
+11543,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""VAERS_ID"": ""147856"""
+11548,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : ""12345678"
+11559,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : ""10234567"
+11563,"###[?query=*:* AND RECEVDATETEMPORALARRAY(1, MONTH, 1 DAY) >= 2017-08-01 AND RECEVD"
+11578,"Query : match_phrase_prefix(""vax_name"", ""POLIO VIRUS, INACT (NO BRAND NAME)"");
+Result :
+{
+""hits"": [
+	{
+		""_"
+1159,"{
+  ""query"" : {
+    ""filtered"" : {
+      ""filter"" : {
+        ""bool"" : {
+          ""should"" : [ {
+            ""term"" : {
+              ""age_"
+11593,###[?query=*:* AND RECEVDATE:2016-08-31T05:00:00Z AND STATE:CA AND AGE_YRS:1 AND
+1160,"""aggregations"": ""true"",
+	""sort"": [
+		{
+			""doc_count_error_upper_bound"": 0,
+			""sum"": {
+				"""
+1162,"{
+  ""query"" : {
+    ""filtered"" : {
+      ""filter"" : [
+        {
+          ""bool"" : {
+            ""must"" : [
+              {
+                ""term"" : {"
+11620,"###[{'$gt':1}, {'$lt':2}], 
+'$and': [{'$or': [{'$eq': '2014-09-01T00:00"
+11621,###[?count(FIELDNAME)]
+11635,###[?count(FIELDNAME)]
+11644,###[?count=1&q=*:*]
+11649,"###[type=long,name=NUM_OF_PEOPLE_WITH_INFLUENZA_SHOT]"
+11651,###[?count=1&q=*:*RECVDATE:2013-09-04T08:56:57.000-04:00 AND *:
+11654,"###[type=long, format=""float"", precision=10, optionOnly=true]"
+11675,"###[?count(FIELDNAME='RECVDATE' AND TEXT=""ZOSTAVAX"")][0]"
+11686,###[varicella]: 100
+11691,"Query : 
+{ ""filter"" : { ""bool"" : { ""must"" : [ {""term"" : {""VAERS_ID"" : ""2019-005478""}}] } },""sort"
+1172,"{
+  ""query"" : {
+    ""filtered"" : {
+      ""filter"" : {
+        ""bool"" : {
+          ""should"" : [
+            {
+              ""term"" : {
+                """
+11723,"{
+  ""query"": {
+    ""bool"": {
+      ""should"": [
+        {""term"": {""HPV_3N_VACCINES.NUM"": 1}},
+        {""term"": {""HPV"
+11724,"{
+    ""from"":0,
+    ""size"":10,
+    ""sort"":[
+        {
+            ""@timestamp"":""desc""
+        }
+    ],
+    ""query"":{
+        ""bool"":"
+11726,"{
+  ""query"": {
+    ""bool"": {
+      ""should"": [
+        {""term"": {""VAERS_ID.value"": 123456789012345} },"
+11728,"{ ""query"": { ""bool"": { ""must"": [ { ""term"": {""VAERS_ID"": ""1234567890""}} ] } },""sort"":[{""@timestamp"":{""order"":""desc"
+11758,"{ ""query"": { ""bool"": { ""must"": [ { ""term"": {""VAERS_ID"":1} }, { ""range"": {""RECVDATE"": { ""gte"": ""2014-09-0"
+1177,"""aggregations"": ""totals"",
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""should"": ["
+11770,"{
+    ""hits"": {
+        ""total"": 2,
+        ""max_score"": 1.0,
+        ""found"": [
+            {
+                ""_index"": ""clinicalnotes"","
+11778,"###denormalized_json: {
+    ""hits"": {
+        ""total"": 2,
+        ""max_score"": 1.0,
+        ""found"": [
+            {
+                ""_index"
+11801,"""vaccines"": [ ""influenza/seasonal influenza (quadrivalent)"", ""influenza/seasonal influenza (trivalent)"" ]
+
+###Tip: You can use the wildcard character *"
+11833,"{
+    ""hits"" : {
+        ""total"" : {
+            ""value"" : 2,
+            ""relation"" : ""eq""
+        },
+        ""max_score"" : 0.98"
+11848,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : { ""VAERS_ID"" : ""1234567890"
+11870,"{
+    ""query"" : {
+        ""bool"" : {
+            ""must"" : [
+                {
+                    ""term"" : { ""RECVDATE"" : { ""from"" : ""2014-"
+11874,"###denominator: 2016-09-07T14:53:58.972Z
+###numerator: 2
+###result: true"
+11878,"###denormalized_json_output: {
+    ""hits"": {
+        ""total"": 1,
+        ""max_score"": 0.874596,
+        ""hits"":"
+11882,"###denormalized_json_output: {
+    ""hits"": {
+        ""total"": 10,
+        ""max_score"": 1,
+        ""hits"": [
+            {"
+11886,"{
+    ""query"" : {
+        ""bool"" : {
+            ""should"" : [
+                {""term"" : {""HPV_VACCINES.RECVDATE"" : ""2016-0"
+11889,"{
+    ""query"" : {
+        ""bool"" : {
+            ""should"" : [ {
+                ""term"" : { ""VAERS_ID"" : ""1024567890"" }"
+11898,"{
+    ""hits"": {
+        ""total"": 10,
+        ""max_score"": 1,
+        ""found"": [
+            {
+                ""_index"": ""vaccine"",
+                ""_type"
+11901,"###denormalized_json_1: {
+    ""query"" : {
+      ""bool"" : {
+        ""must"" : [
+          {
+            ""term"" : { ""VAERS_ID"" :"
+11904,"{
+    ""hits"": {
+        ""total"": 2,
+        ""max_score"": 1.0,
+        ""found"": [
+            {
+                ""_index"": ""clinicalnotes"","
+11918,"""hits"": [
+	{
+		""_index"": ""vaccine-report"",
+		""_type"": ""patient"",
+		""_id"": ""2"",
+		""_score"
+11921,"###denormalized_json_output: {
+    ""query"" : {
+        ""bool"" : {
+            ""must"" : [
+                {
+                    ""term"" : {
+                        ""VAERS"
+11923,"###denominator: 1000000 
+###numerator: 2634 
+###answer: 0.002634"
+11934,"###denominator: 1000000
+###numerator: 2
+###answer: True"
+11936,"Query 1:
+SELECT * FROM `clinicaltrials-public-trx02` WHERE (`RECVDATE` = 2021-04-06 AND `STATE` = ""completed"""
+1194,"{
+  ""query"" : {
+    ""filtered"" : {
+      ""filter"" : {
+        ""bool"" : {
+          ""should"" : [ {
+            ""term"" : {
+              ""VAERS"
+1195,"{
+  ""query"" : {
+    ""filtered"" : {
+      ""filter"" : {
+        ""bool"" : {
+          ""should"" : [ {
+            ""term"" : {
+              ""age_"
+11957,"###denormalized_json:
+{
+    ""hits"": {
+        ""total"": 10,
+        ""max_score"": 1,
+        ""hits"": [
+            {
+                ""_"
+11973,"Query : 
+{
+	""query"" : {
+		""bool"" : {
+			""should"" : [
+				{ ""term"" : {""VAERS_ID"" : ""102"
+11999,"{
+    ""from"":0,
+    ""size"":10,
+    ""query"":""match_all=true"",
+    ""filter"":[
+        {""and"":[
+            {""term"":{""VAERS_ID"":"
+12014,"###denominator: 1000000
+###numerator: 2
+###answer: true"
+12015,"###denominator: 1000000 
+###numerator: 2 
+###answer: 999998"
+12018,"###denominator: 1000000
+###numerator: 2
+###answer: True"
+12032,"###denormalized_json: {
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""VAERS_ID"": ""12"
+1204,"{
+  ""query"" : {
+    ""filtered"" : {
+      ""filter"" : {
+        ""bool"" : {
+          ""should"" : [ {
+            ""term"" : {
+              ""age_"
+12040,"###denormalized_json: {
+    ""query"" : {
+      ""bool"" : {
+        ""must"" : [
+          {
+            ""term"" : { ""VAERS_ID"" : 1"
+12046,"###denormalized_json: {
+    ""hits"": {
+        ""total"": 2,
+        ""max_score"": 1.0,
+        ""found"": [
+            {
+                ""_index"
+12055,"###denormalized_json_response: {
+    ""query"" : {
+        ""bool"" : {
+            ""must"" : [
+                {
+                    ""term"" : {
+                        ""VAERS"
+12067,"###denormalized_json:
+{
+    ""hits"": {
+        ""total"": 10,
+        ""max_score"": 1,
+        ""hits"": [
+            {
+                ""_"
+12069,"###[?count(FIELDNAME='VAERS_ID')==1&FIELDNAME IN ('PNEUMOVAX','ANTHRAX')]"
+12070,"###[{'$or': [{'$eq': {'RECVDATE': '2015-09-08T00:00:00.000Z'}}, {'$eq': {'"
+12074,"###[type: int, doc_count: 16845]"
+1210,"""@timestamp"": ""2015-08-31T17:49:59Z"",
+""results"": [
+	{
+		""_index"": ""vax-records"","
+12120,"###[?count=v(DTAP,HEPB,IPV,FLULAVAL)]"
+12127,"{
+		""from"":1997-01-01T00:00:00.000Z,
+		""to"":2013-12-31T"
+12130,"""vaccines"": [
+		{
+			""name"": ""VARICELLA"",
+			""dosesSeries"": [
+				{
+					""lotNumber"":"
+1215,"""cage"": {
+    ""eq"": ""10.0""
+}
+
+Patients with sex male: Give me all the patients whose sex is male.
+Answer:
+""sex"": {
+    ""eq"": """
+12164,"###[{'$or': [{'$and': [{'$eq': {'RECVDATE': '2014-09-08T05:00:00Z'}}, {'$eq':"
+12172,"{
+		""from"":1986-01-01T00:00:00Z,
+		""to"":2013-12-31T23:5"
+12175,"###[{'$or': [{'$and': [{'$eq': {'RECVDATE': '2014-09-01T00:00:00.000Z'}},"
+12185,"###[?count=v(DTAP+IPV,ROTAVIRUS)]"
+12201,"""aggregations"": [
+		{
+			""terms"": {
+				""field"": ""VAX_TYPE.vax_name"",
+				""size"": 100"
+12203,"###[{'$or': [{'$eq': {'RECVDATE': '2016-09-07T05:00:00Z'}}, {'$eq': {'RECVDATE':"
+12218,The HAVRIX® Hepatitis A Vaccine is the only hepatitis A vaccine that provides long-term protection from hepatitis A infection. It is recommended by the Centers for Disease Control
+12281,The most popular Hepatitis B Vaccines are Recombivax-Hb and Engerix-B. Both of these vaccines have been shown to be safe and effective in preventing Hepatitis B infection.
+12282,"The most popular HIB (ACTHIB) vaccine is PRP-D series.
+
+### ElasticSearch Query:
+
+GET my_index/my_type/_search
+{
+	""query"": {"
+12295,"###[{'$and': [{'$or': [{'$eq': {'IL6': '1087'}}, {'$eq': {'IL8': '2459'}}]}, {'$or':"
+12297,"###denominator: 1000000
+###numerator: 268
+###answer: True"
+12306,"###[{'$and': [{'$or': [{'VAERS.RECVDATE': {'$gte': '2016-08-01T00:00:00Z', '$"
+12331,"###[{""attributes"":{},""text"":""Nasal dryness""},{""attributes"":{},""text"":""Nasal dryness""},{""attributes"":{},""text"":""Nasal dryness""},{""attributes"":{"
+12334,"""vaccine"": [ ""measles"", ""mumps"", ""rubella"", ""varicella"", ""rotavirus"", ""yellow fever"", ""OPV"", ""IPV"", ""DTaP"", ""T"
+12336,"###denominator: 100000
+###numerator: 23
+###answer: false"
+12345,"""eye-inflammation-after-vaccine"" : {
+	""$all"": [
+		{
+			""$and"": [
+				{ ""VAERS.RECVDATE"":"
+12373,"###[{'$and': [{'$or': [{'VAERS_ID': '1234567890ABCDEF'}, {'VAERS_ID': ''}]}, {'$or': [{'RE"
+12403,"""query"": {
+    ""filtered"": {
+      ""filter"": {
+        ""bool"": {
+          ""should"": [
+            {""term"": {""VAERS_ID"": ""123456789"
+12431,"""filter"": {
+	""bool"": {
+		""should"": [
+			{ ""term"": { ""VAERS_ID.id"": 123456789 }},"
+12446,"###[{'$gte': {'$date': '2021-05-04T09:36:18Z'}, '$or': [{'$and': [{'$eq': '2"
+12449,1.  2021-04-26 13:59:58.77+0530   14667  2021-04-26 1
+12506,"###[filtered_query(query_string(match_all=true),facet_counts_facet)]"
+12514,Product use complaint has occurred in 12 people who have received a vaccine.
+12540,"The total number of individuals who developed Mania after receiving a vaccination is 12.
+The number of individuals who developed Mania after any of the listed vaccines is 12."
+12545,"###[{'took':164,""total_rows"":2097,""facets"":{},""spellcheck"":{""exact_match"":true,""num_results"":1}}]"
+12554,"###[?count=true] 
+###[?query=vax_lot:'2014-2015' AND vax_name:'Tdap' AND allergy:false AND symptom"
+12555,"###[{'$exists': False}, {'$ne': True}]"
+12560,###[*:vaccine=2016-17; op=>=; f=ear irrigation; d=after; o=count]
+12571,The number of individuals with an event of Infrequent bowel movements after vaccine is 10.
+12579,"""vaccination-site-abscess"": 10"
+12602,"###denominator: 
+The total number of vaccinations administered."
+12606,"###denominator: 100 
+numerator: 23 
+result: 23% 
+
+###denominator: 456 
+numerator: 100"
+12631,"###denominator: 
+The total number of Tracheostomy malfunction events associated with the vaccination."
+12634,"###denominator: 
+The total number of vaccinated individuals."
+12653,###No Matches Found.
+12679,###deny: true
+12686,"###denominator: 
+The total number of patients who had Biopsy lung associated with the vaccination."
+12689,"###denominator: 
+The total number of vaccinations administered."
+12713,"###denominator: 
+The total number of patients who developed Acute motor axonal neuropathy after receiving a vaccination."
+12714,"###denominator: 1000000 
+numerator: 236 
+result: 236/1000000 = 0.000023"
+1272,"""@timestamp"": ""2015-07-30T19:56:59Z"",
+""results"": [
+	{
+		""_index"": ""vax-records"","
+12730,###Answer: yes
+12739,"Query : 
+{ ""match"": { ""VAERS_ID"": ""102385"" } }"
+12748,"Yes, there is a patient with IIIrd nerve disorder after vaccine."
+12755,"No, there is no such instance in the given data."
+12774,"No, there is no evidence of a direct interaction between the vaccine and semen production in humans. Studies have shown that vaccines do not affect sperm count or morphology. 
+Azoospermia (absence of"
+12781,"yes                  →  100% match
+no                    →  0% match"
+12806,"Yes, there is a patient with Neuralgia after vaccine."
+12809,"No, there is no such thing as dependence after vaccination. Vaccines work by stimulating your immune system to produce antibodies that can prevent future infections from a specific pathogen. The protection provided by vacc"
+12811,"No, there is no such person."
+12826,"Yes, there is a patient with Enlarged uvula after vaccine."
+12837,"No, there is no such indication in the given data set."
+12838,"No, there is no such person."
+12842,"Yes, there is a patient who has Delirium tremens after vaccine."
+12847,"No, there is no person who have cytomegalovirus viraemia after vaccine."
+12874,"No, there is no such association found in given data."
+12879,"yes
+no"
+12882,"No, we didn't find any person have Oesophageal perforation after vaccine."
+12899,"The most common adverse event after vaccination with whole-cell pertussis vaccine was pain at the injection site. Fever, vomiting, irritability, drowsiness, anorexia, and fuss"
+12911,"Yes there are complications after vaccination but they are rare. The most common complication is injection site reactions such as pain, swelling, redness, and fever. These usually go away in 1 or 2 days"
+12937,"Yes
+No"
+12950,"As of March 2019, there have been no confirmed serious adverse events attributed to PCV13-related protein or to PPSV23 co-administration in either the VAERS or the CDC'"
+12951,"Option a: Fever
+Option b: Rash
+Option c: Seizures
+Option d: Anaphylaxis
+Option e: Syncope
+
+###Answer: OPTION A IS CORRECT."
+12961,"###[*:vaccines/text]
+
+###[*:vaccines/body]"
+12963,No results found.
+12969,The most common adverse event after vaccination with Janssen's COVID-19 vaccine was a mild fever (>37.5°C) within 7 days of any dose. The inc
+12981,Syncope (107) > Seizure (36) > Hypotension (29) > Apnea (24)> Cyanosis (21) > Respiratory arrest (18) > Gu
+12996,"The most common adverse event after vaccination with PCV13 was injection site pain (64.0%). Other frequently repoed events were fever (59.7%), irritability (58.2%"
+13020,###Answer: OPTION C IS CORRECT.
+13028,"###[{'$or': [{'$and': [{'$ne': 'Osteoarthritis'}, {'$exists': False}]}, {'$exists': True}]}}]"
+1307,###[c.f. 2015/08/04 07:39:56]
+1349,"###deny: 
+Return all records where the value of the RECVDATE field is less than or equal to now - 1d.
+Answer: true
+
+###prompt: 
+Return all records where the"
+136,"""@timestamp"": ""2022-04-02T13:59:56Z"",
+""@version"": 7,
+""results"": [
+  {
+    ""hit"": {"
+1361,"{
+  ""results"" : [
+    {
+      ""hit"" : {
+        ""_index"" : ""clinicalnotes"",
+        ""_type"" : ""note"",
+        ""_id"" : ""AVDvp"
+1378,"""cageMonths"": ""0.3"""
+1379,"""cageMonths"": ""0.9"""
+1409,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""RECVDATE"" : {
+              ""value"" : ""03"
+143,"""@timestamp"": ""2022-01-31T00:00:00.000Z"",
+""@version"": 6,
+""results"": [
+  {
+    ""hit"
+1435,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""RECVDATE"" : {
+              ""value"" : ""02"
+1452,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""RECVDATE"" : {
+              ""value"" : ""01"
+1453,"{
+""results"" : [
+	{
+		""_index"" : ""vax-tracker"",
+		""_type"" : ""patient"",
+		""_id"" : ""3"","
+1461,"{
+""results"" : [
+	{
+		""_index"" : ""vax-tracker"",
+		""_type"" : ""patient"",
+		""_id"" : ""4567"
+1506,"Query : 
+{ ""query"" : { ""bool"" : { ""must"" : [ { ""term"" : {""VAERS_ID"":167458} }, { ""term"" : {""RECVDATE"":""2"
+1509,"###denormalized_json: {
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""RECVDATE"" : {"
+151,"""@timestamp"": ""2022-03-01T00:00:00.000Z"",
+""@version"": 7,
+""results"": [
+  {
+    ""hit"
+1517,"###[?count=patients(RECVDATE:01/11/2022)][and]
+###[?count=patients(STATE:""completed"")]."
+1519,###[?count=patients(RECVDATE:12/30/2021)]
+1524,###[?('RECVDATE: 02/27/2022) AND (NOT ('RECVDATE: 02/28/2022)) ]
+1542,###[?('RECVDATE: 02/23/2022) AND (NOT ('RECVDATE: 02/24/2022 OR 'RECVDATE: 02
+1553,"""vaccination"": { ""value"": ""2014-09-26T08:53:57.74Z"" }, 
+""tympanicmembranedisorder"": {"
+1577,"{
+  ""took"":1367,
+  ""results"":[
+    {
+      ""found"":245,
+      ""hit"":{
+        ""_index"":""vax-qa-dev"","
+1581,"""vaccine_type"": ""BNT162b2"",
+""patient_id"": ""10000000000000000000000000"
+1604,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : { ""VAERS_ID"" : 123456789 }"
+1606,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : 12345678"
+1619,"{
+  ""results"" : [
+    {
+      ""hit"" : {
+        ""_index"" : ""clinicalnotes"",
+        ""_type"" : ""note"",
+        ""_id"" : ""1"","
+1626,"{
+  ""query"" : {
+    ""filtered"" : {
+      ""filter"" : [
+        {
+          ""bool"" : {
+            ""must"" : [
+              {
+                ""term"" : {"
+1627,"""vaccine_administration"": { ""value"": ""2016-08-24T09:35:57Z"", ""boosted"": false }, 
+""recv_date"": { """
+1628,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : ""12345678"
+163,"""@timestamp"": ""2022-03-31T00:00:00.000Z"",
+""@version"": 7,
+""results"": [
+  {
+    ""hit"
+1649,"""vaccines"": [ ""MMR"", ""OPV"", ""IPV"", ""DTaP"", ""Tdap"", ""HepB"", ""Rotavirus"", ""Influenza"", ""PCV"", ""PPS"
+1663,"""vaccination[type=inactivated-viral,value=measles-mumps-rubella (MMR)],state=completed,recdat=2014-09-03"
+1665,"{
+  ""results"" : [
+    {
+      ""patient"" : ""100000000000004"",
+      ""bloodtestosterone"" : ""normal"""
+1668,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : ""12345678"
+1676,"{
+		""_index"": ""clinicalnotes"",
+		""_type"": ""patient"",
+		""_id"": ""1"",
+		""_version"": 3,
+		"""
+1717,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : ""12345678"
+1736,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : { ""VAERS_ID"" : 123456789 }"
+1740,"""hits"": [
+	{
+		""_index"": ""vax-qa-dev"",
+		""_type"": ""patient"",
+		""_id"": ""1"",
+		""_score"
+1747,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : ""12345678"
+175,"""@timestamp"": ""2022-04-13T00:00:00Z"",
+""@version"": 7,
+""results"": [
+  {
+    ""hit"": {"
+1750,"""vaccination"" : ""2016-09-27T05:00:00Z"",
+""age"" : {
+	""min"" : 3,
+	""max"" :"
+1773,"{
+  ""took"":167,""docs"":[
+    {
+      ""_index"":""vaccine-clinical-data"",""_type"":""adverse-event"",""_id"":""2""
+    }"
+1794,"{
+	""_index"": ""clinicalnotes"",
+	""_type"": ""patient"",
+	""_id"": ""1"",
+	""_source"": {
+		""_raw"": ""{\"""
+1802,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : 12345678"
+1817,"{
+	""_index"": ""clinicalnotes"",
+	""_type"": ""patient"",
+	""_id"": ""1"",
+	""_source"": {
+		""_raw"": ""{\"""
+182,"""@timestamp"": ""2022-04-25T13:49:57Z"",
+""@version"": 1,
+""results"": [
+  {
+    ""hit"": {"
+1820,"{
+  ""results"" : [
+    {
+      ""hit"" : {
+        ""_index"" : ""vax-records"",
+        ""_type"" : ""patient"",
+        ""_id"" : ""10"
+1826,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : ""12345678"
+183,"""@timestamp"": ""2022-01-23T00:00:00.000Z"",
+""state"": ""NC"",
+""age_yrs"": 67,
+"""
+1831,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : ""12345678"
+1833,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : ""12345678"
+1835,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : ""12345678"
+1840,"{
+	""_index"": ""clinicalnotes"",
+	""_type"": ""patient"",
+	""_id"": ""1"",
+	""_source"": {
+		""_raw"": ""{\"""
+1862,"SELECT DISTINCT RECVDATE, STATE, AGE_YRS, VAERS_ID, SEX, SYMPTOM_TEXT, DIED, ER_VISIT, L_THREAT, HOSP"
+1873,"SELECT DISTINCT RECVDATE, STATE, AGE_YRS, VAERS_ID, SEX, SYMPTOM_TEXT, DIED, ER_VISIT, L_THREAT, HOSP"
+1878,"###[{""ANKLE_FRACTURE"":{""$in"":[""Ankle fracture""]}}]"
+1880,"###denominator: 1000000
+###numerator: 234
+###answer: yes"
+1886,"""fournier's gangrene"": [ ""symptom_text"" ]
+
+Lab Results:  Find all patients with a positive HIV test result. 
+Answer:
+
+""hiv"": [""lab_data"
+1890,"###denominator: Patients with Rhesus antigen negative 
+###numerator: Patients who developed anaphylaxis after receiving whole cell pertussis vaccine."
+1914,"SELECT DISTINCT RECVDATE, STATE, AGE_YRS, VAERS_ID, SEX, SYMPTOM_TEXT, DIED, ER_VISIT, L_THREAT, HOSP"
+1941,"SELECT DISTINCT RECVDATE, STATE, AGE_YRS, VAERS_ID, SEX, SYMPTOM_TEXT, DIED, ER_VISIT, L_THRET, HOSP"
+1987,###[varicella-negative]
+199,"""@timestamp"": ""2022-01-13T00:00:00Z"",
+""@version"": 1,
+""results"": [
+  {
+    ""hit"": {"
+1990,"###denominator: 100 
+numerator: 26 
+percentage: 26% 
+
+###denominator: 398 
+numerator: 100"
+2021,"###[{'match': {'AND': [{'term': {'VAERS_ID': '107485'}}, {'term': {'RECVDATE': '2016-03-09T0"
+2036,"""vaccination : [ { ""type"" : ""MMR"", ""lot"" : ""160752"", ""manufacturer"" : ""Merck"", ""name"" : ""MMR II"", ""doseSeries"
+2049,###[perfusion-brain-scan-normal-after-vaccination]: 1
+2055,"###[{'match': {'and': [{'term': {'VAERS_ID': '107468'}}, {'term': {'RECVDATE': '2015-03-09T0"
+2061,"Total number of patients with KETOSIS after vaccination: 10856
+Total number of patients without KETOSIS after vaccination: 493729
+Percentage of patients with K"
+2124,"###[{'match': {'and': [{'term': {'VAERS_ID': '10786'}}, {'term': {'RECVDATE': '2015-04-23T00"
+2130,"""vaccine-reaction-and-associated-conditions"": {
+    ""type"": ""record"",
+    ""id"": ""456789012345678901"
+2131,"###[{'match': {'AND': [{'term': {'VAERS_ID': '107869'}}, {'range': {'RECVDATE': ['2014-03-05T0"
+2156,"type: clinical-note,
+title: Fungal pharyngitis is the most common symptom after  vaccination"
+2200,"type: synonyms
+text: Increased numbers of intestinal intraepithelial lymphocytes (IEL) are seen in patients with gastrointestinal disease, such as celiac disease, tropical"
+2202,###Answer: OPTION A IS CORRECT.
+221,"""@timestamp"": ""2022-03-22T14:59:57Z"",
+""@version"": 1,
+""results"": [
+	{
+		""@name"": """
+2223,Synovial biopsy is the most common symptom after  vaccination
+2254,"type: synonyms (ANTIGEN)
+synonyms: Enterobacter bacteraemia"
+2262,###Answer: OPTION A IS CORRECT.
+2270,###[*] The correct answer is LAB_DAT as it has maximum frequency among all the given options.
+2286,Synonym:  Traumatic lung injury is the most common symptom after  vaccination
+2320,"{
+  ""results"" : [
+    {
+      ""hit"" : {
+        ""_index"" : ""clinical"",
+        ""_type"" : ""patient"",
+        ""_id"" : ""3456"
+2350,"{
+  ""results"" : [
+    {
+      ""hit"" : {
+        ""_index"" : ""clinical"",
+        ""_type"" : ""patient"",
+        ""_id"" : ""1346"
+236,"""@timestamp"": ""2022-05-22T14:36:59.787Z"",
+""@version"": 1,
+""results"": [
+  {
+    ""hit"
+2375,"{
+  ""results"" : [
+    {
+      ""hit"" : {
+        ""_index"" : ""clinical"",
+        ""_type"" : ""patient"",
+        ""_id"" : ""1234"
+2382,"""hits"": [
+	{
+		""_index"": ""vax-tracker"",
+		""_type"": ""patient"",
+		""_id"": ""4"",
+		""_score"":"
+2391,"{
+""results"" : [
+	{
+		""_index"" : ""vaccine-records"",
+		""_type"" : ""patient"",
+		""_id"" : ""4"","
+2405,"{
+  ""results"" : [
+    {
+      ""hit"" : {
+        ""_index"" : ""clinical"",
+        ""_type"" : ""patient"",
+        ""_id"" : ""1368"
+2408,"{
+  ""results"" : [
+    {
+      ""hit"" : {
+        ""_index"" : ""clinical"",
+        ""_type"" : ""patient"",
+        ""_id"" : ""3456"
+2419,"{
+  ""results"" : [
+    {
+      ""hit"" : {
+        ""_index"" : ""clinical"",
+        ""_type"" : ""patient"",
+        ""_id"" : ""3456"
+2426,"{
+  ""took"":568,
+  ""total"":147,
+  ""max_score"":0.0,
+  ""results"": [
+    {
+      ""vaccineeId"":""1"
+243,"""@timestamp"": ""2022-05-04T19:36:58.772Z"",
+""@version"": 1,
+""results"": [
+  {
+    ""hit"
+2438,"{
+  ""from"": 1648579600000,
+  ""size"": 1,
+  ""query"": {
+    ""bool"": {
+      ""must_not"": ["
+247,"""@timestamp"": ""2022-01-05T00:00:00.000Z"",
+""@version"": 3,
+""results"": [
+  {
+    ""hit"
+2479,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        { ""term"" : { ""RECVDATE"" : ""09/15/2021"" } },"
+2497,"{
+  ""took"":37,
+  ""total"":1689,
+  ""results"":[
+    {
+      ""hit"":{
+        ""_index"":""vaccine"",
+        ""_type"":""reci"
+2512,"{
+  ""took"":34,
+  ""total"":1,
+  ""results"":[
+    {
+      ""found"":true,
+      ""hit"":{
+        ""_index"":""vaccine"","
+2518,"{
+  ""took"":568,
+  ""results"":[
+    {
+      ""found"":true,
+      ""hit"":{
+        ""_index"":""vaccine"",
+        ""_type"":""recipient"
+2519,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        { ""term"" : { ""RECVDATE"" : ""12/05/2021"" } },"
+2525,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        { ""term"" : { ""RECVDATE"" : ""10/01/2021"" } },"
+2535,"{
+  ""took"":1687,
+  ""results"":[
+    {
+      ""found"":true,
+      ""hit_count"":1,
+      ""max_score"":1.0,"
+2538,"{
+  ""took"":34,
+  ""total"":1,
+  ""results"":[
+    {
+      ""found"":true,
+      ""hit"":{
+        ""_index"":""vaccine"","
+2564,###[{'$gte': {'$date': '07/15/2021'}}]
+2587,"###[type=query, query=""state:DEAD and date:2021-11-10T00:00:00.000Z"", filter_container=true]"
+2606,###[{'$gte': {'$date': '07/25/2021'}}]
+2607,"###[{'$gte': {'$date': '2022-02-27T00:00:00Z'}}, {'$lte': {'$date': '2022"
+2612,###[script:lang-javascript][query:*:*]
+2626,"###[script:lang-javascript]{""query"":{""bool"":{""must"":[{""range"":{""days"":{""gte"":""06"",""lte"":""07""}}},{""term"":{""died"":{""value"":true}}}]}},"""
+2634,###[{'$gte': {'$date': '04/12/2022'}}]
+266,"""@timestamp"": ""2022-03-28T19:54:56.772Z"",
+""@version"": 1,
+""results"": [
+  {
+    ""hit"
+2661,###[script:lang-javascript][query:*:*]
+2686,"###[{'match': {'and': [{'term': {'RECVDATE': '2021-09-08T00:00:00.000Z'}}]}},
+{'"
+2694,"###[{'match': {'and': [{'term': {'RECVDATE': '2022-01-09'}}]}},
+    {'terms': {'STATE': ['deceased']}}]"
+2727,"###[{'match': {'and': [{'term': {'RECVDATE': '2021-03-07'}}]}},
+    {'terms': {'STATE': ['died']}}]"
+273,"""@timestamp"": ""2022-02-08T19:54:37.672Z"",
+""@version"": 1,
+""results"": [
+  {
+    ""hit"
+2781,"{
+  ""answer"": {
+    ""question"": ""How many patients died on 01/19/2022"",
+    ""answer"": 34567,
+    ""confidence"": 0"
+2792,"{
+  ""answer"": {
+    ""question"": ""How many patients died on 10/24/2021"",
+    ""answer"": 35687,
+    ""confidence"": 1"
+281,"""@timestamp"": ""2022-05-06T19:47:38.772Z"",
+""@version"": 1,
+""results"": [
+  {
+    ""hit"
+2824,"""hospitalized"": {
+    ""duration"": {
+        ""greaterThan"": ""50d""
+    }
+}
+
+###Output:
+{
+    ""query"": {
+        ""filtered"":"
+2826,"{
+  ""results"" : [
+    {
+      ""hit"" : {
+        ""_index"" : ""vax-tracker"",
+        ""_type"" : ""patient"",
+        ""_id"" : ""2"","
+2829,"{
+""results"" : [
+	{
+		""_index"" : ""vax-tracker"",
+		""_type"" : ""patient"",
+		""_id"" : ""1234"
+2834,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : ""12345678"
+2836,"""hospitalized_days"": 52,"
+2853,"{
+""results"" : [
+	{
+		""_index"" : ""vax-track"",
+		""_type"" : ""patient"",
+		""_id"" : ""2"","
+2909,SELECT FROM vaccine_recipient WHERE (RECVDATE > now() - interval '55' day) AND (HOSPITAL = true);
+291,"###[?count=true] [?query_string=""FIELD(RECVDATE,'03/05/2022')""]"
+2918,SELECT FROM vaccine WHERE (RECVDATE > now - 16d AND RECVDATE < now) AND STATE = 'CA' AND HOSPDAYS >= 4
+2952,"###[?('hospitalized').between(45,45)]"
+2960,"###[?('hospitalization'<23,'hospitalization'=23),'hospitalization']
+
+###[?('hospitalization'<23)],'hospitalization'=2"
+3010,SELECT COUNT(DISTINCT(patient_id)) FROM vaccine_administration WHERE hospitalization_days > 17;
+3027,"###[?('hospitalization_days',45), AND ('patient',1), ALL]"
+3029,"###[?('hospitalization_days',42),'state':1]"
+3033,"###[?('hospitalization_days: [59]'), {}]"
+3036,"###[?count=1,filter= AND ( RECEVDATE: { ""from"" : ""2020-05-01T00:00:00Z"", ""to"" : """
+3037,"###[?('hospitalization_days':114), AND ('patient_id':1234567890)]"
+3069,"###[?('hospitalization_days',23),'count()']"
+3074,"Query: 
+{ ""match"": { ""recvdate"": { ""from"": ""2015-01-01"", ""to"": ""2016-12-31"" }}}
+Results:"
+3091,"###Elasticsearch Query:
+
+GET my_index/my_type/_count
+{
+	""query"": {
+		""filtered"": {
+			""filter"": {"
+3113,"""hits"": [
+	{
+		""_index"": ""vax-dev"",
+		""_type"": ""patient"",
+		""_id"": ""3"",
+		""_score"":"
+313,"###[*:*]:
+
+{
+""from"": ""2022-01-29T00:00:00.000+0530"",
+""size"":"
+3136,"""hits"": [
+	{
+		""_index"": ""vax-dev"",
+		""_type"": ""patient"",
+		""_id"": ""3"",
+		""_score"":"
+3152,"{
+""results"" : [
+	{
+		""_index"" : ""vax"",
+		""_type"" : ""patient"",
+		""_id"" : ""3"",
+		""_"
+3156,"""hits"": [
+	{
+		""_index"": ""vaccine-express"",
+		""_type"": ""patient"",
+		""_id"": ""1"",
+		""_score"":"
+3160,"""vaccine_administration"":{""date"":""2013-09-29T00:00:00Z""},""patient"":{""id"":1,""birthDate"":""1921-0"
+3164,"""hits"": [
+	{
+		""_index"": ""vax-dev"",
+		""_type"": ""patient"",
+		""_id"": ""3"",
+		""_score"":"
+3167,"{
+""results"" : [
+	{
+		""_index"" : ""vax"",
+		""_type"" : ""patient"",
+		""_id"" : ""3"",
+		""_"
+3169,"{
+""results"" : [
+	{
+		""_index"" : ""vax"",
+		""_type"" : ""patient"",
+		""_id"" : ""3"",
+		""_"
+3170,"{
+""results"" : [
+	{
+		""_index"" : ""vax"",
+		""_type"" : ""patient"",
+		""_id"" : ""1"",
+		""_"
+3202,"""hits"": [
+	{
+		""_index"": ""vaccine-express"",
+		""_type"": ""patient"",
+		""_id"": ""4"",
+		""_score"":"
+324,"###[?count=true] [?query_string=""FIELD(RECVDATE,'02/15/2022')""]"
+3253,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : ""12345678"
+3258,"{
+  ""took"":164,
+  ""total_rows"":157,
+  ""max_score"":1.0,
+  ""docs"": [
+     {
+       ""id"":""1"","
+3261,"{
+""results"" : [
+	{
+		""_index"" : ""vaccine"",
+		""_type"" : ""patient"",
+		""_id"" : ""3"",
+		"""
+3276,"{
+""results"" : [
+	{
+		""_index"" : ""vax"",
+		""_type"" : ""patient"",
+		""_id"" : ""1"",
+		""_"
+3277,"{
+""results"" : [
+	{
+		""_index"" : ""vaccine"",
+		""_type"" : ""patient"",
+		""_id"" : ""3"",
+		"""
+3296,"{
+""results"" : [
+	{
+		""_index"" : ""vaccine"",
+		""_type"" : ""patient"",
+		""_id"" : ""3"",
+		"""
+3298,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : ""12345678"
+330,"###[?count=true] [?query_string=""FIELD(RECVDATE,'04/10/2022')""]"
+3315,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : {
+              ""value"" : ""1"
+3334,"{
+  ""took"":568,""docs"":[
+    {
+      ""patient_id"":""123456789"",
+      ""recvdate"":""2022-01-"
+3336,"{
+""results"" : [
+	{
+		""_index"" : ""vaccine"",
+		""_type"" : ""patient"",
+		""_id"" : ""1"",
+		"""
+3340,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : ""12345678"
+3344,"{
+""results"" : [
+	{
+		""_index"" : ""vaccine"",
+		""_type"" : ""patient"",
+		""_id"" : ""1"",
+		"""
+3346,"{
+""results"" : [
+	{
+		""_index"" : ""vaccine"",
+		""_type"" : ""patient"",
+		""_id"" : ""3"",
+		"""
+337,"###[?count=true] [?query_string=""FIELD(RECVDATE,'03/08/2022')""]"
+3376,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : ""12345678"
+3386,"###[{'$or': [{'$and': [{'$eq': ['$RECVDATE', '02/03/2021']}, {'$eq': ['$VAERS_ID', '4"
+3404,"###[{'$gte': {'$date': '04/06/2022'}}]
+
+###[{'$lte': {'$date': '04/06/20"
+3421,"###[{'$or': [{'$and': [{'$eq': ['$RECVDATE', '08/04/2021']}, {'$eq': ['$VAERS_ID', '']"
+3444,"###[{'$or': [{'$and': [{'$eq': ['$RECVDATE', '05/10/2021']}, {'$eq': ['$VAERS_ID', '4"
+3445,"###[{'$or': [{'$and': [{'$eq': ['$RECVDATE', '02/25/1901']}, {'$eq': ['$VAERS_ID', '']"
+3491,"###[{'$or': [{'$and': [{'$eq': ['$RECVDATE', '12/17/2021']}, {'$eq': ['$VAERS_ID', '4"
+3526,"{
+""_index"": ""clinicalnotes"",
+""_type"": ""patient"",
+""_id"": ""1"",
+""_source"": {
+""_all"": {
+""$query"": ""vaccine"
+3549,"{
+""_index"": ""clinicalnotes"",
+""_type"": ""patient"",
+""_id"": ""3"",
+""_version"": 6,
+""found"": true,
+""matched"": {"
+3557,"{
+""_index"": ""clinicalnotes"",
+""_type"": ""patient"",
+""_id"": ""1"",
+""_version"": 67385997,
+""found"": true,"
+3560,"{
+""_index"": ""clinicalnotes"",
+""_type"": ""patient"",
+""_id"": ""1"",
+""_version"": 6,
+""found"": true,
+""matched"": false,"
+3563,"{
+""_index"": ""clinicalnotes"",
+""_type"": ""patient"",
+""_id"": ""1"",
+""_version"": 1,
+""found"": true,
+""matched"": {"
+357,###[script:lang-javascript][query:*:*]
+3601,"{
+""found"":true,""hitcount"":1,""hits"":[{""_index"":""vaccine-explore"",""_type"":""_doc"",""_id"":""1"",""fields"":{""RECVDATE"":""08/30/"
+3602,"{
+""_index"": ""clinicalnotes"",
+""_type"": ""patient"",
+""_id"": ""1"",
+""_source"": {
+""_all"": {
+""$query"": ""vaccine"
+3629,"{
+""_index"": ""clinicalnotes"",
+""_type"": ""patient"",
+""_id"": ""1"",
+""_version"": 67893,
+""found"": true,
+""match"
+3645,"{
+""results"" : [ {
+""answer"" : ""1"",
+""matched"" : true,
+""relationship"" : ""is_a"",
+""relevance"" : 100.0"
+3647,"{
+""_index"": ""clinicalnotes"",
+""_type"": ""patient"",
+""_id"": ""1"",
+""_source"": {
+""_all"": {
+""$query"": ""vaccine"
+3657,"Query : 
+{
+""query"" : {
+""bool"" : {
+""must"" : [
+{
+""term"" : { ""RECVDATE"" : { ""from"" : ""2021-10"
+3679,"""_query"": {
+""bool"": {
+""must"": [
+{
+""range"": {
+""recvdate"": {
+""gte"": ""2021-06-05T00:0"
+3695,"""_query"": {
+		""filtered"": {
+			""filter"": {
+				""and"": {
+					{ ""term"": { ""RECVDATE"": { ""from"
+3710,"""_query"": {
+""bool"": {
+""must"": [
+{
+""range"": {
+""recvdate"": {
+""gte"": ""2021-06-13""
+}
+}"
+3717,"{
+""results"" : [
+	{
+		""_index"" : ""vaccine-adverse"",
+		""_type"" : ""patient"",
+		""_id"" : ""3"","
+3732,"{
+	""_index"": ""vaccine-adverse"",
+	""_type"": ""patient"",
+	""_id"": ""1"",
+	""_version"": 1,
+	""RECVDATE"
+3749,"""_query"": {
+""bool"": {
+""must"": [
+{
+""range"": {
+""recvdate"": {
+""gte"": ""2021-12-16T00:0"
+3767,"""_query"": {
+""bool"": {
+""must"": [
+{
+""range"": {
+""recvdate"": {
+""gte"": ""2021-11-30T00:0"
+3771,"""_query"": {
+""bool"": {
+""must"": [
+{
+""range"": {
+""recvdate"": {
+""gte"": ""2021-06-08""
+}
+}"
+38,"{
+""results"" : [
+	{
+		""_index"" : ""vaccine-records"",
+		""_type"" : ""patient"",
+		""_id"" : ""456"
+380,"###Day 1: 2022-01-05
+###Answer: true"
+3811,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : ""17345896"
+3815,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : ""16375408"
+382,"###[*] Day = 2022-01-09
+###[*] Month = Jan
+###[*] Year = 2022
+
+###[*] Total number"
+3853,"{
+""results"" : [
+	{
+		""_index"" : ""vaccine-adverse"",
+		""_type"" : ""patient"",
+		""_id"" : ""4"","
+3856,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : ""12345678"
+3857,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : ""12345678"
+3859,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : ""16345809"
+3861,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : ""12345678"
+3865,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : ""16375809"
+387,###[*date:2022-03-31]
+3913,"{
+""results"" : [
+	{
+		""_index"" : ""vax-tracker"",
+		""_type"" : ""patient"",
+		""_id"" : ""1"","
+3916,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : ""12345678"
+3917,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : ""16378400"
+3918,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : ""1436875"""
+3924,"""_query"": {
+""filtered"": {
+""query"": {
+""bool"": {
+""must"": [
+{
+""range"": {
+""RECVDATE"": {
+""gte"": ""2015"
+3931,"""@timestamp"": ""2015-12-04T00:00:00Z"",
+""@version"": 1,
+""@creator"": null,
+""@lastModified"": """
+3941,"""@timestamp"": ""2022-03-23T14:59:57.687Z"",
+""@version"": 11,
+""adverseevent"": {
+""age_"
+3959,"""@timestamp"": ""2019-08-15T00:00:00Z"",
+""@version"": 16,
+""@seq"": 734,
+""@etag"
+3968,"""@timestamp"": ""2021-12-29T00:00:00Z"",
+""@version"": 3
+}
+
+### END TEST CASE"
+3993,"""@timestamp"": ""2020-05-01T00:00:00Z"",
+""@timestamp_string"": ""May 1, 2020"",
+""@source"": {"
+4014,"""@timestamp"": ""2020-12-31T00:00:00Z"",
+""@timestamp_string"": ""2020-12-31"",
+""@source"":"
+4050,"""@timestamp"": ""2020-01-23T00:00:00Z"",
+""@version"": 1564798445744784,"
+4055,"""@timestamp"": ""2021-12-11T00:00:00Z"",
+""@version"": 3
+}
+
+### END TEST CASE"
+4065,"""hits"": [
+	{
+		""_index"": ""vaccine-adverse-event"",
+		""_type"": ""record"",
+		""_id"": ""16"",
+		"""
+4087,"""hits"": [
+	{
+		""_index"": ""vaccine-adverse-event"",
+		""_type"": ""vaccine-adverse-event"",
+		""_id"": """
+4088,"""hits"": [
+	{
+		""_index"": ""vaccine-adverse-event"",
+		""_type"": ""record"",
+		""_id"": ""3"",
+		""_"
+41,"{
+""results"" : [
+	{
+		""_index"" : ""vax-records"",
+		""_type"" : ""patient"",
+		""_id"" : ""4567"
+4112,"""hits"": [
+	{
+		""_index"": ""vaccine-adverse-event"",
+		""_type"": ""record"",
+		""_id"": ""36475"","
+4116,"""hits"": [
+	{
+		""_index"": ""vaccine-adverse-event"",
+		""_type"": ""record"",
+		""_id"": ""16"",
+		"""
+4120,"""hits"": [
+	{
+		""_index"": ""vaccine-adverse-event"",
+		""_type"": ""record"",
+		""_id"": ""3"",
+		""_"
+4127,"""hits"": [
+	{
+		""_index"": ""vaccine-adverse-event"",
+		""_type"": ""vaccine-adverse-event"",
+		""_id"": """
+4153,"""hits"": [
+	{
+		""_index"": ""vaccine-adverse-event"",
+		""_type"": ""record"",
+		""_id"": ""36459"","
+4158,"""hits"": [
+	{
+		""_index"": ""vaccine-adverse-event"",
+		""_type"": ""vaccine-adverse-event"",
+		""_id"": """
+4169,"""hits"": [
+	{
+		""_index"": ""vaccine-adverse-event"",
+		""_type"": ""vaccine-adverse-event"",
+		""_id"": """
+4179,"""hits"": [
+	{
+		""_index"": ""vaccine-adverse-event"",
+		""_type"": ""record"",
+		""_id"": ""3"",
+		""_"
+4200,"""hits"": [
+	{
+		""_index"": ""vaccine-adverse-event"",
+		""_type"": ""record"",
+		""_id"": ""3"",
+		""_"
+4201,"""hits"": [
+	{
+		""_index"": ""vaccine-adverse-event"",
+		""_type"": ""record"",
+		""_id"": ""3"",
+		""_"
+4248,"""_exists"":true,""_type"":""range"",""_field"":""interval(RECVDATE,ONSETDATE)"",""_format"":""epoch_millis"",""_from"":1590273600000"
+425,"###[*date(2022-05-14): ""2022-05-14T00:00:00Z""](https://www.elastic.co/"
+4260,"""_exists"":true,""_type"":""range"",""_field"":""interval(RECVDATE,ONSETDATE)"",""_format"":""epoch_millis"",""_from"":1635807680000"
+4280,"""_exists"":true,""_type"":""date"",""field"":""ONSETDATE"",""format"":""yyyy-MM-dd HH:mm:ss.SSSZZZZ""}},""interval"":{""gte"":382,""l"
+4320,"""_exists"":true,""_type"":""date"",""field"":""ONSETDATE"",""format"":""yyyy-MM-dd HH:mm:ss.SSSZ""}},""interval"":{""to"":154923680"
+4333,"""_source"": {
+    ""RECVDATE"": ""2017-09-08T00:00:00"",
+    ""STATE"": ""CA"",
+    ""AGE_YRS"": """
+4342,"""$query"": {
+""bool"": {
+""must"": [
+{
+""range"": {
+""recvdate"": {
+""gt"": ""2016-09-01T00:00"
+4345,"""$query"": {
+""bool"": {
+""must"": [
+{
+""range"": {
+""$or"": [
+{""field"": ""RECVDATE"", ""gt"": ""2015-08-2"
+4367,"""$query"": {
+""bool"": {
+""must"": [
+{
+""range"": {
+""$or"": [
+{""field"": ""RECVDATE"", ""gt"": ""2017-08-3"
+4385,"""$query"": {
+""bool"": {
+""must"": [
+{
+""range"": {
+""$or"": [
+{""field"": ""RECVDATE"", ""gt"": ""2016-08-3"
+4397,"""vaccinationDate"": ""2014-08-07T06:39:49.74Z"",
+""onsetDate"": ""2014-08-22T0"
+4406,"""$query"": {
+""bool"": {
+""must"": [
+{
+""range"": {
+""$or"": [
+{""field"": ""RECVDATE"", ""gt"": ""2016-08-2"
+4418,"""$query"": {
+""bool"": {
+""must"": [
+{
+""range"": {
+""$or"": [
+{""field"": ""RECVDATE"", ""gt"": ""2016-08-3"
+4419,"""$query"": {
+""bool"": {
+""must"": [
+{
+""range"": {
+""$or"": [
+{""field"": ""RECVDATE"", ""gt"": ""2016-04-0"
+4423,"""vaccine_lot"": ""2014-2015"",
+""vaccine_type"": ""PCV"",
+""vaccine_manufacturer"": ""Merck"",
+""vaccine_"
+4424,"""vaccine_lot"": ""2014-2015"",
+""vaccine_type"": ""PCV"",
+""vaccine_manufacturer"": ""Merck"",
+""vaccine_"
+4436,"""vaccine_lot"": ""2014-2015"",
+""vaccine_type"": ""PCV"",
+""vaccine_manufacturer"": ""Merck"",
+""vaccine_"
+4445,"""$query"": {
+""bool"": {
+""must"": [
+{
+""range"": {
+""$or"": [
+{""field"": ""RECVDATE"", ""gt"": ""2016-09-0"
+4472,"""$query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""should"": [
+{
+""range"": {
+""$or"": [
+{
+""field"": ""RECVDATE"","
+4473,"""$query"": {
+""bool"": {
+""must"": [
+{
+""range"": {
+""$or"": [
+{""field"": ""RECVDATE"", ""gt"": ""2016-08-2"
+4478,"""aggregations"": {
+    ""cases"": {
+        ""terms"": {
+            ""field"": ""VAERS_ID"",
+            ""size"": 0
+        },
+        ""aggs"": {
+            ""interval"
+448,###[*date:2022-03-05]
+4491,"""analyzed_text"": ""1"",
+""answer"": 1,
+""matched_text"": ""1"",
+""matched_value"": 1,
+""value"": 1,
+""weight"": 1"
+4500,"""aggregations"": {
+    ""cases"": {
+        ""terms"": {
+            ""field"": ""VAERS_ID"",
+            ""size"": 0,
+            ""minimum_doc_count"": 1"
+4529,"""analyzed_text"": ""1"",
+""answer"": true
+}"
+4539,"""analyzed_date"": ""2016-08-09T15:47:59.077Z"",
+""lang"": ""english"",
+""query"": {
+	""filter"
+4545,"""analyzed_date"": ""2016-08-09T15:47:59.097Z"",
+""lang"": ""english"",
+""query"": {
+	""filter"
+4546,"""aggregations"": {
+    ""cases"": {
+        ""terms"": {
+            ""field"": ""RECVDATE"",
+            ""size"": 10000
+        },
+        ""aggs"": {"
+456,###[*date:2022-02-28]
+4577,"""aggregations"": {
+    ""cases"": {
+        ""terms"": {
+            ""field"": ""VAERS_ID"",
+            ""size"": 0,
+            ""minimum_doc_count"": 1"
+4590,"""aggregations"": {
+    ""cases"": {
+        ""terms"": {
+            ""field"": ""VAERS_ID"",
+            ""size"": 0,
+            ""minimum_doc_count"": 1"
+4596,"""analyzed_text"": ""1"",
+""answer"": 1,
+""matched_text"": ""1"",
+""matched_value"": 1,
+""value"": 1,
+""weight"": 1"
+4617,"###[{'$gte': {'$date': '2016-07-05T00:00:00Z'}, '$lt': {'$date': '2016-07"
+4637,"###[{'$gte': {'$date': '2016-08-30T00:00:00Z'}, '$lt': {'$date': '2016-11"
+4653,"###[{'$gte': {'$date': '2015-08-07T00:00:00Z'}, '$lt': {'$date': '2015-09"
+4655,"###[{'$gte': {'$date': '2016-08-09T00:00:00Z'}, '$lt': {'$date': '2016-08"
+4656,"###[{'$gte': {'$date': '2016-08-30T00:00:00Z'}, '$lt': {'$date': '2017-05"
+466,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : ""12345678"
+4686,"###[{'$gte': {'$date': '2016-09-01T00:00:00Z'}, '$lt': {'$date': '2016-09"
+4689,"###[{'$gte': {'$date': '2016-09-01T00:00:00Z'}, '$lt': {'$date': '2017-08"
+47,"{
+""results"" : [
+	{
+		""_index"" : ""vax-records"",
+		""_type"" : ""patient"",
+		""_id"" : ""3"","
+4706,"###[{'$gte': {'$date': '2016-08-05T00:00:00Z'}, '$lt': {'$date': '2016-08"
+4715,"###[{'$gte': {'$date': '2016-08-30T00:00:00Z'}, '$lt': {'$date': '2016-11"
+4725,"###[{'$gte': {'$date': '2020-08-07T00:00:00Z'}, '$lt': {'$date': '2020-10"
+4733,"###[{'$gte': {'$date': '2015-07-09T00:00:00Z'}, '$lt': {'$date': '2015-07"
+4762,"{
+  ""query"" : {
+    ""bool"" : {
+      ""should"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : ""12345678"
+4764,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : ""12345678"
+4789,"{
+  ""query"" : {
+    ""bool"" : {
+      ""should"" : [
+        {""match"" : {""RECVDATE"" : ""2015-08-07T14:3"
+4790,"{
+  ""took"": true
+}"
+4808,"{
+  ""took"": true,
+  ""results"": {
+    ""test"": ""covid""
+  }
+}
+
+###/clinical-notes/patient-covid-19-case"
+4828,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : ""12345678"
+4855,"""query"": {
+				""filtered"": {
+					""filter"": {
+						""bool"": {
+							""should"": ["
+4862,SELECT * FROM VAERS WHERE RECVDATE BETWEEN 2017-01-01 AND 2018-12-31 AND SODIUM IN ('Sodium Test')
+4866,###[?query1]
+49,"{
+""results"" : [
+	{
+		""_index"" : ""vaccine-records"",
+		""_type"" : ""patient"",
+		""_id"" : ""456"
+4902,SELECT * FROM VAERS WHERE (NOT RECEVDATE IS NULL) AND (NOT STATE IS NULL) AND (NOT AGE_YRS IS NULL) AND (NOT SEX IS NULL) AND (NOT SYMPTOM
+4912,"###[{""answers"":[""true""]}].
+
+###[{""answers"":[""false""]}]."
+4917,SELECT * FROM VACCINATION WHERE (RECVDATE IS NOT NULL) AND (STATE = 'complete')
+4946,###Answer: yes
+4967,"SELECT * FROM VAERS WHERE RECVDATE BETWEEN 2017-01-01 AND 2018-12-31 AND (STATE = ""complete"" OR STATE = ""in"
+4972,"###[{""field"": ""RECVDATE"", ""operator"": ""gte"", ""value"": ""2020-03-01T00:00:00Z""}, {""field"": ""RECV"
+4974,"###[{""shoulder MRI"":true}]"
+498,"""query"": {
+				""filtered"": {
+					""filter"": {
+						""and"": {
+							{ ""term"": { ""STATE"
+4983,SELECT COUNT(1) FROM VACCINATION WHERE (RECVDATE BETWEEN '2019-01-01' AND '2019-12-31') AND STATE IN ('
+4995,SELECT COUNT(1) FROM VACCINATION WHERE (RECVDATE BETWEEN 2017-01-01 AND 2018-12-31) AND (STATE = 'NC
+4997,###[?('VAERS_ID:200923280047p0000000000') &?(NOT EXISTS {RECVDATE:2010-
+5007,"""aggregations"": {
+""doc_count_error_rate"": {
+""value"": 0.0
+}
+},
+""buckets"": [
+{
+""key"": ""mchc"",
+""doc_count"
+5010,SELECT COUNT(CASE WHEN (ANC_TEST = 'yes') THEN 1 END) FROM VACINATION WHERE RECEVDTE BETWEEN 2017-01-01 AND 2017
+5012,"###[?count=byn(state:""NY"", RECDATE: {gte: ""2016-09-01T00:00:00Z"", lt: ""2"
+5017,"""aggregations"": {
+""cbs"": {
+""terms"": {
+""field"": ""TESTS.cbc"",
+""size"": 1000
+}
+},
+""facets"": {
+""tests"
+5018,"SELECT COUNT(1) FROM VACCINATION WHERE (RECVDATE BETWEEN 2019-08-01 AND 2020-07-31) AND (STATE = ""FL"
+5023,SELECT COUNT(1) FROM VACCINATION WHERE (RECVDATE BETWEEN 2019-01-01 AND 2019-12-31) AND (STATE = 'NC
+5036,"###[?count=true] [FIELD(RECVDATE,""<="")] [FIELD(STATE,""inpatient"")][FIELD(AGE_YRS,""<="") AND FIELD(AGE_YRS"
+5052,"""aggregations"": {
+""vaccinees"": {
+""terms"": {
+""field"": ""VAERS_ID"",
+""size"": 1000
+}
+},
+""results"": {
+""filter"
+5056,SELECT COUNT(CASE WHEN EXCISONTEST = '1' THEN 1 END) FROM VACCINATION;
+5072,"""aggregations"": {
+""doc_count_error_rate"": {
+""value"": 0.0
+},
+""sum_of_squares"": {
+""value"": 148657932"
+5084,SELECT COUNT(1) FROM VACCINATION WHERE VAX_TYPE = 'LI'
+5086,###Answer: 1
+5092,"###denominator: 106472
+###numerator: 3895
+###answer: 3895/106472 = 0.037"
+5093,"###[?count=1, filter: { and: [ { or: [ { term: { RECVDATE: { from: ""2015-01-01T00:00:00"
+5114,###[?s:d]
+5139,###[triglycerides]
+5144,"{
+  ""answer"": {
+    ""answerText"": """",
+    ""confidence"": 1.0,
+    ""speechValue"": 576839426,
+    ""action"": ""get"
+5150,"###[{""match"": {""and"": [{""term"": {""RECVDATE"": ""2015-03-04T06:37:59""}},""query_string"": {""query"": """
+5165,"{
+""answer"": ""100"",
+""confidence"": 1.0,
+""details"": [
+	{
+		""answer"": ""100"",
+		""answer_value"": 10"
+5169,"{
+""answer"": ""1"",
+""confidence"": 0.98624375,
+""details"": [
+	{
+		""answer"": ""1"",
+		""confidence"":"
+517,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        { ""term"" : { ""STATE"" : ""MH"" } },
+        { ""term"" : { ""RE"
+5177,"""aggregations"": [
+				{
+					""terms"": {
+						""field"": ""VAERS_ID"",
+						""size"":"
+5197,"{
+  ""answer"": {
+    ""question"": {
+      ""text"": ""How many patients has a real time pcr after vaccination.""
+    },
+    ""answer"": {
+      ""value"": ""10"
+520,"{
+""results"" : [
+	{
+		""_index"" : ""vax-records"",
+		""_type"" : ""patient"",
+		""_id"" : ""1"","
+5202,"###[{'$or': [{'$and': [{'$eq': '2016-04-05T00:00:00.000Z', '$gte': '2"
+5219,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : ""12345678"
+5227,"###denominator: 1000000
+###numerator: 26
+###answer: no
+
+###denominator: 1000000
+###numer"
+523,"{
+""results"" : [
+	{
+		""_index"" : ""vax-records"",
+		""_type"" : ""patient"",
+		""_id"" : ""1234"
+5231,"###Elasticsearch Query: 
+GET my_index/my_type/_search
+{
+	""query"": {
+		""bool"": {
+			""must"": [
+				{"
+5281,"{
+""_index"": ""clinicalnotes"",
+""_type"": ""patient"",
+""_id"": ""1"",
+""_source"": {
+""_raw"": ""{\""@timestamp\"":1487"
+5288,"Query : 
+{
+	""query"" : {
+		""filtered"" : {
+			""filter"" : {
+				""bool"" : {
+					""should"" :"
+5323,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : { ""VAERS_ID"" : 123456789 }"
+533,"{
+""results"" : [
+	{
+		""_index"" : ""vax-records"",
+		""_type"" : ""patient"",
+		""_id"" : ""WA000"
+5344,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : { ""VAERS_ID"" : 123456789 }"
+5346,"Query :
+match_phrase_prefix:
+	&quot;state&quot;: &quot;died&quot;
+	&quot;state&quot;: [ IN, equals, &quot;died&quot"
+535,"{
+""results"" : [
+	{
+		""_index"" : ""vax-records"",
+		""_type"" : ""patient"",
+		""_id"" : ""1"","
+5355,"{
+""_index"": ""clinical-notes"",
+""query"": {
+	""filtered"": {
+		""filter"": {
+			""bool"": {
+				""should"": ["
+536,"{
+""results"" : [
+	{
+		""_index"" : ""vax-records"",
+		""_type"" : ""patient"",
+		""_id"" : ""1"","
+5360,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : { ""VAERS_ID"" : 123456789 }"
+5371,"Query : 
+{
+""query"" : {
+""bool"" : {
+""should"" : [
+{
+""term"" : {""VAERS_ID.value"" : ""20143987""}"
+538,"{
+""results"" : [
+	{
+		""_index"" : ""vax-records"",
+		""_type"" : ""patient"",
+		""_id"" : ""1234"
+5381,"{
+""_index"": ""clinicalnotes"",
+""query"": {
+	""filtered"": {
+		""query"": {
+			""bool"": {
+				""must"": ["
+542,"""hits"": [
+	{
+		""_index"": ""vax-tracker"",
+		""_type"": ""patient"",
+		""_id"": ""1"",
+		""_score"":"
+5439,"SELECT FROM vaccine_recipient WHERE (RECVDATE BETWEEN 2017-01-01 AND 2017-12-31) AND (STATE = ""TX"" OR"
+5450,"""vaccine_administration.RECVDATE"": ""2015-08-26T09:47:59Z"",
+""state"": ""CA"",
+""age_yrs"": ""1"
+5464,"SELECT DISTINCT RECVDATE, STATE, AGE_YRS, VAERS_ID, SEX, SYMPTOM_TEXT, DIED, ER_VISIT, L_THREAT, HOSP"
+5467,"SELECT DISTINCT RECVDATE, STATE, AGE_YRS, VAERS_ID, SEX, SYMPTOM_TEXT, DIED, ER_VISIT, L_THREAT, HOSP"
+5473,"""query"": {
+	""filtered"": {
+		""filter"": {
+			""bool"": {
+				""should"": [
+					{ ""term"": { ""VAERS_"
+5482,"SELECT FROM vaccine_recipient WHERE (RECVDATE BETWEEN 2017-01-01 AND 2017-12-31) AND (STATE = ""CA"") AND"
+5509,"""humuline nph"": 10986
+
+### End Clinical Notes"
+5512,"""vaccinees"": {
+	""terms"": {
+		""field"": ""VAERS_ID"",
+		""minimum_should_match"": 1,
+		""query"": ""INeed*"
+552,"{
+""results"" : [
+	{
+		""_index"" : ""vax-records"",
+		""_type"" : ""patient"",
+		""_id"" : ""1"","
+5524,"""vaccinees"": {
+    ""terms"": {
+        ""field"": ""VAERS_ID"",
+        ""minimum_should_match"": 1,
+        ""query"": ""levothyroxine"
+5534,"###[?{FIELD_NAME} IN ('tolerance') & (NOT RECEVDATE IS NULL) & (NOT STATE IN ('deceased', 'discharged'))]"
+5538,"###Elasticsearch Query:
+
+GET my_index/my_type/_search
+{
+	""query"": {
+		""bool"": {
+			""must"": [
+				{"
+5543,###[?{FIELD_NAME} IN ('ULTRA-NOX') AND RECVDATE > now-30d]
+5599,###[?{FIELD_NAME} IN ('xiosil')]
+5610,"###[?{FIELD_NAME} IN ('fentanyl') AND (RECVDATE > now() - 30d) & (STATE = ""confirmed"")]"
+5630,"###[?s:1,""filter"":[?s:1,""bool"":[?s:1,""should"":[?q:*buffered*],?q:*c*]]},""facets"":{}}"
+564,"""ok"": [ { ""patientId"": ""1234567890"", ""state"": ""confirmed"", ""ageInYears"": 1, ""versId"": ""123456"
+5654,"###[{'$gt': 1}, {'$lt': 2}],
+
+###[{'$gte': 1, '$lte': 2}],
+
+###[{'$gt':"
+5667,"###[?s:d,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17"
+5675,"###[?s:1,""field"":[""RECVDATE"",""STATE"",""AGE_YRS"",""VAERS_ID"",""SEX"",""SYMPTOM_TEXT"",""DIED"",""ER_VISIT"",""L_THRE"
+569,"{
+  ""took"":167,""docs"":[
+    {
+      ""_index"":""vax-records"",""_type"":""patient"",""_id"":""2015-08-03T19"
+5718,###[dutasteride]<100
+5757,"Yes, there are 20 patients who were taking xiosil."
+5764,"{
+""results"" : [
+	{
+		""hit"" : {
+			""_index"" : ""vaccine-clinical"",
+			""_type"" : ""patient"","
+5767,"Yes, there are 20 patients taking atorvastatin."
+5771,"Yes, there are 10 patients that were using CBD external salve."
+5790,"Yes, there are 10 patients who were taking latanoprost liquid eyedrops."
+5793,"Yes, there is a patient that was taking MiraLax PRN. The patient is a 10 year old male with an allergy to milk."
+5798,"Yes, there are 103 patients taking quetiapine."
+58,"{
+""results"" : [
+	{
+		""_index"" : ""vax-records"",
+		""_type"" : ""patient"",
+		""_id"" : ""4567"
+5806,"Yes, there are 20 patients who were taking vyvanse."
+5808,"{
+""results"" : [
+	{
+		""answer"" : ""true"",
+		""matchedWords"" : [
+			""enalpril""
+		]
+	}
+]"
+5827,"Yes, there is a patient that has been taking estragon.
+The patient is 2 years old with id: 1000007."
+5842,"Yes, there are 106 patients."
+5846,"Yes, there is a patient who was taking cyanocobalamino (muscular injection)."
+5880,"""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""should"": [
+						{ ""term"
+5885,"""filter"": {
+	""bool"": {
+		""should"": [
+			{ ""term"": { ""bloodpressure.systolic"" : { ""gt"" : 140 }}},"
+5908,"""active labor"": {
+		""$in"": [
+			""Active Labor"",
+			""Labor""
+		]
+	}
+	AND NOT (
+		""$nin"":"
+5912,"""patients"": [
+		{
+			""gender"": ""male"",
+			""birthdate"": ""1980-07-23T00:00:00Z"
+5944,"{ ""query"" : { ""bool"" : { ""must"" : [ { ""term"" : {""VAERS_ID"" : ""1234567890123456""} }, { """
+5959,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : 12345678"
+5966,"{
+""results"" : [
+	{
+		""_index"" : ""vax-tracker"",
+		""_type"" : ""patient"",
+		""_id"" : ""1234"
+5987,"###denominator: 1000000
+###numerator: 2345
+###answer: true"
+5989,"###denominator: 100000 
+numerator: 23 
+
+###answer: true"
+6005,"###denominator: 100 
+numerator: 25 
+result: 25% 
+
+###denominator: 100 
+numerator: 30"
+6008,"###denominator: 1000000
+###numerator: 234
+###answer: True"
+6013,"SELECT DISTINCT p.patient_id as patient_id, p.first_name as first_name, p.last_name as last_name, c.comment as comment FROM patient p INNER JOIN clinical_note c"
+6024,"###denominator: 1000000
+###numerator: 234
+###answer: True"
+6031,"###deny: 
+No, because the patient has a history of allergy to eggs, he cannot receive Influenza vaccine which is grown in chicken embryos."
+6040,"###denominator: 1000000
+###numerator: 25
+###answer: True"
+6053,"###denominator: 100 
+numerator: 5 
+result: 5% 
+
+###denominator: 20 
+numerator: 3 
+result: 1"
+6060,"###denominator: 
+Patients who are diagnosed with strep throat 
+
+###numerator: 
+Patients who received antibiotics for strep throat 
+
+###answer:"
+6065,"###denominator: 
+Patients with diagnosis of no10. 
+Numerator: 
+Total number of deaths for each age group."
+6067,"###denominator: 1000000
+###numerator: 2345
+###answer: true"
+6072,"###denominator: 1000000
+###numerator: 2345
+###answer: true"
+6076,"###denominator: 1000000 
+###numerator: 234 
+###answer: 234/1000000 = 0.00"
+6086,"###denominator: 1000000
+###numerator: 2345
+###answer: True"
+6092,"###denominator: 
+Patients with diagnosis of history 
+
+###numerator: 
+Total number of vaccinations given to patients with diagnosis of history"
+6117,"SELECT * FROM VACCINATION WHERE (RECVDATE > 2014-01-01 AND RECVDATE < 2015-01-01) AND (STATE = ""CA"" OR"
+6141,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : ""12345678"
+6203,"###denominator: 1000000 
+###numerator: 26 
+###answer: 0.00026"
+6221,"{
+    ""from"":0,
+    ""size"":10,
+    ""query"":""match_phrase_prefix"":{
+        ""FIELD"":""clinicalNotes"",
+        ""PHRASE"":""polyar"
+6249,"###[{'$or': [{'$eq': ['COPD', 'RECVDATE']}, {'$exists': True}]}, ('$and': [{'$ne': ['COPD', 'RECVDATE']}, {'"
+6274,###[bladder]: 1
+6278,###[?count=1&q=*:*[?query_string:'How many vaccine recipients are diagnosed of disease {DIED} at the time of vaccination' &highlight=true]]
+628,"{
+  ""answer"": {
+    ""answerText"": ""106"",
+    ""confidence"": 1.0,
+    ""speech"": ""106""
+  }
+}"
+6294,"###[{'VAERS_ID':163479,'RECVDATE':'2015-08-25T00:00:00Z','STATE':'CA','AGE_YRS"
+630,SELECT COUNT(*) FROM VACCINATION WHERE STATE = 'PW' AND RECVDATE BETWEEN '2019-08-01' AND '2019-08-31';
+6321,###[AllergyIssueOccurrence(allergies)]
+6326,###Answer: 1
+6328,"###[{'FIBROSIS':1},{'FIBROSIS':0}]"
+6329,###Answer: 1
+6342,"###[{'FIELD': 'RECVDATE', 'TERM': '2019-08-05T00:00:00.000Z'}, {'FIELD': 'STATE',"
+6348,"###[{'field': 'EAR_DISEASE', 'literal': '1486'}]
+
+###[{'field': 'RECVDATE', 'literal': '2003-08"
+6398,"{
+  ""query"" : {
+    ""filtered"" : {
+      ""filter"" : [
+        {
+          ""bool"" : {
+            ""should"" : [
+              {
+                ""term"" : {"
+6401,"total_vaccinated_cases {
+	filter : {
+		and : [
+			{ term : { RECVDATE : { gte : today - (14 * 24 * 60 *"
+6406,"{
+  ""from"":1970-01-01T00:00:00Z,
+  ""to"":2014-01-01T00:00:0"
+6408,"SELECT COUNT(DISTINCT v.subject_id) FROM ( SELECT DISTINCT ON (s.subject_id) s.subject_id, s.state, s.age_yrs, s.vers_id, s"
+6412,"Query: 
+{ ""filter"": [ {""term"": {""RECVDATE"": ""2015-08-24T07:36:59""}}, {""and"": [{""or"": [{""eq"":"
+6414,"SELECT COUNT(1) FROM VACCINATION WHERE (RECVDATE BETWEEN ""2015-08-01"" AND ""2015-08-31"") AND STATE=""TX"
+6452,"###[vaccine_administration.RECVDATE:2016-09-07T05:34:58.777Z, filter: AND(k: {!u:"
+6455,"###[filtered_query(query_string(match_all=true))][0] => {
+    ""total"": 1396,
+    ""took"": 2,
+    ""timed_"
+6495,"{ ""match"": { ""FIELD1"": ""value"" } }"
+6505,"""left"": 1000000000000000000,
+	""right"": 0
+}
+
+### END EXAMPLE"
+6556,###Answer: OPTION D IS CORRECT.
+6568,"Option a: Deltoid: 
+The deltoid muscle is responsible for abduction of the arm at the shoulder joint as well as extension and rotation. It is one of the most commonly used muscles and therefore it is"
+6573,###Answer: OPTION A IS CORRECT.
+6586,"{
+  ""match"": {
+    ""and"": [
+      {
+        ""term"": {
+          ""VAERS_ID"": {
+            ""value"": ""1234567890"""
+6595,###Answer: OPTION A IS CORRECT.
+660,###[?count=patients.NH]
+6601,"Option A: Primary biliary cholangitis
+Primary biliary cholangitis (PBC) is a chronic autoimmune liver disease characterized by progressive destruction of intrahepatic bile du"
+663,"###[*:query=FIELD(RECVDATE,""2016-08-31T07:45:59Z"")], count, true"
+6647,"{
+  ""results"" : [
+    {
+      ""hit"" : {
+        ""_index"" : ""clinicalnotes"",
+        ""_type"" : ""note"",
+        ""_id"" : ""1"""
+6658,"{
+  ""query"" : {
+    ""bool"" : {
+      ""should"" : [
+        {
+          ""term"" : { ""RECVDATE"" : { ""from"" : ""2014-0"
+6680,"{
+		""results"" : [
+			{
+				""patientid"" : ""1234567890"",
+				""gender"" : ""male"","
+6691,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : { ""VAERS_ID"" : 123456789 }"
+6735,"###denominator: 1000 
+numerator: 26 
+result: 26/1000= 0.026"
+6741,"###denominator: 1000 
+numerator: 26 
+result: 26/1000=0.026"
+6742,"###[{""_index"": ""clin-intraocular"", ""query"" : { ""match"" : {""RECVDATE"": ""2016-08-31T05:00:0"
+6754,"###denominator: 1000 
+numerator: 26 
+result: 26/1000= 0.026"
+6773,"###denominator: 1000 
+numerator: 50 
+result: 50/1000=0.05"
+6798,"###denominator: 1000000 
+numerator: 234 
+result: 234/1000000 = 0.000234"
+6804,###[?LIVER DISORDERS]
+6811,"###denominator: 1000000
+###numerator: 234
+###answer: yes"
+6812,###[?{!id:1}breast cancer]
+6821,"###denominator: 100000 
+numerator: 23 
+result: 23/100000= 0.00023"
+6822,"###denominator: 1000000
+###numerator: 234
+###answer: True"
+6840,"###denominator: 1000000 
+numerator: 236 
+result: 236/1000000 = 0.000236"
+6842,"###denominator: 1000 
+numerator: 25 
+result: 25/1000=0.025"
+6856,"###denominator: 1000000 
+numerator: 236 
+result: 236/1000000 = 0.000236"
+6860,"###denominator: 1000 
+numerator: 26 
+result: 26/1000=0.026"
+6921,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : 12345678"
+6922,"SELECT DISTINCT RECVDATE, STATE, AGE_YRS, VAERS_ID, SEX, SYMPTOM_TEXT, DIED, ER_VISIT, L_THREAT, HOSP"
+6990,"###[{'FIELD': 'RECVDATE', 'TERM': '2015-08-24T00:00:00.000Z'}, {'FIELD': 'STATE',"
+7010,"###[{""answer"": ""1"", ""question"": ""How many patients are dignosed of barrett?""}]"
+7018,"###[?count=patients,filter=term,query=tachycardia]"
+702,"{
+  ""results"" : [
+    {
+      ""hit"" : {
+        ""_index"" : ""clinicalnotes"",
+        ""_type"" : ""note"",
+        ""_id"" : ""AV0Ri"
+7026,"###[?count=true] 
+###[?query=depression]"
+7029,"###[{'match': {'AND': [{'term': {'VAERS_ID': '1234567890'}}]}}, 'count','meningitis/herpes']
+
+###"
+7037,"###[{""answer"": ""1"", ""question"": ""How many patients are dignosed of cidp?""}, {""answer"": ""2"", ""question"": ""What is the average age of people with cidp?""}]"
+7046,"###[{""answer"": ""1"", ""question"": ""How many patients are dignosed of nerve block?""}, {""answer"": ""2"", ""question"": ""How many patients are dignosed of nerve block?""}]"
+7049,###[?PERTUSSIS]
+7058,###[?s=RECVDATE:2014-01-01T00:00:00.000Z AND RECVDATE:2014-06-30
+7064,"###[{'match': {'AND': [{'term': {'VAERS_ID': '1234567890ABCDEF'}}]}}, 2]"
+7068,"###[{""answer"": ""1"", ""question"": ""How many patients are dignosed of chiari malformation?""}]"
+709,"{
+  ""answer"": {
+    ""question"": {
+      ""text"": ""Give me the VA which has the most numbers of records""
+    },
+    ""answer"": ""California"",
+    ""conf"
+7095,"###[{'$gt':1},'$exists':true}"
+711,"{
+  ""results"" : [
+    {
+      ""hit"" : {
+        ""_index"" : ""immunization"",
+        ""_type"" : ""record"",
+        ""_id"" : ""1"",
+        """
+7113,###Answer: OPTION A IS CORRECT.
+7123,###Answer: OPTION A IS CORRECT.
+7128,###Answer: OPTION A IS CORRECT.
+7135,"type: text
+match: *
+boost: 100
+
+### END TEST CASES"
+714,"{
+  ""answer"": {
+    ""question"": {
+      ""text"": ""Give me the TX which has the most numbers of records""
+    },
+    ""answer"": ""California"",
+    ""conf"
+716,"{
+  ""answer"": {
+    ""question"": ""Give me the SD which has the most numbers of records"",
+    ""answer"": ""2014-08-25T16:37:5"
+7172,"type: synonyms
+fields: [RECVDATE, STATE, AGE_YRS, VAERS_ID, SEX, SYMPTOM_TEXT, DIED, ER_VISIT, L_THRE"
+7184,"Option a: Fibroadenoma
+Option b: Phyllodes tumor
+Option c: Invasive ductal carcinoma
+Option d: Ductal hyperplasia
+
+###Answer: OPTION A"
+7197,"Option a: Bone
+Option b: Liver
+Option c: Brain
+Option d: Lung
+
+###Rationale: Metastasis of Breast Cancer:
+Metastases are most commonly found in the b"
+7203,###Answer: OPTION A IS CORRECT.
+7214,"type: synonyms
+fields: [RECVDATE, STATE, AGE_YRS, VAERS_ID, SEX, SYMPTOM_TEXT, DIED, ER_VISIT, L_THRE"
+7217,"type: synonyms
+fields: [RECVDATE, STATE, AGE_YRS, VAERS_ID, SEX, SYMPTOM_TEXT, DIED, ER_VISIT, L_THRE"
+7237,"""malabsorption syndromes"",  ""diarrheal diseases"",  ""gastrointestinal diseases"",  ""digestive system diseases"",  ""nutritional disorders"",  ""disac"
+7248,"{
+  ""took"":360,""results"":[{""hit"":{""_index"":""clinicalnotes"",""_type"":""patient"",""_id"":""1""}}],""totalhits"":360,""maxscore"":"
+7251,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : { ""VAERS_ID"" : 123456789 }"
+7256,"{
+  ""all_fields"": {
+    ""query"": ""aminoquinolones"",
+    ""filter"": [
+      {""and"": [
+        {""or"": [{""not"": {""aminoquinolones"": true"
+726,"{
+  ""answer"": {
+    ""answerText"": ""A"",
+    ""confidence"": 1.0,
+    ""speech"": ""A""
+  }
+}"
+7266,"{
+  ""all_fields"": {
+    ""query"": ""allergic to aids"",
+    ""filter"": [
+      {""and"": [
+        {""or"": [{""not"": {""in"": {""field"": """
+7269,"{
+  ""took"":360,""found"":true,""hit_count"":1,""facets"":{},""max_score"":1.0,""total_time"":4,""matched_count"":1,""unmatch"
+7279,"{
+  ""results"" : [
+    {
+      ""hit"" : {
+        ""_index"" : ""clinicalnotes"",
+        ""_type"" : ""patient"",
+        ""_id"" : ""AV0J"
+7313,"{ ""query"" : { ""bool"" : { ""must"" : [ { ""term"" : {""VAERS_ID"": ""1234567890ABCDEF""} }, { ""term"" : {""RECV"
+7321,"{
+  ""all_patterns"": [
+    {
+      ""field"": ""allergies"",
+      ""regexp"": "".*(allergy).*"",
+      ""boost"": 2
+    }
+  ],"
+7332,"{
+  ""took"":367,""total"":1048,""facets"":{
+    ""state"":{
+      ""terms"":[
+        ""WA""
+      ]
+    },
+    ""age"
+7377,"{
+""results"" : [
+	{
+		""_index"" : ""vax-tracker"",
+		""_type"" : ""patient"",
+		""_id"" : ""1234"
+738,"""hits"": [
+		{
+			""_index"": ""vax-tracker"",
+			""_type"": ""patient"",
+			""_id"": ""1"","
+7382,"{
+""_index"": ""clinical-notes"",
+""_type"": ""patient"",
+""_id"": ""1"",
+""_source"": {
+""_all"": {
+""hay"": {
+"""
+7393,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : { ""VAERS_ID"" : 123456789 }"
+7404,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : { ""VAERS_ID"" : 123456789 }"
+7425,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : { ""VAERS_ID"" : 1234567890"
+7441,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : { ""VAERS_ID"" : 123456789 }"
+7456,"{
+""_index"": ""clinicalnotes"",
+""_type"": ""patient"",
+""_id"": ""1"",
+""_version"": 3,
+""found"": true,
+""matched"": {"
+7471,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : { ""VAERS_ID"" : 123456789 }"
+7474,"{
+""results"" : [
+	{
+		""_index"" : ""vax-tracker"",
+		""_type"" : ""patient"",
+		""_id"" : ""1234"
+7480,"""vaccinee.allergies.codeine"": ""true"""
+7487,###Answer: yes
+749,"""hits"": [
+	{
+		""_index"": ""vax-tracker"",
+		""_type"": ""patient"",
+		""_id"": ""1"",
+		""_score"":"
+7499,###[?s:amoxicillin trihydrate]
+75,"{
+""results"" : [
+	{
+		""_index"" : ""vax-tracker"",
+		""_type"" : ""patient"",
+		""_id"" : ""1"","
+7503,"""As of February 2016, VAERS had received 54 reports of allergic reactions consistent with anaphylaxis following receipt of VACCINESPLUS HONEY DEW (L"
+7507,###[?('VAERS_ID:123456789012345678901234567890123456789
+7523,"""As of March 2019, VAERS had received 54 reports of people who reported an allergy or an intolerance reaction (including severe allergic reactions) to grape juice after receiving one"
+7529,"###[?{ RECVDATE: { ""gte"": ""2019-01-01T00:00:00Z"", ""lte"": ""2019-06-"
+7533,"###[{'AND': [{'OR': [{'NOT': {'AND': [{'KEY': 'VAERS_ID', 'OP': 'eq', 'VAL': '1736950'}}, {'KEY':"
+7542,"""As a precautionary measure, individuals who have had a severe allergic reaction to jackfruit or who have a severe allergy to coconut should not receive Janssen's vaccine.""
+
+###"
+7543,"###[{""AND"":[{""OR"":[{""NOT"":[{""wildcard"":[""*""]}]},{""term"":[""VAERS.RECVDATE"",""2016-08-31T00"
+7549,"""vaccine_administration.vax_lot IN ('2019-2020 Northern California Kaiser Permanente Allergy Study Group MMR/Tdap Vaccine Cohort') AND vacc"
+755,"""hits"": [
+	{
+		""_index"": ""vax-tracker"",
+		""_type"": ""patient"",
+		""_id"": ""1"",
+		""_score"":"
+7556,"###[{'AND': [{'OR': [{'NOT': {'AND': [{'KEY': 'VAERS_ID', 'OP': '=', 'VAL': '1234567890ABCDEF"
+7564,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : 109875"
+7572,"###deny: 
+The query is not a valid ElasticSearch query."
+7599,"###[?count=true] 
+###[?query= allergy:wheat]"
+760,"""hits"": [
+	{
+		""_index"": ""vax-tracker"",
+		""_type"": ""patient"",
+		""_id"": ""2"",
+		""_score"":"
+7607,"###[{'match': {'AND': [{'term': {'VAERS_ID': '1234567890ABCDEF'}}]}}, 1]"
+7621,###[{'match': {'AND': [{'term': {'VAERS_ID': '10978506-3426-4c57-8a8b-4e0f4
+7633,"###[{'match': {'AND': [{'term': {'VAERS_ID': '1234567890ABCDEF'}}]}}, 1]"
+7640,"###[{'$or': [{'$and': [{'$ne': 'allergies'}, {'$in': ['erythromycin', 'nausea']}]}, {'$and': [{'$eq':"
+7666,"###[?query=~""allergic to aspirin buffered""](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string.html"
+7684,"###[{'match': {'AND': [{'term': {'VAERS_ID': '19768504'}}, {'term': {'RECVDATE': '2003-08-27"
+7699,"###[{'match': {'AND': [{'term': {'VAERS_ID': '1234567890'}}]}}, 1]"
+771,"""hits"": [
+	{
+		""_index"": ""vax-tracker"",
+		""_type"": ""patient"",
+		""_id"": ""1"",
+		""_score"":"
+7718,"The number of vaccine recipients that had an allergic to hydromorphone HCl is 10.
+The most common talc for patients is Plain."
+7726,"The number of vaccine recipients that had an allergic to erythromycin-nausea is 10.
+The most common food sensitivity for patients is milk."
+773,"""hits"": [
+	{
+		""_index"": ""vax-tracker"",
+		""_type"": ""patient"",
+		""_id"": ""123456789"
+7767,"{
+  ""answer"": {
+    ""question"": ""What is the number of vaccine recipients that had an allergic to naproxin?"",
+    ""answer"": 1063,
+    """
+7768,"The query would be:
+
+GET myvaccinereaction/v1/query?pretty=true&filter_path=state%3A%5B%5D%20eq%3A%22admin"
+7771,"The number of vaccine recipients that had an allergic to insect is 1065.
+The most common walnut sensitivity for patients is Theophylline."
+7773,"{
+  ""answer"": {
+    ""question"": ""What is the number of vaccine recipients that had an allergic to sulfite sensitivity?"",
+    ""answer"": 1064
+  },"
+7780,"The number of vaccine recipients that had an allergic to glutaronitrile is 105.
+The most common oxybutynin for patients is OXYBUTYNIN CHLORIDE."
+7782,"{
+""all_vaccines"": {
+""buckets"": [
+{
+""key"": ""allergies"",
+""doc_count"": 10485
+},
+{
+""key"": ""death"
+7791,"The number of vaccine recipients that had an allergic to environmental is 1065.
+The most common stomach distention for patients is 2.
+
+###. Analysis: 
+The analysis of"
+7796,"""vaccine_type: 'petroleum-pushed inhalants' AND allergy_code: '1094'""
+""aggregations"": {
+    ""by_season"": {
+        ""terms"":"
+7815,"The query should return a count of how many patients have allergy to lisinopril-lidocaine AND received one or more vaccines.
+The query should return the top 10 most common grasses (allergens"
+7833,"{
+""results"" : [
+	{
+		""answer"" : ""1"",
+		""matched"" : true
+	},
+	{
+		""answer"" : ""2"",
+		""match"
+7835,"{
+  ""answer"": {
+    ""question"": {
+      ""text"": ""What is the number of vaccine recipients that had an allergic to minocycline?""
+    },
+    ""answer"": {"
+7846,"{
+  ""results"" : [ {
+    ""query"" : {
+      ""bool"" : {
+        ""should"" : [ {
+          ""term"" : {
+            ""VAERS_ID"" : ""10"
+7879,"{
+  ""results"" : [
+    {
+      ""hit"" : {
+        ""_index"" : ""clinicalnotes"",
+        ""_type"" : ""patient"",
+        ""_id"" : ""134"
+7902,"{
+""results"" : [
+	{
+		""_index"" : ""vaccine"",
+		""_type"" : ""patient"",
+		""_id"" : ""456789"
+7918,"{
+""results"" : [
+	{
+		""_index"" : ""vax-demo"",
+		""_type"" : ""patient"",
+		""_id"" : ""3"","
+7921,"{
+""results"" : [
+	{
+		""_index"" : ""vaccine"",
+		""_type"" : ""patient"",
+		""_id"" : ""3"",
+		"""
+7922,"{
+""results"" : [
+	{
+		""_index"" : ""vaccine"",
+		""_type"" : ""patient"",
+		""_id"" : ""3"",
+		"""
+7930,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : ""12345678"
+7937,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : ""12345678"
+7950,"{
+  ""results"" : [
+    {
+      ""hit"" : {
+        ""_index"" : ""clinicalnotes"",
+        ""_type"" : ""patient"",
+        ""_id"" : ""134"
+7961,"{
+""results"" : [
+	{
+		""_index"" : ""vaccine"",
+		""_type"" : ""patient"",
+		""_id"" : ""3"",
+		"""
+7967,"{
+""results"" : [
+	{
+		""_index"" : ""vaccine"",
+		""_type"" : ""patient"",
+		""_id"" : ""3"",
+		"""
+7984,"""vaccinee"": {
+    ""recvdate"": ""2022-01-26T08:34:59Z"",
+    ""state"": ""TX"",
+    ""age_y"
+7996,"""vaccinee"": {
+    ""recvdate"": ""2021-07-14"",
+    ""state"": ""CA"",
+    ""age_yrs"": ""35"",
+    ""vers"
+8014,"SELECT RECVDATE, STATE, AGE_YRS, VAERS_ID, SEX, SYMPTOM_TEXT, DIED, ER_VISIT, L_THREAT, HOSPITAL,"
+8032,"""vaccinee"": {
+    ""recvdate"": ""2021-04-14T00:00:00"",
+    ""state"": ""TX"",
+    ""age_yrs"
+8048,"{
+""_index"": ""vax"",
+""_type"": ""record"",
+""_id"": ""1"",
+""_version"": 1,
+""found"": true,
+""matched"": {
+	""VA"
+8051,SELECT FROM VACCINATION WHERE (RECVDATE = 2021-07-20)
+8057,"SELECT FROM VACCINATION WHERE ( TO_DATE('02/18/2021','MM/DD/YYYY') BETWEEN RECVDATE AND NOW() )"
+8066,"SELECT FROM VACCINATION WHERE ( TO_DATE('5/19/2022','MM/DD/YYYY') BETWEEN RECVDATE AND NOW() )"
+8077,"SELECT FROM VACCINATION WHERE ( TO_DATE('03/09/2021','MM/DD/YYYY') BETWEEN RECVDATE AND NOW() )"
+8091,"SELECT FROM VACCINATION WHERE ( TO_DATE('3/7/2021','MM/DD/YYYY') BETWEEN RECVDATE AND NOW() )"
+8099,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : ""12345678"
+8104,"""vaccinees"": {
+    ""and"": [
+        {
+            ""term"": {
+                ""VAERS_ID"": ""456789""
+            }
+        },
+        {
+            """
+812,"{
+""results"" : [
+	{
+		""_index"" : ""vax-records"",
+		""_type"" : ""patient"",
+		""_id"" : ""1234"
+8143,"{
+  ""size"": 50,
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : { ""VAERS_ID"" : ""1"
+8153,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : ""12345678"
+8154,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : ""12345678"
+8226,"{
+""found"": true,
+""hit_count"": 47,
+""max_score"": 0.865088,
+""matched"": false,
+""explanation"": ""No explanation found"
+8228,"{
+""found"": true,
+""hit_count"": 307,
+""max_score"": 1.0,
+""matched"": {
+""query"": {
+""bool"": {
+""should"": ["
+8242,"{
+""found"": true,
+""hit_count"": 3,
+""max_score"": 0.987462,
+""matched"": {
+""FIELD"": ""RECVDATE"",
+"""
+8261,"{
+""found"": true,
+""hit_count"": 48,
+""total_count"": 48,
+""max_score"": 1.0,
+""matched_count"": 48,"
+8262,"{
+""found"": true,
+""hit_count"": 48,
+""total_count"": 48,
+""facets"": {
+""date_range"": {
+""minimum"": ""2021"
+8273,"{
+""found"":true,""hitCount"":17846,""totalHits"":17846,""maxScore"":1.0,""matchedQuery"":""*:*"",
+""facets"":{
+""date"
+8287,"{
+""found"": true,
+""hit_count"": 47,
+""max_score"": 0.965625,
+""total_count"": 47,
+""time_ms"":"
+830,"{
+""results"" : [
+	{
+		""_index"" : ""vax-records"",
+		""_type"" : ""patient"",
+		""_id"" : ""1"","
+8353,"""query"": {
+    ""filtered"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": [
+            {
+              ""term"": {
+                ""VAERS_ID"": ""123"
+8354,"{
+	""_index"": ""clinicalnotes"",
+	""_type"": ""patient"",
+	""_id"": ""1"",
+	""_source"": {
+		""_raw"": ""{\"""
+8367,###No Matches Found.
+8371,"###deny: true
+###prompt: ""Did this patient receive DTP prior to receiving the current vaccine?""
+###hints: [ 'Yes', 'No' ]
+###answers: ['"
+8405,"###denominator: 1000000
+###numerator: 246
+###answer: 246/1000000 = 0.0002"
+8406,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""VAERS_ID"": ""1234567890"
+8407,"Query : 
+{ ""filter"" : { ""bool"" : { ""must"" : [ { ""term"" : {""VAERS_ID"" : ""1234567890123456"
+842,"{
+""results"" : [
+	{
+		""_index"" : ""vax-tracker"",
+		""_type"" : ""patient"",
+		""_id"" : ""1234"
+8424,"SELECT DISTINCT RECVDATE FROM VAERS WHERE (RECVDATE BETWEEN 2010-01-01 AND 2010-12-31) AND (STATE = ""NC"
+8425,"""measles"": {
+    ""$in"": [
+      ""1963-04-24"",
+      ""1985-07-08"",
+      ""1988-"
+8438,"SELECT DISTINCT RECVDATE FROM VAERS WHERE (IPV) AND (RECVDATE < TODAYS_DATE);
+
+### Suggestions: 
+Prompt: 
+For each suggestion, select whether you"
+8454,###[?count=true]
+8468,###[?count=true]
+8477,"{
+""_index"": ""vax-records"",
+""query"": {
+	""bool"": {
+		""must"": [
+			{
+				""term"": {"
+8479,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : ""12345678"
+8510,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : ""12345678"
+8513,"{
+  ""took"":364,""docs"":[
+    {
+      ""found"":true,""matched"":true,""score"":0.87192,""id"":""150000000"
+8538,"""filter"": {
+	""bool"": {
+		""must"": [
+			{ ""term"": { ""VAERS_ID"": """" }},
+			{ ""term"": { ""RECVDATE"": """""
+8554,"{
+  ""took"":360,""results"":[
+    {
+      ""found"":18459,""hit_count"":18459,""total_time"":27,""max_time"":1"
+8558,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : ""12345678"
+8585,"""query"": {
+	""filtered"": {
+		""filter"": {
+			""bool"": {
+				""should"": [
+					{ ""term"": { ""VAERS_"
+8590,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : ""12345678"
+8605,"{
+    ""query"" : {
+        ""bool"" : {
+            ""must"" : [
+                {
+                    ""term"" : { ""VAERS_ID"" : 123456 }"
+8609,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : ""12345678"
+8619,"###denominator: 1000000
+###numerator: 268
+###result: 268/1000000 = 0.0026"
+8625,"###denominator: 1000000
+###numerator: 2675
+###answer: true"
+8626,"SELECT RECPNT.,FIELDS.FROM ( SELECT DISTINCT(RECPNT.) AS RECPNT.,FIELDS. FROM CLINICALNOTES WHERE (RECPNT.RECVDATE BETWEEN '"
+8631,"""query"": {
+		""bool"": {
+			""should"": [
+				{ ""term"": {""VAERS_ID"": ""12345678901234"
+8638,"###denominator: 1000000
+###numerator: 2679
+###answer: true
+
+###type: Boolean
+###value: true"
+8643,"""query"": {
+		""bool"": {
+			""should"": [
+				{ ""term"": { ""VAERS_ID"": """" }},
+				{ ""term"": { """
+8657,"""query"": {
+		""bool"": {
+			""should"": [
+				{ ""term"": { ""VAERS_ID"": """" }},
+				{ ""term"": { """
+8664,"###denominator: 1000000
+###numerator: 2674
+###answer: True"
+8707,"###denominator: 1000000
+###numerator: 2674
+###answer: true
+
+###prompt: Enter a valid percentage or ratio."
+8709,"###denominator: 
+Returns the number of unique values in a given field across all documents.
+
+###numerator: 
+Returns the total count of all occurrences of a given value in a given field"
+8720,"###denominator: 1000000
+###numerator: 268
+###result: 268/1000000 = 0.0026"
+8727,"""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""should"": [
+						{ ""term"
+8730,"###denominator: 1000000
+###numerator: 2
+###answer: 999988
+
+###result: true"
+8742,"""query"": {
+		""bool"": {
+			""should"": [
+				{ ""term"": {""VAERS_ID"": ""12345678901234"
+879,"{
+""results"" : [
+	{
+		""_index"" : ""vax-tracker"",
+		""_type"" : ""patient"",
+		""_id"" : ""1234"
+8797,"{ ""answer"": ""1"", ""question"": ""How many records had MENINGOCOCCAL B and JAPANESE ENCEPHALITIS before?"" }
+
+### Question:  What is the average of"
+8822,"###[?('VAERS_ID',u'123456789')]"
+8826,"{
+""answer"": ""106"",
+""confidence"": 1.0,
+""error"": ""NoError""
+}"
+8838,"###[?('RECVDATE:2014-09-03T05:00:00Z', 'RECVDATE:2014-08-27T05:"
+8848,###[?('clinicalNotes.RECVDATE:now-1d:d1')]
+8857,"###[BCG]:1000
+###[RUBELLA]:2000
+
+###[BCG AND RUBELLA]:3000"
+89,"{
+""results"" : [
+	{
+		""_index"" : ""vax-records"",
+		""_type"" : ""patient"",
+		""_id"" : ""1"","
+8903,"###[BCG]: 1
+###[HIb]: 0
+
+###[BCG]: 1
+###[HIb]: 0
+
+###[BCG]: 1
+###"
+8908,"###[?('RECVDATE',<2014-01-01T00:00:00Z),'ZOSTER','ZOSTER LIVE']
+==1689"
+8916,"{
+  ""took"":37,
+  ""total"":146,
+  ""results"":[
+    {
+      ""found"":true,
+      ""hit"":{
+        ""_index"":""vaccine"","
+8935,"{
+  ""took"":36,
+  ""total"":198,
+  ""results"":[
+    {
+      ""found"":true,
+      ""hit"":{
+        ""_index"":""vaccine"","
+8936,"{
+  ""took"": 4,
+  ""total"": 1,
+  ""results"": [
+    {
+      ""found"": 1,
+      ""hit"": 1,
+      ""max_score"":"
+8938,"{
+  ""took"":368,""total"":1,""facets"":{},""fields"":[{""name"":""VAERS_ID"",""value"":[{""value"":""2021795014"",""boost"
+8989,"{
+  ""took"": 1,
+  ""total"": 1,
+  ""facets"": {
+    ""vaccine_manufacturer_name"": {
+      ""terms"": [
+        ""US"
+8992,"""filter"": {
+	""bool"": {
+		""should"": [
+			{ ""term"": { ""VAERS_ID"": ""USSA2022SA051715"" } }"
+8994,"{
+  ""took"": 4,
+  ""total"": 1,
+  ""results"": [
+    {
+      ""found"": 1,
+      ""hit"": 1,
+      ""max_score"":"
+9003,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""manufacturer"" : ""USJNJFOC202"
+9004,"{
+  ""took"":37,
+  ""total"":146,
+  ""results"":[
+    {
+      ""found"":true,
+      ""hit"":{
+        ""_index"":""vaccine"","
+9013,"{
+    ""took"": 4,
+    ""total"": 100000,
+    ""results"": [
+        {
+            ""found"": 100000,
+            ""docs"":"
+9038,"{
+  ""took"": 4,
+  ""total"": 1,
+  ""results"": [
+    {
+      ""found"": 1,
+      ""hit"": 1,
+      ""max_score"":"
+9044,"{
+  ""took"": 4,
+  ""total"": 1,
+  ""results"": [
+    {
+      ""found"": 1,
+      ""hit"": 1,
+      ""max_score"":"
+905,"{
+""results"" : [
+	{
+		""_index"" : ""vax-tracker"",
+		""_type"" : ""patient"",
+		""_id"" : ""1234"
+9075,"""vaccinemanufacturer"": ""USPFIZER INC"","
+9119,"""vaccinemanufacturer"": ""USJNJFOC20220237050"","
+9132,"""vaccineManufacturer"": ""US0095075132204USA006498"","
+9139,"{
+  ""took"":1,""results"":[
+    {""hit"":{""_index"":""clinicalnotes"",""_type"":""note"",""_id"":""AUCPTJ4WXTKRFZQYE""}}"
+9145,"{
+  ""took"":37,
+  ""total"":187,
+  ""max_score"":0.999999,
+  ""results"":[
+    {
+      ""hit"":{"
+9149,"{ ""query"" : { ""bool"" : { ""must"" : [ { ""term"" : { ""VAERS_ID"" : ""USPFIZER INC202101189826"""
+9172,"{ ""query"" : { ""bool"" : { ""must"" : [ { ""term"" : { ""VAERS_ID"" : ""202200066032"" } } ] } } }"
+9183,"{
+  ""took"":57,
+  ""results"":[
+    {
+      ""found"":true,
+      ""hit_count"":1,
+      ""max_score"":1,
+      ""matched_"
+9185,"{ ""query"" : { ""bool"" : { ""must"" : [ { ""term"" : { ""VAERS_ID"" : ""202200133167"" } } ] } } }"
+9186,"""vaccineManufacturer"": ""US0095075132202USA006062"","
+9198,"{ ""query"" : { ""bool"" : { ""must"" : [ { ""term"" : {""VAERS_ID.value"" : ""2021391217""} } ] } } }"
+92,"{
+""results"" : [
+	{
+		""_index"" : ""vax-records"",
+		""_type"" : ""patient"",
+		""_id"" : ""456"","
+9201,"{ ""query"" : { ""bool"" : { ""must"" : [ { ""term"" : { ""VAERS_ID"" : ""202200545353"" } } ] } } }"
+9214,"###[{'$gte': {'$date': '2021-01-01T00:00:00Z'}, '$or': [{'$and': [{'$ne': ['$"
+9215,"###[{'$gte': {'$date': '2021-01-03T02:00:00.000+05:00'}, '$or': [{'$"
+9229,"###[{'$gte': {'$date': '2021-01-01T00:00:00Z'}, '$or': [{'$and': [{'$eq': 'US"
+9246,###[{'$exists': {'$ref': 'Patient/clinicalNotes'}}]
+9273,"###[{'$gte': {'$date': '2022-03-07T00:00:00.000Z'}, '$or': [{'$and': [{'$"
+9319,"###[{'$gte': {'$date': '2022-06-01T00:00:00Z'}, '$or': [{'$and': [{'$eq': 'US"
+9322,"###[{'$gte': {'$date': '2022-01-01T00:00:00Z'}, '$or': [{'$and': [{'$eq': 'US"
+933,"###denominator: 76.0
+###numerator: 1
+###answer: true"
+9343,"###[{'$gte': {'$date': '2021-01-01T00:00:00Z'}, '$or': [{'$and': [{'$ne': ['$"
+9349,"###[{'$gte': {'$date': '2021-01-30T00:00:00Z'}, '$or': [{'$and': [{'$ne': ['$"
+9357,"###[{'$gte': {'$date': '2022-01-01T00:00:00Z'}, '$or': [{'$and': [{'$eq': 'US"
+9361,"{
+  ""took"":54,
+  ""total"":1000000,
+  ""results"":[
+    {
+      ""hit"":{
+        ""_index"":""vaccine"",
+        ""_"
+9382,"{
+  ""took"":38,
+  ""total"":195,
+  ""results"":[
+    {
+      ""hit"":{
+        ""_index"":""clinicaltrials"",
+        ""_type"":"""
+9400,"{
+  ""took"":364,""results"":[
+    {
+      ""found"":true,""hit_count"":1,""match_total"":1,""match_score"":1,""rank"":1,""relationships"":"
+9412,"{
+  ""took"":364,
+  ""total"":189,
+  ""results"":[
+    {
+      ""found"":true,
+      ""hit"":{
+        ""_index"":""vaccine"
+9419,"{
+  ""took"":56,
+  ""total"":179,
+  ""results"":[
+    {
+      ""hit"":{
+        ""_index"":""clinicaltrials"",
+        ""_type"":"""
+9435,"{
+  ""took"": 4,
+  ""total"": 1,
+  ""results"": [
+    {
+      ""hit"": {
+        ""_index"": ""clinicalnotes"",
+        ""_type"": """
+945,"Query : 
+{ ""filter"" : { ""and"" : [ { ""term"" : {""VAERS_ID"":123456789} }, { ""range"" : { ""RECVDATE"" :"
+9475,"{
+  ""took"": 1,
+  ""total"": 1,
+  ""results"": [
+    {
+      ""hit"": {
+        ""_index"": ""clinicalnotes"",
+        ""_type"": """
+9479,"{
+  ""took"": 1,
+  ""total"": 1,
+  ""results"": [
+    {
+      ""hit"": {
+        ""_index"": ""clinicalnotes"",
+        ""_type"": """
+948,"###denominator: 0.17 years old vaccine recipients 
+###numerator: number of deaths among 0.17 years old vaccine recipients"
+9482,"{
+  ""took"":37,
+  ""total"":1986,
+  ""results"":[
+    {
+      ""hit"":{
+        ""_index"":""vaccine"",
+        ""_type"":""pat"
+9486,"{
+  ""took"":67,""total"":1,""page"":0,""from"":0,""sort"":[{""@timestamp"":""2021-09-20T10:54:59.7"
+9492,"{
+    ""took"": 1,
+    ""total"": {
+        ""vaccines"": [
+            {
+                ""id"": ""US0095075132201"","
+9507,"{
+""answer"": ""3"",
+""confidence"": 1.0,
+""details"": [
+  {
+    ""answer"": ""3"",
+    ""confidence"": 1.0,
+    ""detail"":"
+9519,"{
+""answer"": ""1"",
+""specificity"": 1,
+""score"": 1,
+""confidence"": 1,
+""matchedQuery"": {
+""queryText"": ""How many patients got vacc"
+9520,"convert(integer, sum(if_then_else(vaccine_manufacturer:""USPFIZER INC"",1,null)))"
+9524,"{
+  ""answer"": {
+    ""answerText"": ""143""
+  }
+}
+
+### ElasticSearch Query:
+GET my_index/my_type/_search
+{
+  ""query"":"
+9525,"{
+  ""answer"": {
+    ""answerText"": ""19"",
+    ""confidence"": 0.875461,
+    ""speech"": ""19 people received this vaccine"""
+9536,"{
+""answer"": ""1"",
+""specificity"": 1,
+""score"": 1,
+""confidence"": 1,
+""matchedQuery"": {
+""queryText"": ""How many patients got vacc"
+9543,"{
+  ""answer"": {
+    ""answerText"": ""16"",
+    ""confidence"": 0.9854761904761905,
+    ""speech"": """
+9552,"{
+""results"" : [
+	{
+		""answer"" : {
+			""set"" : {
+				""values"" : [
+					{"
+9557,"{
+  ""answer"": {
+    ""answerText"": ""16"",
+    ""confidence"": 0.85674174,
+    ""speech"": ""16 people got vaccine manufact"
+9559,"{
+  ""answer"": {
+    ""answerText"": ""1367""
+  }
+}
+
+### END ANSWER TEMPLATE"
+9571,"convert(integer, sum(if_then_else(vax_manu=='USPFIZER INC',1,null)))"
+9579,"###[{'$exists': {'$ref': 'Patient'}}, ('$or': [{'$eq': ['$manufacturer', 'USPFIZER INC2021612504"
+9584,"{
+""answer"": ""1"",
+""specificity"": 1,
+""score"": 1,
+""confidence"": 1
+}
+
+### END ANSWER: 1"
+9586,"{
+""answer"": ""1"",
+""specificity"": 1,
+""score"": 1,
+""confidence"": 1
+}"
+9597,"{
+  ""answer"": {
+    ""answerText"": ""365"",
+    ""confidence"": 1.0,
+    ""speech"": ""Three hundred sixty-five""
+  }
+}"
+9606,"{
+""answer"": ""3"",
+""confidence"": 1.0,
+""details"": [
+  {
+    ""answer"": ""3"",
+    ""confidence"": 1.0,
+    ""detail"":"
+9612,"{
+""answer"": {
+""answerText"": ""368"",
+""confidence"": 1
+}
+}"
+9632,"{
+""results"" : [
+	{
+		""answer"" : {
+			""set"" : {
+				""values"" : [
+					{"
+9636,"{
+""answer"": {
+""answer_text"": ""16"",
+""answer_title"": ""Patients with vaccine lot number 2021535457""
+},
+""related_con"
+9639,"{
+""answer"": ""3"",
+""confidence"": 1.0,
+""details"": [
+  {
+    ""answer"": ""3"",
+    ""confidence"": 1.0,
+    ""detail"":"
+9647,"{
+""answer"": ""1"",
+""specificity"": 1,
+""score"": 1,
+""confidence"": 1,
+""matchedQuery"": {
+""queryText"": ""How many patients got vacc"
+965,"Query : 
+{ ""filter"" : { ""and"" : [ { ""term"" : {""VAERS_ID"":12345678} }, { ""range"" : {""RECVDATE"": { ""g"
+9659,"###denominator: 1000000 
+numerator: 375 
+result: 375/1000000 = 0.000037"
+9664,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""RECVDATE"" : {
+              ""value"" : ""02"
+968,"###denominator: 15.0 years old vaccine recipients 
+###numerator: number of deaths among 15.0 years old vaccine recipients"
+9681,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : ""12345678"
+9696,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : ""12345678"
+97,"{
+""results"" : [
+	{
+		""_index"" : ""vax-tracker"",
+		""_type"" : ""patient"",
+		""_id"" : ""1"","
+9700,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : ""12345678"
+9712,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : ""12345678"
+9734,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""RECVDATE"" : {
+              ""value"" : ""02"
+9736,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""RECVDATE"" : {
+              ""value"" : ""03"
+9744,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : ""12345678"
+9745,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : ""12345678"
+9756,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : ""12345678"
+9759,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : ""12345678"
+9763,"{
+  ""query"" : {
+    ""bool"" : {
+      ""must"" : [
+        {
+          ""term"" : {
+            ""VAERS_ID"" : ""12345678"
+9771,###[?count=1]
+9778,###[?count=true]
+9785,"###[?('RECVDATE: ""04/13/2022""'), AND ('STATE' : ""CA""), OR ('STATE' : ""FL""), OR ('STATE' : ""GA""), OR ('STATE"
+9789,###[?count=1]
+9790,###[?count=true]
+9807,###[?count=1]
+9813,###[?count=1&q=*:*]
+9843,###[?count=1&q=*:*]
+9860,###[?count=true]
+9869,###[?count=true]
+9877,"""{\""results\"":[{""patient"":{""gender"":""male"",""age"":16,""vaccinationElapsedTime"":15978},""visit"":{""date"":""2022-04-03"",""de"
+988,"###denominator: 167945
+###numerator: 286
+###result: true"
+9886,"""{\""results\"":[{""patient"":{""gender"":""male"",""age"":36,""recvdate"":""2021-04-21T00:00:00Z"",""state"":""NC"",""age_"
+989,"###denominator: 71.0 years old vaccine recipients 
+###numerator: number of deaths among 71.0 years old vaccine recipients"
+9893,"""{\""results\"":[{""patient"":{""gender"":""male"",""age"":16,""vaccinationElapsedTime"":14975},""immunizationEvent"":{""rejectReasonCode"":""local"",""lotNumber"":""2"
+9949,"""{\""results\"":[{""patient"":{""gender"":""male"",""age"":37,""recvdate"":""2022-04-16T00:00:00Z"",""state"":""NC"",""age_"
+9974,"""{\""results\"":[{""patient"":{""gender"":""male"",""age"":34,""vaccinationElapsedTime"":15978},""visit"":{""date"":""2021-12-06T0"
+9976,"""{\""results\"":[{""patient"":{""gender"":""male"",""age"":16,""vaccinationElapsedTime"":3478},""immunizationEvent"":[{""reactionText"":""mild systemic reaction (f"
+9984,###[script:lang-javascript][script:src-external:https://api.elastic.co/products/v7/es-url-builder.html?pretty=true][script:language:json][script
+9987,"1. RECVDATE: 2022-02-22T00:00:00.000Z
+2. STATE: CA
+3. AGE_YRS: 6"
+999,"###denominator: 106.0
+###numerator: 234
+###result: true"

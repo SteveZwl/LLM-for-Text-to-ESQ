@@ -1,0 +1,8744 @@
+,llm_result
+10001,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""count"": {
+      ""cardinality"": {
+        ""field"": ""VAERS_ID.keyword""
+      }
+    }
+  }"
+10006,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""count"": {
+      ""cardinality"": {
+        ""field"": ""VAERS_ID.keyword""
+      }
+    }
+  }"
+10013,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""count"": {
+      ""cardinality"": {
+        ""field"": ""VAERS_ID.keyword""
+      }
+    }
+  }"
+10017,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""count"": {
+      ""cardinality"": {
+        ""field"": ""VAERS_ID.keyword""
+      }
+    }
+  }"
+10019,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""count"": {
+      ""cardinality"": {
+        ""field"": ""VAERS_ID.keyword""
+      }
+    }
+  }"
+10051,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""count"": {
+      ""cardinality"": {
+        ""field"": ""VAERS_ID.keyword""
+      }
+    }
+  }"
+10058,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""count"": {
+      ""value_count"": {
+        ""field"": ""_id""
+      }
+    }
+  },
+  ""stored_"
+10060,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""count"": {
+      ""cardinality"": {
+        ""field"": ""VAERS_ID.keyword""
+      }
+    }
+  }"
+10063,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""count"": {
+      ""cardinality"": {
+        ""field"": ""VAERS_ID.keyword""
+      }
+    }
+  }"
+10078,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""count"": {
+      ""cardinality"": {
+        ""field"": ""VAERS_ID.keyword""
+      }
+    }
+  }"
+10086,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""count"": {
+      ""value_count"": {
+        ""field"": ""_id""
+      }
+    }
+  },
+  ""stored_"
+1010,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+10119,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+1012,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+10127,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+1013,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+10130,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+10138,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+10145,"""GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""flux"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": [
+            {
+              ""match"": {
+                ""CLIN"
+10147,"""GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""pnc15"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": [
+            {
+              ""match"": {"
+10148,"""GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""flu3"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": [
+            {
+              ""match"": {
+                ""CODE"
+1016,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+10162,"""GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""pnc20"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": [
+            {
+              ""match"": {"
+10171,"""GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""RAB"": {
+      ""terms"": {
+        ""field"": ""DATA.RAB.keyword"",
+        ""size"": 5
+      },"
+1020,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""range"": {
+          ""DATA"
+10200,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+10203,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+10215,"""GET /_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""vax_type"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_TYPE.keyword"",
+        ""order"
+10224,"""GET /_search
+{
+  ""size"": 5000,
+  ""query"": {
+    ""bool"": {
+      ""filter"": [
+        {
+          ""match"": {
+            ""_type"": ""vaers""
+          }"
+10235,"""POST _search
+{
+  ""size"": 5000,
+  ""query"": {
+    ""bool"": {
+      ""filter"": [
+        {
+          ""range"": {
+            ""DATA.VAX_DATE.keyword"": {"
+10243,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+10253,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""vax_name"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_NAME.keyword"",
+        """
+10289,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""FLUA3"": {
+      ""terms"": {
+        ""field"": ""DATA.FLUA3.keyword"",
+        ""size"":"
+10292,"""GET /_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""pnc15"": {
+      ""terms"": {
+        ""field"": ""DATA.PNC15.keyword"",
+        ""size"
+1030,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""range"": {
+          ""DATA"
+1031,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""range"": {
+          ""DATA"
+10315,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""vax_type"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_TYPE.keyword"",
+        """
+10333,"""GET /_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""PNC13"": {
+      ""terms"": {
+        ""field"": ""DATA.PNC13.keyword"",
+        ""size"
+10352,"""GET /_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""DTAPIPV"": {
+      ""terms"": {
+        ""field"": ""DATA.DTAPIPV.keyword"",
+        ""size"":"
+10355,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""UNK"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_NAME.keyword"",
+        ""order"": {"""
+10362,"""GET /_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""DTAP"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": [
+            {
+              ""match"": {
+                """
+10391,"""GET /_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""DTAP"": {
+      ""terms"": {
+        ""field"": ""DATA.DTAP.keyword"",
+        ""size"": 5"
+10394,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+10401,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+10406,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+1041,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""range"": {
+          ""DATA"
+1044,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""range"": {
+          ""DATA"
+10451,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""vax_name"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_NAME.keyword"",
+        """
+10466,"""GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""vax_name"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_NAME.keyword"",
+        ""order"":"
+10472,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+10491,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+10503,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+10524,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+1054,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""range"": {
+          ""DATA"
+10566,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+10578,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+10584,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+10595,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+10596,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+10602,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+10607,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+10609,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+10610,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+1065,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""range"": {
+          ""DATA"
+10664,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+10679,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+10692,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+10700,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+1072,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""range"": {
+          ""DATA"
+10738,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+10762,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+10765,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+10769,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+10780,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+10795,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+10807,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+10828,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+10829,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+10832,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+10857,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+1086,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+10895,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+1093,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+10955,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""agg_name"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_NAME.keyword"",
+        ""order"
+10958,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""injected"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": [
+            {
+              ""match"": {"
+10968,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""group_by_vax_name"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_NAME."
+1098,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""range"": {
+          ""DATA"
+10986,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""group_by_vax_name"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_NAME."
+11002,"""GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""agg_name"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_NAME.keyword"",
+        ""order"": {"
+11016,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""injected"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": [
+            {
+              ""match"": {"
+11062,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""injected"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": [
+            {
+              ""match"": {"
+11070,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""injected"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": [
+            {
+              ""match"": {"
+1109,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""range"": {
+          ""DATA"
+11097,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+11100,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+11119,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+11134,"""GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""injected"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": [
+            {
+              ""match"": {
+                ""_id"
+11136,"""GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""injected_from_un"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": [
+            {
+              ""match"":"
+11173,"""GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""vax_type"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_TYPE.keyword"",
+        ""order"":"
+11179,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""vax_type"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_TYPE.keyword"",
+        """
+11190,"""GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""vax_state"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_LOCATION.keyword"",
+        ""order"":"
+11205,"""GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""states"": {
+      ""terms"": {
+        ""field"": ""DATA.STATE.keyword"",
+        ""size"": 5
+      },
+      """
+11207,"""GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""vax_type"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_TYPE.keyword"",
+        ""order"":"
+11209,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""AR"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": [
+            {
+              ""match"": {
+                """
+11214,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+11223,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""vax_type"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_TYPE.keyword"",
+        """
+11227,"""GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""vax_type"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_TYPE.keyword"",
+        ""order"":"
+1127,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""patient_count"": {
+      ""value_count"": {
+        ""field"": ""DATA.AGE_YRS""
+      }"
+11286,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+11289,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+11296,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+11303,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+11309,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+11315,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+11347,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+11348,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+1135,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""range"": {
+          ""DATA"
+11355,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+11360,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+11362,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+11369,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+1137,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""range"": {
+          ""DATA"
+11372,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+11438,"""GET /_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""top_tags"": {
+      ""terms"": {
+        ""field"": ""DATA.RL_CD.keyword"",
+        ""size"":"
+11442,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""top_rash_diagnoses"": {
+      ""terms"": {
+        ""field"": ""CLM_POA_CODE"
+11460,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+11467,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+11478,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+11487,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+115,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""term"
+11542,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+11543,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+11548,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+11559,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+11563,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+11578,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+1159,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""patient_count"": {
+      ""value_count"": {
+        ""field"": ""DATA.AGE_YRS""
+      }"
+11593,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+1160,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""range"": {
+          ""DATA"
+1162,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""age_yrs"": {
+      ""terms"": {
+        ""field"": ""DATA.AGE_YRS.keyword"",
+        """
+11620,"""GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""agg_name"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_NAME.keyword"",
+        ""order"": {"
+11621,"""GET /_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""group_by_vaxtype"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_TYPE.keyword"","
+11635,"""GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""count_by_vaxtype"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_TYPE.keyword"","
+11644,"""GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""agg_name"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_NAME.keyword"",
+        ""order"": {"
+11649,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""agg_name"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_NAME.keyword"",
+        ""order"
+11651,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""agg_name"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_NAME.keyword"",
+        ""order"
+11654,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""agg_name"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_NAME.keyword"",
+        ""order"
+11675,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""agg_name"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_NAME.keyword"",
+        ""order"
+11686,"""GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""varicella"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": [
+            {
+              ""match"": {
+                """
+11691,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""vax_name"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_NAME.keyword"",
+        """
+1172,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""agg_name"": {
+      ""filter"": {
+        ""range"": {
+          ""DATA.AGE_YRS"": {
+            """
+11723,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""vax_name"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_NAME.keyword"",
+        """
+11724,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""vax_name"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_NAME.keyword"",
+        """
+11726,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""vax_name"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_NAME.keyword"",
+        """
+11728,"""GET /_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""vax_name"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_NAME.keyword"",
+        ""order"
+11758,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""vax_name"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_NAME.keyword"",
+        """
+1177,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""range"": {
+          ""DATA"
+11770,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+11778,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+11801,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+11833,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+11848,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+11870,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+11874,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+11878,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+11882,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+11886,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+11889,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+11898,"""POST _search
+{
+  ""size"": 5000,
+  ""query"": {
+    ""bool"": {
+      ""filter"": [
+        {
+          ""terms"": {
+            ""_id"": [""1"",""2""]
+          }"
+11901,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+11904,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+11918,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+11921,"""POST _search
+{
+  ""size"": 5000,
+  ""query"": {
+    ""bool"": {
+      ""filter"": [
+        {
+          ""terms"": {
+            ""_id"": [""163489"","""
+11923,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+11934,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+11936,"""POST _search
+{
+  ""size"": 5000,
+  ""query"": {
+    ""bool"": {
+      ""should"": [
+        {
+          ""match"": {
+            ""VAX_NAME.keyword"": ""HIBER"
+1194,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""patient_age"": {
+      ""terms"": {
+        ""field"": ""DATA.AGE_YRS.keyword"",
+        ""order"
+1195,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""range"": {
+          ""DATA"
+11957,"""POST _search
+{
+  ""size"": 5000,
+  ""query"": {
+    ""bool"": {
+      ""filter"": [
+        {
+          ""terms"": {
+            ""_id"": [""163489"","""
+11973,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+11999,"""POST _search
+{
+  ""size"": 5000,
+  ""query"": {
+    ""bool"": {
+      ""filter"": [
+        {
+          ""terms"": {
+            ""_id"": [""163489"","""
+12014,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+12015,"""POST _search
+{
+  ""size"": 5000,
+  ""query"": {
+    ""bool"": {
+      ""should"": [
+        {
+          ""match"": {
+            ""VAX_NAME.keyword"": ""TDAP"
+12018,"""POST _search
+{
+  ""size"": 5000,
+  ""query"": {
+    ""bool"": {
+      ""filter"": [
+        {
+          ""terms"": {
+            ""_id"": [
+              ""13946"
+12032,"""POST _search
+{
+  ""size"": 5000,
+  ""query"": {
+    ""bool"": {
+      ""filter"": [
+        {
+          ""terms"": {
+            ""_id"": [
+              ""13846"
+1204,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""agg_name"": {
+      ""terms"": {
+        ""field"": ""DATA.AGE_YRS.keyword"",
+        ""order"
+12040,"""POST _search
+{
+  ""size"": 5000,
+  ""query"": {
+    ""bool"": {
+      ""filter"": [
+        {
+          ""terms"": {
+            ""_id"": [
+              ""13846"
+12046,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+12055,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+12067,"""POST _search
+{
+  ""size"": 5000,
+  ""query"": {
+    ""bool"": {
+      ""filter"": [
+        {
+          ""terms"": {
+            ""_id"": [""163489"","""
+12069,"""GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""vax_type"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_TYPE.keyword"",
+        ""order"":"
+12070,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""vax_name"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_NAME.keyword"",
+        """
+12074,"""GET /_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""vax_agg"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_NAME.keyword"",
+        ""order"
+1210,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+12120,"""GET /_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""vaccines"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_NAME.keyword"",
+        ""order"":"
+12127,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""dengue"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": [
+            {
+              ""match"": {"
+12130,"""GET /_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""vax_name"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_NAME.keyword"",
+        ""order"
+1215,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+12164,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""vax_type"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_TYPE.keyword"",
+        """
+12172,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""vax_type"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_TYPE.keyword"",
+        """
+12175,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""vax_name"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_NAME.keyword"",
+        """
+12185,"""GET /_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""vax_agg"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_NAME.keyword"",
+        ""order"
+12201,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""vax_name"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_NAME.keyword"",
+        """
+12203,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""havrix"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": [
+            {
+              ""match"": {"
+12218,"""POST _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""vax_name"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_NAME.keyword"",
+        ""order"":"
+12281,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+12282,"""POST _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""vax_name"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_NAME.keyword"",
+        ""order"":"
+12295,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+12297,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+12306,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+12331,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+12334,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+12336,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+12345,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+12373,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+12403,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+12431,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+12446,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+12449,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+12506,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+12514,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+12540,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+12545,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""agg_name"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_NAME.keyword"",
+        ""order"
+12554,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""injection_site_irritation"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": [
+            {"
+12555,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+12560,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+12571,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+12579,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+12602,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+12606,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+12631,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+12634,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+12653,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+12679,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+12686,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+12689,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+12713,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+12714,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+1272,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+12730,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+12739,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+12748,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+12755,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+12774,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+12781,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+12806,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+12809,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+12811,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+12826,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+12837,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+12838,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+12842,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+12847,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+12874,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+12879,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+12882,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+12899,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+12911,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""size"": 5,
+      ""sort"": ["
+12937,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+12950,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""painless"",
+    ""source"": """"""
+      int max = 0;
+      String max_name = """";
+      for (int i=0;i<"
+12951,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+12961,"""POST _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""gender"": {
+      ""terms"": {
+        ""field"": ""DATA.GENDER.keyword"",
+        ""order"": [
+          {""_count"
+12963,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+12969,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+12981,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""size"": 5,
+      ""sort"": ["
+12996,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""size"": 5,
+      ""sort"": ["
+13020,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+13028,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""size"": 5,
+      ""sort"": ["
+1307,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""term"": {
+          ""DATA"
+1349,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""term"": {
+          ""DATA"
+136,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""term"
+1361,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""term"": {
+          ""DATA"
+1378,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+1379,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+1409,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+143,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""term"
+1435,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+1452,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+1453,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+1461,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+1506,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+1509,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""bool"
+151,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""term"
+1517,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""agg_name"": {
+      ""filter"": {
+        ""range"": {
+          ""DATA.TODAYS_DATE.keyword"": {"
+1519,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""patient_count"": {
+      ""value_count"": {
+        ""field"": ""_id""
+      }
+    }
+  },
+  """
+1524,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""agg_name"": {
+      ""filter"": {
+        ""range"": {
+          ""DATA.TODAYS_DATE.keyword"": {"
+1542,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""patient_count"": {
+      ""value_count"": {
+        ""field"": ""_id""
+      }
+    }
+  },
+  """
+1553,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+1577,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+1581,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+1604,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+1606,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+1619,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+1626,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+1627,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+1628,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+163,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""term"
+1649,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+1663,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+1665,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+1668,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+1676,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+1717,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+1736,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+1740,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+1747,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+175,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""term"
+1750,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+1773,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+1794,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+1802,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+1817,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+182,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""term"
+1820,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+1826,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+183,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""term"
+1831,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+1833,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+1835,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+1840,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+1862,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+1873,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+1878,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+1880,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+1886,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+1890,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+1914,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+1941,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+1987,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+199,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""range"
+1990,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+2021,"""GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""patient_count"": {
+      ""value_count"": {
+        ""field"": ""PATIENTS.PATID.keyword""
+      }"
+2036,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""agg_name"": {
+      ""terms"": {
+        ""field"": ""DATA.SYMPTOM_TEXT.keyword"",
+        """
+2049,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+2055,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""pulse_pressure"": {
+      ""filter"": {
+        ""range"": {
+          ""DATA.VAX_DATE.keyword"": {"
+2061,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""Ketosis"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": [
+            {
+              ""match"": {"
+2124,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+2130,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+2131,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+2156,"""POST _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""symptoms"": {
+      ""terms"": {
+        ""field"": ""DATA.SYMPTOM_TEXT.keyword"",
+        ""order"": {"""
+2200,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""bool"
+2202,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+221,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""term"
+2223,"""POST _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""symptoms"": {
+      ""terms"": {
+        ""field"": ""DATA.SYMPTOM_TEXT.keyword"",
+        ""order"": ["
+2254,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+2262,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""painless"",
+    ""source"": """"""
+      int count = 0;
+      for (int i=0;i<params._source.symptoms."
+2270,"""GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""symptoms"": {
+      ""terms"": {
+        ""field"": ""DATA.SYMPTOM_TEXT.keyword"",
+        ""order"": {"
+2286,"""POST _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""symptoms"": {
+      ""terms"": {
+        ""field"": ""DATA.SYMPTOM_TEXT.keyword"",
+        ""order"": {"""
+2320,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""bool"
+2350,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""bool"
+236,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""term"
+2375,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""bool"
+2382,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+2391,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+2405,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""bool"
+2408,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""bool"
+2419,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""bool"
+2426,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+243,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""term"
+2438,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+247,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""range"
+2479,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+2497,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""bool"
+2512,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+2518,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""bool"
+2519,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+2525,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""bool"
+2535,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""bool"
+2538,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""bool"
+2564,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""agg_name"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": [
+            {
+              ""range"": {"
+2587,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""agg_name"": {
+      ""filter"": {
+        ""range"": {
+          ""DATA.DIED"": {
+            ""gte"":"
+2606,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""agg_name"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": [
+            {
+              ""range"": {"
+2607,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""agg_name"": {
+      ""filter"": {
+        ""range"": {
+          ""DATA.DIED"": {
+            ""gte"":"
+2612,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""agg_name"": {
+      ""filter"": {
+        ""range"": {
+          ""DATA.DIED"": {
+            ""gte"":"
+2626,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""agg_name"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": [
+            {
+              ""range"": {"
+2634,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""agg_name"": {
+      ""filter"": {
+        ""range"": {
+          ""DATA.DIED"": {
+            ""gte"":"
+266,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""term"
+2661,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""agg_name"": {
+      ""filter"": {
+        ""range"": {
+          ""DATA.DIED"": {
+            ""gte"":"
+2686,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""died"": {
+      ""filter"": {
+        ""range"": {
+          ""DATA.DIED"": {
+            ""gte"": """
+2694,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""died"": {
+      ""filter"": {
+        ""range"": {
+          ""DATA.DIED"": {
+            ""gte"": """
+2727,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""died"": {
+      ""filter"": {
+        ""range"": {
+          ""DATA.DIED"": {
+            ""gte"": """
+273,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""term"
+2781,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""died"": {
+      ""filter"": {
+        ""range"": {
+          ""DATA.DIED"": {
+            ""gte"": """
+2792,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""died"": {
+      ""filter"": {
+        ""range"": {
+          ""DATA.DIED"": {
+            ""gte"": """
+281,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""term"
+2824,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+2826,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+2829,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+2834,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+2836,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+2853,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+2909,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+291,"""GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""patient_count"": {
+      ""value_count"": {
+        ""field"": ""_id""
+      }
+    }
+  },
+  ""query"":"
+2918,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+2952,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""num_hospdays"": {
+      ""sum"": {
+        ""field"": ""DATA.HOSPDAYS""
+      }
+    }"
+2960,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""num_hospdays"": {
+      ""sum"": {
+        ""field"": ""DATA.HOSPDAYS""
+      }
+    }"
+3010,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+3027,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+3029,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+3033,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+3036,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""hospitalization_days"": {
+      ""sum"": {
+        ""field"": ""DATA.HOSPDAYS""
+      }
+    },"
+3037,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+3069,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+3074,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+3091,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""recovered"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": [
+            {
+              ""match"": {"
+3113,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""term"
+313,"""GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""patient_count"": {
+      ""value_count"": {
+        ""field"": ""_id""
+      }
+    }
+  },
+  ""query"":"
+3136,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""term"
+3152,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""term"
+3156,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""term"
+3160,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""term"
+3164,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""term"
+3167,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""term"
+3169,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""term"
+3170,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""term"
+3202,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""term"
+324,"""GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""patient_count"": {
+      ""value_count"": {
+        ""field"": ""_id""
+      }
+    }
+  },
+  ""query"":"
+3253,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""bool"
+3258,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""bool"
+3261,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""bool"
+3276,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""bool"
+3277,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""bool"
+3296,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""bool"
+3298,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""bool"
+330,"""GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""patient_count"": {
+      ""value_count"": {
+        ""field"": ""_id""
+      }
+    }
+  },
+  ""query"":"
+3315,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""bool"
+3334,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""bool"
+3336,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""bool"
+3340,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""bool"
+3344,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+3346,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""bool"
+337,"""GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""patient_count"": {
+      ""value_count"": {
+        ""field"": ""_id""
+      }
+    }
+  },
+  ""query"":"
+3376,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""bool"
+3386,"""GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""patient_count"": {
+      ""value_count"": {
+        ""field"": ""DATA.VAX_DATE.keyword""
+      }"
+3404,"""GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""patient_count"": {
+      ""value_count"": {
+        ""field"": ""DATA.VAX_DATE.keyword""
+      }"
+3421,"""GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""patient_count"": {
+      ""value_count"": {
+        ""field"": ""DATA.VAX_DATE.keyword""
+      }"
+3444,"""GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""patient_count"": {
+      ""value_count"": {
+        ""field"": ""DATA.VAX_DATE.keyword""
+      }"
+3445,"""GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""patient_count"": {
+      ""value_count"": {
+        ""field"": ""DATA.VAX_DATE.keyword""
+      }"
+3491,"""GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""patient_count"": {
+      ""value_count"": {
+        ""field"": ""DATA.VAX_DATE.keyword""
+      }"
+3526,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""vax_date"": {
+      ""filter"": {
+        ""range"": {
+          ""DATA.VAX_DATE.keyword"":"
+3549,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""vax_date"": {
+      ""filter"": {
+        ""range"": {
+          ""DATA.VAX_DATE.keyword"":"
+3557,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""vax_date"": {
+      ""filter"": {
+        ""range"": {
+          ""DATA.VAX_DATE.keyword"":"
+3560,"""GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""vax_date"": {
+      ""filter"": {
+        ""range"": {
+          ""DATA.VAX_DATE.keyword"": {"
+3563,"""GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""vax_date"": {
+      ""filter"": {
+        ""range"": {
+          ""DATA.VAX_DATE.keyword"": {"
+357,"""GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""patient_count"": {
+      ""value_count"": {
+        ""field"": ""_id""
+      }
+    }
+  },
+  ""query"":"
+3601,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""vax_date"": {
+      ""filter"": {
+        ""range"": {
+          ""DATA.VAX_DATE.keyword"":"
+3602,"""GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""vax_date"": {
+      ""filter"": {
+        ""range"": {
+          ""DATA.VAX_DATE.keyword"": {"
+3629,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""vax_date"": {
+      ""filter"": {
+        ""range"": {
+          ""DATA.VAX_DATE.keyword"":"
+3645,"""GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""vax_date"": {
+      ""filter"": {
+        ""range"": {
+          ""DATA.VAX_DATE.keyword"": {"
+3647,"""GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""vax_date"": {
+      ""filter"": {
+        ""range"": {
+          ""DATA.VAX_DATE.keyword"": {"
+3657,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+3679,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+3695,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+3710,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+3717,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+3732,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+3749,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+3767,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+3771,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+38,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""term"
+380,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+3811,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+3815,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+382,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+3853,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+3856,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+3857,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+3859,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+3861,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+3865,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+387,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+3913,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+3916,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+3917,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+3918,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+3924,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+3931,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+3941,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+3959,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+3968,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+3993,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+4014,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""range"": {
+          ""DATA"
+4050,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+4055,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+4065,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""agg_name"": {
+      ""filter"": {
+        ""range"": {
+          ""DATA.ONSET_DT.keyword"": {"
+4087,"""GET /_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""doc_count"": {
+      ""value_count"": {
+        ""field"": ""DATA.ONSET_DT.keyword""
+      }"
+4088,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""agg_name"": {
+      ""filter"": {
+        ""range"": {
+          ""DATA.ONSET_DT"": {
+            """
+41,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""term"
+4112,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""agg_name"": {
+      ""filter"": {
+        ""range"": {
+          ""DATA.ONSET_DT.keyword"": {"
+4116,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""agg_name"": {
+      ""filter"": {
+        ""range"": {
+          ""DATA.ONSET_DT.keyword"": {"
+4120,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""agg_name"": {
+      ""filter"": {
+        ""range"": {
+          ""DATA.ONSET_DT"": {
+            """
+4127,"""GET /_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""doc_count"": {
+      ""value_count"": {
+        ""field"": ""DATA.ONSET_DT.keyword""
+      }"
+4153,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""agg_name"": {
+      ""filter"": {
+        ""range"": {
+          ""DATA.ONSET_DT"": {
+            """
+4158,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""agg_name"": {
+      ""filter"": {
+        ""range"": {
+          ""DATA.ONSET_DT.keyword"": {"
+4169,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""agg_name"": {
+      ""filter"": {
+        ""range"": {
+          ""DATA.ONSET_DT"": {
+            """
+4179,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""agg_name"": {
+      ""filter"": {
+        ""range"": {
+          ""DATA.ONSET_DT.keyword"": {"
+4200,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""agg_name"": {
+      ""filter"": {
+        ""range"": {
+          ""DATA.ONSET_DT.keyword"": {"
+4201,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""agg_name"": {
+      ""filter"": {
+        ""range"": {
+          ""DATA.ONSET_DT"": {
+            """
+4248,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""range"": {
+          ""DATA"
+425,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+4260,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""range"": {
+          ""DATA"
+4280,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""range"": {
+          ""DATA"
+4320,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""range"": {
+          ""DATA"
+4333,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""range"": {
+          ""DATA"
+4342,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""painless"",
+    ""source"": """"""
+      double diff = Math.abs(doc['DATA.VAX_DATE'].value.getMillis() - doc"
+4345,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""painless"",
+    ""source"": """"""
+      int diff = (int)doc['DATA.ONSET_DT'].value - (int)doc['DATA"
+4367,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""painless"",
+    ""source"": """"""
+      int diff = (int)doc['DATA.ONSET_DT'].value - (int)doc['DATA"
+4385,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""painless"",
+    ""source"": """"""
+      int day = Integer.parseInt(params['day']);
+      int month = Integer.parseInt(params['month']);"
+4397,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+4406,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""painless"",
+    ""source"": """"""
+      int days = (int) doc['DATA.ONSET_DT'].value - (int) doc['DATA"
+4418,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""painless"",
+    ""source"": """"""
+      int d = Math.abs(doc['DATA.VAX_DATE'].value.getMillis() - doc"
+4419,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""painless"",
+    ""source"": """"""
+      int diff = (int)doc['DATA.ONSET_DT'].value - (int)doc['DATA"
+4423,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""painless"",
+    ""source"": """"""
+      int days = (int) doc['DATA.ONSET_DT'].value - (int) doc['DATA"
+4424,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""painless"",
+    ""source"": """"""
+      int day = Integer.parseInt(params['day']);
+      int month = Integer.parseInt(params['month']);"
+4436,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""painless"",
+    ""source"": """"""
+      int diff = (int)doc['DATA.ONSET_DT'].value - (int)doc['DATA"
+4445,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""painless"",
+    ""source"": """"""
+      int days = (int) Math.ceil((doc['DATA.ONSET_DT'].value - doc['"
+4472,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+4473,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""painless"",
+    ""source"": """"""
+      int d = Math.abs(doc['DATA.VAX_DATE'].value.getMillis() - doc"
+4478,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""painless"",
+    ""source"": """"""
+      int diff = (int)doc['DATA.ONSET_DT'].value - (int)doc['DATA"
+448,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+4491,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""painless"",
+    ""source"": """"""
+      int diff = (int)doc['DATA.ONSET_DT'].value - (int)doc['DATA"
+4500,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""painless"",
+    ""source"": """"""
+      int x = (int) doc['DATA.ONSET_DT'].value;
+      int y = (int"
+4529,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""painless"",
+    ""source"": """"""
+      int x = (int) doc['DATA.VAX_DATE'].value - (int) doc['DATA"
+4539,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""painless"",
+    ""source"": """"""
+      int diff = (int)doc['DATA.ONSET_DT'].value - (int)doc['DATA"
+4545,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""painless"",
+    ""source"": """"""
+      int x = (int) doc['DATA.VAX_DATE'].size();
+      for(int i="
+4546,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""range"": {
+          ""DATA"
+456,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+4577,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""painless"",
+    ""source"": """"""
+      int d = Math.abs(doc['DATA.VAX_DATE'].value.getMillis() - doc"
+4590,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""painless"",
+    ""source"": """"""
+      int x = (int) doc['DATA.ONSET_DT'].value;
+      int y = (int"
+4596,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""painless"",
+    ""source"": """"""
+      int diff = (int)doc['DATA.ONSET_DT'].value - (int)doc['DATA"
+4617,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""filter"": {
+      ""filters"": {
+        ""bool"": {
+          ""should"": [
+            {
+              ""range"": {
+                """
+4637,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""range"": {
+          ""DATA"
+4653,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""range"": {
+          ""DATA"
+4655,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""filter"": {
+      ""filters"": {
+        ""bool"": {
+          ""should"": [
+            {
+              ""range"": {
+                """
+4656,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""filter"": {
+      ""filters"": {
+        ""bool"": {
+          ""should"": [
+            {
+              ""range"": {
+                """
+466,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+4686,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""agg_name"": {
+      ""filter"": {
+        ""range"": {
+          ""DATA.ONSET_DT"": {
+            """
+4689,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""filter"": {
+      ""filters"": {
+        ""bool"": {
+          ""should"": [
+            {
+              ""range"": {
+                """
+47,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""term"
+4706,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""filter"": {
+      ""filters"": {
+        ""bool"": {
+          ""should"": [
+            {
+              ""range"": {
+                """
+4715,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""range"": {
+          ""DATA"
+4725,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""filter"": {
+      ""filters"": {
+        ""bool"": {
+          ""should"": [
+            {
+              ""range"": {
+                """
+4733,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""agg_name"": {
+      ""filter"": {
+        ""range"": {
+          ""DATA.ONSET_DT"": {
+            """
+4762,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+4764,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+4789,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+4790,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+4808,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+4828,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+4855,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+4862,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+4866,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""bool"
+49,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""term"
+4902,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+4912,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+4917,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+4946,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+4967,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+4972,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+4974,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+498,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+4983,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""painless"",
+    ""source"": """"""
+      int count = 0;
+      for (int i=0;i<ctx._source.reports.size"
+4995,"""GET /_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""tuberculosis"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": [
+            {
+              ""match"":"
+4997,"""GET /_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""a1c_test"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": [
+            {
+              ""exists"":"
+5007,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""painless"",
+    ""source"": """"""
+      int count = 0;
+      for (int i=0;i<ctx._source.reports.size"
+5010,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""test_count"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": [
+            {
+              ""exists"": {"
+5012,"""GET /_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""blood_urea_nitrogen_test"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": ["
+5017,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""painless"",
+    ""source"": """"""
+      int count = 0;
+      for (int i=0;i<ctx._source.reports.size"
+5018,"""GET /_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""influenza"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": [
+            {
+              ""match"": {"
+5023,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""test_count"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": [
+            {
+              ""match"": {"
+5036,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""test_glucose"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": [
+            {
+              ""exists"
+5052,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""gfr_test"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": [
+            {
+              ""exists"":"
+5056,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""painless"",
+    ""source"": """"""
+      int count = 0;
+      for (int i=0;i<ctx._source.notes.length"
+5072,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""painless"",
+    ""source"": """"""
+      int count = 0;
+      for (int i=0;i<ctx._source.notes.length"
+5084,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""lipase_test"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": [
+            {
+              ""match"":"
+5086,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""hemoglobin_level"": {
+      ""terms"": {
+        ""field"": ""DATA.HGB.keyword"",
+        """
+5092,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""heart_racing"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": [
+            {
+              ""match"":"
+5093,"""GET /_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""cardiac_catheterization_test"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": [
+            {"
+5114,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""K_AFTER_VACCINATION"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": [
+            {"
+5139,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""triglycerides"": {
+      ""sum"": {
+        ""field"": ""DATA.TRGCER""
+      }
+    }"
+5144,"""GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""ct_scan_head_after_vax"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": [
+            {"
+5150,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""agg_name"": {
+      ""terms"": {
+        ""field"": ""DATA.GLUCOSE.keyword"",
+        ""order"
+5165,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""my_bloodwork"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": [
+            {
+              ""match"":"
+5169,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""bd_veritor"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": [
+            {
+              ""range"":"
+517,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+5177,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""mri_test_after_vax"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": ["
+5197,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""pcr_after_vax"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": [
+            {"
+520,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+5202,"""POST _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""max_bloodpressure"": {
+      ""max"": {
+        ""field"": ""DATA.BP.keyword""
+      }
+    },
+    ""min"
+5219,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+5227,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+523,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+5231,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""term"": {
+          ""DATA"
+5281,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""bool"
+5288,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""bool"
+5323,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""bool"
+533,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+5344,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""match"
+5346,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""bool"
+535,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+5355,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+536,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+5360,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""match"
+5371,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""bool"
+538,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+5381,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""bool"
+542,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+5439,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+5450,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+5464,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+5467,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+5473,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+5482,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+5509,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""painless"",
+    ""source"": """"""
+      int count = 0;
+      for (int i=0;i<ctx._source.reports.size"
+5512,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""painless"",
+    ""source"": """"""
+      int count = 0;
+      for (int i=0;i<ctx._source.reports.size"
+552,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+5524,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""levothyroxine"": {
+      ""filter"": {
+        ""range"": {
+          ""DATA.VAX_DATE."
+5534,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""painless"",
+    ""source"": """"""
+      int count = 0;
+      for (int i=0;i<ctx._source.reports.size"
+5538,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""painless"",
+    ""source"": """"""
+      int count = 0;
+      for (int i=0;i<ctx._source.reports.size"
+5543,"""GET /_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""vax_ultra"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": [
+            {
+              ""match"":"
+5599,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""painless"",
+    ""source"": """"""
+      int count = 0;
+      for (int i=0;i<ctx._source.reports.size"
+5610,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""painless"",
+    ""source"": """"""
+      int count = 0;
+      for (int i=0;i<ctx._source.allergies"
+5630,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+564,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+5654,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+5667,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+5675,"""GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""patient_count"": {
+      ""value_count"": {
+        ""field"": ""DATA.VAERS_ID.keyword""
+      }"
+569,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+5718,"""GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""agg_name"": {
+      ""terms"": {
+        ""field"": ""DATA.RX_DRUG.keyword"",
+        ""order"": {"
+5757,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+5764,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+5767,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+5771,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+5790,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+5793,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+5798,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+58,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""term"
+5806,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+5808,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+5827,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+5842,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+5846,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""bool"
+5880,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+5885,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+5908,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+5912,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+5944,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+5959,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+5966,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+5987,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+5989,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+6005,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+6008,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+6013,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+6024,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+6031,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+6040,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+6053,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+6060,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+6065,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+6067,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+6072,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+6076,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+6086,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+6092,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+6117,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+6141,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+6203,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+6221,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+6249,"""GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""my_agg"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": [
+            {
+              ""match"": {
+                """
+6274,"""GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""dignose_bladder"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": [
+            {
+              ""match"":"
+6278,"""GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""dignosis"": {
+      ""terms"": {
+        ""field"": ""DATA.DIED.keyword"",
+        ""order"": {
+          ""_"
+628,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""state"": {
+      ""terms"": {
+        ""field"": ""DATA.STATE.keyword"",
+        ""size"": 50"
+6294,"""GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""dignosed_of_right_kidney_cyst"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"":"
+630,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+6321,"""GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""dignosed_allergic_conjunctivitis"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": ["
+6326,"""GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""dignosis"": {
+      ""terms"": {
+        ""field"": ""DATA.METASTATIC_CANCER.keyword"",
+        ""size"":"
+6328,"""GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""dignosis"": {
+      ""terms"": {
+        ""field"": ""DATA.DISEASE.keyword"",
+        ""order"": {"
+6329,"""GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""dignosis"": {
+      ""terms"": {
+        ""field"": ""DATA.DISEASE.keyword"",
+        ""order"": {"
+6342,"""GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""unknown_origin"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": [
+            {
+              ""match"": {
+                """
+6348,"""GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""dignose"": {
+      ""terms"": {
+        ""field"": ""DATA.DIED.keyword"",
+        ""order"": {
+          ""_"
+6398,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+6401,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+6406,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+6408,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+6412,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+6414,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+6452,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+6455,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""arh"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": [
+            {
+              ""match"": {"
+6495,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""painless"",
+    ""source"": """"""
+      String[] cmt = new String[0];
+      int maxCount = 0;
+      for (int i"
+6505,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+6556,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+6568,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+6573,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""aggs"": {
+        ""most_common_ves"
+6586,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+6595,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+660,"""GET /_search
+{
+  \""size\"": 0,
+  \""aggs\"" : {
+    \""nh_patients\"" : {
+      \""terms\"" : {
+        \""field\"" : \""STATE\"",
+        \""size\"" :"
+6601,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+663,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""state"": {
+      ""terms"": {
+        ""field"": ""DATA.STATE.keyword"",
+        ""size"": 50"
+6647,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+6658,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+6680,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+6691,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+6735,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+6741,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+6742,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+6754,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+6773,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+6798,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+6804,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+6811,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+6812,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+6821,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+6822,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+6840,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+6842,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+6856,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+6860,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+6921,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+6922,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+6990,"""GET /_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""low_pulse_rate"": {
+      ""filter"": {
+        ""range"": {
+          ""DATA.PULSE.keyword"": {"
+7010,"""GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""dignose"": {
+      ""terms"": {
+        ""field"": ""DATA.DIED.keyword"",
+        ""order"": {
+          ""_"
+7018,"""GET /_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""dignosis"": {
+      ""terms"": {
+        ""field"": ""DATA.DISEASE.keyword"",
+        ""size"":"
+702,"""GET /_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""clinical_notes"": {
+      ""terms"": {
+        ""field"": ""DATA.CLINICAL_NOTES.keyword"",
+        """
+7026,"""GET /_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""depression"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": [
+            {
+              ""match"": {
+                """
+7029,"""GET /_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""dignosis_herpes"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": [
+            {
+              ""match"
+7037,"""GET /_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""dignosis"": {
+      ""terms"": {
+        ""field"": ""DATA.DISEASE.keyword"",
+        ""size"":"
+7046,"""GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""nerve_block"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": [
+            {
+              ""match"": {"
+7049,"""GET /_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""dignosis"": {
+      ""terms"": {
+        ""field"": ""DATA.DISEASE.keyword"",
+        ""size"":"
+7058,"""GET /_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""dignose"": {
+      ""terms"": {
+        ""field"": ""DATA.DIED.keyword"",
+        ""order"": {"
+7064,"""GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""dignose"": {
+      ""terms"": {
+        ""field"": ""DATA.DIED.keyword"",
+        ""order"": {
+          ""_"
+7068,"""GET /_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""dignose"": {
+      ""terms"": {
+        ""field"": ""CLINICAL_DIAGNOSIS.keyword"",
+        ""size"
+709,"""GET /vaers/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""most_records"": {
+      ""terms"": {
+        ""field"": ""VAERS_ID.keyword"",
+        ""size"":"
+7095,"""GET /_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""dignose"": {
+      ""terms"": {
+        ""field"": ""CLINICAL_DIAGNOSIS.keyword"",
+        ""size"
+711,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""RI"": {
+      ""terms"": {
+        ""field"": ""DATA.RPT_INFO.RPT_DATE.keyword"","
+7113,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+7123,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+7128,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+7135,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""aggs"": {
+        ""smokers"": {"
+714,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""TX"": {
+      ""terms"": {
+        ""field"": ""DATA.TX_CURR.keyword"",
+        ""size"":"
+716,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""SD"": {
+      ""terms"": {
+        ""field"": ""DATA.SD.keyword"",
+        ""size"": 50"
+7172,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+7184,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+7197,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+7203,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""aggs"": {
+        ""allergies"": {"
+7214,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+7217,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+7237,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""aggs"": {
+        ""malabsorption"":"
+7248,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+7251,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+7256,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+726,"""GET /_search
+{
+  \""size\"": 0,
+  \""aggs\"" : {
+    \""max_records\"" : { \""max\"" : { \""field\"" : \""DATA.VAERS_ID.keyword\"" }}"
+7266,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+7269,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+7279,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+7313,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+7321,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+7332,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+7377,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+738,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""range"
+7382,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+7393,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+7404,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+7425,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+7441,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+7456,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+7471,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+7474,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+7480,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+7487,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+749,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""range"
+7499,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+75,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""term"
+7503,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+7507,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+7523,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+7529,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+7533,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+7542,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+7543,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+7549,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+755,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""range"
+7556,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+7564,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+7572,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+7599,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""allergies"": {
+      ""terms"": {
+        ""field"": ""DATA.ALLERGIES.keyword"",
+        ""size"
+760,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""range"
+7607,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""allergy_count"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": [
+            {
+              ""match"":"
+7621,"""GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""allergy_count"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": [
+            {
+              ""match"": {"
+7633,"""GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""allergy_count"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": [
+            {
+              ""match"": {"
+7640,"""GET /_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""allergy_agg"": {
+      ""terms"": {
+        ""field"": ""DATA.ALLERGIES.keyword"",
+        ""size"
+7666,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""allergies"": {
+      ""terms"": {
+        ""field"": ""CLINICAL_FINDINGS.ALLERGIES."
+7684,"""GET /_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""allergies"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": [
+            {
+              ""match"": {"
+7699,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""allergy_count"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": [
+            {
+              ""match"":"
+771,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""range"
+7718,"""GET /_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""talc"": {
+      ""terms"": {
+        ""field"": ""DATA.TALC.keyword"",
+        ""size"": 5"
+7726,"""GET /_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""allergies"": {
+      ""terms"": {
+        ""field"": ""DATA.ALLERGIES.keyword"",
+        ""size"":"
+773,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""range"
+7767,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""allergies"": {
+      ""terms"": {
+        ""field"": ""DATA.ALLERGIES.keyword"",
+        ""size"
+7768,"""GET /_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""allergies"": {
+      ""terms"": {
+        ""field"": ""DATA.ALLERGIES.keyword"",
+        ""size"":"
+7771,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""allergies"": {
+      ""terms"": {
+        ""field"": ""DATA.ALLERGIES.keyword"",
+        ""size"
+7773,"""GET /_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""allergies"": {
+      ""terms"": {
+        ""field"": ""DATA.ALLERGIES.keyword"",
+        ""size"":"
+7780,"""GET /_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""allergies"": {
+      ""terms"": {
+        ""field"": ""DATA.ALLERGIES.keyword"",
+        ""size"":"
+7782,"""GET /_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""allergies"": {
+      ""terms"": {
+        ""field"": ""DATA.ALLERGIES.keyword"",
+        ""size"":"
+7791,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""allergies"": {
+      ""terms"": {
+        ""field"": ""DATA.ALLERGIES.keyword"",
+        ""size"
+7796,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""agg_name"": {
+      ""terms"": {
+        ""field"": ""DATA.ALLERGIES.keyword"",
+        ""order"
+7815,"""GET /_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""allergies"": {
+      ""terms"": {
+        ""field"": ""DATA.ALLERGIES.keyword"",
+        ""size"":"
+7833,"""GET /_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""allergies"": {
+      ""terms"": {
+        ""field"": ""DATA.ALLERGIES.keyword"",
+        ""size"":"
+7835,"""GET /_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""allergies"": {
+      ""terms"": {
+        ""field"": ""DATA.ALLERGIES.keyword"",
+        ""size"":"
+7846,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""allergies"": {
+      ""terms"": {
+        ""field"": ""DATA.ALLERGIES.keyword"",
+        ""size"
+7879,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""bool"
+7902,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""bool"
+7918,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""bool"
+7921,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""bool"
+7922,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""bool"
+7930,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""bool"
+7937,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""bool"
+7950,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""bool"
+7961,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""bool"
+7967,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""bool"
+7984,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""term"
+7996,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+8014,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""term"
+8032,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""term"
+8048,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""bool"
+8051,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+8057,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""bool"
+8066,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""bool"
+8077,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""bool"
+8091,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""bool"
+8099,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+8104,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+812,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""range"
+8143,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+8153,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+8154,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+8226,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""agg_name"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": [
+            {
+              ""match"": {"
+8228,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""agg_name"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": [
+            {
+              ""match"": {"
+8242,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""agg_name"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": [
+            {
+              ""match"": {"
+8261,"""GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""agg_name"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": [
+            {
+              ""match"": {
+                """
+8262,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""agg_name"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": [
+            {
+              ""range"": {"
+8273,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""agg_name"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": [
+            {
+              ""range"": {"
+8287,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""agg_name"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": [
+            {
+              ""range"": {"
+830,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""term"
+8353,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+8354,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+8367,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+8371,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+8405,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+8406,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+8407,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+842,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""range"
+8424,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+8425,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+8438,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+8454,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""unique_vax_name"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_NAME.keyword"","
+8468,"""GET VAERS/_search
+{
+  \""size\"": 0,
+  \""aggs\"" : {
+    \""vax_name\"" : {
+      \""terms\"" : {
+        \""field\"" : \""DATA.VAX_NAME."
+8477,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+8479,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+8510,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+8513,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+8538,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+8554,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+8558,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+8585,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+8590,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+8605,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+8609,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+8619,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+8625,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+8626,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+8631,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+8638,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""must"
+8643,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+8657,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+8664,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+8707,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+8709,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+8720,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+8727,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+8730,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+8742,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+879,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""range"
+8797,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""Meningococcal_B_Japanese_encephalitis"": {
+      ""filter"": {
+        ""bool"": {"
+8822,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""Meningococcal Conjugate"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": ["
+8826,"""GET /_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""filter_agg"": {
+      ""filters"": {
+        ""filters"": {
+          ""ebola zaire"": {
+            ""term"": {"
+8838,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""Meningococcal_B_Rabies"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"":"
+8848,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""Meningococcal Conjugate"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": ["
+8857,"""GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""my_agg"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": [
+            {
+              ""match"": {
+                """
+89,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""term"
+8903,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""bcg_hib"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": [
+            {
+              ""match"":"
+8908,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""zo"": {
+      ""filter"": {
+        ""bool"": {
+          ""should"": [
+            {
+              ""match"": {
+                """
+8916,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+8935,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+8936,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+8938,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+8989,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+8992,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+8994,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+9003,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+9004,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+9013,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+9038,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+9044,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+905,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""range"
+9075,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+9119,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+9132,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+9139,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+9145,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+9149,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+9172,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+9183,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+9185,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+9186,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+9198,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+92,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""term"
+9201,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""should"
+9214,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""vax_name"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_NAME.keyword"",
+        """
+9215,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""vax_name"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_NAME.keyword"",
+        """
+9229,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""vax_name"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_NAME.keyword"",
+        """
+9246,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""vax_name"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_NAME.keyword"",
+        """
+9273,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""vax_name"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_NAME.keyword"",
+        """
+9319,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""vax_name"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_NAME.keyword"",
+        """
+9322,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""vax_name"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_NAME.keyword"",
+        """
+933,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+9343,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""vax_name"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_NAME.keyword"",
+        """
+9349,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""vax_name"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_NAME.keyword"",
+        """
+9357,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""vax_name"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_NAME.keyword"",
+        """
+9361,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+9382,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+9400,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+9412,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+9419,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+9435,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+945,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+9475,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+9479,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+948,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+9482,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+9486,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+9492,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+9507,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+9519,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+9520,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""manu"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_MANU.keyword"",
+        ""order"
+9524,"""GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""vax_manu"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_MANU.keyword"",
+        """
+9525,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""manu"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_MANU.keyword"",
+        ""order"
+9536,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""manu"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_MANU.keyword"",
+        ""size"
+9543,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""manu"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_MANU.keyword"",
+        ""size"
+9552,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""manu"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_MANU.keyword"",
+        ""size"
+9557,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""manu"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_MANU.keyword"",
+        ""order"
+9559,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""manu"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_MANU.keyword"",
+        ""size"
+9571,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+9579,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+9584,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""manu"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_MANU.keyword"",
+        ""size"
+9586,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+9597,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""manu"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_MANU.keyword"",
+        ""order"
+9606,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""manu"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_MANU.keyword"",
+        ""size"
+9612,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""manu"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_MANU.keyword"",
+        ""size"
+9632,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""manu"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_MANU.keyword"",
+        ""size"
+9636,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+9639,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""manu"": {
+      ""terms"": {
+        ""field"": ""DATA.VAX_MANU.keyword"",
+        ""order"
+9647,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+965,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+9659,"""GET /vaers-hci/_search
+{
+  ""size"": 5000,
+  ""query"": {
+    ""match_all"": {}
+  },
+  ""sort"": [
+    {""VAERS_ID.keyword"":"
+9664,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+968,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+9681,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+9696,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+97,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""term"
+9700,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+9712,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+9734,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+9736,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+9744,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+9745,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+9756,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+9759,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+9763,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+9771,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""count"": {
+      ""value_count"": {
+        ""field"": ""DATA.RECVDATE.keyword""
+      }
+    }"
+9778,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""agg_name"": {
+      ""filter"": {
+        ""range"": {
+          ""DATA.TODAYS_DATE.keyword"": {"
+9785,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""agg_name"": {
+      ""filter"": {
+        ""range"": {
+          ""DATA.TODAYS_DATE.keyword"": {"
+9789,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""count"": {
+      ""value_count"": {
+        ""field"": ""DATA.RECVDATE.keyword""
+      }
+    }"
+9790,"""GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""agg_name"": {
+      ""filter"": {
+        ""range"": {
+          ""DATA.RECVDATE.keyword"": {
+            ""gte"
+9807,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""count"": {
+      ""value_count"": {
+        ""field"": ""DATA.RECVDATE.keyword""
+      }
+    }"
+9813,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""agg_name"": {
+      ""filter"": {
+        ""range"": {
+          ""DATA.TODAYS_DATE.keyword"": {"
+9843,"""GET _search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""count"": {
+      ""value_count"": {
+        ""field"": ""_id""
+      }
+    }
+  },
+  ""query"": {"
+9860,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""agg_name"": {
+      ""filter"": {
+        ""range"": {
+          ""DATA.TODAYS_DATE.keyword"": {"
+9869,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""agg_name"": {
+      ""filter"": {
+        ""range"": {
+          ""DATA.TODAYS_DATE.keyword"": {"
+9877,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+988,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+9886,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+989,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+9893,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+9949,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+9974,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
+9976,"""POST _scripts/1
+{
+  ""script"": {
+	""lang"": ""mustache"",
+	""source"": {
+  	""track_total_hits"": ""true"",
+  	""query"": {
+    	""term"
+9984,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""count"": {
+      ""cardinality"": {
+        ""field"": ""VAERS_ID.keyword""
+      }
+    }
+  }"
+9987,"""GET VAERS/_search
+{
+  ""size"": 0,
+  ""aggs"": {
+    ""count"": {
+      ""cardinality"": {
+        ""field"": ""VAERS_ID.keyword""
+      }
+    }
+  }"
+999,"""POST _scripts/1
+{
+  ""script"": {
+    ""lang"": ""mustache"",
+    ""source"": {
+      ""track_total_hits"": ""true"",
+      ""query"": {
+        ""bool"": {
+          ""filter"
