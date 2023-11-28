@@ -1,0 +1,6745 @@
+,llm_result
+10001,"""aggregations"": {
+		""counts"": {
+			""field"": ""RECVDATE"",
+			""date_format"": ""yyyy-MM-dd HH:mm:ss Z"","
+10006,"""aggregations"": {
+		""counts"": {
+			""field"": ""RECVDATE"",
+			""date_format"": ""yyyy-MM-dd HH:mm:ss Z"","
+10013,"""aggregations"": {
+		""counts"": {
+			""field"": ""RECVDATE"",
+			""date_format"": ""yyyy-MM-dd HH:mm:ss Z"","
+10017,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": ["
+10019,
+10051,
+10058,
+10060,"""aggregations"": {
+		""counts"": {
+			""field"": ""RECVDATE"",
+			""date_format"": ""yyyy-MM-dd HH:mm:ss Z"","
+10063,"""aggregations"": {
+		""counts"": {
+			""field"": ""RECVDATE"",
+			""date_format"": ""yyyy-MM-dd HH:mm:ss Z"","
+10078,"""aggregations"": {
+		""counts"": {
+			""field"": ""RECVDATE"",
+			""date_format"": ""yyyy-MM-dd HH:mm:ss Z"","
+10086,"""aggregations"": {
+		""counts"": {
+			""field"": ""RECVDATE"",
+			""date_format"": ""yyyy-MM-dd HH:mm:ss Z"","
+1010,"{
+""_index"": ""clinical-notes"",
+""_type"": ""patient"",
+""_id"": ""1"",
+""_source"": {
+""_rev"": ""1-687a95"
+10119,"{
+	""hits"": {
+		""total"": { ""value"": 568 },
+		""max_score"": 1.0,
+		""found"": 568,"
+1012,"{
+""_index"": ""clinical-notes"",
+""_type"": ""patient"",
+""_id"": ""1"",
+""_source"": {
+	""_rev"": ""1-5867d"
+10127,"{
+				""query"": {
+					""bool"": {
+						""must"": [
+							{ ""term"": {""VAERS"
+1013,"{
+""_index"": ""clinical-notes"",
+""_type"": ""patient"",
+""_id"": ""1"",
+""_source"": {
+""_rev"": ""1-687a95"
+10130,"{
+				""$and"":[
+					{ ""RECVDATE"": { ""$gte"": ""2022-04-13T00:00:"
+10138,"{
+				""$and"":[
+					{ ""VAERS_ID"":""RV1""},
+					{""RECVDATE"":{""$gte"":""202"
+10145,"{
+""_index"": ""clinical-notes"",
+""_type"": ""record"",
+""_id"": ""1"",
+""_version"": 1675987446,
+""found"":"
+10147,"{
+""total"": {
+""value"": 16897,
+""label"": ""How many people has got PNC15?""
+},
+""answer"": {
+""value"": 16897,"
+10148,"{
+""_index"": ""clinical-notes"",
+""_type"": ""record"",
+""_id"": ""1"",
+""_version"": 1675987446,
+""found"":"
+1016,"{
+""_index"": ""clinical-notes"",
+""_type"": ""patient"",
+""_id"": ""1"",
+""_source"": {
+""_rev"": ""1-685c9d"
+10162,"{
+""total"": {
+""value"": 56879,
+""label"": ""56879""
+},
+""minimum"": {
+""value"": 0,
+""label"": ""0"""
+10171,"{
+""match"": {
+""query"": ""rab"",
+""type"": ""phrase""
+},
+""filter"": {
+""term"": {
+""VAERS_ID"": {
+""value"": ""85d6"
+1020,"{
+""_index"": ""clinical-notes"",
+""_type"": ""patient"",
+""_id"": ""1"",
+""_source"": {
+""_rev"": ""1-587d2c"
+10200,"{
+""match"": {
+""bool"": {
+""should"": [
+{
+""term"": {""VAERS_ID.value"": ""1000000000000000000"
+10203,"{
+""match"": {
+""bool"": {
+""should"": [
+{
+""term"": {""clinicalNotes.text"": ""Meningitis""}}
+]
+}
+}
+}
+
+###End"
+10215,"{
+""match"": {
+""query"": ""rv1"",
+""type"": ""phrase""
+},
+""filter"": [
+{""term"": {""vaers.id"": 675}}
+],
+""facets"
+10224,"{
+	""took"":568,""total"":1794,""max_score"":0.0,""results"":[{""highlight"":""<p>The infant was given DTaPIPVHIB vaccine"
+10235,"{
+""match"": {
+""bool"": {
+""should"": [
+{
+""term"": {""clinicalNotes.value"": ""The vaccine recipient received IPV vaccine.""}
+},
+{"
+10243,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""term"": {""clinicalNotes.value"" : ""FLUX (H1N1"
+10253,"###step1: find the entity classification and label with following name:
+'RECVDATE','STATE','AGE_YRS','VAERS_ID','SEX','SYMPTOM_TEXT','DIED','ER_VIS"
+10289,"###step1: find the entity classification and label with following name:
+'RECVDATE','STATE','AGE_YRS','VAERS_ID','SEX','SYMPTOM_TEXT','DIED','ER_VIS"
+10292,"###step1: find the entity classification and label with following name:
+'TTOX','PNC15'
+
+###step2: Based on the classification find the condition value in the sentence:
+
+How many"
+1030,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+	{""range"": {""age_yrs"": {""gt"": 63}}},
+	{""and"
+1031,"{
+""_index"": ""clinical-notes"",
+""_type"": ""patient"",
+""_id"": ""1"",
+""_source"": {
+""_version"": 15729464"
+10315,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""should"": [
+{""match_phrase"": {""typed"": ""typ""}}
+]
+}
+},
+"""
+10333,"The query should be like this:
+GET mypatient_records
+""filter"": {
+	""bool"": {
+		""must"": [
+			{ ""term"": {""clinicalNotes.text"
+10352,"{
+""_index"": ""clinical-notes"",
+""_type"": ""note"",
+""_id"": ""6"",
+""_version"": 17,
+""_parent"": ""5"",
+""_rev"
+10355,"###step1: find the entity classification and label with following name:
+'RECVDATE','STATE','AGE_YRS','VAERS_ID','SEX','SYMPTOM_TEXT','DIED','ER_VIS"
+10362,"The first query can be converted to elastic search as follows:
+GET my_index/_search
+{
+	""query"": {
+		""bool"": {
+			""must"": [
+				{ """
+10391,"The query should be like this:
+GET myvaccination/_search
+{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {"
+10394,"{
+""match"": {
+""query"": ""teva"",
+""type"": ""phrase""
+},
+""filter"": {
+""term"": {
+""manufacturer"": ""TEVA PHARMACEUTIC"
+10401,"{
+""match"": {
+""query"": ""GLAXOSMITHKLINE BIOLOGICALS"",
+""operator"": ""and""
+},
+""filter"": [
+{""range"": {""$or"": [{"""
+10406,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""term"": {""VAERS_ID.MANufacturer"": ""Unknown Manufacturer""}}
+]"
+1041,"{
+""_index"": ""clinical-notes"",
+""_type"": ""patient"",
+""_id"": ""1"",
+""_source"": {
+""_rev"": ""1-567a9d"
+1044,"{
+""_index"": ""clinical-notes"",
+""_type"": ""patient"",
+""_id"": ""1"",
+""_source"": {
+""_rev"": ""1-687a95"
+10451,"{
+""_index"": ""clinical-notes"",
+""_type"": ""record"",
+""_id"": ""PIZERBIONTECH"",
+""found"": true,
+""matched"": false,
+"""
+10466,"{
+""_index"": ""clinical-notes"",
+""_type"": ""record"",
+""_id"": ""1"",
+""_version"": 167859944676876"
+10472,"{
+""_index"": ""clinical-notes"",
+""_type"": ""patient"",
+""_id"": ""X"",
+""_source"": {
+""@timestamp"": ""2022-04-"
+10491,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""term"": {""VAERS_ID.value"": ""qfaa2159""}}"
+10503,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""term"": {""VAERS_ID"": ""L016284""}}
+]"
+10524,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+	{""term"": {""VAERS_ID.value"": ""01082A""}}"
+1054,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+	{""range"": {""age_yrs"": {""gt"": 0.67}}},"
+10566,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": [
+						{"
+10578,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": ["
+10584,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": [
+						{"
+10595,"{
+	""_index"": ""clinicalnotes"",
+	""_type"": ""patient"",
+	""_id"": ""FK9694"",
+	""_version"": 1,
+	""found"
+10596,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""$or"": [{""$eq"": [""state"", ""CA""]}, {""$eq"
+10602,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": [
+						{"
+10607,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": ["
+10609,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+				{""term"": {""VAERS_ID"" : ""EW0191"""
+10610,"{
+""_index"": ""clinical-notes"",
+""_type"": ""patient"",
+""_id"": ""1"",
+""_source"": {
+""_rev"": ""1-687a6d"
+1065,"{
+""_index"": ""clinical-notes"",
+""_type"": ""patient"",
+""_id"": ""1"",
+""_source"": {
+""_version"": 15679876"
+10664,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""$or"": [{""$eq"": [""state"", ""CA""]}, {""$eq"
+10679,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""$or"": [
+{""field"": ""VAERS_ID"", ""values"": ["""
+10692,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""$or"": [
+{""field"": ""vaxlot"",
+""values"": ["""
+10700,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""$or"": [{""$eq"": [""$RECVDATE"", ""202"
+1072,"{
+""_index"": ""clinical-notes"",
+""_type"": ""patient"",
+""_id"": ""1"",
+""_source"": {
+""_version"": 5,
+""_rev"": """
+10738,"{
+""_index"": ""clinicalnotes"",
+""_type"": ""case"",
+""_id"": ""P100371939"",
+""_version"": 1685419"
+10762,"{
+""_index"": ""clinicalnotes"",
+""_type"": ""case"",
+""_id"": ""EC6449"",
+""_source"": {
+""_rev"": ""7-58c8"
+10765,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""$or"": [{""$eq"": [""$RECVDATE"", ""202"
+10769,"{
+""match"": {
+""bool"": {
+""should"": [
+{
+""term"": {""VAERS_ID.value"": ""FJ1619""}
+},
+{
+""range"": {""RECVDATE"
+10780,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""@timestamp"": {""gte"": ""2021-08-01"
+10795,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""$or"": [
+{""field"": ""vaxdate"",
+""lte"":"
+10807,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""$or"": [
+{""field"": ""VAERS_ID"", ""gt"":"
+10828,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""$or"": [
+{""field"": ""FLU.SHOTDT"": {"
+10829,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""$or"": [
+{""field"": ""VAERS_ID"", ""gt"":"
+10832,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""@timestamp"": {""gte"": ""2022-04-01"
+10857,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""$or"": [
+{""field"": ""clinicalNotes"",
+""values"
+1086,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+	{""term"": {""STATE.STATE_CD"": ""CA""}}
+]
+}
+},"
+10895,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""$or"": [
+{""field"": ""vaxdates.date"",
+""gt"
+1093,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+	{""term"": {""CLINICALNOTES.AGE_YRS"": ""4""}}"
+10955,"{
+""hits"": {
+""total"": 1,
+""max_score"": 1,
+""found"": ""1"",
+""facets"": {
+""f m0698"": {
+""terms"
+10958,"{
+""hits"": {
+""total"": 1,
+""max_score"": 1,
+""found"": ""1"",
+""facets"": {
+""*"": {
+""terms"": {
+""field"
+10968,"{
+				""query"": {
+					""filtered"": {
+						""filter"": {
+							""bool"": {"
+1098,"{
+""_index"": ""clinical-notes"",
+""_type"": ""patient"",
+""_id"": ""1"",
+""_source"": {
+""_rev"": ""1-5867d2"
+10986,"{
+				""query"": {
+					""filtered"": {
+						""filter"": {
+							""bool"": {"
+11002,"""aggregations"": {
+		""all"": {
+			""terms"": {
+				""field"": ""VAERS_ID"",
+				""size"": 10000"
+11016,"""aggregations"": {
+		""all"": {
+			""terms"": {
+				""field"": ""VAERS_ID"",
+				""size"": 10000"
+11062,"{
+				""query"": {
+					""filtered"": {
+						""filter"": {
+							""bool"": {"
+11070,"{
+""hits"": {
+""total"": 1,
+""max_score"": 1,
+""found"": ""1"",
+""facets"": {
+""*"": {
+""terms"": {
+""field"
+1109,"{
+""matched_count"": 1687,
+""facets"": {
+""age_buckets"": [
+{
+""key"": ""100"",
+""doc_count"": 1687"
+11097,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""VAERS_ID"": 865985
+                    }"
+11100,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""VAERS_ID.keyword"": ""UNK""
+                    }"
+11119,"{
+	""query"": {
+		""bool"": {
+			""must"": [
+				{ ""term"": {""VAERS_ID"": ""ID""}}
+			]
+		}"
+11134,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": ["
+11136,"$query = [
+		""match_phrase_prefix"" => ""How many people have been injected from "",
+		""query_string"" => {
+			""query"" => ""UN"","
+11173,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+	{""range"": {""@timestamp"": {""gte"": ""now-6hours"", ""lte"
+11179,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{
+""term"": {
+""@type"": ""Person""
+}
+},
+{
+"""
+11190,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+	{""term"": {""statecode"": ""LA""}},
+	{""term"": {""statecode"": """
+11205,"{
+""size"": 5687,
+""total"": 5687,
+""groups"": [
+	{
+		""group"": ""MO"",
+		""vaccinated"": 29"
+11207,"""aggregations"": {
+		""grouped_by_day"": {
+			""date_bucket"": {
+				""buckets"": [
+					{""key"": ""20"
+11209,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+				{""range"": {""RECVDATE"": {""gte"": ""2022-"
+11214,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+				{""range"": {""$or"": [
+						{""field"":"
+11223,"""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": [
+						{ ""term"
+11227,"{
+	""size"": 50,
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"
+1127,"{
+    ""query"": {
+        ""filtered"": {
+            ""filter"": {
+                ""bool"": {
+                    ""must"": [
+                        {
+                            ""term"": {
+                                ""age_"
+11286,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""ot"": ""true""
+                    }
+                },
+                {"
+11289,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""term"": {""VAERS_ID"" : ""ot-unvax""}}
+]
+}"
+11296,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""statecode"": ""AR""
+                    }
+                },
+                {"
+11303,"{
+""query"": {
+""bool"": {
+""must"": [
+{""term"": {""clinicalNotes.vaxManu"": ""LL""}},
+{""term"": {""clinicalNotes.vaxL"
+11309,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""statecode"": {
+                            ""value"": ""AR""
+                        }"
+11315,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""statecode"": {
+                            ""value"": ""AR""
+                        }"
+11347,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""statecode"": ""LA""
+                    }
+                },
+                {"
+11348,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""vax_lot"": ""LL""
+                    }
+                },"
+1135,"{
+""_index"": ""clinical-notes"",
+""_type"": ""patient"",
+""_id"": ""1"",
+""_source"": {
+""@timestamp"": ""2022-04-"
+11355,"{
+    ""query"": {
+        ""filtered"": {
+            ""filter"": [
+                {""and"": [
+                    {""term"": {""statecode"": ""AR""}},
+                    {""term"": {""statecode"":"
+11360,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""VAERS_ID.statecode"": ""LA""
+                    }"
+11362,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""VAERS_ID.id"": 87654
+                    }"
+11369,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""VAERS_ID"": {
+                            ""value"": ""ot"""
+1137,"{
+    ""total"": {
+        ""value"": 1697,
+        ""label"": ""1697""
+    }
+}
+
+### ElasticSearch Query:
+GET my_index/my"
+11372,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""$or"": [{""field"": ""VAERS_ID"", ""gt"": 7"
+11438,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""term"": {
+""RL"": ""RL06""
+}
+},
+""script"": {
+""params"": {},
+""lang"": """
+11442,"{
+""query"": {
+""bool"": {
+""must"": [
+{
+""term"": {""RA"": ""rheumatoid arthritis""}
+},
+{
+""term"": {""age"": { ""g"
+11460,"""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""should"": [
+						{ ""term"
+11467,"{
+    ""query"": {
+        ""filtered"": {
+            ""filter"": [
+                {""and"": [
+                    {""term"": {""clinicalNotes.classification"" : ""VACCINATION"""
+11478,"""$and"": [
+		{
+			""$or"": [
+				{""$eq"":[""$RECVDATE"",""2021-09-01T00:00"
+11487,"{
+    ""query"": {
+        ""filtered"": {
+            ""filter"": [
+                {""and"": [
+                    {""term"": {""clinical.vaxlot"": ""Tetanus Diphtheria ("
+115,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""received"": {""gte"": ""2022-01-19"
+11542,"{
+""query"": {
+""bool"": {
+""must"": [
+{""match_phrase"": {""VAERS_ID"": ""67890500-0000-0000-0"
+11543,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""VAERS_ID.exact"": ""1637580"""
+11548,"{
+""query"": {
+""bool"": {
+""must"": [
+{""match_phrase"": {""clinicalNotes.text"": ""Meningococcal conjugate vaccine""}}
+],
+""filter"
+11559,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""VAERS_ID.exact"": ""1987"""
+11563,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""match"": {""brandName"": ""Zoster""}},
+{""range"": {""dateReceived"": {""g"
+11578,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""term"": {""clinical.vaxlot"": ""POLIO VIRUS, INACT"
+1159,"{
+""_index"": ""clinical-notes"",
+""_type"": ""patient"",
+""_id"": ""1"",
+""_source"": {
+""@timestamp"": ""2022-04-"
+11593,"{
+""query"": {
+""bool"": {
+""must"": [
+{
+""term"": {""VAERS_ID.value"": ""1985670000000001""}
+},"
+1160,"{
+""_index"": ""clinical-notes"",
+""_type"": ""patient"",
+""_id"": ""1"",
+""_source"": {
+""@timestamp"": ""2022-04-"
+1162,"{
+    ""query"" : {
+        ""bool"" : {
+            ""must"" : [
+                {
+                    ""term"" : { ""age_yrs"" : 5 }
+                },
+                {"
+11620,"""aggregations"": {
+		""all"": {
+			""doc_count"": 5867
+		}
+	},
+	""hits"": {
+		""total"": 58"
+11621,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+	{""range"": {""$or"": [
+		{""$and"": [
+			{"""
+11635,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+	{""range"": {""$or"": [
+		{""$and"": [
+			{"""
+11644,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+	{""range"": {""$or"": [
+		{""$and"": [
+			{"""
+11649,"""aggregations"": {
+		""byMonth"": {
+			""terms"": {
+				""field"": ""RECVDATE.month"",
+				""size"": 500"
+11651,"{
+    ""query"": {
+        ""filtered"": {
+            ""filter"": {
+                ""bool"": {
+                    ""must"": [
+                        {
+                            ""term"": {
+                                ""RECV"
+11654,"""aggregations"": {
+		""doc"": {
+			""value_count"": {
+				""value"": 168795,
+				""missing"": 0"
+11675,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+	{""range"": {""$or"": [
+		{""$and"": [
+			{"""
+11686,"""varicella-zoster"": {
+		""$and"": [
+			{ ""RECVDATE"": { ""$gte"": ""2022-04-01T00:00"
+11691,"""$query"": {
+""bool"": {
+""must"": [
+{
+""term"": {""VAERS_ID"" : ""18795600""}
+},
+{
+""term"": {""RECVDATE"
+1172,"{
+""_index"": ""clinical-notes"",
+""_type"": ""patient"",
+""_id"": ""1"",
+""_source"": {
+""@timestamp"": ""2022-04-"
+11723,"{
+	""$and"":[
+		{ ""RECVDATE"": { ""$gte"": ""2022-04-13T00:00:00.000Z"" } },"
+11724,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""should"": [
+{""term"": {""clinicalNotes.value"": ""HEP A (VAQTA)""}}"
+11726,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""term"": {""clinicalNotes.type"": ""vaccination.outbreak""}},"
+11728,"{
+""$and"":[
+{""$or"":[
+{""$eq"":[""$RECVDATE"",""2022-04-13T00:00:00Z""]},
+{""$eq"
+11758,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""term"": {""clinicalNotes.condition"" : ""INFLUENZA (SE"
+1177,"{
+""_index"": ""clinical-notes"",
+""_type"": ""patient"",
+""_id"": ""1"",
+""_source"": {
+""@timestamp"": ""2022-04-"
+11770,"""$and"": [
+		{ ""or"": [
+			{""$eq"": [""$RECVDATE"", ""2013-09-05""]},
+			{""$eq"": ["""
+11778,"""$and"": [
+		{ ""or"": [
+			{""$eq"": [""$RECVDATE"", ""2015-09-01T00:00:00.0"
+11801,"""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""should"": [
+						{ ""term"
+11833,"{
+		""$and"":[
+			{ ""tdvax.vaersId"": ""1234567890"" },
+			{ ""poliovax.vaers"
+11848,"{
+		""$and"":[
+			{ ""VAERS_ID"":{""$in"":[17865966,17865967]}},
+			{ """
+11870,"$query = [
+		""match"" => [
+			""body"" => [
+				""query"" => ""HPV AND VACCINE NOT SPECIFIED"","
+11874,"""query"": {
+		""bool"": {
+			""should"": [
+				{ ""term"": {""vax.recdat"": ""2019-08-26T0"
+11878,"""$and"": [
+		{ ""or"": [
+			{""$eq"": [""$RECVDATE"", ""2019-07-08T06:59:44.0"
+11882,"""$and"": [
+		{ ""or"": [
+			{""$eq"": [""$RECVDATE"", ""2015-09-01T00:00:00.0"
+11886,"$query = [
+		""bool"" => [
+			""should"" => [
+				[ ""term"" => ""HPV_VACCINE"" => true ],
+				["
+11889,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""should"": ["
+11898,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {""term"": {""VAERS_ID"" : ""875690000000000000"
+11901,"$q = array(
+		'match': {
+			'and': [
+				{ 'term': {'RECVDATE': '2015-08-06T07:"
+11904,"""$and"": [
+		{ ""or"": [
+			{""$eq"": [""$VAERS_ID"", ""typhoid-vi-polysaccharide-no-brand-name""]},"
+11918,"""$and"": [
+		{ ""or"": [
+			{""$eq"": [""$RECVDATE"", ""2022-04-13T00:00:00.0"
+11921,"""query"": {
+		""bool"": {
+			""should"": [
+				{ ""term"": {""vax_lot"": ""2019-20 Influenza Virus V"
+11923,"""$and"": [
+    { ""or"": [
+        {""and"": [
+            {""not"": {""measles_vax"": true}},
+            {""not"": {""mumps_vax"": true}}
+        ]"
+11934,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {""term"": {""VAERS_ID"" : ""87654321""}},
+                {""term"": {""VAERS"
+11936,"{
+""$and"":[
+{""$or"":[{""$eq"":[""$RECVDATE"",""2022-04-13T00:00:00Z""]},{""$eq"":["""
+1194,"{
+""_index"": ""clinical-notes"",
+""_type"": ""patient"",
+""_id"": ""1"",
+""_source"": {
+""@timestamp"": ""2022-04-"
+1195,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{
+""term"": {""age_yrs"": 70}
+},
+{
+""range"
+11957,"""query"": {
+		""bool"": {
+			""should"": [
+				{ ""term"": {""hep_b_vaccine.value"": ""Yes""}},"
+11973,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""term"": {""vaers.recdate"": ""2022-04-13"
+11999,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""term"": {""VAERS_ID"" : ""87654321""}},"
+12014,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {""term"": {""clinicalNotes.vaccineCodes.doses.brandName"": ""ZOSTER""}},"
+12015,"""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""should"": [
+						{ ""term"
+12018,"""$and"": [
+		{ ""or"": [
+			{""$eq"": [""$RECVDATE"", ""2019-07-08T06:56:56Z""]"
+12032,"""query"": {
+		""bool"": {
+			""should"": [
+				{ ""term"": {""vax.recdat"": ""2015-09-01T0"
+1204,"{
+""_index"": ""clinical-notes"",
+""_type"": ""patient"",
+""_id"": ""1"",
+""_source"": {
+""@timestamp"": ""2022-04-"
+12040,"""query"": {
+		""bool"": {
+			""should"": [
+				{ ""term"": {""vax.recdat"": ""2015-09-01T0"
+12046,"""query"": {
+		""bool"": {
+			""should"": [
+				{ ""term"": {""clinicalNotes.vaccineAdministered.brandName"": ""Tetanus"
+12055,"""query"": {
+		""bool"": {
+			""should"": [
+				{ ""term"": {""vax.recdat"": ""2012-09-05T0"
+12067,"""$and"": [
+		{ ""or"": [
+			{""and"": [
+				{""not"": {""path"": ""VaxType""}},
+				{""term"": ""HEP"
+12069,"""aggregations"": {
+		""doc"": {
+			""value_count"": {
+				""field"": ""VAERS_ID"",
+				""script"": ""if(NAN"
+12070,"{
+				""query"": {
+					""filtered"": {
+						""filter"": {
+							""bool"": {"
+12074,"{
+				""query"": {
+					""filtered"": {
+						""filter"": {
+							""bool"": {"
+1210,"""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": [
+						{ ""term"
+12120,"""aggregations"": {
+		""doc"": {
+			""value_count"": {
+				""value"": 168759,
+				""missing"": 0"
+12127,"""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""should"": [
+						{ ""term"
+12130,"""aggregations"": {
+		""doc"": {
+			""value_count"": {
+				""field"": ""VAERS_ID"",
+				""script"": ""if(NAN"
+1215,"""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": [
+						{ ""term"
+12164,"{
+""aggregations"": {
+""grouped_by_date"": {
+""key_as_date"": {
+""field"": ""RECVDATE"",
+""format"": ""yyyy-MM-dd""
+},
+"""
+12172,"""aggregations"": {
+		""grouped_by_date"": {
+			""terms"": {
+				""field"": ""recvDate"",
+				""size"": 5"
+12175,"{
+				""query"": {
+					""filtered"": {
+						""filter"": {
+							""bool"": {"
+12185,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""term"": {""VAERS_ID.value"": ""1234567890"
+12201,"""query"": {
+		""bool"": {
+			""must"": [
+				{ ""term"": {""VAERS_ID"" : ""8756900000000"
+12203,"{
+	""from"": ""2022-04-13T00:00:00.000Z"",
+	""to"": ""2022-04-13T"
+12218,"""Havrix"" : {
+		""$type"": ""VACCINE"",
+		""$classification"": ""HEP A"",
+		""$name"": ""Havrix"",
+		"""
+12281,"""RECVDATE"" : ""2022-04-13T00:00:00.000+05:30"",
+	""STATE"" : ""KARNATAKA"
+12282,"""The ACIP recommends that live-attenuated influenza vaccine (LAIV; also known as the nasal spray flu vaccine) not be used during the 2020–2021"
+12295,"$query = [
+		""filtered"" : {
+			""query"" : {
+				""bool"" : {
+					""must"" : ["
+12297,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""$or"": [{""field"": ""clinicalNotes"", ""values"": ["""
+12306,"{
+				""$and"": [
+					{ ""VAERS_ID"": { ""$in"": [57869,57870,57871"
+12331,"{
+				""$and"": [
+					{ ""VAERS_ID"": { ""$in"": [57869,57870]}},"
+12334,"{
+""match"": {
+""query"": ""Fall after vaccine"",
+""filter"": [
+{""and"": [
+{""term"": {""VAERS_ID"" : ""8756900000"
+12336,"{
+""match"": {
+""bool"": {
+""should"": [
+{
+""term"": {""VAERS_ID.value"": ""8756790000000000000"
+12345,"{
+				""query"": {
+					""filtered"": {
+						""filter"": {
+							""bool"": {"
+12373,"{
+				""$and"":[
+					{ ""VAERS_ID"":""16375809""},
+					{ ""RECVDATE"":""2"
+12403,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""term"": {""VAERS_ID"" : ""87567900000"
+12431,"{
+				""$and"": [
+					{ ""VAERS_ID"": { ""$in"": [ 786598, 786589 ] }"
+12446,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""$or"": [
+{""property"": ""VAERS_ID"", ""literal"":"
+12449,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{
+""term"": {""VAERS_ID.value"": ""8756d9c8"
+12506,"{
+""_index"": ""clinical-notes"",
+""_type"": ""note"",
+""_id"": ""6"",
+""_version"": 1578944445,
+""found"":"
+12514,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+							{""match"": {""productusecomplaint"": ""aftervaccine"
+12540,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{
+""term"": {""VAERS_ID"" : ""875679000"
+12545,"{
+""hits"": [
+	{
+	""_index"": ""clinical-notes"",
+	""_type"": ""note"",
+	""_id"": ""5"",
+	""_version"": 6,"
+12554,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+	{""match_phrase"": {""symptom_text"": ""Injection site irritation"""
+12555,"{
+""_index"": ""clinical-notes"",
+""_type"": ""note"",
+""_id"": ""6"",
+""_version"": 1578944445,
+""found"":"
+12560,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+					{""term"": {""VAERS_ID"" : ""123456"
+12571,"{
+""_index"": ""clinical-notes"",
+""_type"": ""note"",
+""_id"": ""5"",
+""_version"": 1678944446,
+""found"":"
+12579,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""should"": [
+{""term"": {""VAERS_ID"" : ""10000060000"
+12602,"{
+    ""results"" : [
+        {
+            ""hit"" : {
+                ""_index"" : ""clinicalnotes"",
+                ""_type"" : ""note"",
+                ""_id"" : ""AVD98"
+12606,"{
+""results"" : [
+	{
+		""hit"" : {
+			""_index"" : ""clinicalnotes"",
+			""_type"" : ""record"",
+			"""
+12631,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""VAERS_ID.id"": 7865
+                    }"
+12634,"{
+    ""results"" : [
+        {
+            ""patient_id"" : ""123456789"",
+            ""first_name"" : ""John"",
+            ""last_name"" :"
+12653,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""vax.lot"": ""20H5""
+                    }"
+12679,"{
+    ""results"" : [
+        {
+            ""hit"" : {
+                ""_index"" : ""vax-qa"",
+                ""_type"" : ""record"",
+                ""_id"" : ""1"","
+12686,"{
+    ""results"" : [
+        {
+            ""hit"" : {
+                ""_index"" : ""clinical"",
+                ""_type"" : ""record"",
+                ""_id"" : ""1"",
+                """
+12689,"{
+""results"" : [
+	{
+		""hit"" : {
+			""_index"" : ""vax-qa"",
+			""_type"" : ""record"",
+			"""
+12713,"{
+""_index"": ""clinicalnotes"",
+""_type"": ""record"",
+""_id"": ""AVAX-2022-04-13T16:59:47Z"","
+12714,"{
+    ""query"": {
+        ""filtered"": {
+            ""filter"": [
+                {""and"": [
+                    {""term"": {""VAERS_ID"" : ""1879560-0"""
+1272,"""match"": {
+		""query"": ""cageYear"",
+		""value"": [
+			""84.0""
+		]
+	}
+	
+Clinical Notes: Give me"
+12730,"{
+    ""results"" : [
+        {
+            ""hit"" : {
+                ""_index"" : ""clinicalnotes"",
+                ""_type"" : ""record"",
+                ""_id"" : ""AVRQAA"
+12739,"{
+    ""query"": {
+        ""filtered"": {
+            ""filter"": {
+                ""bool"": {
+                    ""must"": [
+                        {
+                            ""term"": {
+                                ""vaers"
+12748,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""match_phrase"": {""clinicalNotes.text"": ""IIIrd nerve disorder"
+12755,"{
+""query"": {
+""bool"": {
+""must"": [
+{
+""term"": {""VAERS_ID"" : ""1578690""}
+},
+{
+""term"": {""RECVDATE"
+12774,"{
+""query"": {
+""bool"": {
+""must"": [
+{
+""term"": {""azoospermia"": ""true""}
+},
+{
+""range"": {""vaccine.administered"": ["""
+12781,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""term"": {""VAERS_ID"" : ""17285600""}}"
+12806,"{
+""query"": {
+""bool"": {
+""must"": [
+{
+""term"": {""VAERS_ID"": ""87654321""}
+},
+{
+""term"": {""RECVDATE"
+12809,"{
+""match"": {
+""and"": [
+{
+""term"": {""VAERS_ID.value"": ""1234567890123456""}
+},
+{
+""term"
+12811,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""term"": {""VAERS_ID.value"": ""1879560-00"
+12826,"{
+""match"": {
+""bool"": {
+""should"": [
+{
+""term"": {""$and"": [
+{""query_string"": {""query"": ""Enlarged uvula after vaccine"", ""fields"
+12837,"{
+""query"": {
+""bool"": {
+""must"": [
+{
+""match_phrase"": {
+""body"": ""penile size reduced after vaccine""
+}
+},
+{
+""term"":"
+12838,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""match_phrase"": {""EntityClassification.name"": ""ImpulseControlDisorder""}},"
+12842,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""match_phrase"": {""symptom_text.value"": ""delirium tremens"""
+12847,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""term"": {""VAERS_ID.value"": ""1869570-00"
+12874,"{
+""query"": {
+""bool"": {
+""must"": [
+{
+""term"": {""VAERS_ID"" : ""87654321""}
+},
+{
+""range"": {""RECV"
+12879,"{
+""query"": {
+""bool"": {
+""must"": [
+{
+""term"": {""VAERS_ID"": ""c786d59e-a4b8-44f6-88"
+12882,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{
+""term"": {""VAERS_ID.id"": ""876c95d4"
+12899,"{
+""answer"": ""true"",
+""score"": 0.87659286,
+""matchedQues"": ""Which coagulation abnormality is seen post Covid vaccination"","
+12911,"###step 1: convert 'VAX_LOT' to INT type
+###step 2: add a filter for VAX_LOT=167985
+###step 3: add a"
+12937,plantar fasciitis
+12950,"$query = [
+		'size': 50,
+		'from': 0,
+		'sort': [
+			{
+				'VAERS_ID': {"
+12951,Decreased activity is the most common after vaccine.
+12961,"The most common side effect of the COVID-19 vaccine is a mild reaction at the injection site, such as pain, redness, or swelling. Other common side effects include:
+
+Fever
+Headache
+S"
+12963,"Yes, it is after Chickenpox vaccine."
+12969,PCR positive cases were reported for 59 (6.7%) participants who had received one dose of BNT162b2 mRNA vaccine; 58 (6.6%) among those who had received
+12981,"var v = {
+	""query"":{
+		""bool"":{""must"":[{""match_phrase"": {""symptom_text"": ""esophageal varices""}},
+					{""term"":{"""
+12996,"The most common adverse event after vaccination was injection site pain (65.9%) followed by myalgia (57.8%), fatigue (54.4%), headache (53.4%),"
+13020,The ELISA [?] ELISA [?] PCR [?] NGS [?] OTHER [?] NO DNA PRESENT [?] NONE [?] NOT DONE [?] NOT
+13028,The osteoarthritis is the most common after vaccine.
+1307,"{
+""results"" : [
+	{
+		""cageYear"" : 96.0
+	}
+]
+}"
+1349,"{
+""results"" : [
+	{
+		""cageYear"" : 48.0
+	}
+]
+}"
+136,"{
+""_index"": ""clinicalnotes"",
+""_type"": ""case"",
+""_id"": ""IYR20220402"",
+""_version"": 167859"
+1361,"{
+""results"" : [
+	{
+		""cageyear"" : ""17.0"",
+		""_id"" : ""6589d2e4-a4b6-4f"
+1378,"""match"": {
+		""query"": ""cage_months:*0.3"",
+		""type"": ""phrase""
+	}
+	
+	
+Clinical Notes: Give me all the"
+1379,"""match"": {
+		""and"": [
+			{ ""term"": { ""cage_months"": ""0.9"" }},
+			{ ""or"": {
+				"""
+1409,"{
+    ""query"": {
+        ""filtered"": {
+            ""filter"": {
+                ""bool"": {
+                    ""must"": [
+                        {
+                            ""term"": {
+                                ""RECV"
+143,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""recvdate"": {
+                            ""value"": ""2022-"
+1435,"{
+    ""query"": {
+        ""filtered"": {
+            ""filter"": {
+                ""bool"": {
+                    ""must"": [
+                        {
+                            ""term"": {
+                                ""RECV"
+1452,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": [
+						{"
+1453,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""@timestamp"": {""gte"": ""2021-04-10"
+1461,"{
+    ""query"": {
+        ""filtered"": {
+            ""filter"": {
+                ""bool"": {
+                    ""must"": [
+                        {
+                            ""range"": {
+                                ""RECV"
+1506,"{
+    ""query"": {
+        ""filtered"": {
+            ""filter"": {
+                ""bool"": {
+                    ""must"": [
+                        {
+                            ""range"": {
+                                ""RECV"
+1509,"{
+    ""query"": {
+        ""filtered"": {
+            ""filter"": {
+                ""bool"": {
+                    ""must"": [
+                        {
+                            ""range"": {
+                                ""RECV"
+151,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""recvdate"": ""2022-03-01"""
+1517,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""@timestamp"": {""gte"": ""2022-01-11"
+1519,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""@timestamp"": {""gte"": ""2021-12-30"
+1524,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""@timestamp"": {""gte"": ""2022-02-27"
+1542,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""@timestamp"": {""gte"": ""2022-02-23"
+1553,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""VAERS_ID"": 785698000"
+1577,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""VAERS_ID"": 87654
+                    }"
+1581,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{
+""term"": {""ENTITY_CLASSIFICATION"": ""RECVDATE""}
+},"
+1604,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""VAERS_ID"": 87654
+                    }"
+1606,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""VAERS_ID"": 1876590
+                    }"
+1619,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": [
+						{"
+1626,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""$or"": [{""field"": ""clinicalNotes"", ""values"": ["""
+1627,"{
+					""$and"": [
+						{ ""VAERS_ID"": { ""$in"": [57869,57870] }},"
+1628,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""should"": [
+						{"
+163,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""@timestamp"": {""gte"": ""2022-03-31"
+1649,"{
+    ""query"": {
+        ""filtered"": {
+            ""filter"": [
+                {""and"": [
+                    {""term"": {""VAERS_ID"" : ""1879560-0"""
+1663,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""VAERS_ID"": 87654321"
+1665,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""VAERS_ID"": {
+                            ""value"": ""8c96"
+1668,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""term"": {""clinicalNotes.value"" : ""Psychiatric evaluation normal after"
+1676,"{
+					""$and"": [
+						{ ""VAERS_ID"": { ""$in"": [578698,578700,5"
+1717,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{
+""term"": {""VAERS_ID"" : ""875690000"
+1736,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{
+""term"": {""VAERS_ID.value"": ""87569000"
+1740,"{
+    ""query"": {
+        ""filtered"": {
+            ""filter"": [
+                {""and"": [
+                    {""term"": {""ENTITY_CLASSIFICATION"": ""Patient""}},
+                    {"""
+1747,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{
+""term"": {""clinical.labdata.serumferritin.value"" :"
+175,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": ["
+1750,"{
+""match"": {
+""bool"": {
+""should"": [
+{
+""term"": {""urine-sodium-increased-after-vaccination.value"": ""true""}
+},
+{"
+1773,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""should"": [
+{""term"": {""adverseevent.type"": ""Adverse Event""}}
+]
+}
+},"
+1794,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{
+""term"": {""VAERS_ID"" : ""875690000"
+1802,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{
+""term"": {""VAERS_ID.value"": ""87567900"
+1817,"$query = [
+		""filtered"" => true,
+		""filter"" => [
+			""bool"" => [
+				""must"" => [
+					[ """
+182,"{
+""_index"": ""clinicalnotes"",
+""_type"": ""case"",
+""_id"": ""AVS876587658765"",
+""_version"": 1,"
+1820,"{
+""match"": {
+""bool"": {
+""should"": [
+{
+""term"": {""VAERS_ID"" : ""1908750""}
+},
+{
+""range"": {""RECVDATE"
+1826,"{
+    ""query"": {
+        ""filtered"": {
+            ""filter"": [
+                {""and"": [
+                    {""term"": {""VAERS_ID"" : ""1234567890"
+183,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""recvdate"": ""2022-01-23"""
+1831,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""VAERS_ID"": 87654
+                    }"
+1833,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{
+""term"": {""SUBCLASSDEFICIENCY"": ""IgG""}
+},"
+1835,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""VAERS_ID"": 87654
+                    }"
+1840,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{
+""term"": {""VAERS_ID"" : ""8e9d675c-"
+1862,"{
+			""query"": {
+				""filtered"": {
+					""filter"": {
+						""bool"": {"
+1873,"{
+				""$and"": [
+					{ ""RECVDATE"": { ""$gte"": ""2022-04-13T00:00:0"
+1878,"{
+			""query"": {
+				""filtered"": {
+					""filter"": {
+						""bool"": {"
+1880,"{
+				""$and"": [
+					{ ""Biopsy lung"" : { $in : [""true"", ""1""] }},
+					{ ""VAERS"
+1886,"{
+			""query"": {
+				""filtered"": {
+					""filter"": {
+						""bool"": {"
+1890,"{
+""match"": {
+""bool"": {
+""should"": [
+{
+""term"": {""RHESUS"":""-""}
+}
+]
+}
+}
+}
+
+### End of Clinical Notes"
+1914,"{
+""match"": {
+""bool"": {
+""should"": [
+{
+""term"": {""clinicalNotes.typeOfTreatment"": ""Sedative therapy""}
+}
+]
+}"
+1941,"{
+    ""query"": {
+        ""filtered"": {
+            ""filter"": [
+                {""and"": [
+                    {""or"": [{""not"": {""path"": ""TissueInjury""}}]},"
+1987,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""VAERS_ID.id"": 1
+                    }
+                },"
+199,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""received"": {""gte"": ""2022-01-13"
+1990,"{
+			""$and"":[
+				{ ""symptoms.text"": { ""$in"": [ ""nasal dryness"", ""nasal irritation"", ""nasal discharge"
+2021,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{
+""term"": {""VAERS_ID.id"": ""8765d9c8"
+2036,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": ["
+2049,"{
+""_index"": ""clinical-notes"",
+""_type"": ""note"",
+""_id"": ""168579"",
+""_version"": 168579,
+""found"
+2055,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+	{""range"": {""$or"": [
+		{""$gte"": [""$state"", """
+2061,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+					{""range"": {""$or"": [
+							{"""
+2124,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": ["
+2130,"{
+""_index"": ""clinical-notes"",
+""_type"": ""record"",
+""_id"": ""1"",
+""_version"": 167859944676876"
+2131,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""$or"": [{""field"": ""VAERS_ID"", ""gt"": 5"
+2156,"type: text
+filter: not null
+query: match_phrase_prefix(symptoms, 'fungal')
+highlight: {
+    patterns: [
+        {
+            regex: ""\\bvaccine\\"
+2200,"type: elastic-query
+query: match_phrase_prefix(symptoms, 'after vaccination')
+filter: and
+				filters: []
+				filter_cache: true"
+2202,"{
+""answer"": ""true"",
+""confidence"": 0.986756,
+""details"": [
+{
+""answer"": ""true"",
+""confidence"": 0.98675"
+221,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""received"": {""gte"": ""2022-03-22"
+2223,synovial biopsy
+2254,"type: text
+filter: not
+match: clinicalnote
+conditional: [
+	{
+		field: RECEIVEDDATE,
+		value: ""2022-04-13T0"
+2262,"The most common symptom after vaccination is fever. However, other symptoms may include:
+- Soreness or redness where you got the shot
+- Soreness, itching, or swelling at the"
+2270,"{
+""answer"": ""yes"",
+""confidence"": 0.9867590646809656},
+""answer"": ""no"",
+""confidence"": 0.01"
+2286,traumatic lung injury
+2320,"{
+	""hits"": {
+		""total"": {
+			""value"": 1,
+			""relation"": ""eq""
+		},
+		""max_score"": 0."
+2350,"{
+""matched_indices"": [
+	""patient"",
+	""clinicalnote""
+],
+""query"": {
+	""bool"": {
+		""must"": [
+			{ """
+236,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""received"": {""gte"": ""2022-05-22"
+2375,"{
+	""_index"": ""clinicalnotes"",
+	""_type"": ""patient"",
+	""_id"": ""1"",
+	""_version"": 1675989446,"
+2382,"{
+""match"": {
+""bool"": {
+""should"": [
+{
+""term"": {""VAERS_ID.exact"": ""1234567890123456""}"
+2391,"{
+	""_index"": ""clinicalnotes"",
+	""_type"": ""patient"",
+	""_id"": ""1"",
+	""_version"": 1675844444,"
+2405,"{
+""matched_indices"": [
+	""patient"",
+	""clinicalnote""
+],
+""query"": {
+	""bool"": {
+		""must"": [
+			{ """
+2408,"{
+""match"": {
+""bool"": {
+""should"": [
+{
+""term"": {""VAERS_ID.exact"": ""1234567890123456""}"
+2419,"{
+	""hits"": {
+		""total"": {
+			""value"": 1,
+			""relation"": ""eq""
+		},
+		""max_score"": 0."
+2426,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {""range"": {""$or"": [{""and"": [{""neq"": [""$state"", ""deceased"")}, {""eq"": ["""
+243,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""received"": {""gte"": ""2022-05-04"
+2438,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {""range"": {""$or"": [{""$gte"": [""$RECVDATE"", ""2021-12-3"
+247,"{
+	""results"" : [
+		{
+			""patient_id"" : ""1234"",
+			""first_name"" : ""John"",
+			""last_name"
+2479,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {""range"": {""$or"": [{""and"": [{""neq"": [""$state"", ""deceased"")}, {""eq"": ["""
+2497,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {""range"": {""$or"": [{""$eq"": [""$RECVDATE"", ""2021-04-11"
+2512,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {""range"": {""$or"": [{""and"": [{""neq"": [""$state"", ""deceased"")}, {""eq"": ["""
+2518,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""VAERS_ID"": {
+                            ""value"": ""8756"
+2519,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {""range"": {""$or"": [{""$eq"": [""state"", ""death""]}, {""$eq"": [""state"", ""d"
+2525,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {""range"": {""$or"": [{""$eq"": [""state"", ""death""]}, {""$eq"": [""state"", ""d"
+2535,"{
+    ""query"": {
+        ""filtered"": {
+            ""filter"": {
+                ""bool"": {
+                    ""must"": [
+                        {
+                            ""term"": {
+                                ""VAERS"
+2538,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {""range"": {""$or"": [{""$eq"": [""state"", ""death"")}, {""$eq"": [""state"", ""d"
+2564,"{
+				""query"": {
+					""filtered"": {
+						""filter"": {
+							""bool"": {"
+2587,"{
+				""query"": {
+					""filtered"": {
+						""filter"": {
+							""bool"": {"
+2606,"{
+				""query"": {
+					""filtered"": {
+						""filter"": {
+							""bool"": {"
+2607,"{
+				""query"": {
+					""filtered"": {
+						""filter"": {
+							""bool"": {"
+2612,"{
+				""query"": {
+					""filtered"": {
+						""filter"": {
+							""bool"": {"
+2626,"""filter"": {
+		""bool"": {
+			""must"": [
+				{ ""term"": {""RECVDATE"": ""06/07/2021""}},"
+2634,"{
+				""query"": {
+					""filtered"": {
+						""filter"": {
+							""bool"": {"
+266,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""received"": {""gte"": ""2022-03-28"
+2661,"{
+				""query"": {
+					""filtered"": {
+						""filter"": {
+							""bool"": {"
+2686,"""filter"": {
+		""bool"": {
+			""must"": [
+				{ ""term"": {""RECVDATE"": ""09/08/2021""}},"
+2694,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": ["
+2727,"""filter"": {
+		""bool"": {
+			""must"": [
+				{ ""term"": {""RECVDATE"": ""2021-03-07""}},"
+273,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""received"": {""gte"": ""2022-02-08"
+2781,"""filter"": {
+		""bool"": {
+			""must"": [
+				{ ""term"": {""RECVDATE"": ""2022-01-19T00:0"
+2792,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": ["
+281,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""received"": {""gte"": ""2022-05-06"
+2824,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": [
+						{"
+2826,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": [
+						{"
+2829,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": [
+						{"
+2834,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": [
+						{"
+2836,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": [
+						{"
+2853,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": [
+						{"
+2909,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""hospitalized"": {""gt"": 55}}},
+{""term"": {""v"
+291,"{
+    ""hits"": {
+        ""total"": {
+            ""value"": 1687,
+            ""relation"": ""eq""
+        },
+        ""max_score"": 1.0,"
+2918,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""$or"": [
+{""field"": ""hospitalized"",
+""value"": true"
+2952,"{
+	""answer"": {
+		""question"": ""What is the numer of records that the vaccine recipient was hospitalized for 45.0 days?"",
+		""answer"": 1,"
+2960,"""hospitalized"": {
+		""from"": ""2022-03-06"",
+		""to"": ""2022-03-29"",
+		""count"":"
+3010,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{
+""term"": {""hospitaldays"": 17}
+},
+{
+""range"":"
+3027,"{
+""hits"": {
+""total"": {
+""value"": 1698,
+""relation"": ""eq""
+},
+""max_score"": 1.0,
+""found"": 169"
+3029,"{
+""hits"": {
+""total"": {
+""value"": 5678,
+""max"": 5678,
+""average"": 5678,
+""min"": 56"
+3033,"{
+""hits"": {
+""total"": {
+""value"": 1687,
+""max"": 1687,
+""average"": 1687.0,
+""min"":"
+3036,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{
+""term"": {""hospitalized"": true}
+},
+{
+""range"": {""days"
+3037,"{
+""hits"": {
+""total"": {
+""value"": 1,
+""max"": 1},
+""max_score"": 1,
+""found"": [
+{""_index"": ""clinicalnotes"
+3069,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{
+""term"": {""hospitaldays"": 23}
+},
+{
+""range"":"
+3074,"{
+    ""query"": {
+        ""filtered"": {
+            ""filter"": [
+                {""and"": [
+                    {""or"": [{""not"": {""bool"": {""should"": [{""term"": {""VAERS_"
+3091,"{
+    ""query"": {
+        ""filtered"": {
+            ""filter"": {
+                ""bool"": {
+                    ""must"": [
+                        {
+                            ""term"": {
+                                ""adverse"
+3113,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""$or"": [{""field"": ""VAERS_ID"", ""gt"": null},"
+313,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""RECVDATE"": ""2022-01-29T0"
+3136,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""$or"": [{""field"": ""VAERS_ID"", ""gt"": null},"
+3152,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": [
+						{"
+3156,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+	{""range"": {""$or"": [
+		{""field"": ""recvdate"", ""gt"
+3160,"{
+""matched_indices"": [
+	""patient"",
+	""vax_lot"",
+	""lab_data"",
+	""other_meds"",
+	""cur_ill"",
+	""h"
+3164,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""$or"": [{""field"": ""VAERS_ID"", ""gt"": null},"
+3167,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": [
+						{"
+3169,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": [
+						{"
+3170,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": [
+						{"
+3202,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{
+""term"": {""VAERS_ID.value"": ""12345678"
+324,"{
+    ""hits"": {
+        ""total"": {
+            ""value"": 1698,
+            ""relation"": ""eq""
+        },
+        ""max_score"": 1.0,"
+3253,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""VAERS_ID"": {
+                            ""value"": ""1234"
+3258,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+	{""range"": {""$or"": [
+		{""$and"": [
+			{"""
+3261,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""VAERS_ID"": {
+                            ""value"": ""1234"
+3276,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""$or"": [{""$eq"": [""$RECVDATE"", ""201"
+3277,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""$or"": [{""$eq"": [""$VAERS_ID"", ""20"
+3296,"{
+    ""query"": {
+        ""filtered"": {
+            ""filter"": {
+                ""bool"": {
+                    ""must"": [
+                        {
+                            ""term"": {
+                                ""RECV"
+3298,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""VAERS_ID"": {
+                            ""value"": ""1234"
+330,"{
+""hits"": {
+""total"": 567,
+""max_score"": 1,
+""hits"": [
+{
+""_index"": ""clinical"",
+""_type"": ""pat"
+3315,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""$or"": [{""$eq"": [""$VAERS_ID"", ""20"
+3334,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""$or"": [{""$eq"": [""$VAERS_ID"", ""20"
+3336,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""$or"": [{""$eq"": [""$VAERS_ID"", ""20"
+3340,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""$or"": [{""$eq"": [""$VAERS_ID"", ""20"
+3344,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""$or"": [{""$eq"": [""$VAERS_ID"", ""20"
+3346,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""$or"": [{""$eq"": [""$VAERS_ID"", ""20"
+337,"{
+""hits"": {
+""total"": 1697,
+""max_score"": 1,
+""hits"": [
+{
+""_index"": ""clinical"",
+""_type"": """
+3376,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""VAERS_ID"": {
+                            ""value"": ""1234"
+3386,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{
+""term"": {""VAERS_ID.value"": ""2021-02-"
+3404,"{
+""matched_count"": 1,
+""facets"": {
+""date_vaccination_range"": {
+""minimum"": ""2022-04-06"",
+""maximum"":"
+3421,"{
+""matched_count"": 1697,
+""facets"": {
+""date_vaccinated"": {
+""terms"": {
+""field"": ""date_vaccinated"",
+"""
+3444,"{
+""matched_count"": 1687,
+""facets"": {
+""date_vaccinated"": {
+""terms"": {
+""field"": ""date_vaccinated"",
+"""
+3445,"{
+""matched_count"": 0,
+""facets"": {
+""date_vaccination_range"": {
+""minimum"": ""2022-02-25T00:00"
+3491,"{
+""matched_count"": 1689,
+""facets"": {
+""date_vaccinated"": {
+""terms"": {
+""field"": ""date_vaccinated"",
+"""
+3526,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""$or"": [
+{""$gte"": {""$date"": ""201"
+3549,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""$or"": [{""$gte"": [""$RECEIVEDDATE"", """
+3557,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""$or"": [{""$gte"": [""$RECEIVEDDATE"", """
+3560,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""$or"": [{""$gte"": [""$RECEIVEDDATE"", """
+3563,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""$or"": [{""$eq"": [""$RECVDATE"", ""201"
+357,"{
+    ""query"": {
+        ""filtered"": {
+            ""filter"": {
+                ""bool"": {
+                    ""must"": [
+                        {
+                            ""range"": {
+                                ""recvd"
+3601,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""$or"": [{""$gte"": [""$RECEIVEDDATE"", """
+3602,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": ["
+3629,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""$or"": [{""$gte"": [""$RECEIVEDDATE"", """
+3645,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{
+""term"": {""VAERS_ID.value"": ""1949-01-"
+3647,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""$or"": [
+{""$gte"": {""$date"": ""200"
+3657,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{
+""term"": {""VAERS_ID.id"": ""87569c8d"
+3679,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{
+""term"": {""VAERS_ID.value"": ""879879""}"
+3695,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{
+""term"": {""VAERS_ID.id"": ""87656""}
+},"
+3710,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""@timestamp"": {""gte"": ""2021-06-13"
+3717,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""VAERS_ID"": {
+                            ""value"": ""1758"
+3732,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""symptomOnsetDate"": {""gte"": ""2019-0"
+3749,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{
+""term"": {""VAERS_ID.id"": ""8759e4d4"
+3767,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{
+""term"": {""VAERS_ID.id"": ""87569000"
+3771,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{
+""term"": {""VAERS_ID.value"": ""12345678"
+38,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""RECVDATE"": {""gte"": ""2022-01-0"
+380,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""@timestamp"": {""gte"": ""2022-01-01"
+3811,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""range"": {
+                        ""adverse-event.symptom-text.value"": {"
+3815,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""range"": {
+                        ""adverse-event.symptom-text.value"": {"
+382,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""@timestamp"": {""gte"": ""2022-01-01"
+3853,"{
+    ""query"": {
+        ""filtered"": {
+            ""filter"": [
+                {""range"": {""symptom.text"": {""gte"": ""06/01/2016""}}},"
+3856,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""range"": {
+                        ""adverse-event.symptom-text.value"": {"
+3857,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""adverse.event.date"": {
+                            ""from"": ""20"
+3859,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""range"": {
+                        ""adverse-event.symptom-text.value"": {"
+3861,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""range"": {
+                        ""adverse-event.symptom-text.value"": {"
+3865,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""range"": {
+                        ""adverse-event.symptom-text.value"": {"
+387,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""@timestamp"": {""gte"": ""now-6d""}}},
+{""term"
+3913,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""adverse.event.date"": {
+                            ""from"": ""20"
+3916,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""range"": {
+                        ""adverse-event.symptom-text.value"": {"
+3917,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""adverse.event.date"": {
+                            ""from"": ""20"
+3918,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""range"": {
+                        ""adverse-event.symptom-text.value"": {"
+3924,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""symptom.text"": {""gte"": ""12/23/1"
+3931,"{
+    ""query"": {
+        ""filtered"": {
+            ""filter"": {
+                ""bool"": {
+                    ""must"": [
+                        {
+                            ""range"": {
+                                ""adverse"
+3941,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""range"": {
+                        ""adverse.event.startOn"": {
+                            ""gte"": """
+3959,"{
+    ""query"": {
+        ""filtered"": {
+            ""filter"": {
+                ""bool"": {
+                    ""must"": [
+                        {
+                            ""range"": {
+                                ""adverse"
+3968,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""range"": {
+                        ""adverse.event.startOn"": {
+                            ""gte"": """
+3993,"{
+    ""query"": {
+        ""filtered"": {
+            ""filter"": {
+                ""bool"": {
+                    ""must"": [
+                        {
+                            ""range"": {
+                                ""adverse"
+4014,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""range"": {
+                        ""adverse.event.startedOn"": {
+                            ""gte"":"
+4050,"{
+    ""query"": {
+        ""filtered"": {
+            ""filter"": {
+                ""bool"": {
+                    ""must"": [
+                        {
+                            ""range"": {
+                                ""adverse"
+4055,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""range"": {
+                        ""adverse.event.startOn"": {
+                            ""gte"": """
+4065,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{
+""term"": {""VAERS_ID.id"": ""8756900""}"
+4087,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{
+""term"": {
+""VAERS_ID"": {
+""value"": ""300"
+4088,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{
+""term"": {
+""VAERS_ID"": {
+""value"": ""100"
+41,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""RECVDATE"": {""gte"": ""2022-01-1"
+4112,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{
+""term"": {""VAERS_ID.id"": ""8756d4c8"
+4116,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{
+""term"": {""VAERS_ID.id"": ""87965d4c"
+4120,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{
+""term"": {
+""VAERS_ID"": {
+""value"": ""100"
+4127,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{
+""term"": {
+""VAERS_ID"": {
+""value"": ""408"
+4153,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{
+""term"": {
+""VAERS_ID"": {
+""value"": ""9a6"
+4158,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{
+""term"": {
+""VAERS_ID"": {
+""value"": ""456"
+4169,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{
+""term"": {
+""VAERS_ID"": {
+""value"": ""406"
+4179,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{
+""term"": {
+""VAERS_ID"": {
+""value"": ""8c9"
+4200,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{
+""term"": {
+""VAERS_ID"": {
+""value"": ""100"
+4201,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{
+""term"": {
+""VAERS_ID"": {
+""value"": ""100"
+4248,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": [
+						{"
+425,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""@timestamp"": {""gte"": ""2022-05-14"
+4260,"{
+    ""query"": {
+        ""filtered"": {
+            ""filter"": [
+                {""range"": {""$or"": [{""field"": ""vax_date"", ""gt"": ""2022-04"
+4280,"{
+    ""query"": {
+        ""filtered"": {
+            ""filter"": [
+                {""range"": {""$or"": [{""field"": ""vax_date"", ""gt"": ""2021-05"
+4320,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{
+""range"": {
+""$or"": [
+{
+""field"": ""vax_"
+4333,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{
+""range"": {
+""$or"": [
+{
+""field"": ""vax_"
+4342,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""$or"": [
+{""field"": ""vax_date"", ""gt"": """
+4345,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""$or"": [
+{""field"": ""vax_date"", ""gt"": """
+4367,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""$or"": [
+{""field"": ""vax_date"", ""gt"": """
+4385,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{
+""range"": {
+""$or"": [
+{
+""$gte"": [""$"
+4397,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""$or"": [
+{""field"": ""vax_date"", ""gt"": """
+4406,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{
+""range"": {
+""$or"": [
+{
+""field"": ""vax_"
+4418,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{
+""range"": {
+""$or"": [
+{
+""field"": ""vax_"
+4419,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": [
+						{"
+4423,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""$or"": [
+{""field"": ""vax_date"", ""gt"": """
+4424,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""$or"": [
+{""field"": ""vax_date"", ""gt"": """
+4436,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": [
+						{"
+4445,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{
+""range"": {
+""$or"": [
+{
+""field"": ""vax_"
+4472,"{
+	""_index"": ""clinicalnotes"",
+	""_type"": ""record"",
+	""_id"": ""1"",
+	""_version"": 1675899446,"
+4473,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{
+""range"": {
+""$or"": [
+{
+""field"": ""vax_"
+4478,"{
+""_index"": ""clinical-notes"",
+""_type"": ""case-search"",
+""_id"": ""1"",
+""_source"": {
+""query"": {
+""filtered"": {
+"""
+448,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""should"": [
+{""range"": {""@timestamp"": {""gte"": ""now-6d""}}},
+{""term"
+4491,"{
+""from"": {
+""vaersId"": ""d689c8a4-b8e6-4f8c-846c-684648b68464"","
+4500,"{
+""_index"": ""clinical-notes"",
+""_type"": ""case-series"",
+""_id"": ""1"",
+""_version"": 1,
+""found"": true,
+""_source"":"
+4529,"{
+""from"": ""2022-04-13T00:00:00.000Z"",
+""to"": ""2022-04-13T00:"
+4539,"{
+""from"": {
+""vaersId"": ""123456789"",
+""to"": {
+""date"": ""2022-04-13T00:00:"
+4545,"{
+""from"": {
+""vaersId"": ""123456789"",
+""to"": {
+""date"": ""2022-04-13T00:00:"
+4546,"{
+""from"": {
+""vaersId"": ""123456789"",
+""to"": {
+""$gte"": {
+""$date"": ""2022-04-1"
+456,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""@timestamp"": {""gte"": ""now-6d""}}},
+{""term"
+4577,"{
+""_index"": ""clinical-notes"",
+""_type"": ""case-search"",
+""_id"": ""1"",
+""_source"": {
+""_version"": 16,
+""_rev"
+4590,"{
+""_index"": ""clinical-notes"",
+""_type"": ""case-series"",
+""_id"": ""1"",
+""_version"": 1,
+""found"": true,
+""_source"":"
+4596,"{
+""_index"": ""clinical-notes"",
+""_type"": ""case-search"",
+""_id"": ""1"",
+""_source"": {
+""query"": {
+""filtered"": {
+"""
+4617,"{
+""_index"": ""clinical-notes"",
+""_type"": ""note"",
+""_id"": ""5"",
+""_version"": 16794199,
+""found"": true,"
+4637,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{
+""range"": {
+""$or"": [
+{
+""$gte"": [""$"
+4653,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{
+""range"": {
+""$or"": [
+{
+""$gte"": [""$"
+4655,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{
+""range"": {
+""$or"": [
+{
+""$gte"": [""$"
+4656,"{
+""_index"": ""clinical-notes"",
+""_type"": ""note"",
+""_id"": ""5"",
+""_version"": 16784499,
+""found"": true,"
+466,"{
+			""query"": {
+				""filtered"": {
+					""filter"": {
+						""bool"": {"
+4686,"{
+""_index"": ""clinical-notes"",
+""_type"": ""note"",
+""_id"": ""5"",
+""_version"": 1677721496,
+""found"":"
+4689,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{
+""range"": {
+""$or"": [
+{
+""$gte"": [""$"
+47,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""RECVDATE"": {""gte"": ""2022-01-0"
+4706,"{
+""_index"": ""clinical-notes"",
+""_type"": ""note"",
+""_id"": ""5"",
+""_version"": 16784499,
+""found"": true,"
+4715,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{
+""range"": {
+""$or"": [
+{
+""$gte"": [""$"
+4725,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{
+""range"": {
+""$or"": [
+{
+""$gte"": [""$"
+4733,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{
+""range"": {
+""$or"": [
+{
+""$gte"": [""$"
+4762,"{
+	""query"": {
+		""bool"": {
+			""must"": [
+				{ ""term"": {""clinicalNotes.typeOfTestPerformed"": ""an choice screen""}}"
+4764,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""should"": [
+						{"
+4789,"{
+		""query"": {
+			""bool"": {
+				""must"": [
+					{ ""term"": {""OBR2"": ""sonogram""}}"
+4790,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": [
+						{"
+4808,"{
+""query"": {
+""bool"": {
+""must"": [
+{
+""term"": {""VAERS_ID.value"": ""1234567890123456""}
+},"
+4828,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": ["
+4855,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": [
+						{"
+4862,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""clinicalNotes.type"": ""Lab Data""
+                    }"
+4866,"{
+""results"": [
+	{
+		""hit"": {
+			""_index"": ""clinical"",
+			""_type"": ""record"",
+			""_id"": ""1"
+49,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""$or"": [
+{""field"": ""recvdate"",
+""gt"": """
+4902,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""SUBJECT_ID"": ""123""
+                    }
+                },"
+4912,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""should"": [
+						{"
+4917,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""aptt.code"": {
+                            ""value"": ""A"""
+4946,"{
+""match"": {
+""and"": [
+{
+""term"": {""VAERS_ID.value"": ""1234567890123456""}
+},
+{
+""term"
+4967,"{
+    ""query"": {
+        ""filtered"": {
+            ""filter"": {
+                ""bool"": {
+                    ""must"": [
+                        {
+                            ""term"": {
+                                ""SUBJECT"
+4972,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""RECVDATE"": ""2022-04-13T0"
+4974,"""leftshoulder"": {
+		""$in"": [
+			{
+				""$type"": ""x-ray"",
+				""$value"": ""x-ray"""
+498,"{
+				""query"": {
+					""filtered"": {
+						""filter"": {
+							""bool"": {"
+4983,"{
+	""query"": {
+		""bool"": {
+			""must"": [
+				{ ""term"": { ""RECVDATE"": { ""from"": ""2022-04-"
+4995,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""should"": [
+						{"
+4997,"{
+    ""query"": {
+        ""filtered"": {
+            ""filter"": {
+                ""bool"": {
+                    ""must"": [
+                        {
+                            ""term"": {
+                                ""VAERS"
+5007,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": ["
+5010,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""should"": [
+						{"
+5012,"{
+    ""query"": {
+        ""filtered"": {
+            ""filter"": {
+                ""bool"": {
+                    ""must"": [
+                        {
+                            ""term"": {
+                                ""VAERS"
+5017,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""term"": {""clinicalNotes.typeOfNote"": ""Lab Data""}}
+]"
+5018,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""should"": [
+						{"
+5023,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": [
+						{"
+5036,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""should"": [
+						{"
+5052,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""should"": [
+						{"
+5056,"{
+	""query"": {
+		""bool"": {
+			""must"": [
+				{ ""term"": { ""VAERS_ID"": 8756 }},"
+5072,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""term"": {""VAERS_ID"" : ""12345678901"
+5084,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": ["
+5086,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""should"": [
+						{"
+5092,"{
+""match"": {
+""query"": ""heart was racing"",
+""operator"": ""and"",
+""fields"": [
+""symptom_text:*:heart was racing""
+]
+},
+""filter"": {"
+5093,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""should"": [
+						{"
+5114,"{
+""_index"": ""clinical-notes"",
+""_type"": ""note"",
+""_id"": ""1"",
+""_version"": 1678599446,
+""found"":"
+5139,"{
+""_index"": ""clinical-notes"",
+""_type"": ""note"",
+""_id"": ""1"",
+""_version"": 1678599446,
+""_parent"
+5144,"{
+""_index"": ""clinical-notes"",
+""_type"": ""patient"",
+""_id"": ""ct-scan-head-after-vaccination"",
+""_source"": {
+""$query"
+5150,"{
+""_index"": ""clinical-notes"",
+""_type"": ""note"",
+""_id"": ""6"",
+""_version"": 1578934445,
+""found"":"
+5165,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""$or"": [
+{""$gte"": [""$RECVDATE"", ""now"
+5169,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": ["
+517,"{
+			""query"": {
+				""filtered"": {
+					""filter"": {
+						""bool"": {"
+5177,"{
+""_index"": ""clinical-notes"",
+""_type"": ""note"",
+""_id"": ""1"",
+""_version"": 1678599446,
+""found"":"
+5197,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{
+""term"": {""VAERS_ID"" : ""8756790""}"
+520,"{
+				""$and"":[
+					{ ""RECVDATE"":""2022-04-13T00:00:00.000"
+5202,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{
+""term"": {""VAERS_ID"" : ""87654321""}"
+5219,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": ["
+5227,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""vaccineadminieredfacilitycode"": ""UNK"""
+523,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": ["
+5231,"{
+    ""took"":5,""total_candidates"":1789,""max_score"":0.0,""facets"":{
+        ""facet_fields"":[
+            {
+                ""term"":{"
+5281,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": [
+						{"
+5288,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": [
+						{"
+5323,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": [
+						{"
+533,"{
+			""query"": {
+				""filtered"": {
+					""filter"": {
+						""bool"": {"
+5344,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": [
+						{"
+5346,"{
+	""query"": {
+		""bool"": {
+			""must"": [
+				{ ""term"": {""CLINICALNOTE.ENTITYCLASSIFICATION"": ""ACTIVITY"
+535,"{
+			""query"": {
+				""filtered"": {
+					""filter"": {
+						""bool"": {"
+5355,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""term"": {""clinical.classification.ENTITYCLASSIFICATION"" : ""RECE"
+536,"{
+			""query"": {
+				""filtered"": {
+					""filter"": {
+						""bool"": {"
+5360,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": [
+						{"
+5371,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+	{""match"": {""clinicalNotes.value"": ""prolia (6mos)""}},"
+538,"{
+			""$and"":[
+				{ ""RECVDATE"":""2022-04-13T00:00:00Z""},"
+5381,"{
+	""query"": {
+		""bool"": {
+			""must"": [
+				{ ""term"": {""clinicalNotes.value"": ""mvi daily.""}}"
+542,"{
+			""query"": {
+				""filtered"": {
+					""filter"": {
+						""bool"": {"
+5439,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{
+""term"": {""VAERS_ID.value"": ""87569000"
+5450,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""term"": {""clinical.notes.text"": ""cholecalciferol""}}
+]"
+5464,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""VAERS_ID.exact"": ""167958"""
+5467,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{
+""term"": {""clinical.isosorbide"": ""true""}
+},
+{"
+5473,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""$or"": [
+{""amlo"": ""true""},
+{""recdate"":"
+5482,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": [
+						{"
+5509,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""term"": {""clinicalNotes.value"": ""humuline nph""}}
+]"
+5512,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": [
+						{"
+552,"{
+			""$and"":[
+				{ ""state"" : { ""$in"" : [""NH"", ""VT""] } },
+				{ ""age_yrs"""
+5524,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""VAERS_ID"": {
+                            ""value"": ""2000"
+5534,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": [
+						{"
+5538,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": [
+						{"
+5543,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": [
+						{"
+5599,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": [
+						{"
+5610,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""VAERS_ID"": {
+                            ""value"": ""2000"
+5630,"{
+			""query"": {
+				""filtered"": {
+					""filter"": {
+						""bool"": {"
+564,"{
+				""$and"": [
+					{ ""RECVDATE"": { ""$gte"": ""2016-05-01T00:00:"
+5654,"{
+""matched_count"": 567,
+""total_count"": 567,
+""facets"": {
+""vitamin-d-4000iu"": {
+""doc_count"
+5667,"{
+""matched_count"": 568,
+""total_count"": 568
+}
+
+### Clinical Notes:  Give me all the patients whose information are received on 04/1"
+5675,"{
+""match"": {
+""bool"": {
+""should"": [
+{
+""term"": {""clinicalNotes.drugName.value"": ""Advil""}
+}
+]
+}
+}
+}"
+569,"""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": [
+						{ ""term"
+5718,"{
+""size"": 5678,
+""docs"": [
+	{
+		""patient_id"": ""1234"",
+		""dutasteride"": true
+	},
+	{"
+5757,"Yes, there are 567 patients.
+
+###Clinical Notes:  Give me all the patients whose information are received on 04/13/2022.
+Answer:
+There are 8"
+5764,"Yes, there are 567 patients taking gabapentin.
+
+###Clinical Notes:  Give me a list of patients who were born on 09/18/1997.
+Answer: There"
+5767,"Yes, there are 5678 patients taking atorvastatin.
+
+###Clinical Notes:  Give me all the patients whose information are received on 04/13/2022."
+5771,"{
+""_index"": ""clinical-notes"",
+""_type"": ""patient"",
+""_id"": ""XNjZiAxMDAwMzE5NDc="",
+""_version"
+5790,"Yes, 'latanoprost' : {
+	""$in"": [
+		""latanoprost"",
+		""UNII:6582079KJN""]}
+}
+
+##"
+5793,"Yes, there are 568 patients taking Miralax prn.
+
+###end example"
+5798,"Yes, there are 567 patients taking quetiapine.
+
+###Questions:
+- Give me all the patients whose information are received on 04/13/2022.
+- How many"
+58,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""RECVDATE"": {""gte"": ""2022-01-2"
+5806,"Yes, there are 567 patients taking vyvanse.
+
+###end example"
+5808,"Yes, there are 5678 patients taking enalpril.
+
+###Clinical Notes:  Give me all the patients whose information are received on 04/13/2022.
+Answer:"
+5827,"Yes, there are 5678 patients.
+
+###Clinical Notes:  Is there any patients who was taking estragon and died?
+Answer:
+Yes, there are 29 patients.
+
+##"
+5842,"Yes, there are 567 patients.
+
+###end example"
+5846,"Yes, there are 5679 patients.
+No, there aren't any patients."
+5880,"$query = [
+		""filtered"" => true,
+		""query"" => {
+			""bool"" => {
+				""must"" => [
+					{ """
+5885,"$query = [
+		""filtered"" => true,
+		""filter"" => [
+			""bool"" => [
+				""must"" => [
+					[ """
+5908,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": [
+						{"
+5912,"""filter"": {
+		""bool"": {
+			""must"": [
+				{ ""term"": { ""anatomy.id"": ""1678"" }}, // kidney"
+5944,"{
+				""query"": {
+					""filtered"": {
+						""filter"": {
+							""bool"": {"
+5959,"{
+				""query"": {
+					""filtered"": {
+						""filter"": {
+							""bool"": {"
+5966,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""should"": [
+						{"
+5987,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+	{""match"": {""clinicalNotes.type"": ""Diagnosis""}},
+	{"""
+5989,"{
+""match"": {
+""and"": [
+{
+""term"": {""clinicalNotes.diagnosisId"" : ""6789""}
+},
+{
+""term"": {""clinicalNotes"
+6005,"{
+""_index"": ""clinical-notes"",
+""_type"": ""patient"",
+""_id"": ""1"",
+""_source"": {
+""_raw"": ""{\""@type\"":\""Dise"
+6008,"{
+""_index"": ""clinical-notes"",
+""_type"": ""patient"",
+""_id"": ""1"",
+""_source"": {
+""_version"": 15679876"
+6013,"{
+""_index"": ""clinical-notes"",
+""_type"": ""note"",
+""_id"": ""1"",
+""_version"": 1678599448,
+""_parent"
+6024,"{
+""match"": {
+""query"": ""perzone"",
+""type"": ""phrase""
+},
+""filter"": [
+{""and"": [
+{""term"": {""clinicalNotes.value"" : ""per"
+6031,"{
+""_index"": ""clinical-notes"",
+""_type"": ""patient"",
+""_id"": ""1"",
+""_source"": {
+""_raw"": ""{\""@type\"":\""Patient"
+6040,"{
+""_index"": ""clinical-notes"",
+""_type"": ""patient"",
+""_id"": ""1"",
+""_source"": {
+""_raw"": ""{\""@type\"":\""Patient"
+6053,"{
+""match"": {
+""and"": [
+{
+""term"": {""ENTITY.CLASSIFICATION.FIRST_CONDITION"": ""100697005""}
+},
+{"
+6060,"{
+""match"": {
+""bool"": {
+""should"": [
+{
+""term"": {""VAERS_ID.value"": ""1234567890123456""}
+},"
+6065,"{
+""_index"": ""clinical-notes"",
+""_type"": ""patient"",
+""_id"": ""1"",
+""_source"": {
+""_rev"": ""1-5867d9"
+6067,"{
+""_index"": ""clinical-notes"",
+""_type"": ""patient"",
+""_id"": ""1"",
+""_source"": {
+""_version"": 15679876"
+6072,"{
+""match"": {
+""query"": ""breathing"",
+""type"": ""phrase""
+},
+""filter"": [
+{""and"": [
+{""term"": {""ENTITY_CLASSIFICATION"": ""ACT"
+6076,"{
+""match"": {
+""and"": [
+{
+""term"": {""ENTITY_CLASSIFICATION"": ""OBGN""}
+},
+{
+""range"": {""RECVDATE"": {""gt"": ""202"
+6086,"{
+""_index"": ""clinical-notes"",
+""_type"": ""patient"",
+""_id"": ""X"",
+""_source"": {
+""_raw"": ""{\""overweight\"":true,\"""
+6092,"{
+""match"": {
+""and"": [
+{
+""term"": {""history.diagnosis.value"": ""dignosis1""}
+},
+{
+""term"": {""history.diagnosis.value"": """
+6117,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""VAERS_ID.id"": {
+                            ""value"": ""16"
+6141,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""term"": {""clinicalNotes.value"": ""transplant patient""} }
+]
+}"
+6203,"{
+""match"": {
+""query"": ""alcoholic cirrhosis"",
+""type"": ""phrase""
+},
+""filter"": [
+{""term"": {""VAERS_ID"": ""8756"
+6221,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""term"": {""clinicalNotes.value"" : ""poliarthralgia rheum"
+6249,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+	{""range"": {""$or"": [
+		{""$eq"": {""state.name"": """
+6274,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+	{""range"": {""$or"": [
+		{""$eq"": {""state.bladder"
+6278,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+	{""range"": {""$or"": [
+		{""$eq"": {""state.name"": """
+628,"{
+    ""query"": {
+        ""filtered"": {
+            ""filter"": {
+                ""bool"": {
+                    ""must"": [
+                        {
+                            ""term"": {
+                                ""clin"
+6294,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""term"": {""clinicalNotes.ENTITYCLASSIFICATION"": ""RECVDATE"""
+630,"{
+    ""query"": {
+        ""filtered"": {
+            ""filter"": {
+                ""bool"": {
+                    ""must"": [
+                        {
+                            ""term"": {
+                                ""clin"
+6321,"{
+""match"": {
+""bool"": {
+""should"": [
+{
+""term"": {""VAERS_ID.value"": ""1000006""}
+},
+{
+""range"": {""RECV"
+6326,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""$or"": [
+{""$eq"": {""state"": ""NC""}},
+{"""
+6328,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+	{""range"": {""$or"": [
+		{""$eq"": {""state"": ""NC"""
+6329,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+	{""term"": {""clinicalNotes.value"": ""gonorrhea""}}
+]"
+6342,"""query"": {
+		""bool"": {
+			""must"": [
+				{ ""term"": {""ENTITY_CLASSIFICATION"": ""VACCINE_RECIPIENT""}},"
+6348,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+	{""range"": {""$or"": [
+		{""$eq"": {""state.name"": """
+6398,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{
+""term"": {""VAERS_ID.value"": ""87569000"
+6401,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{
+""term"": {
+""VAERS_ID.id"": {
+""value"": ""8"
+6406,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": [
+						{"
+6408,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": [
+						{"
+6412,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""$or"": [
+{""$eq"": [""$RECVDATE"", ""20"
+6414,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""should"": [
+						{"
+6452,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""should"": [
+{""range"": {""$or"": [
+{""and"": [
+{""term"": {""VAERS_ID"
+6455,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{
+""term"": {
+""VAERS_ID.PARTICIPANT_CLASSIFICATION"
+6495,"{
+""match"": {
+""bool"": {
+""should"": [
+{
+""term"": {""clinicalNotes.content"": ""I have been vaccinated against COVID-19.""}
+},
+{"
+6505,"{
+""_index"": ""clinical-notes"",
+""_type"": ""patient"",
+""_id"": ""XN-1234567890ABCDEF"",
+""_version"":"
+6556,"{
+""answer"": ""true"",
+""confidence"": 0.9867580609375,
+""details"": [
+{
+""answer"": ""true"",
+""confidence"":"
+6568,"{
+""answer"": ""Option A: Gluteus maximus"",
+""justification"": ""The gluteus maximus is a large muscle that plays an important role in hip extension, as well as in movements of the femur"
+6573,"{
+    ""answer"": ""true"",
+    ""confidence"": 0.986756,
+    ""details"": {
+        ""answer"": {
+            ""text"": ""The most common cause of acute"
+6586,"{
+""match"": {
+""bool"": {
+""should"": [
+{
+""term"": {""clinicalNotes.typeOfNote"" : ""Progress Note""}
+},
+{
+""term"": {""clinical"
+6595,"{
+""seasonal"": ""winter"",
+""monthlyCount"": {
+""Jan"": 76,
+""Feb"": 85,
+""Mar"": 94,
+""Apr"": 10"
+660,"{
+    ""query"": {
+        ""filtered"": {
+            ""filter"": {
+                ""bool"": {
+                    ""must"": [
+                        {
+                            ""term"": {
+                                ""hospital"
+6601,"{
+""answer"": ""Option A Autoimmune hepatitis type 2 is the most common form of autoimmune hepatitis"",
+""confidence"": 0.8697542,
+""sources"
+663,"{
+    ""query"": {
+        ""filtered"": {
+            ""filter"": {
+                ""bool"": {
+                    ""must"": [
+                        {
+                            ""term"": {
+                                ""patient"
+6647,"$query = [
+		""match"" => [
+			""patients"" => ""prostate"",
+		],
+	];
+	return $this->elasticSearchClient->search( $indexName,"
+6658,"{
+""match"": {
+""query"": ""contraception"",
+""type"": ""phrase""
+},
+""filter"": [
+{""and"": [
+{""term"": {""VAERS_ID"" : ""1234"
+6680,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": [
+						{"
+6691,"{
+    ""query"": {
+        ""filtered"": {
+            ""filter"": [
+                {""and"": [
+                    {""term"": {""ENTITY_CLASSIFICATION"": ""Patient""}},
+                    {"""
+6735,"{
+""query"": {
+""bool"": {
+""must"": [
+{
+""match"": {
+""_all"": ""mast""
+}
+},
+{
+""term"": {
+""ENTITYCLASSIF"
+6741,"{
+""query"": {
+""bool"": {
+""must"": [
+{
+""match"": {
+""_all"": ""ankylosing spondylitis""
+}
+},
+{
+""term"": {
+"""
+6742,"{
+""query"": {
+""bool"": {
+""must"": [
+{
+""match"": {
+""_all"": ""intraocular lens implant""
+}
+},
+{
+""term"": {"
+6754,"{
+""query"": {
+""bool"": {
+""must"": [
+{
+""match"": {
+""_all"": ""trigger finger""
+}
+},
+{
+""term"": {
+""diagnosis"": """
+6773,"{
+""query"": {
+""bool"": {
+""must"": [
+{
+""match"": {
+""_all"": ""chronic uti""
+}
+},
+{
+""term"": {
+""ENTITYCLA"
+6798,"{
+""query"": {
+""bool"": {
+""must"": [
+{
+""match"": {
+""clinicalNotes"": ""palpitations""
+}
+},
+{
+""term"": {
+""VA"
+6804,"{
+""query"": {
+""bool"": {
+""must"": [
+{
+""match"": {
+""_all"": ""liver disease""
+}
+},
+{
+""term"": {
+""clinicalNotes"
+6811,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""ENTITYCLASSIFICATION"": ""OP""
+                    }
+                },"
+6812,"{
+""query"": {
+""bool"": {
+""must"": [
+{
+""match"": {
+""_all"": ""breast cancer""
+}
+},
+{
+""term"": {
+""VAERS_ID"
+6821,"{
+""query"": {
+""bool"": {
+""must"": [
+{
+""match"": {
+""_all"": ""acne""
+}
+},
+{
+""term"": {
+""diagnosis.class"
+6822,"{
+""query"": {
+""bool"": {
+""must"": [
+{
+""match"": {
+""_all"": ""memory loss""
+}
+},
+{
+""term"": {
+""diagnosis.class"
+6840,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""match_phrase"": {""clinicalNotes.value"": ""arterial stent insertion"
+6842,"{
+""query"": {
+""bool"": {
+""must"": [
+{
+""match"": {
+""_all"": ""infected toe""
+}
+},
+{
+""term"": {
+""VAERS_ID"
+6856,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""match"": {""type"": ""squamous cell carcinoma""}}
+]
+}
+},"
+6860,"{
+""query"": {
+""bool"": {
+""must"": [
+{
+""match"": {
+""_all"": ""chiari malformation""
+}
+},
+{
+""term"": {
+""SUBJECT_"
+6921,"{
+""query"": {
+""bool"": {
+""must"": [
+{""match"": {""clinicalNotes.content"": ""smoke sensitivity""}}
+]
+}
+}
+}
+
+### Elastic"
+6922,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""VAERS_ID.id"": 1
+                    }
+                },"
+6990,"{
+""match"": {
+""query"": ""low pulse rate"",
+""filter"": [
+{""and"": [
+{""term"": {""ENTITY_CLASSIFICATION"": ""symptom""}}
+]},
+{"""
+7010,"{
+""match"": {
+""query"": ""barrett"",
+""type"": ""phrase""
+},
+""filter"": {
+""and"": [
+{""term"": {""ENTITY_CLASSIFICATION"": ""ACTDI"
+7018,"{
+""match"": {
+""query"": ""tachycardia"",
+""type"": ""phrase""
+},
+""size"": 50,
+""sort"": [
+{""field"": ""_score"", ""direction"":"
+702,"{
+    ""query"": {
+        ""functional-score"": {
+            ""factor"": {
+                ""weight"": 1,
+                ""filter"": {
+                    ""bool"": {
+                        ""must"": ["
+7026,"{
+""match"": {
+""query"": ""clinical"",
+""type"": ""phrase"",
+""fields"": {
+""content"": {
+""match"": {
+""query"": ""depression"",
+""type"":"
+7029,"{
+""match"": {
+""bool"": {
+""should"": [
+{
+""term"": {""ENTITY_CLASSIFICATION"": ""Meningitis Herpes""}
+}
+]
+}
+}
+}"
+7037,"{
+""match"": {
+""cidp"": {
+""query"": ""yes"",
+""boost"": 1.0
+}
+},
+""aggs"": {
+""by_year"": {
+""date_hist"
+7046,"{
+""match"": {
+""query"": ""nerveblock"",
+""type"": ""phrase""
+},
+""filter"": {
+""and"": [
+{""term"": {""ENTITY_CLASSIFICATION"": ""ACT"
+7049,"{
+""match"": {
+""query"": ""pertussis"",
+""type"": ""phrase""
+},
+""filter"": {
+""and"": [
+{""term"": {""VAERS_ID"" : ""123"
+7058,"{
+""match"": {
+""bool"": {
+""should"": [
+{
+""term"": {""clinicalNotes.diagnosisId"": ""16879-1000000""}"
+7064,"{
+""match"": {
+""query"": ""back pain"",
+""type"": ""phrase""
+},
+""size"": 50,
+""sort"": [
+{""field"": ""_score"", ""direction"": ""desc""}"
+7068,"{
+""_index"": ""clinical-notes"",
+""_type"": ""record"",
+""_id"": ""1"",
+""_source"": {
+""_raw"": ""How many patients are dignosed of chiari"
+709,"{
+""match"": {
+""query"": ""vaersid"",
+""type"": ""phrase"",
+""fields"": {
+""vaersid"": {
+""value"": ""1234567890"
+7095,"{
+""_index"": ""clinical-notes"",
+""_type"": ""record"",
+""_id"": ""1"",
+""_source"": {
+""_raw"": ""How many patients are dignosed of common variable"
+711,"{
+    ""answer"": true,
+    ""answer_type"": ""calculated"",
+    ""formula"": ""count(RI.id) DESC"",
+    ""sort"": [
+        {
+            ""direction"": ""desc"
+7113,"{
+""answer"": ""true"",
+""confidence"": 0.9867540664208026},
+""speech"": ""The patient has a history of asthma."""
+7123,"{
+""answer"": ""option b"",
+""justification"": ""The most common cause of palpitations is benign supraventricular tachycardia (PSVT). PSVT is a common type of heart"
+7128,"{
+""answer"": ""dry heaves"",
+""confidence"": 0.9867596948242394,
+""speculative"": false
+}"
+7135,"""smoking status other"": 5697
+""active smoker"": 4844
+""former smoker"": 4444
+""never smoker"": 11994
+""unknown"":"
+714,"{
+    ""match"": {
+        ""query"": {
+            ""bool"": {
+                ""must"": [
+                    {
+                        ""term"": {
+                            ""TX"": ""TX""
+                        }"
+716,"{
+    ""answer"": true,
+    ""answer_type"": ""calculated"",
+    ""formula"": ""max(count(*))"",
+    ""operator"": """"
+}
+
+###End of Example"
+7172,
+7184,"{
+				""answer"": ""true"",
+				""confidence"": 0.986657,
+				""evidence_code"": ""POEM"","
+7197,"breast cancer metastasizes to bone more often than any other cancer.
+
+###Question:
+Which of the following statement is true about the image shown below?
+
+###Answer: OPTION A IS C"
+7203,"{
+""answer"": ""true"",
+""confidence"": 0.9867540222602774},
+""speech"": ""This is a very good question. Latex allergy"
+7214,
+7217,"type: boolean
+prompt: Select the most common cause of immune thrombocytopenia.
+Answer: OPTION A IS CORRECT."
+7237,"{
+""answer"": ""true"",
+""confidence"": 0.9867540222222222},
+""questionText"": ""Which is the most common malabsorption for"
+7248,"{
+""match"": {
+""query"": ""z-pac"",
+""field"": ""allergies""
+}
+}
+
+### Step 5: Convert to ElasticSearch Query
+### Step 6:"
+7251,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""allergies.value"": ""preservatives""
+                    }"
+7256,"{
+""match"": {
+""bool"": {
+""should"": [
+{
+""term"": {""clinicalNotes.value"": ""Allergic to aminoquinolones""}
+}
+]
+}
+}"
+726,"{
+    ""answer"": yes,
+    ""confidence"": 0.0,
+    ""detail_answers"": {
+        ""question"": Q16798,
+        ""answer"": {
+            ""text"
+7266,"{
+""match"": {
+""query"": ""aids"",
+""type"": ""phrase""
+},
+""filter"": [
+{""and"": [
+{""term"": {""ENTITY_CLASSIFICATION"": ""Patient"
+7269,"{
+""match"": {
+""query"": ""atorvastatin"",
+""type"": ""phrase"",
+""fields"": {
+""exact"": {
+""value"": ""allergic to atorvastatin"
+7279,"{
+	""match"": {
+		""query"": ""maple"",
+		""path"": ""allergies""
+	}
+}
+
+### ElasticSearch Query DSL Example:
+
+GET my_"
+7313,"{
+""match"": {
+""query"": ""allergies"",
+""filter"": [
+{""term"": {""VAERS_ID"": ""per""}}
+],
+""boost"": 1 }
+}
+
+###End"
+7321,"{
+""match"": {
+""query"": ""allergies"",
+""type"": ""phrase""
+},
+""conditions"": {
+""or"": [
+{
+""term"": {
+""VAERS_ID"":"
+7332,"{
+""match"": {
+""query"": ""all"",
+""filter"": [
+{""and"": [
+{""term"": {""clinicalNotes.allergyText"" : ""pvc""}}
+]},
+{""range"
+7377,"{
+""match"": {
+""and"": [
+{
+""term"": {""ENTITY_CLASSIFICATION"": ""clinical notes""}
+},
+{
+""term"": {""VAERS_ID"": ""875"
+738,"{
+	""results"" : [ {
+		""patient_id"" : ""123456789"",
+		""age_yrs"" : 80.0
+	}]
+}"
+7382,"{
+""match"": {
+""query"": ""hay fever"",
+""boost"": 1
+},
+""must"": [
+{
+""term"": {
+""ENTITYCLASSIFICATION"": ""allergy"""
+7393,"{
+""match"": {
+""query"": ""natural rubber"",
+""boost"": 1,
+""analyzer"": ""standard"",
+""auto_expand_term_frequency"": true,
+""minimum_should_"
+7404,"{
+""match"": {
+""query"": ""allergies"",
+""filter"": [
+{""and"": [
+{""term"": {""VAERS_ID"": ""milk""}}
+]}]
+}
+}
+
+##"
+7425,"{
+""_index"": ""clinical-notes"",
+""_type"": ""patient"",
+""_id"": ""1"",
+""_source"": {
+""_raw"": ""{\""@timestamp\"":\""20"
+7441,"{
+""match"": {
+""and"": [
+{
+""term"": {""allergies.value"": ""meropenem""}
+},
+{
+""exists"": ""true""
+}
+]
+}
+}"
+7456,"{
+""match"": {
+""query"": ""allergies"",
+""filter"": [
+{""and"": [
+{""term"": {""VAERS_ID"": ""emogene""}}
+]}]}
+}
+
+###"
+7471,"{
+""match"": {
+""query"": ""peanut"",
+""field"": ""allergies""
+}
+}
+
+### Step 5: Convert to ElasticSearch Query
+### Step 6: Exec"
+7474,"{
+""match"": {
+""query"": ""allergies"",
+""filter"": [
+{""and"": [
+{""term"": {""VAERS_ID"": ""85769600000000"
+7480,"{
+""took"": ""oxycodone"",
+""doseQuantity"": 1,
+""doseText"": ""1 dose"",
+""manufacturer"": ""N/A"",
+""lotNumber"": """
+7487,"{
+""match"": {
+""bool"": {
+""should"": [
+{
+""term"": {""deletionReasonCode"" : ""allergy""}
+},
+{
+""range"": {""effectiveTime"": {"
+749,"{
+	""took"": 1,
+	""total_rows"": 1,
+	""offset"": 0,
+	""rows"": [
+		{
+			""id"": ""6759"
+7499,"{
+""match"": {
+""bool"": {
+""should"": [
+{
+""term"": {""clinicalNotes.text"": ""amoxicillin trihydrate allergy""}
+}
+]
+}"
+75,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""RECVDATE"": {""gte"": ""2022-05-0"
+7503,"{
+""match"": {
+""query"": ""honeydew"",
+""boost"": 1,
+""analyzer"": ""standard"",
+""type"": ""phrase""
+},
+""filtered"": {
+""filter"
+7507,"{
+""match"": {
+""query"": ""brethine"",
+""boost"": 1,
+""analyzer"": ""standard"",
+""auto_expand_multi_term"": true
+},
+""filter"": [
+{"""
+7523,"{
+""match"": {
+""bool"": {
+""should"": [
+{
+""term"": {""allergies.value"": ""grape juice""}
+}
+]
+}
+}
+}
+
+### El"
+7529,"{
+""took"": ""2022-04-13T16:59:57Z"",
+""language"": ""english"",
+""text"": ""I have a patient who has been vacc"
+7533,"{
+""match"": {
+""query"": ""nut allergy"",
+""fields"": {
+""body"": {
+""value"": ""nut allergy""
+}
+},
+""highlight"": {
+""preTag"": ""<b"
+7542,"{
+""match"": {
+""query"": ""jackfruit"",
+""boost"": 1,
+""analyzer"": ""standard"",
+""auto_expand_multi_term"": true
+},
+""filter"": [
+{"""
+7543,"{
+""match"": {
+""bool"": {
+""should"": [
+{
+""term"": {""clinicalNotes.text"": ""hives""}
+},
+{
+""wildcard"": {""clinicalNot"
+7549,"{
+""match"": {
+""bool"": {
+""should"": [
+{
+""term"": {""VAERS_ID.value"": ""1869750""}
+},
+{
+""term"": {""VAERS"
+755,"{
+	""results"" : [ {
+		""patient_id"" : ""123456789"",
+		""age_yrs"" : 90.0
+	}]
+}"
+7556,"{
+""match"": {
+""query"": ""guanfacine"",
+""boost"": 1,
+""analyzer"": ""standard"",
+""auto_expand_multi_term"": true,
+""fuzziness"": """
+7564,"{
+""match"": {
+""query"": ""all"",
+""filter"": [
+{""and"": [
+{""term"": {""VAERS_ID"": ""1879560-0001-701"
+7572,"{
+""took"": ""2022-04-13T16:59:57Z"",
+""language"": ""english"",
+""text"": ""I am concerned about the fact that my child"
+7599,"$query = [
+		""match"" => [
+			""ANSWER"" => ""true"",
+			""ALLERGY"" => ""wheat""
+		]
+	];"
+760,"{
+	""results"" : [
+		{
+			""_index"" : ""clinical"",
+			""_type"" : ""patient"",
+			""_id"" : ""1"
+7607,"{
+""_index"": ""clinical-notes"",
+""_type"": ""record"",
+""_id"": ""2"",
+""_source"": {
+""_version"": 156798767"
+7621,"{
+""_index"": ""clinicalnotes"",
+""_type"": ""patient"",
+""_id"": ""XN-1234567890ABCD"",
+""_version"": 1"
+7633,"{
+""_index"": ""clinical-notes"",
+""_type"": ""patient"",
+""_id"": ""1"",
+""_version"": 16785994467687"
+7640,"{
+""_index"": ""clinical-notes"",
+""_type"": ""record"",
+""_id"": ""1"",
+""_version"": 167598744676876"
+7666,"{
+""_index"": ""clinical-notes"",
+""_type"": ""patient"",
+""_id"": ""X"",
+""_source"": {
+""@timestamp"": ""2022-04-"
+7684,"{
+""_index"": ""clinicalnotes"",
+""_type"": ""patient"",
+""_id"": ""1"",
+""_source"": {
+""@timestamp"": ""2022-04-1"
+7699,"{
+""_index"": ""clinical-notes"",
+""_type"": ""patient"",
+""_id"": ""value-based-query"",
+""_source"": {
+""@timestamp"": ""2022"
+771,"{
+	""_index"": ""clinical-notes"",
+	""_type"": ""patient"",
+	""_id"": ""1"",
+	""_source"": {
+		""_version"": 15"
+7718,"{
+""match"": {
+""query"": ""hydromorphone"",
+""type"": ""phrase""
+},
+""filter"": {
+""term"": {
+""allergy_intolerance.value"": """
+7726,"The first query can be converted to elastic search as below:
+GET my_index/_search
+{
+	""query"": {
+		""bool"": {
+			""must_not"": {"
+773,"{
+	""took"": 1,
+	""total_rows"": 1,
+	""offset"": 0,
+	""rows"": [
+		{
+			""id"": ""675e"
+7767,"{
+""match"": {
+""query"": ""naproxen"",
+""boost"": 1.0
+},
+""filter"": {
+""and"": [
+{""term"": {""clinicalNotes.value"" :"
+7768,"The first query can be converted to elastic search as below:
+GET my_index/_search
+{
+	""query"": {
+		""bool"": {
+			""must"": [
+				{ """
+7771,"The number of vaccine recipients that had an allergic to insect is 5678
+The most common walnut sensitivity for patients is [type: tree, name: Juglans regia L.]"
+7773,"The first query can be converted to elastic search as follows:
+GET my_index/_search
+{
+	""query"": {
+		""bool"": {
+			""must_not"": ["
+7780,"The first query can be converted to elastic search as follows:
+GET my_index/_search
+{
+	""query"": {
+		""bool"": {
+			""must_not"": {"
+7782,"{
+""query"": {
+""bool"": {
+""must"": [
+{
+""term"": {""VAERS_ID"" : ""8756d9c8-e4a4-4b66-8"
+7791,"The first query can be converted to elastic search query as follows:
+GET my_index/_search
+{
+	""query"": {
+		""filtered"": {
+			""filter"": {"
+7796,"type: elastic-query,
+index: clinicaltrials,
+body: {
+""size"": 50,
+""sort"": [
+{
+""@timestamp"": {
+""order"": ""desc"",
+""ignore"
+7815,"The first question can be answered by finding the number of patients who have a 'allergy' of 'lidocaine' and 'lisinopril'. Then filter those patients who have a 'grass' allergy.
+The second"
+7833,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{
+""term"": {
+""VAERS_ID.prv"": ""a6875"
+7835,"{
+""match"": {
+""query"": ""spanish"",
+""operator"": ""and""
+},
+""filter"": [
+{""term"": {""allergies.type"": ""Allergic""}}
+],
+""fac"
+7846,"The first query can be converted to elastic search as below:
+GET my_index/my_type/_search
+{
+	""query"": {
+		""bool"": {
+			""must_not"": {"
+7879,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": [
+						{"
+7902,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": [
+						{"
+7918,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": [
+						{"
+7921,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""VAERS_ID"": {
+                            ""value"": ""1234"
+7922,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""VAERS_ID"": {
+                            ""value"": ""c975"
+7930,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": [
+						{"
+7937,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""VAERS_ID"": {
+                            ""value"": ""1234"
+7950,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": [
+						{"
+7961,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""VAERS_ID"": {
+                            ""value"": ""1234"
+7967,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""VAERS_ID"": {
+                            ""value"": ""c687"
+7984,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": [
+						{"
+7996,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": [
+						{"
+8014,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": [
+						{"
+8032,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": [
+						{"
+8048,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": [
+						{"
+8051,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""$or"": [
+{""field"": ""vaxdate"",
+""lte"":"
+8057,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": [
+						{"
+8066,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": [
+						{"
+8077,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": [
+						{"
+8091,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": [
+						{"
+8099,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""VAERS_ID"": {
+                            ""value"": ""1234"
+8104,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""VAERS_ID"": {
+                            ""value"": ""8756"
+812,"{
+	""results"" : [ {
+		""patient_id"" : ""123456789"",
+		""age_yrs"" : 34.0
+	}]
+}"
+8143,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""VAERS_ID"": {
+                            ""value"": ""1234"
+8153,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": [
+						{"
+8154,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": [
+						{"
+8226,"{
+""total"": {
+""value"": 5687,
+""label"": ""5687""
+},
+""max"": {
+""value"": 5687,
+""label"": ""56"
+8228,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""@timestamp"": {""gte"": ""2021-02-11"
+8242,"{
+""total"": {
+""value"": 2
+},
+""max"": {
+""value"": 2,
+""boost"": 1.0
+},
+""min"": {
+""value"": 2,
+"""
+8261,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""@timestamp"": {""gte"": ""2021-02-13"
+8262,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""@timestamp"": {""gte"": ""2021-05-13"
+8273,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""@timestamp"": {""gte"": ""2021-03-09"
+8287,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""@timestamp"": {""gte"": ""2021-03-28"
+830,"{
+	""results"" : [
+		{
+			""patient_id"" : ""123"",
+			""age_yrs"" : 23
+		}
+	]"
+8353,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""term"": {""VAERS_ID"" : ""8576960""}}
+]"
+8354,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+	{""term"": {""VAERS_ID"" : ""8756900000"
+8367,"{
+	""query"": {
+		""bool"": {
+			""must"": [
+				{ ""term"": { ""VAERS_ID"": 8576 }},"
+8371,"{
+	""query"": {
+		""bool"": {
+			""must"": [
+				{ ""term"": { ""VAERS_ID"": 7865 }},"
+8405,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""VAERS_ID.value"": 1
+                    }
+                },"
+8406,"var query = {
+    ""bool"": {
+        ""must"": [
+            {""term"": {""VARICELLA.SHOT"": ""PREVIOUS""}}
+        ]
+    }
+};
+var body = {"
+8407,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""VAERS_ID"": 78659
+                    }"
+842,"{
+""match"": {
+""and"": [
+{
+""term"": {""age_yrs"": 67}
+},
+{
+""exists"": ""true""
+}
+]
+}
+}
+
+###"
+8424,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""VAERS_ID"": 78659
+                    }"
+8425,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""VAERS_ID"": 1
+                    }
+                },
+                {"
+8438,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""VAERS_ID.value"": 1
+                    }
+                },"
+8454,"$query = ""match_phrase_prefix"" : {
+		""VAERS_ID"" : {
+			""value"" : ""HPV"",
+			""boost"" : 5"
+8468,"$query = ""match_phrase_prefix"" : {
+		""VAERS_ID"" : {
+			""value"" : ""How many patients have a record of taking HIB vaccine"","
+8477,"{
+					""$and"": [
+						{ ""VAERS_ID"": { ""$in"": [ ""20090000"", ""2009"
+8479,"{
+					""$and"": [
+						{ ""VAERS_ID"": { ""$in"": [ 786598, 786589"
+8510,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""term"": {""clinicalNotes.classification.ENTITYCLASSIFICATION"" : """
+8513,"{
+""match"": {
+""and"": [
+{
+""term"": {
+""clinicalNotes.classification"": ""ZOSTER LIVE""
+}
+},
+{
+""term"": {
+""cl"
+8538,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""term"": {""VAERS_ID"" : ""12345678901"
+8554,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""should"": [
+						{"
+8558,"{
+				""query"": {
+					""bool"": {
+						""must"": [
+							{ ""term"": {""dise"
+8585,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""term"": {""VAERS_ID"" : ""12345678901"
+8590,"{
+					""$and"": [
+						{ ""VAERS_ID"": { ""$in"": [ 78659800000000"
+8605,"{
+					""$and"": [
+						{ ""VAERS.RECVDATE"": { ""$gte"": ""2022-03-01T0"
+8609,"{
+					""$and"": [
+						{ ""VAERS_ID"": { ""$in"": [178659,178660] }"
+8619,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""term"": {""clinicalNotes.classification.ENTITY_CLASSIFICATION"" :"
+8625,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""term"": {""HPV_DTAP.RECVDATE"": ""2019-08"
+8626,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""term"": {""VAERS_ID.value"": ""1234567890"
+8631,"{
+""$and"":[
+{""$or"":[
+{""$eq"":[""$RECVDATE"",""2015-08-19T06:30:00Z""]},
+{""$eq"
+8638,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""term"": {""VAERS_ID"" : ""8576950""}},
+{"""
+8643,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""term"": {""clinicalNotes.MEASLES_STATUS"" : ""positive""}},"
+8657,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""term"": {""clinicalNotes.typeOfPatient"" : ""recipient""}}"
+8664,"{
+""query"": {
+""bool"": {
+""must"": [
+{
+""term"": {""clinicalNotes.BCGVACCINATIONDATETIME"": ""2019-08-0"
+8707,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""term"": {""clinical.classification.ENTITY.VAERS_ID"" : ""1"
+8709,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""term"": {""clinicalNotes.classification.ENTITYCLASSIFICATION.ENTITY"
+8720,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""term"": {""clinicalNotes.classification.ENTITYCLASSIFICATION"" : """
+8727,"""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": [
+						{ ""term"
+8730,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""term"": {""clinicalNotes.classification.ENTITYCLASSIFICATION.ENTITY"
+8742,"{
+""$and"":[
+{""$or"":[
+{""$eq"":[""$RECVDATE"",""2015-08-26T09:10:44Z""]},
+{""$eq"
+879,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+	{""range"": {""age_yrs"": {""gt"": 47}}},
+	{""term"
+8797,"{
+""_index"": ""clinical-notes"",
+""_type"": ""record"",
+""_id"": ""example-qa695b"",
+""_source"": {
+""$query"": {
+""match"
+8822,"{
+""_index"": ""clinical-notes"",
+""_type"": ""record"",
+""_id"": ""example-1"",
+""_source"": {
+""@timestamp"": ""2022-04"
+8826,"{
+""_index"": ""clinical-notes"",
+""_type"": ""record"",
+""_id"": ""1"",
+""_source"": {
+""@timestamp"": ""2015-08-2"
+8838,"{
+""_index"": ""clinical-notes"",
+""_type"": ""record"",
+""_id"": ""example-qa695b"",
+""_source"": {
+""$query"": {
+""match"
+8848,"{
+""_index"": ""clinical-notes"",
+""_type"": ""record"",
+""_id"": ""1"",
+""_source"": {
+""@timestamp"": ""2022-04-1"
+8857,"{
+""_index"": ""clinical-notes"",
+""_type"": ""record"",
+""_id"": ""6"",
+""_version"": 1578944445,
+""found"":"
+89,"{
+""_index"": ""clinical-notes"",
+""_type"": ""patient"",
+""_id"": ""1"",
+""_version"": 16789444447277"
+8903,"{
+""_index"": ""clinical-notes"",
+""_type"": ""record"",
+""_id"": ""example-BCGandHIb"",
+""_source"": {
+""$query"": {
+""match"
+8908,"{
+""match"": {
+""and"": [
+{
+""term"": {
+""ZOSTER"": ""true""
+}
+},
+{
+""term"": {
+""ZOSTER LIVE"": ""true"""
+8916,"{
+""match"": {
+""bool"": {
+""should"": [
+{
+""term"": {""manufacturer"": ""USPFIZER INC202200559850""}
+},"
+8935,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""term"": {""manufacturer"": ""USPFIZER INC202101"
+8936,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""term"": {""manufacturer"": ""USPFIZER INC202129"
+8938,"{
+""match"": {
+""bool"": {
+""should"": [
+{
+""term"": {""manufacturer"": ""USPFIZER INC2021795014""}
+},
+{"
+8989,"{
+""match"": {
+""bool"": {
+""should"": [
+{
+""term"": {""manufacturer"": ""USPFIZER INC202101706345""}
+},"
+8992,"{
+""query"": {
+""bool"": {
+""must"": [
+{""term"": {""manufacturer"": ""USSA2022SA051715""}}
+],
+}
+},
+"""
+8994,"{
+""_index"": ""clinicalnotes"",
+""_type"": ""patient"",
+""_id"": ""1"",
+""_source"": {
+""_rev"": ""1-a89c8d2"
+9003,"""filter"": {
+		""bool"": {
+			""should"": [
+				{ ""term"": {""manufacturer"": ""USJNJFOC202202013"
+9004,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""term"": {""manufacturer"": ""USPFIZER INC202128"
+9013,"""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": [
+						{ ""term"
+9038,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""term"": {""manufacturer"": ""USPFIZER INC202135"
+9044,"{
+""_index"": ""clinicalnotes"",
+""_type"": ""patient"",
+""_id"": ""USPFIZER INC202101630906"",
+""_"
+905,"{
+""match"": {
+""and"": [
+{
+""term"": {""age_yrs"": 66}
+},
+{
+""exists"": ""true""
+}
+]
+}
+}
+
+###"
+9075,"{
+""matched_text"": ""manufacturer : USPFIZER INC2021328980"",
+""facets"": [
+{
+""field"": ""vax_lot"","
+9119,"{
+""_index"": ""clinicalnotes"",
+""_type"": ""case"",
+""_id"": ""AIzaSyAZaWdFQWNiZ2lkZWR5NTgxM"
+9132,"{
+""_index"": ""clinicalnotes"",
+""_type"": ""case"",
+""_id"": ""XN-1234567890ABCDEF"",
+""_version"": 1,"
+9139,"{
+""results"" : [
+	{
+		""hit"" : {
+			""_index"" : ""clinicalnotes"",
+			""_type"" : ""patient"","
+9145,"{
+""match"": {
+""query"": ""manufacturer:USPFIZER INC2021496450"",
+""filter"": [
+{""range"": {""receivedOn"": {""gte"
+9149,"{
+""_index"": ""clinicalnotes"",
+""_type"": ""case"",
+""_id"": ""USPFIZER INC202101189826"",
+""_version"
+9172,"{
+""_index"": ""clinicalnotes"",
+""_type"": ""case"",
+""_id"": ""AIzaSyAJWjRkK9wz8mEKvg"",
+""_"
+9183,"{
+""match"": {
+""query"": ""USPFIZER INC2021344496"",
+""type"": ""phrase""
+},
+""filter"": [
+{""term"": {""v"
+9185,"{
+""_index"": ""clinicalnotes"",
+""_type"": ""case"",
+""_id"": ""AIzaSyAJWjRkZm9udGNlc3NhZ2Uu"
+9186,"{
+""_index"": ""clinicalnotes"",
+""_type"": ""case"",
+""_id"": ""XN-1234567890ABCDEF"",
+""_version"": 1,"
+9198,"{
+""match"": {
+""query"": ""USPFIZER INC2021391217"",
+""type"": ""phrase""
+},
+""filter"": [
+{""term"": {""v"
+92,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""RECVDATE"": {""gte"": ""2022-01-1"
+9201,"{
+""results"" : [
+	{
+		""hit"" : {
+			""_index"" : ""clinicalnotes"",
+			""_type"" : ""patient"","
+9214,"""$query"": {
+		""bool"": {
+			""must"": [
+				{ ""term"": { ""VAERS_ID"": { ""value"": ""USPFIZER INC2"
+9215,"""$query"": {
+		""bool"": {
+			""must"": [
+				{ ""term"": { ""VAERS_ID"": ""USPFIZER INC20210"
+9229,"""$query"": {
+		""bool"": {
+			""must"": [
+				{ ""term"": { ""VAERS_ID"": { ""value"": ""USPFIZER INC2"
+9246,"{
+""_index"": ""clinicalnotes"",
+""_type"": ""patient"",
+""_id"": ""1"",
+""_source"": {
+""_rev"": ""1-687a59c"
+9273,"{
+				""$and"":[
+					{ ""VAERS_ID"":""USPFIZER INC202200521540""},"
+9319,"""$query"": {
+		""bool"": {
+			""must"": [
+				{ ""term"": { ""VAERS_ID"": { ""value"": ""USPFIZER INC2"
+9322,"{
+				""$and"":[
+					{ ""VAERS_ID"":""USPFIZER INC202200027124""},"
+933,"{
+""_index"": ""clinical-notes"",
+""_type"": ""patient"",
+""_id"": ""1"",
+""_source"": {
+""_rev"": ""1-589c8d"
+9343,"""$query"": {
+		""bool"": {
+			""must"": [
+				{ ""term"": { ""VAERS_ID"": { ""value"": ""USPFIZER INC2"
+9349,"""$query"": {
+		""bool"": {
+			""must"": [
+				{ ""term"": { ""VAERS_ID"": { ""value"": ""USPFIZER INC2"
+9357,"""$query"": {
+		""bool"": {
+			""must"": [
+				{ ""term"": { ""VAERS_ID"": { ""value"": ""USPFIZER INC2"
+9361,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""term"": {""VAERS_ID.value"": ""USPFIZER INC202"
+9382,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""term"": {""VAERS_ID.value"": ""USPFIZER INC202"
+9400,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""term"": {""VAERS_ID.value"": ""USPFIZER INC202"
+9412,"filtered(and(eq(CLINICALNOTE,'USJNJFOC20220110175'),neq(CLINICALNOTE,'USJNJFO"
+9419,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""term"": {""VAERS_ID.value"": ""USPFIZER INC202"
+9435,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""term"": {""VAERS_ID.value"": ""USPFIZER INC202"
+945,"{
+""_index"": ""clinical-notes"",
+""_type"": ""patient"",
+""_id"": ""1"",
+""_source"": {
+""_rev"": ""1-5c97d2"
+9475,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""term"": {""VAERS_ID.value"": ""USPFIZER INC202"
+9479,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""term"": {""VAERS_ID.value"": ""USPFIZER INC202"
+948,"{
+	""results"" : [
+		{
+			""patient_id"" : ""123456"",
+			""first_name"" : ""John"",
+			""last"
+9482,"filtered(and(eq(CLINICAL_NOTES,'USJNJFOC20220151104'),neq(CLINICAL_NOTES,'')),ne"
+9486,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""term"": {""VAERS_ID.value"": ""USPFIZER INC202"
+9492,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""term"": {""VAERS_ID.value"": ""US009507513"
+9507,"{
+""_index"": ""clinical-notes"",
+""_type"": ""question"",
+""_id"": ""Q7"",
+""_source"": {
+""text"": ""How many patients got vaccine manufactured"
+9519,"{
+""_index"": ""clinical-notes"",
+""_type"": ""question"",
+""_id"": ""Q6"",
+""_source"": {
+""text"": ""How many patients got vaccine manufactured"
+9520,"{
+""_index"": ""clinical-notes"",
+""_type"": ""question"",
+""_id"": ""5"",
+""_source"": {
+""text"": ""How many patients got vaccine manufactured by"
+9524,"{
+""_index"": ""clinical-notes"",
+""_type"": ""patient"",
+""_id"": ""1"",
+""_source"": {
+""@timestamp"": ""2022-04-"
+9525,"{
+""_index"": ""clinical-notes"",
+""_type"": ""note"",
+""_id"": ""example-es-query-1"",
+""_source"": {
+""text"": ""How many patients got"
+9536,"{
+""_index"": ""clinical-notes"",
+""_type"": ""question"",
+""_id"": ""Q6"",
+""_source"": {
+""text"": ""How many patients got vaccine manufactured"
+9543,"{
+""_index"": ""clinical-notes"",
+""_type"": ""note"",
+""_id"": ""example-es-query-1"",
+""_source"": {
+""text"": ""How many patients got"
+9552,"{
+""_index"": ""clinical-notes"",
+""_type"": ""question"",
+""_id"": ""Q-20220813125454"",
+""_version"":"
+9557,"{
+""_index"": ""clinical-notes"",
+""_type"": ""patient"",
+""_id"": ""X"",
+""_source"": {
+""@timestamp"": ""2022-05-"
+9559,"{
+""_index"": ""clinical-notes"",
+""_type"": ""patient"",
+""_id"": ""1"",
+""_source"": {
+""@timestamp"": ""2022-04-"
+9571,"{
+""_index"": ""clinical-notes"",
+""_type"": ""question"",
+""_id"": ""Q7"",
+""_source"": {
+""text"": ""How many patients got vaccine manufactured"
+9579,"{
+""_index"": ""clinical-notes"",
+""_type"": ""question"",
+""_id"": ""Q7"",
+""_source"": {
+""text"": ""How many patients got vaccine manufactured"
+9584,"{
+""_index"": ""clinical-notes"",
+""_type"": ""question"",
+""_id"": ""5"",
+""_source"": {
+""text"": ""How many patients got vaccine manufactured by"
+9586,"{
+""_index"": ""clinical-notes"",
+""_type"": ""question"",
+""_id"": ""Q-202207132358-678976"","
+9597,"{
+""_index"": ""clinical-notes"",
+""_type"": ""patient"",
+""_id"": ""X"",
+""_source"": {
+""@timestamp"": ""2022-04-"
+9606,"{
+""_index"": ""clinical-notes"",
+""_type"": ""question"",
+""_id"": ""Q7"",
+""_source"": {
+""text"": ""How many patients got vaccine manufactured"
+9612,"{
+""_index"": ""clinical-notes"",
+""_type"": ""question"",
+""_id"": ""Q6"",
+""_source"": {
+""text"": ""How many patients got vaccine manufactured"
+9632,"{
+""_index"": ""clinical-notes"",
+""_type"": ""question"",
+""_id"": ""Q6"",
+""_source"": {
+""text"": ""How many patients got vaccine manufactured"
+9636,"{
+""_index"": ""clinical-notes"",
+""_type"": ""patient"",
+""_id"": ""1"",
+""_source"": {
+""@timestamp"": ""2022-04-"
+9639,"{
+""_index"": ""clinical-notes"",
+""_type"": ""question"",
+""_id"": ""Q6"",
+""_source"": {
+""text"": ""How many patients got vaccine manufactured"
+9647,"{
+""_index"": ""clinical-notes"",
+""_type"": ""question"",
+""_id"": ""Q-20220816145454"",
+""_version"":"
+965,"{
+""_index"": ""clinical-notes"",
+""_type"": ""patient"",
+""_id"": ""1"",
+""_source"": {
+""_rev"": ""1-687a5d"
+9659,"{
+""_index"": ""clinical-notes"",
+""_type"": ""note"",
+""_id"": ""VAERS2"",
+""_version"": 1,
+""found"": true,
+""created"": """
+9664,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": [
+						{"
+968,"{
+""_index"": ""clinical-notes"",
+""_type"": ""patient"",
+""_id"": ""1"",
+""_source"": {
+""_rev"": ""1-687a9d"
+9681,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""@timestamp"": {""gte"": ""2022-04-18"
+9696,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": [
+						{"
+97,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""RECVDATE"": {""gte"": ""2022-03-2"
+9700,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""RECVDATE"": ""2021-03-04T0"
+9712,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""RECVDATE"": ""2022-02-11"""
+9734,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""range"": {
+                        ""recvdate"": {
+                            ""gt"": ""2022-"
+9736,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""@timestamp"": {""gte"": ""now-6hours"", ""lte"":"
+9744,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""range"": {
+                        ""recvdate"": {
+                            ""gt"": ""2022-"
+9745,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""@timestamp"": {""gte"": ""2022-03-19"
+9756,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""$or"": [
+{""field"": ""recvdate"",
+""gt"": """
+9759,"{
+    ""query"": {
+        ""bool"": {
+            ""must"": [
+                {
+                    ""term"": {
+                        ""RECVDATE"": ""2021-02-11"""
+9763,"{
+""query"": {
+""filtered"": {
+""filter"": {
+""bool"": {
+""must"": [
+{""range"": {""RECVDATE"": {""gte"": ""2021-04-0"
+9771,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": ["
+9778,"{
+		""query"": {
+			""filtered"": {
+				""filter"": {
+					""bool"": {
+						""must"": ["
+9785,"{
+				""query"": {
+					""filtered"": {
+						""filter"": {
+							""bool"": {"
+9789,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": ["
+9790,"{
+				""query"": {
+					""filtered"": {
+						""filter"": {
+							""bool"": {"
+9807,"{
+		""query"": {
+			""filtered"": {
+				""filter"": {
+					""bool"": {
+						""must"": ["
+9813,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": ["
+9843,"{
+				""query"": {
+					""filtered"": {
+						""filter"": {
+							""bool"": {"
+9860,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": ["
+9869,"{
+	""query"": {
+		""filtered"": {
+			""filter"": {
+				""bool"": {
+					""must"": ["
+9877,"{
+	""hits"": {
+		""total"": {
+			""value"": 567,
+			""relation"": ""eq""
+		},
+		""max_score"":"
+988,"{
+	""results"" : [
+		{
+			""patient_id"" : ""123456789"",
+			""first_name"" : ""John"","
+9886,"{
+	""hits"": {
+		""total"": {
+			""value"": 567,
+			""relation"": ""eq""
+		},
+		""max_score"":"
+989,"{
+""_index"": ""clinical-notes"",
+""_type"": ""patient"",
+""_id"": ""1"",
+""_source"": {
+""_rev"": ""1-685c9d"
+9893,"{
+	""results"" : [
+		{
+			""patient_id"" : ""123456789"",
+			""first_name"" : ""John"","
+9949,"{
+	""hits"": {
+		""total"": {
+			""value"": 578,
+			""relation"": ""eq""
+		},
+		""max_score"":"
+9974,"{
+	""results"" : [
+		{
+			""patient_id"" : ""12345"",
+			""first_name"" : ""John"",
+			""last_"
+9976,"{
+	""results"" : [
+		{
+			""patient_id"" : ""123456789"",
+			""first_name"" : ""John"","
+9984,
+9987,
+999,"{
+""_index"": ""clinical-notes"",
+""_type"": ""patient"",
+""_id"": ""1"",
+""_source"": {
+""_rev"": ""1-587d9a"
