@@ -1,0 +1,3385 @@
+,llm_result
+10001,"Clinical Notes: ### On 11/28/2021, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 11/28/2021, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 11/28/2021, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 11/28/2021, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 11/28/2021, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 11/28/2021, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 11/28"
+10006,"Clinical Notes: ### On 11/04/2021, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 11/04/2021, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 11/04/2021, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 11/04/2021, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 11/04/2021, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 11/04/2021, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 11/04"
+10013,"Clinical Notes: ### On 12/21/2021, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 12/21/2021, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 12/21/2021, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 12/21/2021, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 12/21/2021, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 12/21/2021, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 12/21"
+10017,"Clinical Notes: ### On 03/22/2022, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 03/22/2022, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 03/22/2022, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 03/22/2022, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 03/22/2022, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 03/22/2022, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 03/22"
+10019,"Clinical Notes: ### On 03/10/2022, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 03/10/2022, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 03/10/2022, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 03/10/2022, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 03/10/2022, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 03/10/2022, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 03/10"
+10051,"Clinical Notes: ### On 03/29/2022, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 03/29/2022, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 03/29/2022, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 03/29/2022, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 03/29/2022, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 03/29/2022, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 03/29"
+10058,"Clinical Notes: ### On 01/16/2022, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 01/16/2022, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 01/16/2022, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 01/16/2022, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 01/16/2022, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 01/16/2022, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 01/16"
+10060,"Clinical Notes: ### On 12/08/2021, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 12/08/2021, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 12/08/2021, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 12/08/2021, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 12/08/2021, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 12/08/2021, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 12/08"
+10063,"Clinical Notes: ### On 12/15/2021, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 12/15/2021, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 12/15/2021, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 12/15/2021, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 12/15/2021, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 12/15/2021, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 12/15"
+10078,"Clinical Notes: ### On 12/16/2021, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 12/16/2021, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 12/16/2021, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 12/16/2021, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 12/16/2021, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 12/16/2021, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 12/16"
+10086,"Clinical Notes: ### On 01/30/2021, what percentage of people have been recorded?
+Answer:
+
+Clinical Notes: ### On 01/30/2021, how many people have been recorded in the state of California?
+Answer:
+
+Clinical Notes: ### On 01/30/2021, what percentage of people have been recorded in the state of California?
+Answer:
+
+Clinical Notes: ### On 01/30/2021, how many people have been recorded in the state of California and have received the vaccine?
+Answer:
+
+Clinical Notes: ### On 01/30/2021, what percentage of people have been recorded in the state of California and have received the vaccine?
+Answer:
+
+Clinical Notes: ### On"
+1010,"# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""AGE_YRS"": {""gte"": ""11.0"", ""lte"": ""11.0""}}}}}
+
+Clinical Notes: ### Return all 11.0 years old vaccine recipients. 
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""AGE_YRS"": {""gte"": ""11.0"", ""lte"": ""11.0""}}}}}
+
+Clinical Notes: ### Return all 11.0 years old vaccine recipients. 
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""AGE_Y"
+10119,
+1012,"{
+    ""took"": 3,
+    ""timed_out"": false,
+    ""_shards"": {
+        ""total"": 5,
+        ""successful"": 5,
+        ""skipped"": 0,
+        ""failed"": 0
+    },
+    ""hits"": {
+        ""total"": 687,
+        ""max_score"": null,
+        ""hits"": [
+            {
+                ""_index"": ""vaers"",
+                ""_type"": ""_doc"",
+                ""_id"": ""100000000000000000000000000000000000000000000000000000000000000000000000000000"
+10127,
+1013,"# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""AGE_YRS"": {""gte"": ""103.0""}}}}}
+
+Clinical Notes: ### Return all vaccine recipients who received their first dose of vaccine in 2019. 
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""VAX_DATE"": {""lte"": ""2019-12-31""}}}}}
+
+Clinical Notes: ### Return all vaccine recipients who received their second dose of vaccine in 2020. 
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{"""
+10130,
+10138,
+10145,
+10147,
+10148,
+1016,"{
+    ""took"": 3,
+    ""timed_out"": false,
+    ""_shards"": {
+        ""total"": 5,
+        ""successful"": 5,
+        ""skipped"": 0,
+        ""failed"": 0
+    },
+    ""hits"": {
+        ""total"": 68,
+        ""max_score"": null,
+        ""hits"": [
+            {
+                ""_index"": ""vaers"",
+                ""_type"": ""_doc"",
+                ""_id"": ""1000000000000000000000000000000000000000000000000000000000000000000000000000000"
+10162,
+10171,
+1020,"# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""AGE_YRS"": {""gte"": ""96.0"", ""lte"": ""96.0""}}}}}
+
+Clinical Notes: ### List all patients who have had an office visit in the last 3 months.
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""should"":[{""range"":{""OFC_VISIT"":{""gte"":""now-3M""}}},{""match"":{""OFC_VISIT"":null}}]}}}}}
+
+Clinical Notes: ### List all patients who have had an office visit in the last 3 months.
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":"""
+10200,
+10203,
+10215,
+10224,
+10235,
+10243,
+10253,
+10289,
+10292,
+1030,"# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""AGE_YRS"": {""gte"": ""63.0""}}}}}
+
+Clinical Notes: ### List all patients who have had an office visit in the last 2 weeks.
+Answer:
+# POST_scripts/6{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""should"":[{""range"":{""OFC_VISIT"":{""lte"":""now-2w""}}},{""range"":{""OFC_VISIT"":{""gt"":""now-2w""}}}]}}}}}
+
+Clinical Notes: ### List all patients who have had an office visit in the last 2 weeks.
+Answer:
+# POST_scripts/7{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{"""
+1031,"# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""AGE_YRS"": {""gte"": ""68.0""}}}}}
+
+Clinical Notes: ### List all patients who have had an office visit in the last 3 months.
+Answer:
+# POST_scripts/6{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""should"":[{""range"":{""OFC_VISIT"":{""lte"":""now-3M""}}},{""match"":{""OFC_VISIT"":null}}]}}}}}
+
+Clinical Notes: ### List all patients who have had an office visit in the last 3 months.
+Answer:
+# POST_scripts/7{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""should"":[{"""
+10315,
+10333,
+10352,
+10355,
+10362,
+10391,
+10394,
+10401,
+10406,
+1041,"# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""AGE_YRS"": {""gte"": ""88.0""}}}}}
+
+Clinical Notes: ### List all patients who have had an office visit in the last 3 months.
+Answer:
+# POST_scripts/6{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""should"":[{""range"":{""OFC_VISIT"":{""lte"":""now-3M""}}},{""match"":{""OFC_VISIT"":null}}]}}}}}
+
+Clinical Notes: ### List all patients who have had an office visit in the last 3 months.
+Answer:
+# POST_scripts/7{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""should"":[{"""
+1044,"# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""AGE_YRS"": {""gte"": ""104.0""}}}}}
+
+Clinical Notes: ### List all patients who have had an office visit in the last 3 months.
+Answer:
+# POST_scripts/6{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""should"":[{""range"":{""OFC_VISIT"":{""lte"":""now-3M""}}},{""match"":{""OFC_VISIT"":null}}]}}}}}
+
+Clinical Notes: ### List all patients who have had an office visit in the last 3 months.
+Answer:
+# POST_scripts/7{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""should"":["
+10451,"Clinical Notes: ### How many JOHNSON & JOHNSON vaccine has been used. 
+Answer:
+
+Clinical Notes: ### How many MODERNA vaccine has been used. 
+Answer:
+
+Clinical Notes: ### How many SINOVAC vaccine has been used. 
+Answer:
+
+Clinical Notes: ### How many ASTRAZENECA vaccine has been used. 
+Answer:
+
+Clinical Notes: ### How many PFIZER\BIONTECH vaccine has been used. 
+Answer:
+
+Clinical Notes: ### How many JOHNSON & JOHNSON vaccine has been used. 
+Answer:
+
+Clinical Notes: ### How many MODERNA vaccine has been used. 
+Answer:
+
+Clinical Notes: ### How"
+10466,"Clinical Notes: ### How many GLAXOSMITHKLINE BIOLOGICALS vaccine has been used. 
+Answer:
+
+Clinical Notes: ### How many GLAXOSMITHKLINE BIOLOGICALS vaccine has been used. 
+Answer:
+
+Clinical Notes: ### How many GLAXOSMITHKLINE BIOLOGICALS vaccine has been used. 
+Answer:
+
+Clinical Notes: ### How many GLAXOSMITHKLINE BIOLOGICALS vaccine has been used. 
+Answer:
+
+Clinical Notes: ### How many GLAXOSMITHKLINE BIOLOGICALS vaccine has been used. 
+Answer:
+
+Clinical Notes: ### How many GLAXOSMITHKLINE BIOLOGICALS vacc"
+10472,
+10491,
+10503,
+10524,
+1054,"# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""AGE_YRS"": {""gte"": ""0.67""}}}}}
+
+Clinical Notes: ### List all patients who have had an office visit in the last 3 months.
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""should"":[{""range"":{""OFC_VISIT"":{""lte"":""now-3M""}}},{""match"":{""OFC_VISIT"":null}}]}}}}}
+
+Clinical Notes: ### List all patients who have had an office visit in the last 3 months.
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""should"":[{"""
+10566,
+10578,
+10584,
+10595,
+10596,
+10602,
+10607,
+10609,
+10610,
+1065,"# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""AGE_YRS"": {""gte"": ""44.0"", ""lte"": ""44.0""}}}}}
+
+Clinical Notes: ### List all patients who have had an office visit in the last year.
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""should"":[{""exists"":{""field"":""OFC_VISIT""}},{""range"":{""OFC_VISIT"":{""gte"":""now-365d""}}}]}}}}}
+
+Clinical Notes: ### List all patients who have had an office visit in the last year.
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"","""
+10664,
+10679,
+10692,
+10700,
+1072,"# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""AGE_YRS"": {""gte"": ""92.0"", ""lte"": ""92.0""}}}}}
+
+Clinical Notes: ### List all patients who have had an office visit in the last 3 months.
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""should"":[{""range"":{""OFC_VISIT"":{""gte"":""now-3M""}}},{""match"":{""OFC_VISIT"":null}}]}}}}}
+
+Clinical Notes: ### List all patients who have had an office visit in the last 3 months.
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":"""
+10738,
+10762,
+10765,"# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""date"":{""gte"": ""2021-02-23T00:00:00Z"",""lte"": ""2021-02-23T23:59:59Z""}}}}}
+
+Clinical Notes: ### Find all the cases where the vaccine recipients got vaccinated in 02/23/2021. 
+Answer:
+# POST_scripts/6{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""date"":{""gte"": ""2021-02-23T00:00:00Z"",""lte"": ""2021-02-23T23:5"
+10769,
+10780,
+10795,"# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""query_string"":{""query"":""{{value_1}}"",""default_field"":""{{field_1}}"",'VAERS_ID',""AUTO"",'1816022'}}}}}
+
+Clinical Notes: ### List all the records where they took their shot in 1816022. 
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""query_string"":{""query"":""{{value_1}}"",""default_field"":""{{field_1}}"",'VAERS_ID',""AUTO"",'1816022'}}}}}
+
+Clinical Notes: ### List all the records where they took their shot in 1816022."
+10807,"# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""query_string"":{""query"":""{{value_1}}"",""default_field"":""{{field_1}}"",'HOSPITAL',""AUTO"",'043'}}}}}
+
+Clinical Notes: ### List all the records where they took their shot in 043. 
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""query_string"":{""query"":""{{value_1}}"",""default_field"":""{{field_1}}"",'HOSPITAL',""AUTO"",'043'}}}}}
+
+Clinical Notes: ### List all the records where they took their shot in 043. 
+Answer:
+# POST_scripts/4{""script"":{""lang"
+10828,
+10829,"# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""should"":[{""match"":{""RECVDATE"":""E13247""}},{""match"":{""STATE"":""E13247""}},{""match"":{""AGE_YRS"":""E13247""}},{""match"":{""VAERS_ID"":""E13247""}},{""match"":{""SEX"":""E13247""}},{""match"":{""SYMPTOM_TEXT"":""E13247""}},{""match"":{""DIED"":""E13247""}},{""match"":{""ER_VISIT"":""E13247""}},{""match"":{""L_THREAT"":""E13247""}},{""match"":{""HOSPITAL"":""E13247""}},{""match"":{""HOSPDAYS"":""E13"
+10832,
+10857,"# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""query_string"":{""query"":""{{value_1}}"",""default_field"":""{{field_1}}"",'VAERS_ID',""AUTO"",'934906'}}}}}
+
+Clinical Notes: ### List all the records where they took their shot in 934906. 
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""query_string"":{""query"":""{{value_1}}"",""default_field"":""{{field_1}}"",'VAERS_ID',""AUTO"",'934906'}}}}}
+
+Clinical Notes: ### List all the records where they took their shot in 934906. 
+Answer:"
+1086,"# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""AGE_YRS"": {""gte"": ""1.83"", ""lte"": ""1.83""}}}}}
+
+Clinical Notes: ### List all patients who have had an office visit in the last 6 months.
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""should"":[{""range"":{""OFC_VISIT"":{""gt"":""now-6M""}}},{""match"":{""OFC_VISIT"":null}}]}}}}}
+
+Clinical Notes: ### List all patients who have had an office visit in the last 6 months.
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"
+10895,
+1093,"# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""AGE_YRS"": {""gte"": ""4.0"", ""lte"": ""4.0""}}}}}
+
+Clinical Notes: ### List all patients who are 5.0 years old. 
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""AGE_YRS"": {""gte"": ""5.0"", ""lte"": ""5.0""}}}}}
+
+Clinical Notes: ### List all patients who are 6.0 years old. 
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""AGE_YRS"": {""gte"": ""6.0"
+10955,
+10958,
+10968,
+1098,"# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""AGE_YRS"": {""gte"": ""29.0"", ""lte"": ""29.0""}}}}}
+
+Clinical Notes: ### List all patients who have had an office visit in the last 3 months.
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""should"":[{""range"":{""OFC_VISIT"":{""gte"":""now-3M""}}},{""match"":{""OFC_VISIT"":null}}]}}}}}
+
+Clinical Notes: ### List all patients who have had an office visit in the last 3 months.
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":"""
+10986,
+11002,
+11016,
+11062,
+11070,
+1109,"Clinical Notes: ### How many patients are 100.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 100.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 100.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 100.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 100.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 100.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 100.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 100.0 years old.
+Answer:
+
+Clinical Notes: ### How"
+11097,"POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""query_string"":{""query"":""{{value_1}}"",""default_field"":""{{field_1}}"",'VAX_DOSE_SERIES',""AUTO"",'7+'}}}}}
+
+Clinical Notes: ### Return all the cases where the vaccine series is 7+. 
+Answer:
+POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""query_string"":{""query"":""{{value_1}}"",""default_field"":""{{field_1}}"",'VAX_DOSE_SERIES',""AUTO"",'7+'}}}}}
+
+Clinical Notes: ### Return all the cases where the vaccine series is 7+. 
+Answer:
+POST_scripts/4{""script"":{""lang"":"""
+11100,"POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""query_string"":{""query"":""{{value_1}}"",""default_field"":""{{field_1}}"",'VAX_DOSE_SERIES',""UNK""}}}}}"
+11119,
+11134,
+11136,
+11173,
+11179,
+11190,
+11205,
+11207,
+11209,
+11214,
+11223,
+11227,
+1127,"Clinical Notes: ### How many patients are 18.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 18.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 18.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 18.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 18.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 18.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 18.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 18.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 18.0"
+11286,
+11289,
+11296,
+11303,
+11309,"# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""should"":[{""match"":{""VAX_TYPE"":""RA""}},{""match"":{""VAX_TYPE"":""AR""}}]}}}}}
+
+Clinical Notes: ### Find all cases where people vaccinated in RA and AR. 
+Answer:
+# POST_scripts/6{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""should"":[{""match"":{""VAX_TYPE"":""RA""}},{""match"":{""VAX_TYPE"":""AR""}}]}}}}}
+
+Clinical Notes: ### Find all cases where people vaccinated in RA and AR. 
+Answer:
+# POST_scripts/7{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""should"":["
+11315,"# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""should"":[{""match"":{""STATE"":""AR""}},{""match"":{""STATE"":""LA""}}]}}}}}
+
+Clinical Notes: ### Find all cases where people vaccinated in AR and LA. 
+Answer:
+# POST_scripts/6{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""should"":[{""match"":{""STATE"":""AR""}},{""match"":{""STATE"":""LA""}}]}}}}}
+
+Clinical Notes: ### Find all cases where people vaccinated in AR and LA. 
+Answer:
+# POST_scripts/7{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""should"":[{""match"":{""STATE"":""AR""}},{""match"":{""STATE"
+11347,"# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""should"":[{""match"":{""STATE"":""RA""}},{""match"":{""STATE"":""LA""}}]}}}}}
+
+Clinical Notes: ### Find all cases where people vaccinated in RA or LA. 
+Answer:
+# POST_scripts/6{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""minimum_should_match"":""1"",""should"":[{""match"":{""STATE"":""RA""}},{""match"":{""STATE"":""LA""}}]}}}}}
+
+Clinical Notes: ### Find all cases where people vaccinated in RA and LA and died. 
+Answer:
+# POST_scripts/7{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""must"":[{"""
+11348,
+1135,"Clinical Notes: ### How many patients are 89.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 89.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 89.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 89.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 89.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 89.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 89.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 89.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 89.0"
+11355,"# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""should"":[{""match"":{""STATE"":""AR""}},{""match"":{""STATE"":""MO""}}]}}}}}
+
+Clinical Notes: ### Provide all records that took vaccination in AR and MO. 
+Answer:
+# POST_scripts/6{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""should"":[{""match"":{""STATE"":""AR""}},{""match"":{""STATE"":""MO""}}]}}}}}
+
+Clinical Notes: ### Provide all records that took vaccination in AR and MO. 
+Answer:
+# POST_scripts/7{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""should"":[{""match"":{""STATE"":""AR""}},{""match"":{""STATE"
+11360,"POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""should"":[{""match"":{""STATE"":""LA""}},{""match"":{""STATE"":""LG""}}]}}}}}
+
+Clinical Notes: ### Provide all records that took vaccination in LG and LA. 
+Answer:
+POST_scripts/6{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""should"":[{""match"":{""STATE"":""LA""}},{""match"":{""STATE"":""LG""}}]}}}}}
+
+Clinical Notes: ### Provide all records that took vaccination in LG and LA. 
+Answer:
+POST_scripts/7{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""should"":[{""match"":{""STATE"":""LA""}},{""match"":{"""
+11362,"POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""should"":[{""match"":{""STATE"":""AR""}},{""match"":{""STATE"":""NS""}}]}}}}}
+
+Clinical Notes: ### Provide all records that took vaccination in AR and NS. 
+Answer:
+POST_scripts/6{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""should"":[{""match"":{""STATE"":""AR""}},{""match"":{""STATE"":""NS""}}]}}}}}
+
+Clinical Notes: ### Provide all records that took vaccination in AR and NS. 
+Answer:
+POST_scripts/7{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""should"":[{""match"":{""STATE"":""AR""}},{""match"":{""STATE"":""NS"""
+11369,"POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""should"":[{""match"":{""VAX_TYPE"":""UN""}},{""match"":{""VAX_TYPE"":""OT""}}]}}}}}
+
+Clinical Notes: ### Provide all records that took vaccination in OT and UN. 
+Answer:
+POST_scripts/6{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""should"":[{""match"":{""VAX_TYPE"":""UN""}},{""match"":{""VAX_TYPE"":""OT""}}]}}}}}
+
+Clinical Notes: ### Provide all records that took vaccination in OT and UN. 
+Answer:
+POST_scripts/7{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""should"":[{"""
+1137,"Clinical Notes: ### How many patients are 0.58 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 0.58 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 0.58 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 0.58 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 0.58 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 0.58 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 0.58 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 0.58 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 0.58"
+11372,"POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""should"":[{""match"":{""VAX_TYPE"":""UN""}},{""match"":{""VAX_TYPE"":""OT""}}]}}}}}
+
+Clinical Notes: ### Provide all records that took vaccination in UN and OT. 
+Answer:
+POST_scripts/6{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""should"":[{""match"":{""VAX_TYPE"":""UN""}},{""match"":{""VAX_TYPE"":""OT""}}]}}}}}
+
+Clinical Notes: ### Provide all records that took vaccination in UN and OT. 
+Answer:
+POST_scripts/7{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""should"":[{"""
+11438,
+11442,
+11460,
+11467,
+11478,
+11487,
+115,"# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""RECVDATE"":{""gte"":1642537600,""lte"":1642624000}}}}}
+
+Clinical Notes: ### Find all cases that received on 01/19/2022 and died within 2 days of receiving the vaccine.
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""must"":[{""range"":{""RECVDATE"":{""gte"":1642537600,""lte"":1642624000}}},{""range"":{""DIED"":{""gte"":1642537600,""lte"":16426"
+11542,
+11543,
+11548,
+11559,
+11563,
+11578,
+1159,"Clinical Notes: ### How many patients are 21.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 21.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 21.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 21.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 21.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 21.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 21.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 21.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 21.0"
+11593,
+1160,"Clinical Notes: ### How many patients are 90.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 90.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 90.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 90.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 90.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 90.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 90.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 90.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 90.0"
+1162,"Clinical Notes: ### How many patients are 5.83 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 5.83 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 5.83 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 5.83 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 5.83 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 5.83 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 5.83 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 5.83 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 5.83"
+11620,
+11621,
+11635,"Clinical Notes: ### How many people received HIB (ACTHIB) shot. 
+Answer:
+
+Clinical Notes: ### How many people received HIB (ACTHIB) shot. 
+Answer:
+
+Clinical Notes: ### How many people received HIB (ACTHIB) shot. 
+Answer:
+
+Clinical Notes: ### How many people received HIB (ACTHIB) shot. 
+Answer:
+
+Clinical Notes: ### How many people received HIB (ACTHIB) shot. 
+Answer:
+
+Clinical Notes: ### How many people received HIB (ACTHIB) shot. 
+Answer:
+
+Clinical Notes: ### How many people received HIB (ACTHIB) shot. 
+Answer:
+
+Clinical Notes: ### How many people received HIB (ACTHIB) shot. 
+Answer:"
+11644,"Clinical Notes: ### How many people received DTAP (DAPTACEL) shot. 
+Answer:
+
+Clinical Notes: ### How many people received DTAP (DAPTACEL) shot. 
+Answer:
+
+Clinical Notes: ### How many people received DTAP (DAPTACEL) shot. 
+Answer:
+
+Clinical Notes: ### How many people received DTAP (DAPTACEL) shot. 
+Answer:
+
+Clinical Notes: ### How many people received DTAP (DAPTACEL) shot. 
+Answer:
+
+Clinical Notes: ### How many people received DTAP (DAPTACEL) shot. 
+Answer:
+
+Clinical Notes: ### How many people received DTAP (DAPTACEL) shot. 
+Answer:
+
+Clinical Notes: ### How many people received"
+11649,
+11651,"Clinical Notes: ### How many people received HIB (HIBERIX) shot. 
+Answer:
+
+Clinical Notes: ### How many people received HIB (HIBERIX) shot. 
+Answer:
+
+Clinical Notes: ### How many people received HIB (HIBERIX) shot. 
+Answer:
+
+Clinical Notes: ### How many people received HIB (HIBERIX) shot. 
+Answer:
+
+Clinical Notes: ### How many people received HIB (HIBERIX) shot. 
+Answer:
+
+Clinical Notes: ### How many people received HIB (HIBERIX) shot. 
+Answer:
+
+Clinical Notes: ### How many people received HIB (HIBERIX) shot. 
+Answer:
+
+Clinical Notes: ### How many people received HIB (HIBERIX"
+11654,
+11675,
+11686,"Clinical Notes: ### How many people received VARICELLA (VARIVAX) shot. 
+Answer:
+
+Clinical Notes: ### How many people received VARICELLA (VARIVAX) shot. 
+Answer:
+
+Clinical Notes: ### How many people received VARICELLA (VARIVAX) shot. 
+Answer:
+
+Clinical Notes: ### How many people received VARICELLA (VARIVAX) shot. 
+Answer:
+
+Clinical Notes: ### How many people received VARICELLA (VARIVAX) shot. 
+Answer:
+
+Clinical Notes: ### How many people received VARICELLA (VARIVAX) shot. 
+Answer:
+
+Clinical Notes: ### How many people received VARICELLA (VARIVAX) shot. 
+Answer:
+
+Clinical"
+11691,
+1172,"Clinical Notes: ### How many patients are 44.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 44.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 44.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 44.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 44.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 44.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 44.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 44.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 44.0"
+11723,
+11724,
+11726,
+11728,
+11758,
+1177,"Clinical Notes: ### How many patients are 0.25 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 0.25 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 0.25 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 0.25 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 0.25 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 0.25 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 0.25 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 0.25 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 0.25"
+11770,
+11778,
+11801,
+11833,
+11848,
+11870,
+11874,
+11878,
+11882,
+11886,
+11889,
+11898,
+11901,
+11904,
+11918,
+11921,
+11923,
+11934,
+11936,
+1194,"Clinical Notes: ### How many patients are 107.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 107.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 107.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 107.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 107.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 107.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 107.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 107.0 years old.
+Answer:
+
+Clinical Notes: ### How"
+1195,"Clinical Notes: ### How many patients are 70.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 70.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 70.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 70.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 70.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 70.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 70.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 70.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 70.0"
+11957,
+11973,
+11999,
+12014,
+12015,
+12018,
+12032,
+1204,"Clinical Notes: ### How many patients are 47.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 47.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 47.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 47.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 47.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 47.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 47.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 47.0 years old.
+Answer:
+
+Clinical Notes: ### How many patients are 47.0"
+12040,
+12046,
+12055,
+12067,
+12069,
+12070,
+12074,
+1210,
+12120,
+12127,
+12130,
+1215,
+12164,
+12172,
+12175,
+12185,
+12201,
+12203,
+12218,
+12281,
+12282,
+12295,
+12297,
+12306,
+12331,
+12334,
+12336,
+12345,
+12373,
+12403,
+12431,
+12446,
+12449,
+12506,
+12514,
+12540,
+12545,
+12554,
+12555,
+12560,
+12571,
+12579,
+12602,
+12606,
+12631,
+12634,
+12653,
+12679,
+12686,
+12689,
+12713,
+12714,
+1272,
+12730,
+12739,
+12748,
+12755,
+12774,
+12781,
+12806,
+12809,
+12811,
+12826,
+12837,
+12838,
+12842,
+12847,
+12874,
+12879,
+12882,
+12899,
+12911,
+12937,
+12950,
+12951,
+12961,
+12963,
+12969,
+12981,
+12996,
+13020,
+13028,
+1307,"POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""AGE_YRS"": {""gte"": ""96.0"", ""lte"": ""96.0""}}}}}
+
+Clinical Notes: ### Return all records whose age is greater than or equal to 85 years old.
+Answer:
+POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""AGE_YRS"": {""gte"": ""85""}}}}}
+
+Clinical Notes: ### Return all records whose age is less than or equal to 20 years old.
+Answer:
+POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""AGE_YRS"": {""lte"": ""20""}}}}}"
+1349,"POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""AGE_YRS"": {""gte"": ""48.0"", ""lte"": ""48.0""}}}}}
+
+Clinical Notes: ### Return all records whose age is between 25-35 years old.
+Answer:
+POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""AGE_YRS"": {""gte"": ""25.0"", ""lte"": ""35.0""}}}}}
+
+Clinical Notes: ### Return all records whose age is less than or equal to 25 years old.
+Answer:
+POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""AGE_YRS"":"
+136,"# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""RECVDATE"": {""gte"": ""{{value_1}}"",""lte"": ""{{value_2}}""}}}}}
+
+Clinical Notes: ### Find all cases that received on 04/02/2022 and died within 3 days of receiving the vaccine.
+Answer:
+# POST_scripts/6{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""should"":[{""range"":{""RECVDATE"": {""gte"": ""{{value_1}}"",""lte"": ""{{value_2}}""}}},{""range"":{""DIED"": {""gte"": ""{{value_3}}"",""lte"": ""{{value_4}}""}}}]}}}
+
+Clinical Notes: ### Find all"
+1361,"POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""AGE_YRS"": {""gte"": ""17.0"", ""lte"": ""17.0""}}}}}
+
+Clinical Notes: ### Return all records whose age is between 25-35 years old.
+Answer:
+POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""AGE_YRS"": {""gte"": ""25.0"", ""lte"": ""35.0""}}}}}
+
+Clinical Notes: ### Return all records whose age is less than or equal to 25 years old.
+Answer:
+POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""AGE_YRS"":"
+1378,
+1379,
+1409,
+143,"# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""RECVDATE"":{""gte"":1643577600,""lte"":1643664000}}}}}
+
+Clinical Notes: ### Find all cases that received on 01/31/2022 and died within 3 days of receiving the vaccine.
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""must"":[{""range"":{""RECVDATE"":{""gte"":1643577600,""lte"":1643664000}}},{""range"":{""DIED"":{""gte"":1643843200,""lte"":16439"
+1435,
+1452,
+1453,
+1461,"# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""RECVDATE"":{""gte"":1611638400,""lte"":1611724799}}}}}
+
+Clinical Notes: ### Give me all the patients who completed their report on 01/26/2021. 
+Answer:
+# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""RECVDATE"":{""gte"":1611638400,""lte"":1611724799}}}}}
+
+Clinical Notes: ### Give me all the patients who completed their report on 01/26/2021. 
+Answer:
+# POST_scripts/5"
+1506,"# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""RECVDATE"":{""gte"":1642738800,""lte"":1642825200}}}}}
+
+Clinical Notes: ### Provide me all the cases completed the form on 01/19/2022. 
+Answer:
+# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""RECVDATE"":{""gte"":1642738800,""lte"":1642825200}}}}}
+
+Clinical Notes: ### Provide me all the cases completed the form on 01/19/2022. 
+Answer:
+# POST_scripts/5"
+1509,"# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""RECVDATE"":{""gte"":1647589600,""lte"":1647676000}}}}}
+
+Clinical Notes: ### Provide me all the cases completed the form on 03/16/2022. 
+Answer:
+# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""RECVDATE"":{""gte"":1647589600,""lte"":1647676000}}}}}
+
+Clinical Notes: ### Provide me all the cases completed the form on 03/16/2022. 
+Answer:
+# POST_scripts/5"
+151,"# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""RECVDATE"":{""gte"":1645987200,""lte"":1645987200}}}}}
+
+Clinical Notes: ### Find all cases that received on 03/01/2022 and died within 1 day of receiving the vaccine.
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""must"":[{""range"":{""RECVDATE"":{""gte"":1645987200,""lte"":1645987200}}},{""range"":{""DIED"":{""gte"":1645987200,""lte"":16459"
+1517,
+1519,
+1524,
+1542,
+1553,
+1577,
+1581,
+1604,
+1606,
+1619,
+1626,
+1627,
+1628,
+163,"# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""RECVDATE"":{""gte"":1648759600,""lte"":1648759600}}}}}
+
+Clinical Notes: ### Find all cases that received on 03/31/2022 and died within 1 day of receiving the vaccine.
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""must"":[{""range"":{""RECVDATE"":{""gte"":1648759600,""lte"":1648759600}}},{""range"":{""DIED"":{""gte"":1648759600,""lte"":16487"
+1649,
+1663,
+1665,
+1668,
+1676,
+1717,
+1736,
+1740,
+1747,
+175,"# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""RECVDATE"":{""gte"":1649171200,""lte"":1649171200}}}}}
+
+Clinical Notes: ### Find all cases that received on 04/13/2022 and died within 1 day of receiving the vaccine.
+Answer:
+# POST_scripts/6{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""must"":[{""range"":{""RECVDATE"":{""gte"":1649171200,""lte"":1649171200}}},{""range"":{""DIED"":{""gte"":1649171200,""lte"":16491"
+1750,
+1773,
+1794,
+1802,
+1817,
+182,"# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""RECVDATE"":{""gte"":1649873600,""lte"":1649960000}}}}}
+
+Clinical Notes: ### Find all cases that received on 04/25/2022 and died within 2 days of receiving the vaccine.
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""must"":[{""range"":{""RECVDATE"":{""gte"":1649873600,""lte"":1649960000}}},{""range"":{""DIED"":{""gte"":1649873600,""lte"":16499"
+1820,
+1826,
+183,"# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""RECVDATE"":{""gte"":1643057600,""lte"":1643144000}}}}}
+
+Clinical Notes: ### Find all cases that received on 01/23/2022 and died within 2 days of receiving the vaccine.
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""must"":[{""range"":{""RECVDATE"":{""gte"":1643057600,""lte"":1643144000}}},{""range"":{""DIED"":{""gte"":1643057600,""lte"":16431"
+1831,
+1833,
+1835,
+1840,
+1862,
+1873,
+1878,
+1880,
+1886,
+1890,
+1914,
+1941,
+1987,
+199,"# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""RECVDATE"": {""gte"": ""{{value_1}}"",""lte"": ""{{value_2}}""}}}}}
+
+Clinical Notes: ### List all the records received between 01/13/2022 and 01/17/2022. 
+Answer:
+# POST_scripts/6{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""should"":[{""range"":{""RECVDATE"": {""gte"": ""{{value_1}}"",""lte"": ""{{value_2}}""}}},{""range"":{""RECVDATE"": {""gte"": ""{{value_3}}"",""lte"": ""{{value_4}}""}}}]}}}}
+
+Clinical Notes:"
+1990,
+2021,
+2036,
+2049,
+2055,
+2061,
+2124,
+2130,
+2131,
+2156,
+2200,
+2202,
+221,"# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""RECVDATE"": {""gte"": ""{{value_1}}"",""lte"": ""{{value_2}}""}}}}}
+
+Clinical Notes: ### List all the records received between 03/22/2022 and 03/28/2022. 
+Answer:
+# POST_scripts/6{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""should"":[{""range"":{""RECVDATE"": {""gte"": ""{{value_1}}"",""lte"": ""{{value_2}}""}}},{""range"":{""RECVDATE"": {""gte"": ""{{value_3}}"",""lte"": ""{{value_4}}""}}}]}}}}
+
+Clinical Notes:"
+2223,
+2254,
+2262,
+2270,
+2286,
+2320,
+2350,
+236,"# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""RECVDATE"": {""gte"": ""2022-05-22T00:00:00Z"",""lte"": ""2022-05-22T23:59:59Z""}}}}}
+
+Clinical Notes: ### List all the records that were received between 05/22/2022 and 06/22/2022. 
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""should"":[{""range"":{""RECVDATE"": {""gte"": ""2022-05-22T00:00:00Z"",""lte"": """
+2375,
+2382,
+2391,
+2405,
+2408,
+2419,
+2426,
+243,"# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""RECVDATE"": {""gte"": ""2022-05-04T00:00:00Z"",""lte"": ""2022-05-04T23:59:59Z""}}}}}
+
+Clinical Notes: ### List all the records received between 05/04/2022 to 05/06/2022. 
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""RECVDATE"": {""gte"": ""2022-05-04T00:00:00Z"",""lte"": ""2022-05-"
+2438,
+247,"# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""RECVDATE"": {""gte"": ""2022-01-05T00:00:00Z"",""lte"": ""2022-01-05T23:59:59Z""}}}}}
+
+Clinical Notes: ### List all the records received between 01/05/2022 to 01/06/2022. 
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""RECVDATE"": {""gte"": ""2022-01-05T00:00:00Z"",""lte"": ""2022-01-"
+2479,
+2497,
+2512,
+2518,
+2519,
+2525,
+2535,
+2538,
+2564,"Clinical Notes: ### How many patients were hospitalized on 07/15/2021. 
+Answer:
+
+Clinical Notes: ### How many patients had an emergency room visit on 07/15/2021. 
+Answer:
+
+Clinical Notes: ### How many patients had a low threat level on 07/15/2021. 
+Answer:
+
+Clinical Notes: ### How many patients had a high threat level on 07/15/2021. 
+Answer:
+
+Clinical Notes: ### How many patients had a low threat level on 07/15/2021. 
+Answer:
+
+Clinical Notes: ### How many patients had a high threat level on 07/15/2021. 
+Answer:
+
+Clin"
+2587,"Clinical Notes: ### How many patients were hospitalized on 11/10/2021. 
+Answer:
+
+Clinical Notes: ### How many patients had an emergency room visit on 11/10/2021. 
+Answer:
+
+Clinical Notes: ### How many patients had a low threat level on 11/10/2021. 
+Answer:
+
+Clinical Notes: ### How many patients had a high threat level on 11/10/2021. 
+Answer:
+
+Clinical Notes: ### How many patients had a low threat level on 11/10/2021. 
+Answer:
+
+Clinical Notes: ### How many patients had a high threat level on 11/10/2021. 
+Answer:
+
+Clin"
+2606,"Clinical Notes: ### How many patients were hospitalized on 07/25/2021. 
+Answer:
+
+Clinical Notes: ### How many patients had an emergency room visit on 07/25/2021. 
+Answer:
+
+Clinical Notes: ### How many patients had a low threat level on 07/25/2021. 
+Answer:
+
+Clinical Notes: ### How many patients had a high threat level on 07/25/2021. 
+Answer:
+
+Clinical Notes: ### How many patients had a moderate threat level on 07/25/2021. 
+Answer:
+
+Clinical Notes: ### How many patients had a severe threat level on 07/25/2021. 
+Answer:
+
+C"
+2607,"Clinical Notes: ### How many patients were hospitalized on 02/27/2022. 
+Answer:
+
+Clinical Notes: ### How many patients had an emergency room visit on 02/27/2022. 
+Answer:
+
+Clinical Notes: ### How many patients had a low threat level on 02/27/2022. 
+Answer:
+
+Clinical Notes: ### How many patients had a high threat level on 02/27/2022. 
+Answer:
+
+Clinical Notes: ### How many patients had a moderate threat level on 02/27/2022. 
+Answer:
+
+Clinical Notes: ### How many patients had a severe threat level on 02/27/2022. 
+Answer:
+
+C"
+2612,"Clinical Notes: ### How many patients were hospitalized on 10/21/2021. 
+Answer:
+
+Clinical Notes: ### How many patients had an emergency room visit on 10/21/2021. 
+Answer:
+
+Clinical Notes: ### How many patients had a low threat level on 10/21/2021. 
+Answer:
+
+Clinical Notes: ### How many patients had a high threat level on 10/21/2021. 
+Answer:
+
+Clinical Notes: ### How many patients had a low threat level on 10/21/2021. 
+Answer:
+
+Clinical Notes: ### How many patients had a high threat level on 10/21/2021. 
+Answer:
+
+Clin"
+2626,"Clinical Notes: ### How many patients were hospitalized on 06/07/2021. 
+Answer:
+
+Clinical Notes: ### How many patients had an emergency room visit on 06/07/2021. 
+Answer:
+
+Clinical Notes: ### How many patients had a low threat level on 06/07/2021. 
+Answer:
+
+Clinical Notes: ### How many patients had a high threat level on 06/07/2021. 
+Answer:
+
+Clinical Notes: ### How many patients had a low threat level on 06/07/2021. 
+Answer:
+
+Clinical Notes: ### How many patients had a high threat level on 06/07/2021. 
+Answer:
+
+Clin"
+2634,"Clinical Notes: ### How many patients were hospitalized on 04/12/2022. 
+Answer:
+
+Clinical Notes: ### How many patients had an emergency room visit on 04/12/2022. 
+Answer:
+
+Clinical Notes: ### How many patients had a low threat level on 04/12/2022. 
+Answer:
+
+Clinical Notes: ### How many patients had a high threat level on 04/12/2022. 
+Answer:
+
+Clinical Notes: ### How many patients had a low threat level on 04/12/2022. 
+Answer:
+
+Clinical Notes: ### How many patients had a high threat level on 04/12/2022. 
+Answer:
+
+Clin"
+266,"# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""RECVDATE"": {""gte"": ""{{value_1}}"",""lte"": ""{{value_2}}""}}}}}
+
+Clinical Notes: ### List all the records received between 03/28/2022 and 03/30/2022. 
+Answer:
+# POST_scripts/6{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""should"":[{""range"":{""RECVDATE"": {""gte"": ""{{value_1}}"",""lte"": ""{{value_2}}""}}},{""range"":{""RECVDATE"": {""gte"": ""{{value_3}}"",""lte"": ""{{value_4}}""}}}]}}}}
+
+Clinical Notes:"
+2661,"Clinical Notes: ### How many patients were hospitalized on 10/24/2021. 
+Answer:
+
+Clinical Notes: ### How many patients had an emergency room visit on 10/24/2021. 
+Answer:
+
+Clinical Notes: ### How many patients had a low threat level on 10/24/2021. 
+Answer:
+
+Clinical Notes: ### How many patients had a high threat level on 10/24/2021. 
+Answer:
+
+Clinical Notes: ### How many patients had a moderate threat level on 10/24/2021. 
+Answer:
+
+Clinical Notes: ### How many patients had a severe threat level on 10/24/2021. 
+Answer:
+
+C"
+2686,"Clinical Notes: ### How many patients were hospitalized on 09/08/2021.
+Answer:
+
+Clinical Notes: ### How many patients had an emergency room visit on 09/08/2021.
+Answer:
+
+Clinical Notes: ### How many patients had a low threat level on 09/08/2021.
+Answer:
+
+Clinical Notes: ### How many patients had a high threat level on 09/08/2021.
+Answer:
+
+Clinical Notes: ### How many patients had a low threat level on 09/08/2021.
+Answer:
+
+Clinical Notes: ### How many patients had a high threat level on 09/08/2021.
+Answer:
+
+Clinical Notes: ### How many"
+2694,"Clinical Notes: ### How many patients were hospitalized on 01/09/2022.
+Answer:
+
+Clinical Notes: ### How many patients had an emergency room visit on 01/09/2022.
+Answer:
+
+Clinical Notes: ### How many patients had a low threat level on 01/09/2022.
+Answer:
+
+Clinical Notes: ### How many patients had a high threat level on 01/09/2022.
+Answer:
+
+Clinical Notes: ### How many patients had a moderate threat level on 01/09/2022.
+Answer:
+
+Clinical Notes: ### How many patients had a low threat level on 01/09/2022.
+Answer:
+
+Clinical Notes: ### How"
+2727,"Clinical Notes: ### How many patients were hospitalized on 03/07/2021.
+Answer:
+
+Clinical Notes: ### How many patients had an emergency room visit on 03/07/2021.
+Answer:
+
+Clinical Notes: ### How many patients had a low threat level on 03/07/2021.
+Answer:
+
+Clinical Notes: ### How many patients had a high threat level on 03/07/2021.
+Answer:
+
+Clinical Notes: ### How many patients had a moderate threat level on 03/07/2021.
+Answer:
+
+Clinical Notes: ### How many patients had a severe threat level on 03/07/2021.
+Answer:
+
+Clinical Notes: ### How"
+273,"# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""RECVDATE"": {""gte"": ""2022-02-08T00:00:00Z"",""lte"": ""2022-02-08T23:59:59Z""}}}}}
+
+Clinical Notes: ### List all the records received between 02/08/2022 to 02/10/2022. 
+Answer:
+# POST_scripts/6{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""RECVDATE"": {""gte"": ""2022-02-08T00:00:00Z"",""lte"": ""2022-02-"
+2781,"Clinical Notes: ### How many patients were hospitalized on 01/19/2022.
+Answer:
+
+Clinical Notes: ### How many patients had an emergency room visit on 01/19/2022.
+Answer:
+
+Clinical Notes: ### How many patients had a low threat level on 01/19/2022.
+Answer:
+
+Clinical Notes: ### How many patients had a high threat level on 01/19/2022.
+Answer:
+
+Clinical Notes: ### How many patients had a low threat level on 01/19/2022.
+Answer:
+
+Clinical Notes: ### How many patients had a high threat level on 01/19/2022.
+Answer:
+
+Clinical Notes: ### How many"
+2792,"Clinical Notes: ### How many patients were hospitalized on 10/24/2021.
+Answer:
+
+Clinical Notes: ### How many patients had an emergency room visit on 10/24/2021.
+Answer:
+
+Clinical Notes: ### How many patients had a low threat level on 10/24/2021.
+Answer:
+
+Clinical Notes: ### How many patients had a high threat level on 10/24/2021.
+Answer:
+
+Clinical Notes: ### How many patients had a moderate threat level on 10/24/2021.
+Answer:
+
+Clinical Notes: ### How many patients had a severe threat level on 10/24/2021.
+Answer:
+
+Clinical Notes: ### How"
+281,"# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""RECVDATE"":{""gte"":1638790400,""lte"":1638876799}}}}}
+
+Clinical Notes: ### List all the records received between 05/06/2022 to 05/07/2022. 
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""RECVDATE"":{""gte"":1638790400,""lte"":1638876799}}}}}
+
+Clinical Notes: ### List all the records received between 05/06/2022 to 05/07/"
+2824,
+2826,
+2829,
+2834,
+2836,
+2853,
+2909,
+291,
+2918,
+2952,
+2960,
+3010,
+3027,"Clinical Notes: ### How many patients were hospitalized for 45.0 days.
+Answer:
+
+Clinical Notes: ### How many patients were hospitalized for 45.0 days.
+Answer:
+
+Clinical Notes: ### How many patients were hospitalized for 45.0 days.
+Answer:
+
+Clinical Notes: ### How many patients were hospitalized for 45.0 days.
+Answer:
+
+Clinical Notes: ### How many patients were hospitalized for 45.0 days.
+Answer:
+
+Clinical Notes: ### How many patients were hospitalized for 45.0 days.
+Answer:
+
+Clinical Notes: ### How many patients were hospitalized for 45.0 days.
+Answer:
+
+Clinical Notes: ### How many patients were hospitalized for 45.0 days.
+Answer:"
+3029,"Clinical Notes: ### How many patients were hospitalized for 42.0 days.
+Answer:
+
+Clinical Notes: ### How many patients were hospitalized for 42.0 days.
+Answer:
+
+Clinical Notes: ### How many patients were hospitalized for 42.0 days.
+Answer:
+
+Clinical Notes: ### How many patients were hospitalized for 42.0 days.
+Answer:
+
+Clinical Notes: ### How many patients were hospitalized for 42.0 days.
+Answer:
+
+Clinical Notes: ### How many patients were hospitalized for 42.0 days.
+Answer:
+
+Clinical Notes: ### How many patients were hospitalized for 42.0 days.
+Answer:
+
+Clinical Notes: ### How many patients were hospitalized for 42.0 days.
+Answer:"
+3033,"Clinical Notes: ### How many patients were hospitalized for 59.0 days.
+Answer:
+
+Clinical Notes: ### How many patients were hospitalized for 59.0 days.
+Answer:
+
+Clinical Notes: ### How many patients were hospitalized for 59.0 days.
+Answer:
+
+Clinical Notes: ### How many patients were hospitalized for 59.0 days.
+Answer:
+
+Clinical Notes: ### How many patients were hospitalized for 59.0 days.
+Answer:
+
+Clinical Notes: ### How many patients were hospitalized for 59.0 days.
+Answer:
+
+Clinical Notes: ### How many patients were hospitalized for 59.0 days.
+Answer:
+
+Clinical Notes: ### How many patients were hospitalized for 59.0 days.
+Answer:"
+3036,"Clinical Notes: ### How many patients were hospitalized for 2.0 days.
+Answer:
+
+Clinical Notes: ### How many patients were hospitalized for 3.0 days.
+Answer:
+
+Clinical Notes: ### How many patients were hospitalized for 4.0 days.
+Answer:
+
+Clinical Notes: ### How many patients were hospitalized for 5.0 days.
+Answer:
+
+Clinical Notes: ### How many patients were hospitalized for 6.0 days.
+Answer:
+
+Clinical Notes: ### How many patients were hospitalized for 7.0 days.
+Answer:
+
+Clinical Notes: ### How many patients were hospitalized for 8.0 days.
+Answer:
+
+Clinical Notes: ### How many patients were hospitalized for 9.0 days.
+Answer:
+
+Clinical Notes: ### How"
+3037,"Clinical Notes: ### How many patients were hospitalized for 114.0 days.
+Answer:
+
+Clinical Notes: ### How many patients were hospitalized for 114.0 days.
+Answer:
+
+Clinical Notes: ### How many patients were hospitalized for 114.0 days.
+Answer:
+
+Clinical Notes: ### How many patients were hospitalized for 114.0 days.
+Answer:
+
+Clinical Notes: ### How many patients were hospitalized for 114.0 days.
+Answer:
+
+Clinical Notes: ### How many patients were hospitalized for 114.0 days.
+Answer:
+
+Clinical Notes: ### How many patients were hospitalized for 114.0 days.
+Answer:
+
+Clinical Notes: ### How many patients were hospitalized for 114"
+3069,
+3074,
+3091,"Clinical Notes: ### How many patients died from the adverse event and labeled as D? 
+Answer:
+
+Clinical Notes: ### How many patients were hospitalized for at least one day due to the adverse event and labeled as H? 
+Answer:
+
+Clinical Notes: ### How many patients had an emergency room visit due to the adverse event and labeled as E? 
+Answer:
+
+Clinical Notes: ### How many patients had a life-threatening adverse event and labeled as L? 
+Answer:
+
+Clinical Notes: ### How many patients had a prior history of the same adverse event and labeled as P? 
+Answer:
+
+Clinical Notes: ### How many patients had a prior history of any adverse event and labeled as A? 
+Answer:
+
+Clinical Notes: ### How many patients had a"
+3113,
+313,
+3136,
+3152,
+3156,
+3160,
+3164,
+3167,
+3169,
+3170,
+3202,
+324,
+3253,
+3258,
+3261,
+3276,
+3277,
+3296,
+3298,
+330,
+3315,
+3334,
+3336,
+3340,
+3344,
+3346,
+337,
+3376,
+3386,"Clinical Notes: ### How many patients whose date of vaccination is 02/03/2021? 
+Answer:
+
+Clinical Notes: ### How many patients whose date of vaccination is 02/03/2021? 
+Answer:
+
+Clinical Notes: ### How many patients whose date of vaccination is 02/03/2021? 
+Answer:
+
+Clinical Notes: ### How many patients whose date of vaccination is 02/03/2021? 
+Answer:
+
+Clinical Notes: ### How many patients whose date of vaccination is 02/03/2021? 
+Answer:
+
+Clinical Notes: ### How many patients whose date of vaccination is 02/03/2021?"
+3404,"Clinical Notes: ### How many patients whose date of vaccination is 04/06/2022? 
+Answer:
+
+Clinical Notes: ### How many patients whose date of vaccination is 04/06/2022? 
+Answer:
+
+Clinical Notes: ### How many patients whose date of vaccination is 04/06/2022? 
+Answer:
+
+Clinical Notes: ### How many patients whose date of vaccination is 04/06/2022? 
+Answer:
+
+Clinical Notes: ### How many patients whose date of vaccination is 04/06/2022? 
+Answer:
+
+Clinical Notes: ### How many patients whose date of vaccination is 04/06/2022?"
+3421,"Clinical Notes: ### How many patients whose date of vaccination is 08/04/2021? 
+Answer:
+
+Clinical Notes: ### How many patients whose date of vaccination is 08/04/2021? 
+Answer:
+
+Clinical Notes: ### How many patients whose date of vaccination is 08/04/2021? 
+Answer:
+
+Clinical Notes: ### How many patients whose date of vaccination is 08/04/2021? 
+Answer:
+
+Clinical Notes: ### How many patients whose date of vaccination is 08/04/2021? 
+Answer:
+
+Clinical Notes: ### How many patients whose date of vaccination is 08/04/2021?"
+3444,"Clinical Notes: ### How many patients whose date of vaccination is 05/10/2021? 
+Answer:
+
+Clinical Notes: ### How many patients whose date of vaccination is 05/10/2021? 
+Answer:
+
+Clinical Notes: ### How many patients whose date of vaccination is 05/10/2021? 
+Answer:
+
+Clinical Notes: ### How many patients whose date of vaccination is 05/10/2021? 
+Answer:
+
+Clinical Notes: ### How many patients whose date of vaccination is 05/10/2021? 
+Answer:
+
+Clinical Notes: ### How many patients whose date of vaccination is 05/10/2021?"
+3445,"Clinical Notes: ### How many patients whose date of vaccination is 02/25/1901? 
+Answer:
+
+Clinical Notes: ### How many patients whose date of vaccination is 02/25/1901? 
+Answer:
+
+Clinical Notes: ### How many patients whose date of vaccination is 02/25/1901? 
+Answer:
+
+Clinical Notes: ### How many patients whose date of vaccination is 02/25/1901? 
+Answer:
+
+Clinical Notes: ### How many patients whose date of vaccination is 02/25/1901? 
+Answer:
+
+Clinical Notes: ### How many patients whose date of vaccination is 02/25/1901?"
+3491,"Clinical Notes: ### How many patients whose date of vaccination is 12/17/2021? 
+Answer:
+
+Clinical Notes: ### How many patients whose date of vaccination is 12/17/2021? 
+Answer:
+
+Clinical Notes: ### How many patients whose date of vaccination is 12/17/2021? 
+Answer:
+
+Clinical Notes: ### How many patients whose date of vaccination is 12/17/2021? 
+Answer:
+
+Clinical Notes: ### How many patients whose date of vaccination is 12/17/2021? 
+Answer:
+
+Clinical Notes: ### How many patients whose date of vaccination is 12/17/2021?"
+3526,
+3549,
+3557,
+3560,
+3563,"Clinical Notes: ### How many patitents who got vaccines on 09/12/2016?
+Answer:
+
+Clinical Notes: ### How many patitents who got vaccines on 09/12/2016?
+Answer:
+
+Clinical Notes: ### How many patitents who got vaccines on 09/12/2016?
+Answer:
+
+Clinical Notes: ### How many patitents who got vaccines on 09/12/2016?
+Answer:
+
+Clinical Notes: ### How many patitents who got vaccines on 09/12/2016?
+Answer:
+
+Clinical Notes: ### How many patitents who got vaccines on 09/12/2016?"
+357,
+3601,
+3602,
+3629,
+3645,
+3647,
+3657,
+3679,
+3695,
+3710,
+3717,
+3732,
+3749,
+3767,
+3771,
+38,
+380,
+3811,
+3815,
+382,
+3853,
+3856,
+3857,
+3859,
+3861,
+3865,
+387,
+3913,
+3916,
+3917,
+3918,
+3924,
+3931,"# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""START_DATE"": {""gte"": ""2015-12-04""}}}}}
+
+Clinical Notes: ### Find all the records where the adverse event ended on 12/04/2015. 
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""END_DATE"": {""lte"": ""2015-12-04""}}}}}
+
+Clinical Notes: ### Find all the records where the adverse event started before 12/04/2015. 
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"
+3941,"# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""START_DATE"":{""gte"": ""{{value_1}}"",""lte"": ""{{value_2}}""}}}}}
+
+Clinical Notes: ### Find all the records where the adverse event ended on 03/23/2022. 
+Answer:
+# POST_scripts/6{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""END_DATE"":{""gte"": ""{{value_1}}"",""lte"": ""{{value_2}}""}}}}}
+
+Clinical Notes: ### Find all the records where the adverse event started before 03/23/2022. 
+Answer:
+# POST_scripts/7{""script"":{""lang"":""mustache"",""source"":{""track_"
+3959,"# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""START_DATE"":{""gte"":1565737600,""lte"":1565737600}}}}}
+
+Clinical Notes: ### Find all the records where the adverse event ended on 08/15/2019. 
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""END_DATE"":{""gte"":1565737600,""lte"":1565737600}}}}}
+
+Clinical Notes: ### Find all the records where the adverse event started before 08/15/2019. 
+Answer:
+# POST_scripts"
+3968,"# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""START_DATE"":{""gte"": ""{{value_1}}"",""lte"": ""{{value_2}}""}}}}}
+
+Clinical Notes: ### Find all the records where the adverse event ended on 12/30/2021. 
+Answer:
+# POST_scripts/6{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""END_DATE"":{""gte"": ""{{value_1}}"",""lte"": ""{{value_2}}""}}}}}
+
+Clinical Notes: ### Find all the records where the adverse event started before 12/29/2021 and ended after 12/30/2021. 
+Answer:
+# POST_scripts"
+3993,"# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""START_DATE"":{""gte"": ""2020-05-01""}}}}}
+
+Clinical Notes: ### Find all the records where the adverse event ended on 05/01/2020. 
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""END_DATE"":{""lte"": ""2020-05-01""}}}}}
+
+Clinical Notes: ### Find all the records where the adverse event started before 05/01/2020. 
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"
+4014,"# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""START_DATE"":{""gte"": ""{{value_1}}"",""lte"": ""{{value_2}}""}}}}}
+
+Clinical Notes: ### Find all the records where the adverse event ended on 12/31/2020. 
+Answer:
+# POST_scripts/6{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""END_DATE"":{""gte"": ""{{value_1}}"",""lte"": ""{{value_2}}""}}}}}
+
+Clinical Notes: ### Find all the records where the adverse event started before 12/31/2020. 
+Answer:
+# POST_scripts/7{""script"":{""lang"":""mustache"",""source"":{""track_"
+4050,"# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""START_DATE"":{""gte"": ""{{value_1}}"",""lte"": ""{{value_2}}""}}}}}
+
+Clinical Notes: ### Find all the records where the adverse event ended on 01/23/2020. 
+Answer:
+# POST_scripts/6{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""END_DATE"":{""gte"": ""{{value_1}}"",""lte"": ""{{value_2}}""}}}}}
+
+Clinical Notes: ### Find all the records where the adverse event started before 01/23/2020. 
+Answer:
+# POST_scripts/7{""script"":{""lang"":""mustache"",""source"":{""track_"
+4055,"# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""START_DATE"":{""gte"": ""{{value_1}}"",""lte"": ""{{value_2}}""}}}}}
+
+Clinical Notes: ### Find all the records where the adverse event ended on 12/11/2021. 
+Answer:
+# POST_scripts/6{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""END_DATE"":{""gte"": ""{{value_1}}"",""lte"": ""{{value_2}}""}}}}}
+
+Clinical Notes: ### Find all the records where the adverse event started before 12/11/2021. 
+Answer:
+# POST_scripts/7{""script"":{""lang"":""mustache"",""source"":{""track_"
+4065,
+4087,
+4088,
+41,
+4112,
+4116,
+4120,
+4127,
+4153,
+4158,
+4169,
+4179,
+4200,
+4201,
+4248,
+425,
+4260,
+4280,
+4320,
+4333,
+4342,"# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""AGE_YRS"": {""gte"": ""{{value_1}}"", ""lte"": ""{{value_2}}""}}}}}
+
+Clinical Notes: ### List all the records that the interval from the vaccination date to the onset date is 28827.0 days. 
+Answer:
+# POST_scripts/6{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""AGE_YRS"": {""gte"": ""{{value_1}}"", ""lte"": ""{{value_2}}""}}}}}
+
+Clinical Notes: ### List all the records that the interval from the vaccination date to the onset date is 28827.0 days. 
+Answer:"
+4345,"# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""AGE_YRS"": {""gte"": ""{{value_1}}"", ""lte"": ""{{value_2}}""}}}}}
+
+Clinical Notes: ### List all the records that the interval from the vaccination date to the onset date is 746.0 days. 
+Answer:
+# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""AGE_YRS"": {""gte"": ""{{value_1}}"", ""lte"": ""{{value_2}}""}}}}}
+
+Clinical Notes: ### List all the records that the interval from the vaccination date to the onset date is 746.0 days. 
+Answer:
+# POST_scripts"
+4367,"# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""AGE_YRS"": {""gte"": ""{{value_1}}"", ""lte"": ""{{value_2}}""}}}}}
+
+Clinical Notes: ### List all the records that the interval from the vaccination date to the onset date is 496.0 days. 
+Answer:
+# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""AGE_YRS"": {""gte"": ""{{value_1}}"", ""lte"": ""{{value_2}}""}}}}}
+
+Clinical Notes: ### List all the records that the interval from the vaccination date to the onset date is 496.0 days. 
+Answer:
+# POST_scripts"
+4385,"# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""date_diff"":{""gte"":291,""lte"":291}}}}}
+
+Clinical Notes: ### List all the records that the interval from the vax date to the onset date is 291.0 days. 
+Answer:
+# POST_scripts/6{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""date_diff"":{""gte"":291,""lte"":291}}}}}
+
+Clinical Notes: ### List all the records that the interval from the vax date to the onset date is 291.0 days. 
+Answer:
+# POST_scripts/7{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"
+4397,
+4406,"# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""AGE_YRS"": {""gte"": ""{{value_1}}"", ""lte"": ""{{value_2}}""}}}}}
+
+Clinical Notes: ### List all the records that the interval from the vaccination date to the onset date is 353.0 days. 
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""AGE_YRS"": {""gte"": ""{{value_1}}"", ""lte"": ""{{value_2}}""}}}}}
+
+Clinical Notes: ### List all the records that the interval from the vaccination date to the onset date is 353.0 days. 
+Answer:
+# POST_scripts"
+4418,"# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""AGE_YRS"": {""gte"": ""275.0""}}}}}
+
+Clinical Notes: ### List all the records that the interval from the vax date to the onset date is 275.0 days. 
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""AGE_YRS"": {""gte"": ""275.0""}}}}}
+
+Clinical Notes: ### List all the records that the interval from the vax date to the onset date is 275.0 days. 
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"
+4419,"# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""AGE_YRS"": {""gte"": ""{{value_1}}"", ""lte"": ""{{value_2}}""}}}}}
+
+Clinical Notes: ### List all the records that the interval from the vaccination date to the onset date is 108.0 days. 
+Answer:
+# POST_scripts/6{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""AGE_YRS"": {""gte"": ""{{value_1}}"", ""lte"": ""{{value_2}}""}}}}}
+
+Clinical Notes: ### List all the records that the interval from the vaccination date to the onset date is 108.0 days. 
+Answer:
+# POST_scripts"
+4423,"# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""date_diff"":{""gte"":329,""lte"":329}}}}}
+
+Clinical Notes: ### List all the records that the interval from the vax date to the onset date is 329.0 days. 
+Answer:
+# POST_scripts/6{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""date_diff"":{""gte"":329,""lte"":329}}}}}
+
+Clinical Notes: ### List all the records that the interval from the vax date to the onset date is 329.0 days. 
+Answer:
+# POST_scripts/7{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"
+4424,"# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""date_diff"":{""gte"":312,""lte"":312}}}}}
+
+Clinical Notes: ### List all the records that the interval from the vax date to the onset date is 312.0 days. 
+Answer:
+# POST_scripts/6{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""date_diff"":{""gte"":312,""lte"":312}}}}}
+
+Clinical Notes: ### List all the records that the interval from the vax date to the onset date is 312.0 days. 
+Answer:
+# POST_scripts/7{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"
+4436,
+4445,
+4472,"# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""date_diff"":{""gte"":20,""lte"":20}}}}}
+
+Clinical Notes: ### List all the records that the interval from the vax date to the onset date is 20.0 days. 
+Answer:
+# POST_scripts/6{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""date_diff"":{""gte"":20,""lte"":20}}}}}
+
+Clinical Notes: ### List all the records that the interval from the vax date to the onset date is 20.0 days. 
+Answer:
+# POST_scripts/7{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""date_diff"
+4473,"# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""date_diff"":{""gte"":273,""lte"":273}}}}}
+
+Clinical Notes: ### List all the records that the interval from the vax date to the onset date is 273.0 days. 
+Answer:
+# POST_scripts/6{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""date_diff"":{""gte"":273,""lte"":273}}}}}
+
+Clinical Notes: ### List all the records that the interval from the vax date to the onset date is 273.0 days. 
+Answer:
+# POST_scripts/7{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"
+4478,
+448,
+4491,
+4500,
+4529,
+4539,
+4545,
+4546,
+456,"Clinical Notes: ### Find the day 03/05/2022 when the most people choose to submit records.
+Answer:
+
+Clinical Notes: ### Find the day 03/12/2022 when the most people choose to submit records.
+Answer:
+
+Clinical Notes: ### Find the day 03/19/2022 when the most people choose to submit records.
+Answer:
+
+Clinical Notes: ### Find the day 03/26/2022 when the most people choose to submit records.
+Answer:
+
+Clinical Notes: ### Find the day 04/02/2022 when the most people choose to submit records.
+Answer:
+
+Clinical Notes: ### Find the day 04/09/2022 when the most people choose to submit records."
+4577,
+4590,
+4596,
+4617,
+4637,
+4653,
+4655,
+4656,
+466,
+4686,
+4689,
+47,
+4706,
+4715,
+4725,
+4733,
+4762,
+4764,
+4789,
+4790,
+4808,
+4828,
+4855,
+4862,
+4866,
+49,
+4902,"POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""query_string"":{""query"":""{{value_1}}"",""default_field"":""{{field_1}}"",'SYMPTOMS',""AUTO"",'Blood Sugar Test'}}}}}
+
+Clinical Notes: ### Provide all records that received blood pressure test. 
+Answer:
+POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""query_string"":{""query"":""{{value_1}}"",""default_field"":""{{field_1}}"",'SYMPTOMS',""AUTO"",'Blood Pressure Test'}}}}}
+
+Clinical Notes: ### Provide all records that received blood pressure test. 
+Answer:
+POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total"
+4912,"POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""query_string"":{""query"":""{{value_1}}"",""default_field"":""{{field_1}}"",'SYMPTOMS',""AUTO"",'Rapid Heartbeat'}}}}}
+
+Clinical Notes: ### Provide all records that received a vaccine in the last 30 days. 
+Answer:
+POST_scripts/6{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""RECVDATE"":{""gte"": ""now-30d/d"",""lte"": ""now/d""}}}}}
+
+Clinical Notes: ### Provide all records that received a vaccine in the last 30 days. 
+Answer:
+POST_scripts/7{""script"":{""lang"":""mustache"",""source"":{""track"
+4917,
+4946,"# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""should"":[{""match"":{""SYMPTOMS"":""Omicron""}},{""match"":{""SYMPTOMS"":""Omicron variant""}},{""match"":{""SYMPTOMS"":""Omicron variant test""}},{""match"":{""SYMPTOMS"":""Omicron variant test positive""}},{""match"":{""SYMPTOMS"":""Omicron variant test negative""}},{""match"":{""SYMPTOMS"":""Omicron variant test positive""}},{""match"":{""SYMPTOMS"":""Omicron variant test negative""}},{""match"":{""SYMPTOMS"":""Omicron variant test positive""}},{""match"":{""SYMPTOMS"":""Omicron variant test negative""}},{""match"":{""SYMPTOMS"":""Omicron variant test positive""}},{""match"":{""SYMPTOMS"":""Omicron variant test negative"
+4967,
+4972,
+4974,
+498,
+4983,
+4995,
+4997,
+5007,
+5010,
+5012,
+5017,
+5018,
+5023,
+5036,
+5052,
+5056,
+5072,
+5084,
+5086,
+5092,
+5093,
+5114,
+5139,
+5144,
+5150,
+5165,
+5169,
+517,
+5177,
+5197,
+520,
+5202,
+5219,
+5227,"POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""query_string"":{""query"":""{{value_1}}"",""default_field"":""{{field_1}}"",'FACILITY_CODE',""UNK""}}}}}
+
+Clinical Notes: ### Find all the records where the vaccine adminiered facility code is UNK. 
+Answer:
+POST_scripts/6{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""query_string"":{""query"":""{{value_1}}"",""default_field"":""{{field_1}}"",'FACILITY_CODE',""UNK""}}}}}
+
+Clinical Notes: ### Find all the records where the vaccine adminiered facility code is UNK. 
+Answer:
+POST_scripts/7{""script"":{""lang"":""mustache"",""source"
+523,
+5231,"# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""query_string"":{""query"":""{{value_1}}"",""default_field"":""{{field_1}}"",'FACILITY_CODE',""PUB""}}}}}
+
+Clinical Notes: ### Find all the records where the vaccine adminiered facility code is PUB and the patient was over 60 years old.
+Answer:
+# POST_scripts/6{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""must"":[{""match"":{""age_yrs"":{""query"":""{{value_1}}"",""operator"":""gte""}}},{""match"":{""facility_code"":{""query"":""{{value_2}}""}}}]}}}}}
+
+Clinical Notes: ### Find all the records where the vaccine adminiered facility code"
+5281,
+5288,
+5323,
+533,
+5344,
+5346,
+535,
+5355,
+536,
+5360,
+5371,
+538,
+5381,
+542,
+5439,
+5450,
+5464,
+5467,
+5473,
+5482,
+5509,
+5512,
+552,
+5524,
+5534,
+5538,
+5543,
+5599,
+5610,
+5630,
+564,
+5654,
+5667,
+5675,
+569,
+5718,
+5757,
+5764,
+5767,
+5771,
+5790,
+5793,
+5798,
+58,
+5806,
+5808,
+5827,
+5842,
+5846,
+5880,
+5885,
+5908,
+5912,
+5944,
+5959,
+5966,
+5987,
+5989,
+6005,
+6008,
+6013,
+6024,
+6031,
+6040,
+6053,
+6060,
+6065,
+6067,
+6072,
+6076,
+6086,
+6092,
+6117,
+6141,
+6203,
+6221,
+6249,
+6274,
+6278,
+628,"Clinical Notes: ### How many patients are from GU? 
+Answer:
+
+Clinical Notes: ### How many patients are from GU? 
+Answer:
+
+Clinical Notes: ### How many patients are from GU? 
+Answer:
+
+Clinical Notes: ### How many patients are from GU? 
+Answer:
+
+Clinical Notes: ### How many patients are from GU? 
+Answer:
+
+Clinical Notes: ### How many patients are from GU? 
+Answer:
+
+Clinical Notes: ### How many patients are from GU? 
+Answer:
+
+Clinical Notes: ### How many patients are from GU? 
+Answer:
+
+Clinical Notes: ### How many patients are from GU? 
+Answer:
+
+Clinical Notes: ### How many patients are from GU? 
+Answer:"
+6294,
+630,"Clinical Notes: ### How many patients are from PA? 
+Answer:
+
+Clinical Notes: ### How many patients are from PR? 
+Answer:
+
+Clinical Notes: ### How many patients are from PE? 
+Answer:
+
+Clinical Notes: ### How many patients are from PI? 
+Answer:
+
+Clinical Notes: ### How many patients are from PH? 
+Answer:
+
+Clinical Notes: ### How many patients are from PG? 
+Answer:
+
+Clinical Notes: ### How many patients are from PC? 
+Answer:
+
+Clinical Notes: ### How many patients are from PO? 
+Answer:
+
+Clinical Notes: ### How many patients are from PN? 
+Answer:
+
+Clinical Notes: ### How many patients are from PM? 
+Answer:
+
+Clinical Notes"
+6321,
+6326,
+6328,
+6329,
+6342,
+6348,
+6398,
+6401,
+6406,
+6408,
+6412,
+6414,
+6452,
+6455,
+6495,
+6505,
+6556,
+6568,
+6573,
+6586,
+6595,
+660,"Clinical Notes: ### How many patients are from MA? 
+Answer:
+
+Clinical Notes: ### How many patients are from CT? 
+Answer:
+
+Clinical Notes: ### How many patients are from ME? 
+Answer:
+
+Clinical Notes: ### How many patients are from RI? 
+Answer:
+
+Clinical Notes: ### How many patients are from VT? 
+Answer:
+
+Clinical Notes: ### How many patients are from NY? 
+Answer:
+
+Clinical Notes: ### How many patients are from PA? 
+Answer:
+
+Clinical Notes: ### How many patients are from WV? 
+Answer:
+
+Clinical Notes: ### How many patients are from MD? 
+Answer:
+
+Clinical Notes: ### How many patients are from DE? 
+Answer:
+
+Clinical Notes: ###"
+6601,
+663,"Clinical Notes: ### How many patients are from WY? 
+Answer:
+
+Clinical Notes: ### How many patients are from ND? 
+Answer:
+
+Clinical Notes: ### How many patients are from SD? 
+Answer:
+
+Clinical Notes: ### How many patients are from NE? 
+Answer:
+
+Clinical Notes: ### How many patients are from KS? 
+Answer:
+
+Clinical Notes: ### How many patients are from OK? 
+Answer:
+
+Clinical Notes: ### How many patients are from TN? 
+Answer:
+
+Clinical Notes: ### How many patients are from AR? 
+Answer:
+
+Clinical Notes: ### How many patients are from LA? 
+Answer:
+
+Clinical Notes: ### How many patients are from MS? 
+Answer:
+
+Clinical Notes:"
+6647,
+6658,
+6680,
+6691,
+6735,"# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""query_string"":{""query"":""{{value_1}}"",""default_field"":""{{field_1}}"",'DIAGNOSIS',""AUTO"",'mastectomy'}}}}}
+
+Clinical Notes: ### Search all the patients who are diagnosed of mastectomy and have received the vaccine.
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""should"":[{""match"":{""diagnosis"":""mastectomy""}},{""match"":{""vax_type"":""COVID-19""}}]}}}}}
+
+Clinical Notes: ### Search all the patients who are diagnosed of mastectomy and have received the vaccine.
+Answer:
+# POST_scripts/"
+6741,
+6742,"# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""query_string"":{""query"":""{{value_1}}"",""default_field"":""{{field_1}}"",'DIAGNOSIS',""AUTO"",'intraocular lens implant'}}}}}
+
+Clinical Notes: ### Search all the patients who have received a vaccine that contains the word ""Influenza"".
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""query_string"":{""query"":""{{value_1}}"",""default_field"":""{{field_1}}"",'VACCINE_NAME',""AUTO"",'Influenza'}}}}}
+
+Clinical Notes: ### Search all the patients who have received a vaccine that contains the word ""Influenza"""
+6754,
+6773,
+6798,
+6804,
+6811,"# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""query_string"":{""query"":""{{value_1}}"",""default_field"":""{{field_1}}"",'DIAGNOSIS',""AUTO"",'nerve operation'}}}}}
+
+Clinical Notes: ### Search all the patients who are diagnosed of nerve operation and have received the vaccine.
+Answer:
+# POST_scripts/6{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""should"":[{""match"":{""diagnosis"":""nerve operation""}},{""match"":{""vax_type"":""vaccine""}}]}}}}}
+
+Clinical Notes: ### Search all the patients who are diagnosed of nerve operation and have received the vaccine.
+Answer:
+# POST_scripts/7{""script"":{"""
+6812,
+6821,
+6822,
+6840,"# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""query_string"":{""query"":""{{value_1}}"",""default_field"":""{{field_1}}"",'DIAGNOSES',""AUTO"",'Arterial Stent Insertion'}}}}}
+
+Clinical Notes: ### Search all the patients who are diagnosed of arterial stent insertion and have a history of prior vaccinations. 
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""should"":[{""match"":{""diagnoses"":""Arterial Stent Insertion""}},{""match"":{""history"":""prior vaccinations""}}]}}}}}
+
+Clinical Notes: ### Search all the patients who are diagnosed of arterial stent insertion and"
+6842,
+6856,"# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""query_string"":{""query"":""{{value_1}}"",""default_field"":""{{field_1}}"",'DIAGNOSIS',""AUTO"",'squamous cell carcinoma'}}}}}
+
+Clinical Notes: ### Search all the patients who have received the vaccine against COVID-19.
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""query_string"":{""query"":""{{value_1}}"",""default_field"":""{{field_1}}"",'VAX_NAME',""AUTO"",'COVID-19'}}}}}
+
+Clinical Notes: ### Search all the patients who have received the vaccine against COVID-19 and died within 30 days of"
+6860,
+6921,
+6922,
+6990,
+7010,
+7018,"Clinical Notes: ### How many patients are diagnosed of tachycardia? 
+Answer:
+
+Clinical Notes: ### How many patients are diagnosed of tachycardia? 
+Answer:
+
+Clinical Notes: ### How many patients are diagnosed of tachycardia? 
+Answer:
+
+Clinical Notes: ### How many patients are diagnosed of tachycardia? 
+Answer:
+
+Clinical Notes: ### How many patients are diagnosed of tachycardia? 
+Answer:
+
+Clinical Notes: ### How many patients are diagnosed of tachycardia? 
+Answer:
+
+Clinical Notes: ### How many patients are diagnosed of tachycardia? 
+Answer:
+
+Clinical Notes: ### How many patients are diagnosed of tachycardia? 
+Answer:"
+702,
+7026,"Clinical Notes: ### How many patients have been diagnosed with clinical depression? 
+Answer:
+
+Clinical Notes: ### How many patients have been diagnosed with clinical depression? 
+Answer:
+
+Clinical Notes: ### How many patients have been diagnosed with clinical depression? 
+Answer:
+
+Clinical Notes: ### How many patients have been diagnosed with clinical depression? 
+Answer:
+
+Clinical Notes: ### How many patients have been diagnosed with clinical depression? 
+Answer:
+
+Clinical Notes: ### How many patients have been diagnosed with clinical depression? 
+Answer:
+
+Clinical Notes: ### How many patients have been diagnosed with clinical depression? 
+Answer:
+
+Clinical Notes: ### How many patients have been diagnosed with clinical depression? 
+Answer:"
+7029,
+7037,
+7046,
+7049,"Clinical Notes: ### How many patients are diagnosed of pertussis? 
+Answer:
+
+Clinical Notes: ### How many patients are diagnosed of pertussis? 
+Answer:
+
+Clinical Notes: ### How many patients are diagnosed of pertussis? 
+Answer:
+
+Clinical Notes: ### How many patients are diagnosed of pertussis? 
+Answer:
+
+Clinical Notes: ### How many patients are diagnosed of pertussis? 
+Answer:
+
+Clinical Notes: ### How many patients are diagnosed of pertussis? 
+Answer:
+
+Clinical Notes: ### How many patients are diagnosed of pertussis? 
+Answer:
+
+Clinical Notes: ### How many patients are diagnosed of pertussis? 
+Answer:
+
+Clinical Notes: ### How many patients are diagnosed of pertuss"
+7058,
+7064,
+7068,
+709,"Clinical Notes: ### Give me the VA which has the least number of records
+Answer:
+
+Clinical Notes: ### Give me the VA which has the most number of records in the last month
+Answer:
+
+Clinical Notes: ### Give me the VA which has the least number of records in the last month
+Answer:
+
+Clinical Notes: ### Give me the VA which has the most number of records in the last week
+Answer:
+
+Clinical Notes: ### Give me the VA which has the least number of records in the last week
+Answer:
+
+Clinical Notes: ### Give me the VA which has the most number of records in the last day
+Answer:
+
+Clinical Notes: ### Give me the VA which has the least number of records in the last day
+Answer:
+
+Clinical Notes: ### Give me the VA which has the"
+7095,
+711,
+7113,
+7123,
+7128,
+7135,
+714,
+716,
+7172,
+7184,
+7197,
+7203,
+7214,
+7217,
+7237,
+7248,
+7251,
+7256,
+726,"Clinical Notes: ### Give me the AS which has the least number of records
+Answer:
+
+Clinical Notes: ### Give me the AS which has the most number of records in the last 30 days
+Answer:
+
+Clinical Notes: ### Give me the AS which has the least number of records in the last 30 days
+Answer:
+
+Clinical Notes: ### Give me the AS which has the most number of records in the last 6 months
+Answer:
+
+Clinical Notes: ### Give me the AS which has the least number of records in the last 6 months
+Answer:
+
+Clinical Notes: ### Give me the AS which has the most number of records in the last year
+Answer:
+
+Clinical Notes: ### Give me the AS which has the least number of records in the last year
+Answer:
+
+Clinical Notes: ### Give me the AS which"
+7266,
+7269,
+7279,
+7313,
+7321,
+7332,
+7377,
+738,
+7382,
+7393,
+7404,
+7425,
+7441,
+7456,
+7471,
+7474,
+7480,
+7487,
+749,
+7499,
+75,
+7503,
+7507,
+7523,
+7529,
+7533,
+7542,
+7543,
+7549,
+755,
+7556,
+7564,
+7572,
+7599,
+760,
+7607,
+7621,
+7633,
+7640,
+7666,
+7684,
+7699,
+771,
+7718,
+7726,
+773,
+7767,
+7768,
+7771,
+7773,
+7780,
+7782,
+7791,
+7796,
+7815,
+7833,
+7835,
+7846,
+7879,
+7902,
+7918,
+7921,
+7922,
+7930,
+7937,
+7950,
+7961,
+7967,
+7984,"# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""date"":{""gte"":1643507200,""lte"":1643593599}}}}}
+
+Clinical Notes: ### List all the records who was vaccinated on 1/26/22. 
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""date"":{""gte"":1643507200,""lte"":1643593599}}}}}
+
+Clinical Notes: ### List all the records who was vaccinated on 1/26/22. 
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"","""
+7996,"# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""date"":{""gte"": ""2021-07-14T00:00:00Z"",""lte"": ""2021-07-15T00:00:00Z""}}}}}
+
+Clinical Notes: ### List all the records who was vaccinated on 7/14/21. 
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""date"":{""gte"": ""2021-07-14T00:00:00Z"",""lte"": ""2021-07-15T00:00:00Z""}}}}}"
+8014,"# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""date"":{""gte"":1633579200,""lte"":1633665600}}}}}
+
+Clinical Notes: ### List all the records who was vaccinated on 10/4/21. 
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""date"":{""gte"":1633579200,""lte"":1633665600}}}}}
+
+Clinical Notes: ### List all the records who was vaccinated on 10/4/21. 
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"","""
+8032,"# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""date"":{""gte"":1618379200,""lte"":1618465600}}}}}
+
+Clinical Notes: ### List all the records who was vaccinated on 4/14/21. 
+Answer:
+# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""date"":{""gte"":1618379200,""lte"":1618465600}}}}}
+
+Clinical Notes: ### List all the records who was vaccinated on 4/14/21. 
+Answer:
+# POST_scripts/5{""script"":{""lang"":""mustache"","""
+8048,"# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""date"":{""gte"":1387569600,""lte"":1387656000}}}}}
+
+Clinical Notes: ### List all the records who was vaccinated on 12/20/2013. 
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""date"":{""gte"":1387569600,""lte"":1387656000}}}}}
+
+Clinical Notes: ### List all the records who was vaccinated on 12/20/2013. 
+Answer:
+# POST_scripts/4{""script"
+8051,"# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""date"":{""gte"": ""2021-07-20T00:00:00Z"",""lte"": ""2021-07-20T23:59:59Z""}}}}}
+
+Clinical Notes: ### List all the records who was vaccinated on 07/20/21. 
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""date"":{""gte"": ""2021-07-20T00:00:00Z"",""lte"": ""2021-07-20T23:59:59Z""}}}}}"
+8057,"# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""date"":{""gte"":1613756800,""lte"":1613843199}}}}}
+
+Clinical Notes: ### List all the records who was vaccinated on 02/18/2021. 
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""date"":{""gte"":1613756800,""lte"":1613843199}}}}}
+
+Clinical Notes: ### List all the records who was vaccinated on 02/18/2021. 
+Answer:
+# POST_scripts/4{""script"
+8066,"# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""date"":{""gte"":1653087600,""lte"":1653173999}}}}}
+
+Clinical Notes: ### List all the records who was vaccinated on 5/19/2022. 
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""date"":{""gte"":1653087600,""lte"":1653173999}}}}}
+
+Clinical Notes: ### List all the records who was vaccinated on 5/19/2022. 
+Answer:
+# POST_scripts/4{""script"":{""lang"
+8077,"# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""date"":{""gte"":1617801600,""lte"":1617888000}}}}}
+
+Clinical Notes: ### List all the records who was vaccinated on 03/09/2021. 
+Answer:
+# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""date"":{""gte"":1617801600,""lte"":1617888000}}}}}
+
+Clinical Notes: ### List all the records who was vaccinated on 03/09/2021. 
+Answer:
+# POST_scripts/5{""script"
+8091,"# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""date"":{""gte"":1615187200,""lte"":1615273599}}}}}
+
+Clinical Notes: ### List all the records who was vaccinated on 3/7/2021. 
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""date"":{""gte"":1615187200,""lte"":1615273599}}}}}
+
+Clinical Notes: ### List all the records who was vaccinated on 3/7/2021. 
+Answer:
+# POST_scripts/4{""script"":{""lang"":""must"
+8099,"# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""date"":{""gte"": ""2021-04-25T00:00:00Z"",""lte"": ""2021-04-25T23:59:59Z""}}}}}
+
+Clinical Notes: ### Find all records who received a vaccine before on 4/25/2021. 
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""date"":{""gte"": ""2021-04-25T00:00:00Z"",""lte"": ""2021-04-25T23:59:59Z""}}"
+8104,"# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""VAERS_ID"": {""gte"": ""1617080000000"",""lte"": ""1617080000000""}}}}}
+
+Clinical Notes: ### Find all records who received a vaccine before on 03/29/21. 
+Answer:
+# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""VAERS_ID"": {""gte"": ""1617080000000"",""lte"": ""1617080000000""}}}}}
+
+Clinical Notes: ### Find all records who received a vaccine before on"
+812,
+8143,"# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""date"":{""gte"": ""2021-12-31T00:00:00Z"",""lte"": ""2021-12-31T23:59:59Z""}}}}}
+
+Clinical Notes: ### Find all records who received a vaccine before on 12/31/2021. 
+Answer:
+# POST_scripts/6{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""date"":{""gte"": ""2021-12-31T00:00:00Z"",""lte"": ""2021-12-31T23:59:59Z"""
+8153,"# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""date"":{""gte"": ""2021-11-20T00:00:00Z"",""lte"": ""2021-11-20T23:59:59Z""}}}}}
+
+Clinical Notes: ### Find all records who received a vaccine before on 11/20/2021. 
+Answer:
+# POST_scripts/6{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""date"":{""gte"": ""2021-11-20T00:00:00Z"",""lte"": ""2021-11-20T23:59:59Z"""
+8154,"# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""date"":{""gte"": ""2021-02-13T00:00:00Z"",""lte"": ""2021-02-13T23:59:59Z""}}}}}
+
+Clinical Notes: ### Find all records who received a vaccine before on 2/13/2021. 
+Answer:
+# POST_scripts/6{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""date"":{""gte"": ""2021-02-13T00:00:00Z"",""lte"": ""2021-02-13T23:59:59Z""}}"
+8226,
+8228,
+8242,
+8261,
+8262,
+8273,
+8287,
+830,
+8353,
+8354,
+8367,"# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""must"":[{""match"":{""DTAP_PRIOR_VAX"":""{{value_1}}""}},{""range"":{""RECVDATE"":{""gte"":""{{value_2}}""}}}]}}}}}
+
+Clinical Notes: ### List all records that took DTAP prior to the current vaccine. 
+Answer:
+# POST_scripts/6{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""must"":[{""match"":{""DTAP_PRIOR_VAX"":""{{value_1}}""}},{""range"":{""RECVDATE"":{""lte"":""{{value_2}}""}}}]}}}}}
+
+Clinical Notes: ### List all records that took DTAP prior to the current vaccine. 
+Answer:"
+8371,"# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""must"":[{""match"":{""SYMPTOMS"":""{{value_1}}""}},{""range"":{""DTP_DATE"":{""lte"":""{{value_2}}""}}}]}}}}}
+
+Clinical Notes: ### List all records that took DTP prior to the current vaccine. 
+Answer:
+# POST_scripts/6{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""must"":[{""match"":{""SYMPTOMS"":""{{value_1}}""}},{""range"":{""DTP_DATE"":{""lte"":""{{value_2}}""}}}]}}}}}
+
+Clinical Notes: ### List all records that took DTP prior to the current vaccine. 
+Answer:
+# POST_scripts/7{""script"
+8405,"POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""must"":[{""match"":{""SYMPTOMS"":""BCG""}},{""range"":{""VAX_DATE"":{""lte"":""{{value_1}}""}}}]}}}}}
+
+Clinical Notes: ### Find all records who got BCG shot before. 
+Answer:
+POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""must"":[{""match"":{""SYMPTOMS"":""BCG""}},{""range"":{""VAX_DATE"":{""lte"":""{{value_1}}""}}}]}}}}}
+
+Clinical Notes: ### Find all records who got BCG shot before. 
+Answer:
+POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{"""
+8406,
+8407,
+842,
+8424,
+8425,
+8438,"POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""must"":[{""match"":{""SYMPTOMS"":""IPV""}},{""range"":{""VAX_DATE"":{""lte"":""{{value_1}}""}}}]}}}}}
+
+Clinical Notes: ### Find all records who got IPV shot before. 
+Answer:
+POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""must"":[{""match"":{""SYMPTOMS"":""IPV""}},{""range"":{""VAX_DATE"":{""lte"":""{{value_1}}""}}}]}}}}}
+
+Clinical Notes: ### Find all records who got IPV shot before. 
+Answer:
+POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{"""
+8454,
+8468,
+8477,
+8479,
+8510,
+8513,
+8538,
+8554,
+8558,
+8585,
+8590,
+8605,
+8609,
+8619,
+8625,
+8626,
+8631,
+8638,
+8643,
+8657,
+8664,
+8707,
+8709,
+8720,
+8727,
+8730,
+8742,"# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""should"":[{""match"":{""VAX_TYPE"":""ZOSTER""}},{""match"":{""VAX_TYPE"":""ADENOVIRUS TYPES 4 & 7, LIVE, ORAL""}}]}}}}}
+
+Clinical Notes: ### List all the recipients who took ZOSTER and ADENOVIRUS TYPES 4 & 7, LIVE, ORAL before. 
+Answer:
+# POST_scripts/6{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""should"":[{""match"":{""VAX_TYPE"":""ZOSTER""}},{""match"":{""VAX_TYPE"":""ADENOVIRUS TYPES 4 & 7, LIVE, ORAL"
+879,
+8797,
+8822,
+8826,
+8838,
+8848,
+8857,
+89,
+8903,
+8908,
+8916,
+8935,
+8936,
+8938,
+8989,
+8992,
+8994,
+9003,
+9004,
+9013,
+9038,
+9044,
+905,
+9075,
+9119,
+9132,
+9139,
+9145,
+9149,
+9172,
+9183,
+9185,
+9186,
+9198,
+92,
+9201,
+9214,
+9215,
+9229,
+9246,
+9273,
+9319,
+9322,
+933,"{
+    ""took"": 2,
+    ""timed_out"": false,
+    ""_shards"": {
+        ""total"": 5,
+        ""successful"": 5,
+        ""skipped"": 0,
+        ""failed"": 0
+    },
+    ""hits"": {
+        ""total"": 38,
+        ""max_score"": null,
+        ""hits"": [
+            {
+                ""_index"": ""vaers"",
+                ""_type"": ""_doc"",
+                ""_id"": ""1000000000000000000000000000000000000000000000000000000000000000000000000000000"
+9343,
+9349,
+9357,
+9361,
+9382,
+9400,
+9412,
+9419,
+9435,
+945,"{
+    ""took"": 2,
+    ""timed_out"": false,
+    ""_shards"": {
+        ""total"": 5,
+        ""successful"": 5,
+        ""skipped"": 0,
+        ""failed"": 0
+    },
+    ""hits"": {
+        ""total"": 379,
+        ""max_score"": null,
+        ""hits"": [
+            {
+                ""_index"": ""vaers"",
+                ""_type"": ""_doc"",
+                ""_id"": ""100000000000000000000000000000000000000000000000000000000000000000000000000000"
+9475,
+9479,
+948,"# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""AGE_YRS"": {""gte"": ""0.17"", ""lte"": ""0.17""}}}}}
+
+Clinical Notes: ### Return all 0.17 years old vaccine recipients. 
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""AGE_YRS"": {""gte"": ""0.17"", ""lte"": ""0.17""}}}}}
+
+Clinical Notes: ### Return all 0.17 years old vaccine recipients. 
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""AGE_Y"
+9482,
+9486,
+9492,
+9507,
+9519,
+9520,
+9524,
+9525,
+9536,
+9543,
+9552,
+9557,
+9559,
+9571,
+9579,
+9584,
+9586,
+9597,
+9606,
+9612,
+9632,
+9636,
+9639,
+9647,
+965,"{
+    ""took"": 2,
+    ""timed_out"": false,
+    ""_shards"": {
+        ""total"": 5,
+        ""successful"": 5,
+        ""skipped"": 0,
+        ""failed"": 0
+    },
+    ""hits"": {
+        ""total"": 687,
+        ""max_score"": null,
+        ""hits"": [
+            {
+                ""_index"": ""vaers"",
+                ""_type"": ""_doc"",
+                ""_id"": ""100000000000000000000000000000000000000000000000000000000000000000000000000000"
+9659,"{
+    ""took"": 0,
+    ""timed_out"": false,
+    ""_shards"": {
+        ""total"": 5,
+        ""successful"": 5,
+        ""skipped"": 0,
+        ""failed"": 0
+    },
+    ""hits"": {
+        ""total"": 37869,
+        ""max_score"": null,
+        ""hits"": []
+    }
+}"
+9664,
+968,"# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""AGE_YRS"": {""gte"": ""15.0"", ""lte"": ""15.0""}}}}}
+
+Clinical Notes: ### Return all 15.0 years old vaccine recipients. 
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""AGE_YRS"": {""gte"": ""15.0"", ""lte"": ""15.0""}}}}}
+
+Clinical Notes: ### Return all 15.0 years old vaccine recipients. 
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""AGE_Y"
+9681,
+9696,
+97,
+9700,
+9712,
+9734,
+9736,
+9744,
+9745,
+9756,
+9759,
+9763,
+9771,"Clinical Notes: ### How many people recorded on 11/09/2021. 
+Answer:
+
+Clinical Notes: ### How many people recorded on 11/09/2021. 
+Answer:
+
+Clinical Notes: ### How many people recorded on 11/09/2021. 
+Answer:
+
+Clinical Notes: ### How many people recorded on 11/09/2021. 
+Answer:
+
+Clinical Notes: ### How many people recorded on 11/09/2021. 
+Answer:
+
+Clinical Notes: ### How many people recorded on 11/09/2021. 
+Answer:
+
+Clinical Notes: ### How many people recorded on 11/09/2021."
+9778,"Clinical Notes: ### How many people recorded on 04/20/2021. 
+Answer:
+
+Clinical Notes: ### How many people recorded on 04/20/2021. 
+Answer:
+
+Clinical Notes: ### How many people recorded on 04/20/2021. 
+Answer:
+
+Clinical Notes: ### How many people recorded on 04/20/2021. 
+Answer:
+
+Clinical Notes: ### How many people recorded on 04/20/2021. 
+Answer:
+
+Clinical Notes: ### How many people recorded on 04/20/2021. 
+Answer:
+
+Clinical Notes: ### How many people recorded on 04/20/2021."
+9785,"Clinical Notes: ### How many people recorded on 04/13/2022. 
+Answer:
+
+Clinical Notes: ### How many people recorded on 04/13/2022. 
+Answer:
+
+Clinical Notes: ### How many people recorded on 04/13/2022. 
+Answer:
+
+Clinical Notes: ### How many people recorded on 04/13/2022. 
+Answer:
+
+Clinical Notes: ### How many people recorded on 04/13/2022. 
+Answer:
+
+Clinical Notes: ### How many people recorded on 04/13/2022. 
+Answer:
+
+Clinical Notes: ### How many people recorded on 04/13/2022."
+9789,"Clinical Notes: ### How many people recorded on 10/27/2021. 
+Answer:
+
+Clinical Notes: ### How many people recorded on 10/28/2021. 
+Answer:
+
+Clinical Notes: ### How many people recorded on 10/29/2021. 
+Answer:
+
+Clinical Notes: ### How many people recorded on 10/30/2021. 
+Answer:
+
+Clinical Notes: ### How many people recorded on 10/31/2021. 
+Answer:
+
+Clinical Notes: ### How many people recorded on 11/1/2021. 
+Answer:
+
+Clinical Notes: ### How many people recorded on 11/2/2021. 
+Answer:"
+9790,"Clinical Notes: ### How many people recorded on 01/30/2022. 
+Answer:
+
+Clinical Notes: ### How many people recorded on 01/30/2022. 
+Answer:
+
+Clinical Notes: ### How many people recorded on 01/30/2022. 
+Answer:
+
+Clinical Notes: ### How many people recorded on 01/30/2022. 
+Answer:
+
+Clinical Notes: ### How many people recorded on 01/30/2022. 
+Answer:
+
+Clinical Notes: ### How many people recorded on 01/30/2022. 
+Answer:
+
+Clinical Notes: ### How many people recorded on 01/30/2022."
+9807,"Clinical Notes: ### How many people recorded on 12/23/2021. 
+Answer:
+
+Clinical Notes: ### How many people recorded on 12/24/2021. 
+Answer:
+
+Clinical Notes: ### How many people recorded on 12/25/2021. 
+Answer:
+
+Clinical Notes: ### How many people recorded on 12/26/2021. 
+Answer:
+
+Clinical Notes: ### How many people recorded on 12/27/2021. 
+Answer:
+
+Clinical Notes: ### How many people recorded on 12/28/2021. 
+Answer:
+
+Clinical Notes: ### How many people recorded on 12/29/2021."
+9813,"Clinical Notes: ### How many people recorded on 03/29/2022. 
+Answer:
+
+Clinical Notes: ### How many people recorded on 03/30/2022. 
+Answer:
+
+Clinical Notes: ### How many people recorded on 03/31/2022. 
+Answer:
+
+Clinical Notes: ### How many people recorded on 04/01/2022. 
+Answer:
+
+Clinical Notes: ### How many people recorded on 04/02/2022. 
+Answer:
+
+Clinical Notes: ### How many people recorded on 04/03/2022. 
+Answer:
+
+Clinical Notes: ### How many people recorded on 04/04/2022."
+9843,"Clinical Notes: ### How many people recorded on 02/09/2022. 
+Answer:
+
+Clinical Notes: ### How many people recorded on 02/10/2022. 
+Answer:
+
+Clinical Notes: ### How many people recorded on 02/11/2022. 
+Answer:
+
+Clinical Notes: ### How many people recorded on 02/12/2022. 
+Answer:
+
+Clinical Notes: ### How many people recorded on 02/13/2022. 
+Answer:
+
+Clinical Notes: ### How many people recorded on 02/14/2022. 
+Answer:
+
+Clinical Notes: ### How many people recorded on 02/15/2022."
+9860,"Clinical Notes: ### How many people recorded on 03/13/2021. 
+Answer:
+
+Clinical Notes: ### How many people recorded on 03/13/2021. 
+Answer:
+
+Clinical Notes: ### How many people recorded on 03/13/2021. 
+Answer:
+
+Clinical Notes: ### How many people recorded on 03/13/2021. 
+Answer:
+
+Clinical Notes: ### How many people recorded on 03/13/2021. 
+Answer:
+
+Clinical Notes: ### How many people recorded on 03/13/2021. 
+Answer:
+
+Clinical Notes: ### How many people recorded on 03/13/2021."
+9869,"Clinical Notes: ### How many people recorded on 04/26/2021. 
+Answer:
+
+Clinical Notes: ### How many people recorded on 04/27/2021. 
+Answer:
+
+Clinical Notes: ### How many people recorded on 04/28/2021. 
+Answer:
+
+Clinical Notes: ### How many people recorded on 04/29/2021. 
+Answer:
+
+Clinical Notes: ### How many people recorded on 04/30/2021. 
+Answer:
+
+Clinical Notes: ### How many people recorded on 05/01/2021. 
+Answer:
+
+Clinical Notes: ### How many people recorded on 05/02/2021."
+9877,"# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""RECVDATE"":{""gte"":1649078400,""lte"":1649164800}}}}}
+
+Clinical Notes: ### Return all cases recorded between 04/03/2022 and 04/04/2022. 
+Answer:
+# POST_scripts/6{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""RECVDATE"":{""gte"":1649078400,""lte"":1649251200}}}}}
+
+Clinical Notes: ### Return all cases recorded before 04/03/2022. 
+Answer:
+# POST_scripts"
+988,"# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""AGE_YRS"": {""gte"": ""0.33""}}}}}
+
+Clinical Notes: ### Return all 0.33 years old vaccine recipients. 
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""AGE_YRS"": {""gte"": ""0.33""}}}}}
+
+Clinical Notes: ### Return all 0.33 years old vaccine recipients. 
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""AGE_YRS"": {""gte"": ""0.33""}}}}}
+
+Clinical Notes"
+9886,"# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""RECVDATE"":{""gte"":1618979200,""lte"":1618979200}}}}}
+
+Clinical Notes: ### Return all cases recorded between 04/21/2021 and 04/23/2021. 
+Answer:
+# POST_scripts/6{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""RECVDATE"":{""gte"":1618979200,""lte"":1619145600}}}}}
+
+Clinical Notes: ### Return all cases recorded before 04/21/2021. 
+Answer:
+# POST_scripts"
+989,"{
+    ""took"": 2,
+    ""timed_out"": false,
+    ""_shards"": {
+        ""total"": 5,
+        ""successful"": 5,
+        ""skipped"": 0,
+        ""failed"": 0
+    },
+    ""hits"": {
+        ""total"": 36,
+        ""max_score"": null,
+        ""hits"": [
+            {
+                ""_index"": ""vaers"",
+                ""_type"": ""_doc"",
+                ""_id"": ""1000000000000000000000000000000000000000000000000000000000000000000000000000000"
+9893,"# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""RECVDATE"":{""gte"":1645789600,""lte"":1645876000}}}}}
+
+Clinical Notes: ### Return all cases recorded on 02/23/2022. 
+Answer:
+# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""RECVDATE"":{""gte"":1645789600,""lte"":1645876000}}}}}
+
+Clinical Notes: ### Return all cases recorded on 02/23/2022. 
+Answer:
+# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{"""
+9949,"# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""RECVDATE"":{""gte"":1649378800,""lte"":1649465200}}}}}
+
+Clinical Notes: ### Return all cases recorded on 04/16/2022. 
+Answer:
+# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""RECVDATE"":{""gte"":1649378800,""lte"":1649465200}}}}}
+
+Clinical Notes: ### Return all cases recorded on 04/16/2022. 
+Answer:
+# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{"""
+9974,"# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""RECVDATE"":{""gte"":1638790400,""lte"":1638876799}}}}}
+
+Clinical Notes: ### Return all cases recorded between 12/06/2021 and 12/07/2021. 
+Answer:
+# POST_scripts/6{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""bool"":{""should"":[{""range"":{""RECVDATE"":{""gte"":1638790400,""lte"":1638876799}}},{""range"":{""RECVDATE"":{""gte"":1638876800,""lte"":1638"
+9976,"# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""RECVDATE"":{""gte"":1645783600,""lte"":1645869999}}}}}
+
+Clinical Notes: ### Return all cases recorded on 02/22/2022. 
+Answer:
+# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""RECVDATE"":{""gte"":1645783600,""lte"":1645869999}}}}}
+
+Clinical Notes: ### Return all cases recorded on 02/22/2022. 
+Answer:
+# POST_scripts/5{""script"":{""lang"":""mustache"",""source"":{"""
+9984,"Clinical Notes: ### On 04/28/2022, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 04/28/2022, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 04/28/2022, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 04/28/2022, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 04/28/2022, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 04/28/2022, how many people have been recorded?
+Answer:
+
+Clinical Notes: ### On 04/28"
+9987,"Clinical Notes: ### On 02/22/2022, what percentage of people have been recorded?
+Answer:
+
+Clinical Notes: ### On 02/22/2022, how many people have been recorded in the state of California?
+Answer:
+
+Clinical Notes: ### On 02/22/2022, what percentage of people have been recorded in the state of California?
+Answer:
+
+Clinical Notes: ### On 02/22/2022, how many people have been recorded in the state of California and have had an office visit?
+Answer:
+
+Clinical Notes: ### On 02/22/2022, what percentage of people have been recorded in the state of California and have had an office visit?
+Answer:
+
+Clinical Notes: ### On 0"
+999,"# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""AGE_YRS"": {""gte"": ""106.0""}}}}}
+
+Clinical Notes: ### Return all vaccine recipients who received their first dose of vaccine in 2019. 
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{""range"":{""VAX_DATE"": {""lte"": ""2019-12-31""}}}}}
+
+Clinical Notes: ### Return all vaccine recipients who received their second dose of vaccine in 2020. 
+Answer:
+# POST_scripts/4{""script"":{""lang"":""mustache"",""source"":{""track_total_hits"":""true"",""query"":{"""

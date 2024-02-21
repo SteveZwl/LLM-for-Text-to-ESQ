@@ -1,0 +1,1001 @@
+,Questions
+3276, Give me all the patients who got vaccines on 08/10/2012. 
+1409,Give me all the patients whose report was completed on 03/26/2022. 
+7172, Which is the most common cataracts for patients.
+9319, What is the number of records that the vaccine recipient got USPFIZER INC202200713889 vaccine. 
+11467,Give me all the patients who got INFLUENZA (SEASONAL) (FLUBLOK) vaccine. 
+1987, Provide all the patients who have Varicella virus test negative. 
+4088, What is the number of cases where onset date of adverse event symptom is 06/02/2021. 
+8454, How many patients have a record of taking HPV vaccine.  
+12811, Is there any person have Stenotrophomonas infection after vaccine? 
+11778,Give me all the patients who got INFLUENZA (SEASONAL) (NO BRAND NAME) vaccine and RABIES (NO BRAND NAME) vaccine. 
+10127,Give me all the patients who got FLUX. 
+8822, How many records had MENINGOCOCCAL CONJUGATE and DT ADSORBED before.
+12373,Give me all the patients who have Urinary casts absent after vaccine . 
+6412, What is the number of vaccine recipients that had ambulance when they took the shot? 
+2270, which  Vascular test is the most common symptom after  vaccination
+4655, How many patients whose interval from the vaccination date to the onset date is 113.0 days?
+5509, Find the number of cases where the vaccine recipients had humuline nph at the time of vaccination. 
+3710,Give me all the patients whose onset date of adverse event symptoms is 06/13/2021. 
+1272,Give me all the patients whose cage year is 84.0. 
+8353,Give me all the patients who had ROTAVIRUS vaccine before. 
+8657, List all the recipients who took HEP B and MENINGOCOCCAL CONJUGATE before. 
+5450, List all the vaccine recipients who took cholecaliferol (vitamin d3) at the time of the vaccination. 
+8585,"Give me all the patients who got DTAP and POLIO VIRUS, INACT. before. "
+8477,Give me all the patients who got EBOLA ZAIRE and JAPANESE ENCEPHALITIS before. 
+7279,Give me all the patients who was allergic to trees- maple 
+5323,GIve me all the patients who was taking ezetimibe. 
+9807, How many people recorded on 12/22/2021. 
+7266,Give me all the patients who was allergic to aids 
+3959, Find all the records where the adverse event started on 08/15/2019. 
+8848, How many records had MENINGOCOCCAL CONJUGATE and TD ADSORBED before.
+3861, Give me all the patients whose adverse event symptoms start from 02/15/2022. 
+8730, List all the recipients who took MEASLES and TETANUS TOXOID before. 
+9632, How many patients got vaccine manufactured by USPFIZER INC202200372189?
+12713, List all records that had Acute motor axonal neuropathy associated with the vaccination. 
+5654, How many patients was taking vitamin d 4000 iu? 
+2262, which  Model for end stage liver disease score is the most common symptom after  vaccination
+4946, Provide all records that receive she got the omicron variant test. 
+5012, Find the number of cases that the vaccine recipients had blood urea nitrogen test. 
+5908,Give me all the patients who have active labor. 
+9771, How many people recorded on 11/09/2021. 
+4862, Provide all records that receive sodium test. 
+8367, List all records that took DTAP prior to the current vaccine. 
+5667, How many patients was taking folate 400? 
+151, Find all cases that receved on 03/01/2022. 
+4617, How many patients whose interval from the vaccination date to the onset date is 428.0 days?
+7214, Which is the most common carpal tunnel syndrome for patients.
+7256,Give me all the patients who was allergic to aminoquionolones 
+4529, What is the number of cases where the interval from the vaccination date to the onset date is 666.0 days? 
+8143, Find all records who received a vaccine before on 12/31/2021. 
+6821, Search all the patients who are dignosed of acne. 
+1172, How many patients are 44.0 years old.
+4345, List all the records that the interval from the vaccination date to the onset date is 746.0 days. 
+6024, List all the patients who are dignosed of perezone. 
+8104, Find all records who received a vaccine before on 03/29/21. 
+10596,Give me all the patients who got vaccine from 0320H20A. 
+533, Give me all the patients who comes from WA. 
+11691, What is the number of the cases where the vaccine recipient had INFLUENZA (H1N1) (H1N1 (MONOVALENT) (UNKNOWN)) vaccine. 
+1826, Give me all the patients who have NIH stroke scale after the vaccination. 
+12874, Is there any person have Schirmer's test abnormal after vaccine? 
+6812, Search all the patients who are dignosed of breast cancer. 
+1031, List all patients who are 68.0 years old. 
+5092, Find the number of cases that the vaccine recipients had heart was racing test. 
+6329, How many vaccine recipients are dignosed of gonorrhea at the time of vaccination? 
+11348, Find all cases where people vaccinated in LL and LG. 
+1210,Give me all the patients whose cage year is 62.0. 
+4158, What is the number of cases where onset date of adverse event symptom is 07/01/2018. 
+2694, How many patients died on 01/09/2022.
+2200, which  Intestinal intraepithelial lymphocytes increased is the most common symptom after  vaccination
+9273, What is the number of records that the vaccine recipient got USPFIZER INC202200521540 vaccine. 
+9789, How many people recorded on 10/26/2021. 
+5771, Is there any patients who was taking cbd external salve?
+3037, How many patients were hospitalized for 114.0 days.
+9186, Search for any cases where the vaccine recipient got vaccine manufactured by US0095075132202USA006062. 
+4201, What is the number of cases where onset date of adverse event symptom is 08/02/2021. 
+12514, How many people have Product use complaint after vaccine? 
+1160, How many patients are 90.0 years old.
+7456, Show me all the patients who has an allergic to emogene. 
+5018, Find the number of cases that the vaccine recipients had influenza a antigen test test. 
+7128, Which is the most common dry heaves for patients.
+281, List all the record received on 05/06/2022. 
+1878, Provide all the patients who have Ankle fracture. 
+2960, What is the numer of records that the vaccine recipient was hospitalized for 23.0 days. 
+4577, What is the number of cases where the interval from the vaccination date to the onset date is 273.0 days? 
+4280,Give me all the patients whose interval from the vaccination date to the onset date is 382.0 days. 
+11801,Give me all the patients who got INFLUENZA (SEASONAL) (FLUBLOK QUADRIVALENT) vaccine and INFLUENZA (SEASONAL) (FLUAD) vaccine. 
+11559, Search any vaccine recipients who had YELLOW FEVER (STAMARIL) shot.  
+6067, List all the patients who are dignosed of vaccine dose. 
+10491,Give me all the patients who got vaccine from qfaa2159. 
+3036, How many patients were hospitalized for 1.0 days.
+4545, What is the number of cases where the interval from the vaccination date to the onset date is 432.0 days? 
+6505, Which is the most common left knee for patients.
+7321,Give me all the patients who was allergic to allergies 
+12120, How many people received DTAP + HEPB + IPV (PEDIARIX) vaccine and INFLUENZA (SEASONAL) (FLULAVAL) vaccine. 
+1663,Give me all the patients who reported Spleen palpable after the vaccination. 
+10958, How many people have been injected with 18790
+9586, How many patients got vaccine manufactured by USPFIZER INC202200713239?
+3029, How many patients were hospitalized for 42.0 days.
+12996, which  Pseudomonas infection is the most common after vaccine?
+9559, How many patients got vaccine manufactured by 885080?
+12634, List all records that had Mechanical ventilation associated with the vaccination. 
+3136,Give me all the patients whose date of vaccination is 06/25/2021. 
+266, List all the record received on 03/28/2022. 
+2375,Give me all the patients who died on 12/01/2020. 
+2130, How many patients have Decubitus ulcer after vaccination? 
+41,Give me all the patients whose information are received on 01/18/2022. 
+12981, which  Oesophageal variceal ligation is the most common after vaccine?
+9435, Give me all the patients who got USPFIZER INC202200123925 vaccine. 
+4596, What is the number of cases where the interval from the vaccination date to the onset date is 486.0 days? 
+3941, Find all the records where the adverse event started on 03/23/2022. 
+1020, List all patients who are 96.0 years old. 
+221, List all the record received on 03/22/2022. 
+12837, Is there any person have Penile size reduced after vaccine? 
+10765, Find all the cases where the vaccine recipients got vaccinated in 02/23/2021. 
+999, Return all 106.0 years old vaccine recipients. 
+702, Give me the IN which has the most numbers of records
+2661, How many patients passed away on 10/24/2021. 
+3336, Give me all the patients who got vaccines on 03/30/2020. 
+523, Give me all the patients who comes from GU. 
+5467, List all the vaccine recipients who took isosorbide at the time of the vaccination. 
+517,Give me all the patients who is from MH. 
+6141, Return all the cases where the vaccine recipients was reported transplant patient. 
+9400, Give me all the patients who got USPFIZER INC202200072821 vaccine. 
+11904,Give me all the patients who got TYPHOID VI POLYSACCHARIDE (NO BRAND NAME) vaccine and INFLUENZA (SEASONAL) (FLUBLOK) vaccine. 
+8154, Find all records who received a vaccine before on 2/13/2021. 
+6452, What is the number of vaccine recipients that had pulmonary when they took the shot? 
+11723, What is the number of the cases where the vaccine recipient had HPV (GARDASIL 9) vaccine. 
+6822, Search all the patients who are dignosed of memory loss. 
+11882,Give me all the patients who got INFLUENZA (SEASONAL) (FLUENZ TETRA) vaccine and TETANUS TOXOID (NO BRAND NAME) vaccine. 
+7961,Give me all the patients who priviously got vaccinated on 04/10/2021. 
+4179, What is the number of cases where onset date of adverse event symptom is 01/01/2020. 
+11016, How many people have been injected with not known
+5808, Is there any patients who was taking enalpril?
+5197, How many patients has a real time pcr after vaccination.
+8354,"Give me all the patients who had POLIO VIRUS, INACT. vaccine before. "
+9536, How many patients got vaccine manufactured by USPFIZER INC2021334740?
+7937,Give me all the patients who priviously got vaccinated on 11/20/2021. 
+7773, What is the number of vaccine recipients that had an allergic to sulfite sensitivity?Which is The most common red apples for patients?
+11134, How many people have been injected from ID 
+1506, Provide me all the cases completed the form on 01/19/2022. 
+49,Give me all the patients whose information are received on 03/11/2022. 
+11644, How many people received DTAP (DAPTACEL) shot. 
+11205,How many people got vaccine in MO and GM. 
+9756,Give me all the patients who were recorded on 06/10/2021. 
+5798, Is there any patients who was taking quetiapine?
+425, Find the day 05/14/2022 when the most people choose to submit records.
+1649,Give me all the patients who reported Retroperitoneal neoplasm after the vaccination. 
+9734,Give me all the patients who were recorded on 02/03/2022. 
+10610,Give me all the patients who got vaccine from fe5934. 
+12606, List all records that had Motor dysfunction associated with the vaccination. 
+12631, List all records that had Tracheostomy malfunction associated with the vaccination. 
+6414, What is the number of vaccine recipients that had office visit when they took the shot? 
+7377, Show me all the patients who has an allergic to pilocarpine. 
+11227,How many people got vaccine in GM and RL. 
+11973, List all the patients who got TDAP (NO BRAND NAME) vaccine and DTAP + IPV (UNKNOWN) vaccine. 
+968, Return all 15.0 years old vaccine recipients. 
+3931, Find all the records where the adverse event started on 12/04/2015. 
+243, List all the record received on 05/04/2022. 
+12201, How many people received HEP B (HEPLISAV-B) vaccine and VACCINE NOT SPECIFIED (FOREIGN) vaccine. 
+9949, Return all cases recorded on 04/16/2022. 
+3865, Give me all the patients whose adverse event symptoms start from 04/04/2021. 
+2391,Give me all the patients who died on 01/10/2019. 
+75,Give me all the patients whose information are received on 05/20/2022. 
+12164, How many people received ZOSTER LIVE (ZOSTAVAX) vaccine and TD ADSORBED (TDVAX) vaccine. 
+5538, Find the number of cases where the vaccine recipients had cytomel at the time of vaccination. 
+11848,Give me all the patients who got MENINGOCOCCAL B (TRUMENBA) vaccine and ZOSTER (SHINGRIX) vaccine. 
+11309, Find all cases where people vaccinated in RA and AR. 
+1453, Give me all the patients who completed their report on 04/10/2021. 
+5150, How many patients has a glucose levels after vaccination.
+12032, List all the patients who got INFLUENZA (SEASONAL) (FLUBLOK) vaccine and INFLUENZA (SEASONAL) (FLUZONE HIGH-DOSE QUADRIVALENT) vaccine. 
+324, How many patients' record are received on 02/15/2022 
+12295,Give me all the patients who have Interleukin level increased after vaccine . 
+10333, How many vaccine recipients got PNC13? which YF is the most popular for people?
+5944,Give me all the patients who have health st. 
+3815, Give me all the patients whose adverse event symptoms start from 12/29/2020. 
+6249, How many vaccine recipients are dignosed of copd at the time of vaccination? 
+10795, List all the records where they took their shot in 1816022. 
+5227, Find all the records where the vaccine adminiered facility code is UNK. 
+12055, List all the patients who got INFLUENZA (H1N1) (H1N1 (MONOVALENT) (UNKNOWN)) vaccine and INFLUENZA (SEASONAL) (NO BRAND NAME) vaccine. 
+6013, List all the patients who are dignosed of arthritis. 
+4686, How many patients whose interval from the vaccination date to the onset date is 43830.0 days?
+4997, Find the number of cases that the vaccine recipients had hemoglobin a1c test. 
+8099, Find all records who received a vaccine before on 4/25/2021. 
+2055, How many patients have Pulse pressure increased after vaccination? 
+660, How many patients are from NH? 
+3549, How many patitents who got vaccines on 09/24/2021?
+1159, How many patients are 21.0 years old.
+9479, Give me all the patients who got USPFIZER INC202200165324 vaccine. 
+10394,Give me all the patients who got vaccine fromTEVA PHARMACEUTICALS. 
+9419, Give me all the patients who got USPFIZER INC202200304821 vaccine. 
+7879,Give me all the patients who priviously got vaccinated on 05/26/21. 
+7068, How many patients are dignosed of chiari malformation? 
+7404, Show me all the patients who has an allergic to milk. 
+2479, Find all vaccine recipients who died on 09/15/2021.  
+7441, Show me all the patients who has an allergic to meropenem. 
+3444, How many patients whose date of vaccination is 05/10/2021? 
+2405,Give me all the patients who died on 04/25/2022. 
+143, Find all cases that receved on 01/31/2022. 
+10171, How many people has got RAB? 
+9813, How many people recorded on 03/28/2022. 
+7726, What is the number of vaccine recipients that had an allergic to erythromycinnausea?Which is The most common food sensitivity for patients?
+3645, How many patitents who got vaccines on 01/01/1949?
+11999, List all the patients who got DTAP + HIB (NO BRAND NAME) vaccine and HIB (ACTHIB) vaccine. 
+4342, List all the records that the interval from the vaccination date to the onset date is 28827.0 days. 
+9745,Give me all the patients who were recorded on 03/19/2022. 
+4385, List all the records that the interval from the vaccination date to the onset date is 291.0 days. 
+773,Give me all the patients who is 89.0 years old. 
+1740, Give me all the patients who have Immune-mediated encephalitis after the vaccination. 
+12336,Give me all the patients who have Cellulitis after vaccine . 
+313, How many patients' record are received on 01/29/2022 
+2626, How many patients passed away on 06/07/2021. 
+8590,Give me all the patients who got TETANUS TOXOID and TD ADSORBED before. 
+6065, List all the patients who are dignosed of no10. 
+7564, Find any cases where the vaccine recipients were allergic to pvc. 
+10203, Return all the cases where the vaccine recipient got MEN. 
+4733, How many patients whose interval from the vaccination date to the onset date is 628.0 days?
+7487, Find any cases where the vaccine recipients were allergic to deletion reason. 
+10243, Return all the cases where the vaccine recipient got FLUX(H1N1). 
+9524, How many patients got vaccine manufactured by USSA2022SA078676?
+10503,Give me all the patients who got vaccine from L016284. 
+12951, which  Decreased activity is the most common after vaccine?
+5344,GIve me all the patients who was taking aspirin. 
+12334,Give me all the patients who have Fall after vaccine . 
+2156, which  Fungal pharyngitis is the most common symptom after  vaccination
+4333,Give me all the patients whose interval from the vaccination date to the onset date is 36534.0 days. 
+3771,Give me all the patients whose onset date of adverse event symptoms is 06/08/2021. 
+9519, How many patients got vaccine manufactured by USPFIZER INC2021449232?
+12297,Give me all the patients who have Immunophenotyping after vaccine . 
+2512, Find all vaccine recipients who died on 09/25/2021.  
+7930,Give me all the patients who priviously got vaccinated on 5/7/21. 
+2223, which  Synovial biopsy is the most common symptom after  vaccination
+7633, How many patients are allergic to erythrocin? 
+12040, List all the patients who got INFLUENZA (SEASONAL) (FLUZONE QUADRIVALENT) vaccine and INFLUENZA (SEASONAL) (FLUBLOK QUADRIVALENT) vaccine. 
+2834,Give me all the patients who were hospitalized for 12.0 days. 
+5790, Is there any patients who was taking latanoprost liquid eyedrop?
+3315, Give me all the patients who got vaccines on 01/28/2022. 
+8908, How many records had ZOSTER and ZOSTER LIVE before.
+11728, What is the number of the cases where the vaccine recipient had MENINGOCOCCAL B (BEXSERO) vaccine. 
+7922,Give me all the patients who priviously got vaccinated on 08/06/2021. 
+4055, Find all the records where the adverse event started on 12/11/2021. 
+4418, List all the records that the interval from the vaccination date to the onset date is 275.0 days. 
+2525, Find all vaccine recipients who died on 10/01/2021.  
+9597, How many patients got vaccine manufactured by USJNJFOC20220110022?
+10063," On 12/15/2021, how many people have been recorded?"
+2918, List all the vaccine recipients have hospitalized for 4.0 days. 
+10895, List all the records where they took their shot in fj1614. 
+4423, List all the records that the interval from the vaccination date to the onset date is 329.0 days. 
+2382,Give me all the patients who died on 03/16/2021. 
+115, Find all cases that receved on 01/19/2022. 
+9712,Give me all the patients who were recorded on 02/11/2022. 
+4995, Find the number of cases that the vaccine recipients had tuberculosis test test. 
+9606, How many patients got vaccine manufactured by USPFIZER INC202101858584?
+10352, How many vaccine recipients got DTAPIPV? which DTAPHEPBIP is the most popular for people?
+1127, How many patients are 18.0 years old.
+3404, How many patients whose date of vaccination is 04/06/2022? 
+10738, Find all the cases where the vaccine recipients got vaccinated in P100371939. 
+10524,Give me all the patients who got vaccine from 01082A. 
+9229, What is the number of records that the vaccine recipient got USPFIZER INC202101857273 vaccine. 
+1817, Give me all the patients who have Atelectasis after the vaccination. 
+9075, Search for any cases where the vaccine recipient got vaccine manufactured by USPFIZER INC2021328980. 
+5052, Find the number of cases that the vaccine recipients had gfr test. 
+12554, How many people have Injection site irritation after vaccine? 
+11209,How many people got vaccine in AR and GM. 
+3277, Give me all the patients who got vaccines on 06/15/2021. 
+10200, Return all the cases where the vaccine recipient got MENB. 
+3924, Give me all the patients whose adverse event symptoms start from 12/23/1921. 
+10807, List all the records where they took their shot in 043. 
+7815, What is the number of vaccine recipients that had an allergic to lisinopril lidocaine?Which is The most common grass for patients?
+3156,Give me all the patients whose date of vaccination is 03/22/2022. 
+10578,Give me all the patients who got vaccine from 066h21a 1/2 dos. 
+10006," On 11/04/2021, how many people have been recorded?"
+2824,Give me all the patients who were hospitalized for 50.0 days. 
+564, Give me all the patients who comes from OK. 
+1577,Give me all the patients who reported Metabolic alkalosis after the vaccination. 
+8228, How many patients got a shot on 2/11/21?
+10017," On 03/22/2022, how many people have been recorded?"
+5355,GIve me all the patients who was taking vitamin b vitamin c vitamin d. 
+749,Give me all the patients who is 88.0 years old. 
+9860, How many people recorded on 03/13/2021. 
+8720, List all the recipients who took RUBELLA and MENINGOCOCCAL before. 
+7029, How many patients are dignosed of meningitis herpes? 
+8857, How many records had RUBELLA and BCG before.
+3160,Give me all the patients whose date of vaccination is 09/29/1921. 
+7846, What is the number of vaccine recipients that had an allergic to constipation jardiance?Which is The most common antibiotics for patients?
+10292, How many vaccine recipients got TTOX? which PNC15 is the most popular for people?
+5144, How many patients has a ct scan head after vaccination.
+12882, Is there any person have Oesophageal perforation after vaccine? 
+10828, List all the records where they took their shot in 0929089-09807. 
+3298, Give me all the patients who got vaccines on 12/23/2020. 
+11460,Give me all the patients who got INFLUENZA (SEASONAL) (FLUZONE QUADRIVALENT) vaccine. 
+7572, Find any cases where the vaccine recipients were allergic to knfa. 
+11286, Find all cases where people vaccinated in OT and RA. 
+5169, How many patients has a bd veritor after vaccination.
+3602, How many patitents who got vaccines on 01/01/2005?
+12969, which  Polymerase chain reaction positive is the most common after vaccine?
+948, Return all 0.17 years old vaccine recipients. 
+11315, Find all cases where people vaccinated in AR and LA. 
+9038,Give me all the patients who got vaccine manufactured by USPFIZER INC2021351932. 
+2952, What is the numer of records that the vaccine recipient was hospitalized for 45.0 days. 
+7503, Find any cases where the vaccine recipients were allergic to honey dew. 
+1098, List all patients who are 29.0 years old. 
+12560, How many people have Ear irrigation after vaccine? 
+1195, How many patients are 70.0 years old.
+8664, List all the recipients who took BCG and MEASLES before. 
+2564, How many patients passed away on 07/15/2021. 
+4546, What is the number of cases where the interval from the vaccination date to the onset date is 28.0 days? 
+2836,Give me all the patients who were hospitalized for 52.0 days. 
+3033, How many patients were hospitalized for 59.0 days.
+5010, Find the number of cases that the vaccine recipients had antenatal sonogram test. 
+92,Give me all the patients whose information are received on 01/17/2022. 
+3560, How many patitents who got vaccines on 03/01/2022?
+9696,Give me all the patients who were recorded on 01/14/2021. 
+6342, How many vaccine recipients are dignosed of unknown origin at the time of vaccination? 
+3296, Give me all the patients who got vaccines on 11/18/2019. 
+3113,Give me all the patients whose date of vaccination is 08/12/2020. 
+9475, Give me all the patients who got USPFIZER INC2021504356 vaccine. 
+4050, Find all the records where the adverse event started on 01/23/2020. 
+8626, List all the recipients who took DT ADSORBED and COVID19 before. 
+4397, List all the records that the interval from the vaccination date to the onset date is 15.0 days. 
+1361, Return all records whose cage year is 17.0.
+4473, List all the records that the interval from the vaccination date to the onset date is 273.0 days. 
+7542, Find any cases where the vaccine recipients were allergic to jackfruit. 
+6408, What is the number of vaccine recipients that had new problem when they took the shot? 
+6804, Search all the patients who are dignosed of liver disorder. 
+7248,Give me all the patients who was allergic to z-pac 
+10664, Find all the cases where the vaccine recipients got vaccinated in 065K21A(MVU12). 
+12431,Give me all the patients who have Hepatic vascular disorder after vaccine . 
+6860, Search all the patients who are dignosed of chiari malformation. 
+3557, How many patitents who got vaccines on 02/04/2020?
+7313,Give me all the patients who was allergic to per 
+1794, Give me all the patients who have Pyelonephritis acute after the vaccination. 
+11355, Provide all records that took vaccination in AR and MO. 
+11289, Find all cases where people vaccinated in OT and UN. 
+12345,Give me all the patients who have Eye inflammation after vaccine . 
+7113, Which is the most common pulmonary disorder for patients.
+4260,Give me all the patients whose interval from the vaccination date to the onset date is 421.0 days. 
+5599, Find the number of cases where the vaccine recipients had xiosil at the time of vaccination. 
+11578," Search any vaccine recipients who had POLIO VIRUS, INACT. (NO BRAND NAME) shot.  "
+8994,Give me all the patients who got vaccine manufactured by USPFIZER INC2021320765. 
+6773, Search all the patients who are dignosed of chronic uti. 
+7918,Give me all the patients who priviously got vaccinated on 4/19/2021. 
+5231, Find all the records where the vaccine adminiered facility code is PUB. 
+10215, Return all the cases where the vaccine recipient got RV1. 
+11901,"Give me all the patients who got POLIO VIRUS, INACT. (NO BRAND NAME) vaccine and HPV (GARDASIL) vaccine. "
+8371, List all records that took DTP prior to the current vaccine. 
+842, Give me all the patients who is 67.0 years old. 
+12540, How many people have Mania after vaccine? 
+9552, How many patients got vaccine manufactured by USPFIZER INC202200257961?
+4653, How many patients whose interval from the vaccination date to the onset date is 62.0 days?
+2426, Find all vaccine recipients who died on 09/23/2021.  
+9987," On 02/22/2022, how many people have been recorded?"
+4539, What is the number of cases where the interval from the vaccination date to the onset date is 430.0 days? 
+9361, Give me all the patients who got USPFIZER INC2021607389 vaccine. 
+2518, Find all vaccine recipients who died on 03/11/2022.  
+5630, How many patients was taking buffered c? 
+1509, Provide me all the cases completed the form on 03/16/2022. 
+8048, List all the records who was vaccinated on 12/20/2013. 
+2792, How many patients died on 10/24/2021.
+7543, Find any cases where the vaccine recipients were allergic to hives. 
+330, How many patients' record are received on 04/10/2022 
+7064, How many patients are dignosed of back pain? 
+7480, Find any cases where the vaccine recipients were allergic to oxycodone codeine morphine. 
+7782, What is the number of vaccine recipients that had an allergic to nut allergy?Which is The most common topicort for patients?
+5371,GIve me all the patients who was taking prolia (6mos) coq10. 
+11362, Provide all records that took vaccination in AR and NS. 
+8032, List all the records who was vaccinated on 4/14/21. 
+4500, What is the number of cases where the interval from the vaccination date to the onset date is 414.0 days? 
+7621, How many patients are allergic to ezetimibe? 
+12172, How many people received VACCINE NOT SPECIFIED (NO BRAND NAME) vaccine and TDAP (ADACEL) vaccine. 
+12689, List all records that had Skin sensitisation associated with the vaccination. 
+2061, How many patients have Ketosis after vaccination? 
+2131, How many patients have Urine protein/creatinine ratio normal after vaccination? 
+9869, How many people recorded on 04/25/2021. 
+542, Give me all the patients who comes from AZ. 
+2320,Give me all the patients who died on 01/08/2022. 
+6076, List all the patients who are dignosed of obgyn. 
+4478, What is the number of cases where the interval from the vaccination date to the onset date is 149.0 days? 
+6856, Search all the patients who are dignosed of squamous cell carcinoma. 
+10986, How many people have been injected with FL3L98
+6921, Find all the cases where the vaccine recipient reported smoke sensitivity. 
+12545, How many people have Coeliac artery stenosis after vaccine? 
+1010, Return all 11.0 years old vaccine recipients. 
+466,Give me all the patients who is from ME. 
+3386, How many patients whose date of vaccination is 02/03/2021? 
+1204, How many patients are 47.0 years old.
+3695,Give me all the patients whose onset date of adverse event symptoms is 11/04/1921. 
+10013," On 12/21/2021, how many people have been recorded?"
+10679, Find all the cases where the vaccine recipients got vaccinated in ER06207. 
+1676,Give me all the patients who reported Peripheral artery stent insertion after the vaccination. 
+4436, List all the records that the interval from the vaccination date to the onset date is 360.0 days. 
+7523, Find any cases where the vaccine recipients were allergic to grape juice. 
+2036, How many patients have Lip discolouration after vaccination? 
+3010, How many patients were hospitalized for 17.0 days.
+7049, How many patients are dignosed of pertussis? 
+7780, What is the number of vaccine recipients that had an allergic to glutaronitrile?Which is The most common oxybutynin for patients?
+3526, How many patitents who got vaccines on 10/31/2011?
+760,Give me all the patients who is 91.0 years old. 
+9557, How many patients got vaccine manufactured by USJNJFOC20220432907?
+3918, Give me all the patients whose adverse event symptoms start from 02/09/2021. 
+3170,Give me all the patients whose date of vaccination is 10/06/2011. 
+10595,Give me all the patients who got vaccine from FK9694. 
+1628,Give me all the patients who reported Therapy change after the vaccination. 
+3749,Give me all the patients whose onset date of adverse event symptoms is 12/16/2021. 
+9013,Give me all the patients who got vaccine manufactured by US0095075132203USA010686. 
+5139, How many patients has a triglycerides after vaccination.
+3563, How many patitents who got vaccines on 09/12/2016?
+9132, Search for any cases where the vaccine recipient got vaccine manufactured by US0095075132204USA006498. 
+4419, List all the records that the interval from the vaccination date to the onset date is 108.0 days. 
+9412, Give me all the patients who got USJNJFOC20220110175 vaccine. 
+4689, How many patients whose interval from the vaccination date to the onset date is 1503.0 days?
+10058," On 01/16/2022, how many people have been recorded?"
+9382, Give me all the patients who got USPFIZER INC202101064027 vaccine. 
+536, Give me all the patients who comes from PA. 
+8077, List all the records who was vaccinated on 03/09/2021. 
+9214, What is the number of records that the vaccine recipient got USPFIZER INC202101815402 vaccine. 
+7833, What is the number of vaccine recipients that had an allergic to beta?Which is The most common prunes for patients?
+738,Give me all the patients who is 80.0 years old. 
+8261, How many patients got a shot on 02/13/2021?
+8438, Find all records who got IPV shot before. 
+8226, How many patients got a shot on 3/19/21?
+8479,Give me all the patients who got MENINGOCOCCAL CONJUGATE and TETANUS TOXOID before. 
+2612, How many patients passed away on 10/21/2021. 
+1990, Provide all the patients who have Nasal dryness. 
+12774, Is there any person have Azoospermia after vaccine? 
+12579, How many people have Vaccination site abscess after vaccine? 
+4637, How many patients whose interval from the vaccination date to the onset date is 110.0 days?
+9183, Search for any cases where the vaccine recipient got vaccine manufactured by USPFIZER INC2021344496. 
+1030, List all patients who are 63.0 years old. 
+4406, List all the records that the interval from the vaccination date to the onset date is 353.0 days. 
+3027, How many patients were hospitalized for 45.0 days.
+10315, How many vaccine recipients got TYP? which HIBV is the most popular for people?
+812,Give me all the patients who is 34.0 years old. 
+7203, Which is the most common latex allergy for patients.
+8625, List all the recipients who took HPV and DTAP before. 
+3091, How many patients recovered from the adverse event and labeled as U? 
+12809, Is there any person have Dependence after vaccine? 
+11621, How many people received DTAP + IPV + HIB (PENTACEL) shot. 
+2049, How many patients have Perfusion brain scan normal after vaccination? 
+5281,GIve me all the patients who was taking koselugo. 
+1736, Give me all the patients who have Gait disturbance after the vaccination. 
+4808,Give me all the patients who took test of covid test results. 
+7123, Which is the most common palpitations for patients.
+7767, What is the number of vaccine recipients that had an allergic to naproxin?Which is The most common generic for patients?
+5086, Find the number of cases that the vaccine recipients had hemoglobin level test. 
+7499, Find any cases where the vaccine recipients were allergic to amoxicillin trihydrate. 
+7018, How many patients are dignosed of tachycardia? 
+9700,Give me all the patients who were recorded on 03/04/2021. 
+5512, Find the number of cases where the vaccine recipients had lo loesterin at the time of vaccination. 
+12781, Is there any person have Anaemia macrocytic after vaccine? 
+5023, Find the number of cases that the vaccine recipients had full cardiac and neurological workup test. 
+5842, Is there any patients who was taking tizanidine?
+9759,Give me all the patients who were recorded on 02/11/2021. 
+8992,Give me all the patients who got vaccine manufactured by USSA2022SA051715. 
+7556, Find any cases where the vaccine recipients were allergic to guanfacine. 
+9492, Give me all the patients who got US0095075132201USA005784 vaccine. 
+11542, Search any vaccine recipients who had DTAP + IPV (QUADRACEL) shot.  
+5524, Find the number of cases where the vaccine recipients had levothyroxine 800 micrograms at the time of vaccination. 
+1886, Provide all the patients who have Fournier's gangrene. 
+7474, Show me all the patients who has an allergic to neosporin opthalamic. 
+3074,Give me all the patients who recovered from the adverse event and labeled as Y. 
+7791, What is the number of vaccine recipients that had an allergic to environmental?Which is The most common stomach distention for patients?
+6060, List all the patients who are dignosed of diagnosed with strep throat on. 
+1668,Give me all the patients who reported Psychiatric evaluation normal after the vaccination. 
+709, Give me the VA which has the most numbers of records
+12950, which  Congenital anomaly is the most common after vaccine?
+1524, How many patients completed their reports on 02/27/2022.
+11097, Return all the cases where the vaccine series is 7+. 
+337, How many patients' record are received on 03/08/2022 
+3261, Give me all the patients who got vaccines on 01/27/2020. 
+7010, How many patients are dignosed of barrett? 
+12127, How many people received DENGUE TETRAVALENT (DENGVAXIA) vaccine and HEP A (VAQTA) vaccine. 
+456, Find the day 02/28/2022 when the most people choose to submit records.
+5885,Give me all the patients who have high blood pressure spikes. 
+8273, How many patients got a shot on 3/9/32021?
+11675, How many people received ZOSTER LIVE (ZOSTAVAX) shot. 
+4065, What is the number of cases where onset date of adverse event symptom is 02/20/2022. 
+13020, which  Gene mutation identification test negative is the most common after vaccine?
+10955, How many people have been injected with f m0698
+4248,Give me all the patients whose interval from the vaccination date to the onset date is 486.0 days. 
+8558,Give me all the patients who got MENINGOCOCCAL and MEASLES before. 
+12218, which HEP A (HAVRIX) vaccine is the most popular for people 
+1542, How many patients completed their reports on 02/23/2022.
+7217, Which is the most common immune thrombocytopenia for patients.
+7640, How many patients are allergic to erythromycinnausea? 
+9877, Return all cases recorded on 04/03/2022. 
+10147, How many people has got PNC15? 
+6008, List all the patients who are dignosed of chemotherapy. 
+630, How many patients are from PW? 
+6406, What is the number of vaccine recipients that had january when they took the shot? 
+8619, List all the recipients who took MEASLES and JAPANESE ENCEPHALITIS before. 
+1461, Give me all the patients who completed their report on 01/26/2021. 
+10607,Give me all the patients who got vaccine from PF2509. 
+3647, How many patitents who got vaccines on 11/01/2008?
+1452, Give me all the patients who completed their report on 01/04/2022. 
+7095, How many patients are dignosed of common variable immunodeficiency? 
+5764, Is there any patients who was taking gabapentine?
+12961, which  Hypogonadism male is the most common after vaccine?
+11921, List all the patients who got INFLUENZA (SEASONAL) (FLUCELVAX) vaccine and HEP B (RECOMBIVAX HB) vaccine. 
+11173, How many people got vaccine in RL?
+9172, Search for any cases where the vaccine recipient got vaccine manufactured by USPFIZER INC202200066032. 
+771,Give me all the patients who is 39.0 years old. 
+10235, Return all the cases where the vaccine recipient got IPV. 
+5202, How many patients has a extreme high blood pressure after vaccination.
+4367, List all the records that the interval from the vaccination date to the onset date is 496.0 days. 
+6754, Search all the patients who are dignosed of trigger finger. 
+5219,Give me all the patients who got vaccines in PHM. 
+6556, Which is the most common unknown origin for patients.
+5959,Give me all the patients who have hypothyroid. 
+6348, How many vaccine recipients are dignosed of ear disease at the time of vaccination? 
+6398, What is the number of vaccine recipients that had pes htn when they took the shot? 
+3152,Give me all the patients whose date of vaccination is 12/01/2018. 
+11214,How many people got vaccine in OT and MO. 
+2634, How many patients passed away on 04/12/2022. 
+6495, Which is the most common cmt for patients.
+11620, How many people received MENINGOCOCCAL (NO BRAND NAME) shot. 
+58,Give me all the patients whose information are received on 01/28/2022. 
+2124, How many patients have Smear cervix after vaccination? 
+9736,Give me all the patients who were recorded on 03/28/2022. 
+4912, Provide all records that receive rapid heart beats test. 
+3169,Give me all the patients whose date of vaccination is 07/01/2018. 
+7135, Which is the most common smoker for patients.
+9886, Return all cases recorded on 04/21/2021. 
+879, Give me all the patients who is 48.0 years old. 
+7950,Give me all the patients who priviously got vaccinated on 02/28/21. 
+1750, Give me all the patients who have Urine sodium increased after the vaccination. 
+569, Give me all the patients who comes from MT. 
+7549, Find any cases where the vaccine recipients were allergic to methylphenidate. 
+9785, How many people recorded on 04/13/2022. 
+8727," List all the recipients who took POLIO VIRUS, INACT. and DENGUE TETRAVALENT before. "
+9525, How many patients got vaccine manufactured by USJNJFOC20220104603?
+12306,Give me all the patients who have Pericardial effusion after vaccine . 
+7599, How many patients are allergic to wheat? 
+5017, Find the number of cases that the vaccine recipients had cbc test. 
+4116, What is the number of cases where onset date of adverse event symptom is 03/04/2022. 
+552, Give me all the patients who comes from ME. 
+11726, What is the number of the cases where the vaccine recipient had HEP B (RECOMBIVAX HB) vaccine. 
+11874,Give me all the patients who got MENINGOCOCCAL (NO BRAND NAME) vaccine and INFLUENZA (SEASONAL) (FLULAVAL QUADRIVALENT) vaccine. 
+8938,Give me all the patients who got vaccine manufactured by USPFIZER INC2021795014. 
+6072, List all the patients who are dignosed of breathing. 
+7921,Give me all the patients who priviously got vaccinated on 01/28/2021. 
+11372, Provide all records that took vaccination in UN and OT. 
+5966,Give me all the patients who have lyphodema diabetes. 
+1072, List all patients who are 92.0 years old. 
+3811, Give me all the patients whose adverse event symptoms start from 10/16/2021. 
+10609,Give me all the patients who got vaccine from #EW0191. 
+3445, How many patients whose date of vaccination is 02/25/1901? 
+6401, What is the number of vaccine recipients that had syndrome when they took the shot? 
+5439, List all the vaccine recipients who took fentyl at the time of the vaccination. 
+6031, List all the patients who are dignosed of diabetes. 
+6326, How many vaccine recipients are dignosed of metastases at the time of vaccination? 
+1840, Give me all the patients who have Cardiomyopathy acute after the vaccination. 
+10832, List all the records where they took their shot in u022722. 
+3857, Give me all the patients whose adverse event symptoms start from 12/01/2021. 
+1941, Provide all the patients who have Tissue injury. 
+4424, List all the records that the interval from the vaccination date to the onset date is 312.0 days. 
+10829, List all the records where they took their shot in E13247. 
+4153, What is the number of cases where onset date of adverse event symptom is 07/28/2021. 
+1627,Give me all the patients who reported Eyelid operation after the vaccination. 
+11654, How many people received INFLUENZA (SEASONAL) (NO BRAND NAME) shot. 
+1194, How many patients are 107.0 years old.
+9636, How many patients got vaccine manufactured by USPFIZER INC2021535457?
+11878,"Give me all the patients who got INFLUENZA (SEASONAL) (FLUZONE HIGH-DOSE) vaccine and POLIO VIRUS, INACT. (IPOL) vaccine. "
+8916,Give me all the patients who got vaccine manufactured by USPFIZER INC202200559850. 
+163, Find all cases that receved on 03/31/2022. 
+1833, Give me all the patients who have Selective IgG subclass deficiency after the vaccination. 
+7393, Show me all the patients who has an allergic to natural rubber. 
+3913, Give me all the patients whose adverse event symptoms start from 08/27/2000. 
+8638, List all the recipients who took ROTAVIRUS and DT ADSORBED before. 
+11100, Return all the cases where the vaccine series is UNK. 
+1581,Give me all the patients who reported Perfume sensitivity after the vaccination. 
+4706, How many patients whose interval from the vaccination date to the onset date is 439.0 days?
+10253, How many vaccine recipients got MNQ? which BCG is the most popular for people?
+6321, How many vaccine recipients are dignosed of allergic conjunctivitis at the time of vaccination? 
+6053, List all the patients who are dignosed of water retention. 
+9215, What is the number of records that the vaccine recipient got USPFIZER INC202101030266 vaccine. 
+6294, How many vaccine recipients are dignosed of right kidney cyst at the time of vaccination? 
+1135, How many patients are 89.0 years old.
+6840, Search all the patients who are dignosed of arterial stent insertion. 
+1013, Return all 103.0 years old vaccine recipients. 
+1604,Give me all the patients who reported Muscle fatigue after the vaccination. 
+4983, Find the number of cases that the vaccine recipients had ana test. 
+11070, How many people have been injected with 2102142
+6735, Search all the patients who are dignosed of mastectomy. 
+6811, Search all the patients who are dignosed of nerve operation. 
+12014, List all the patients who got ZOSTER (NO BRAND NAME) vaccine and HIB (ACTHIB) vaccine. 
+6601, Which is the most common autoimmune hepatitis for patients.
+89,Give me all the patients whose information are received on 05/24/2022. 
+11649, How many people received INFLUENZA (SEASONAL) (FLUZONE) shot. 
+9507, How many patients got vaccine manufactured by USPFIZER INC2021620510?
+12018, List all the patients who got MENINGOCOCCAL CONJUGATE (MENQUADFI) vaccine and DTAP + IPV (QUADRACEL) vaccine. 
+9579, How many patients got vaccine manufactured by USPFIZER INC2021612504?
+5084, Find the number of cases that the vaccine recipients had lipase test. 
+10224, Return all the cases where the vaccine recipient got DTAPIPVHIB. 
+3853, Give me all the patients whose adverse event symptoms start from 06/01/2016. 
+905, Give me all the patients who is 66.0 years old. 
+3346, Give me all the patients who got vaccines on 06/19/2021. 
+1435,Give me all the patients whose report was completed on 02/15/2022. 
+11870,Give me all the patients who got HPV (GARDASIL) vaccine and VACCINE NOT SPECIFIED (NO BRAND NAME) vaccine. 
+12555, How many people have Temperature difference of extremities after vaccine? 
+8605,"Give me all the patients who got ADENOVIRUS TYPES 4 & 7, LIVE, ORAL and INFLUENZA before. "
+12911, which  Venipuncture is the most common after vaccine?
+5610, Find the number of cases where the vaccine recipients had fentyl at the time of vaccination. 
+1012, Return all 22.0 years old vaccine recipients. 
+3717,Give me all the patients whose onset date of adverse event symptoms is 11/01/2014. 
+2254, which  Enterobacter bacteraemia is the most common symptom after  vaccination
+6203, Return all the cases where the vaccine recipients was reported alcoholic cirrhosis-. 
+8510,Give me all the patients who got INFLUENZA and DTAP before. 
+3917, Give me all the patients whose adverse event symptoms start from 05/29/2021. 
+380, Find the day 01/05/2022 when the most people choose to submit records.
+357, How many patients' record are received on 03/03/2022 
+12185, How many people received DTAP + IPV (KINRIX) vaccine and ROTAVIRUS (ROTARIX) vaccine. 
+6990, How many patients are dignosed of low pulse rate? 
+2909, List all the vaccine recipients have hospitalized for 55.0 days. 
+6658,Give me all the patients who had contraception. 
+5288,GIve me all the patients who was taking larin fe 1/20. 
+7666, How many patients are allergic to aspirin buffered? 
+7184, Which is the most common fibrocystic breast for patients.
+3732,Give me all the patients whose onset date of adverse event symptoms is 08/15/2019. 
+1093, List all patients who are 4.0 years old. 
+9664,Give me all the patients who were recorded on 02/23/2022. 
+6117, Return all the cases where the vaccine recipients was reported arthritis. 
+38,Give me all the patients whose information are received on 01/08/2022. 
+5846, Is there any patients who was taking cyanocobalamino (muscular injection)  1?
+175, Find all cases that receved on 04/13/2022. 
+7684, How many patients are allergic to nifedipine? 
+5534, Find the number of cases where the vaccine recipients had tolfnate at the time of vaccination. 
+965, Return all 39.0 years old vaccine recipients. 
+7835, What is the number of vaccine recipients that had an allergic to minocycline?Which is The most common allergic demerol for patients?
+3334, Give me all the patients who got vaccines on 01/13/2022. 
+8014, List all the records who was vaccinated on 10/4/21. 
+4715, How many patients whose interval from the vaccination date to the onset date is 245.0 days?
+9003,Give me all the patients who got vaccine manufactured by USJNJFOC20220201352. 
+9639, How many patients got vaccine manufactured by USPFIZER INC202101449244?
+6274, How many vaccine recipients are dignosed of bladder at the time of vaccination? 
+9149, Search for any cases where the vaccine recipient got vaccine manufactured by USPFIZER INC202101189826. 
+10692, Find all the cases where the vaccine recipients got vaccinated in 037FZ1A. 
+11758, What is the number of the cases where the vaccine recipient had INFLUENZA (SEASONAL) (FLUMIST) vaccine. 
+535, Give me all the patients who comes from WV. 
+8707," List all the recipients who took DTAP and POLIO VIRUS, INACT. before. "
+7967,Give me all the patients who priviously got vaccinated on 9/24/2021. 
+2350,Give me all the patients who died on 05/08/2022. 
+7996, List all the records who was vaccinated on 7/14/21. 
+7529, Find any cases where the vaccine recipients were allergic to benacar. 
+8424, Find all records who got ANTHRAX shot before. 
+9357, What is the number of records that the vaccine recipient got USPFIZER INC202200284884 vaccine. 
+12739, List all records that had Carbonic anhydrase gene mutation assay associated with the vaccination. 
+7197, Which is the most common breast cancer metastatic for patients.
+5093, Find the number of cases that the vaccine recipients had cardiac catheterization test. 
+5381,GIve me all the patients who was taking mvi daily. 
+1914, Provide all the patients who have Sedative therapy. 
+9584, How many patients got vaccine manufactured by USPFIZER INC202101308676?
+5827, Is there any patients who was taking estragon?
+9520, How many patients got vaccine manufactured by USPFIZER INC202101030266?
+7058, How many patients are dignosed of increased blood pressure? 
+10130,Give me all the patients who got FLUA4. 
+830,Give me all the patients who is 23.0 years old. 
+3253, Give me all the patients who got vaccines on 11/12/2021. 
+4764,Give me all the patients who took test of ct scan head. 
+2438, Find all vaccine recipients who died on 12/31/2021.  
+11686, How many people received VARICELLA (VARIVAX) shot. 
+10148, How many people has got FLU3? 
+11724, What is the number of the cases where the vaccine recipient had HEP A (VAQTA) vaccine. 
+2519, Find all vaccine recipients who died on 12/05/2021.  
+7984, List all the records who was vaccinated on 1/26/22. 
+2021, How many patients have Epicondylitis after vaccination? 
+97,Give me all the patients whose information are received on 03/28/2022. 
+12067, List all the patients who got HEP B (ENGERIX-B) vaccine and INFLUENZA (SEASONAL) (FLUZONE HIGH-DOSE) vaccine. 
+4127, What is the number of cases where onset date of adverse event symptom is 10/03/2016. 
+4790,Give me all the patients who took test of crp value. 
+8554,Give me all the patients who got BCG and VARICELLA before. 
+4169, What is the number of cases where onset date of adverse event symptom is 11/30/2013. 
+2408,Give me all the patients who died on 08/12/2021. 
+5464, List all the vaccine recipients who took ipratropium bromide at the time of the vaccination. 
+8643, List all the recipients who took MEASLES and PNEUMO before. 
+8407, Find all records who got YELLOW FEVER shot before. 
+8468, How many patients have a record of taking HIB vaccine.  
+4320,Give me all the patients whose interval from the vaccination date to the onset date is 787.0 days. 
+1626,Give me all the patients who reported Glomerular filtration rate after the vaccination. 
+6922, Find all the cases where the vaccine recipient reported inflammation. 
+9543, How many patients got vaccine manufactured by USJNJFOC20220233773?
+8936,Give me all the patients who got vaccine manufactured by USPFIZER INC2021290939. 
+3344, Give me all the patients who got vaccines on 07/26/2020. 
+6278, How many vaccine recipients are dignosed of diag at the time of vaccination? 
+9486, Give me all the patients who got USPFIZER INC2021344815 vaccine. 
+5360,GIve me all the patients who was taking fluoxetine. 
+11548, Search any vaccine recipients who had MENINGOCOCCAL CONJUGATE (MENVEO) shot.  
+1831, Give me all the patients who have Respiratory tract congestion after the vaccination. 
+12806, Is there any person have Neuralgia after vaccine? 
+11190,How many people got vaccine in LA and MO. 
+11136, How many people have been injected from UN 
+8538,Give me all the patients who got HIB and VACCINE NOT SPECIFIED before. 
+11347, Find all cases where people vaccinated in RA and LA. 
+11635, How many people received HIB (ACTHIB) shot. 
+10355, How many vaccine recipients got UNK? which TTOX is the most popular for people?
+9790, How many people recorded on 01/30/2022. 
+1747, Give me all the patients who have Serum ferritin normal after the vaccination. 
+12446, How many people have Body mass index decreased after vaccine? 
+4445, List all the records that the interval from the vaccination date to the onset date is 84.0 days. 
+7251,Give me all the patients who was allergic to medicine preservatives 
+12899, which  Coagulopathy is the most common after vaccine?
+8709, List all the recipients who took PNEUMO and ANTHRAX before. 
+1041, List all patients who are 88.0 years old. 
+7471, Show me all the patients who has an allergic to peanut. 
+12449, How many people have Neutropenia after vaccine? 
+11593, Search any vaccine recipients who had HEP B (NO BRAND NAME) shot.  
+2202, which  Metastases to central nervous system is the most common symptom after  vaccination
+2781, How many patients died on 01/19/2022.
+8242, How many patients got a shot on 5/22/21?
+11651, How many people received HIB (HIBERIX) shot. 
+5989, List all the patients who are dignosed of polymyalgia. 
+136, Find all cases that receved on 04/02/2022. 
+12331,Give me all the patients who have Nasal dryness after vaccine . 
+8057, List all the records who was vaccinated on 02/18/2021. 
+8066, List all the records who was vaccinated on 5/19/2022. 
+1606,Give me all the patients who reported Pericardial fibrosis after the vaccination. 
+6092, List all the patients who are dignosed of history. 
+12963, which  Acute disseminated encephalomyelitis is the most common after vaccine?
+10602,Give me all the patients who got vaccine from SH8020. 
+3968, Find all the records where the adverse event started on 12/29/2021. 
+6842, Search all the patients who are dignosed of infected toe. 
+8797, How many records had MENINGOCOCCAL B and JAPANESE ENCEPHALITIS before.
+6573, Which is the most common vestibular for patients.
+11119,Give me all the patients who got vaccine from ID. 
+2538, Find all vaccine recipients who died on 01/28/2022.  
+8091, List all the records who was vaccinated on 3/7/2021. 
+4974, Provide all records that receive left shoulder mri test. 
+3258, Give me all the patients who got vaccines on 03/20/2022. 
+7699, How many patients are allergic to naproxin? 
+11478,Give me all the patients who got INFLUENZA (SEASONAL) (FLUZONE HIGH-DOSE QUADRIVALENT) vaccine. 
+10700, Find all the cases where the vaccine recipients got vaccinated in 042bela. 
+5165, How many patients has a all my blood work done after vaccination.
+236, List all the record received on 05/22/2022. 
+6086, List all the patients who are dignosed of overweight. 
+7507, Find any cases where the vaccine recipients were allergic to brethine. 
+4491, What is the number of cases where the interval from the vaccination date to the onset date is 457.0 days? 
+10472, List all the patients who got vaccine produced by MICHIGAN DEPT PUB HLTH.
+12403,Give me all the patients who have Electrocardiogram ST segment abnormal after vaccine . 
+3601, How many patitents who got vaccines on 08/30/2021?
+3491, How many patients whose date of vaccination is 12/17/2021? 
+3202,Give me all the patients whose date of vaccination is 03/12/2022. 
+1137, How many patients are 0.58 years old.
+8405, Find all records who got BCG shot before. 
+2286, which  Traumatic lung injury is the most common symptom after  vaccination
+9984," On 04/28/2022, how many people have been recorded?"
+10019," On 03/10/2022, how many people have been recorded?"
+711, Give me the RI which has the most numbers of records
+13028, which  Osteoarthritis is the most common after vaccine?
+10968, How many people have been injected with 0331421A
+1086, List all patients who are 1.83 years old. 
+3164,Give me all the patients whose date of vaccination is 07/19/2021. 
+9974, Return all cases recorded on 12/06/2021. 
+3657,Give me all the patients whose onset date of adverse event symptoms is 10/01/2021. 
+755,Give me all the patients who is 90.0 years old. 
+12879, Is there any person have Pharyngeal cyst after vaccine? 
+12748, Is there any person have IIIrd nerve disorder after vaccine? 
+199, List all the record received on 01/13/2022. 
+9119, Search for any cases where the vaccine recipient got vaccine manufactured by USJNJFOC20220237050. 
+9482, Give me all the patients who got USJNJFOC20220151104 vaccine. 
+11369, Provide all records that took vaccination in OT and UN. 
+2606, How many patients passed away on 07/25/2021. 
+11487,Give me all the patients who got TETANUS DIPHTHERIA (NO BRAND NAME) vaccine. 
+5793, Is there any patients who was taking miralax prn?
+10086," On 01/30/2021, how many people have been recorded?"
+10119,Give me all the patients who got FLU3. 
+7607, How many patients are allergic to food sensitivity? 
+7046, How many patients are dignosed of nerve block? 
+9571, How many patients got vaccine manufactured by USPFIZER INC2021504356?
+12046, List all the patients who got VARICELLA (VARILRIX) vaccine and TETANUS DIPHTHERIA (NO BRAND NAME) vaccine. 
+8826, How many records had EBOLA ZAIRE and DENGUE TETRAVALENT before.
+1065, List all patients who are 44.0 years old. 
+9198, Search for any cases where the vaccine recipient got vaccine manufactured by USPFIZER INC2021391217. 
+2607, How many patients passed away on 02/27/2022. 
+5880,Give me all the patients who have anemic. 
+1307, Return all records whose cage year is 96.0.
+7533, Find any cases where the vaccine recipients were allergic to nut allergy. 
+11442, Find the most popular RA for people. 
+6680,Give me all the patients who had angioplasty. 
+8287, How many patients got a shot on 3/28/2021?
+11889,Give me all the patients who got ROTAVIRUS (ROTATEQ) vaccine and HEP A (HAVRIX) vaccine. 
+3421, How many patients whose date of vaccination is 08/04/2021? 
+9778, How many people recorded on 04/20/2021. 
+10162, How many people has got PNC20? 
+8631," List all the recipients who took VARICELLA and ADENOVIRUS TYPES 4 & 7, LIVE, ORAL before. "
+8153, Find all records who received a vaccine before on 11/20/2021. 
+12686, List all records that had Biopsy lung associated with the vaccination. 
+9744,Give me all the patients who were recorded on 04/04/2022. 
+47,Give me all the patients whose information are received on 01/14/2022. 
+10001," On 11/28/2021, how many people have been recorded?"
+11923, List all the patients who got MEASLES + MUMPS + RUBELLA + VARICELLA (NO BRAND NAME) vaccine and DTP (NO BRAND NAME) vaccine. 
+12602, List all records that had Joint lock associated with the vaccination. 
+12847, Is there any person have Cytomegalovirus viraemia after vaccine? 
+11223,How many people got vaccine in UN and RL. 
+12074, How many people received VARICELLA (VARILRIX) vaccine and ROTAVIRUS (ROTATEQ) vaccine. 
+4725, How many patients whose interval from the vaccination date to the onset date is 4013.0 days?
+989, Return all 71.0 years old vaccine recipients. 
+6595, Which is the most common seasonal for patients.
+5543, Find the number of cases where the vaccine recipients had ultranox at the time of vaccination. 
+4866, Provide all records that receive ag test test. 
+11062, How many people have been injected with 037F21A
+5757, Is there any patients who was taking xiosil?
+7382, Show me all the patients who has an allergic to hay fever. 
+8838, How many records had MENINGOCOCCAL B and RABIES before.
+9763,Give me all the patients who were recorded on 04/08/2021. 
+1717, Give me all the patients who have Dialysis related complication after the vaccination. 
+9349, What is the number of records that the vaccine recipient got USPFIZER INC202101303335 vaccine. 
+9139, Search for any cases where the vaccine recipient got vaccine manufactured by USPFIZER INC202200028753. 
+291, How many patients' record are received on 03/05/2022 
+6742, Search all the patients who are dignosed of intraocular lens implant. 
+182, Find all cases that receved on 04/25/2022. 
+5114, How many patients has a potassium after vaccination.
+498,Give me all the patients who is from PR. 
+4789,Give me all the patients who took test of sonogram. 
+1016, Return all 72.0 years old vaccine recipients. 
+12015, List all the patients who got TDAP (NO BRAND NAME) vaccine and HEP A (NO BRAND NAME) vaccine. 
+6005, List all the patients who are dignosed of incontinence. 
+9976, Return all cases recorded on 02/22/2022. 
+726, Give me the AS which has the most numbers of records
+10762, Find all the cases where the vaccine recipients got vaccinated in EC6449. 
+12679, List all records that had Contrast media allergy associated with the vaccination. 
+7269,Give me all the patients who was allergic to atorvastatin 
+4200, What is the number of cases where onset date of adverse event symptom is 09/08/2020. 
+11886,Give me all the patients who got HPV (GARDASIL 9) vaccine and PNEUMO (PREVNAR) vaccine. 
+11934, List all the patients who got ZOSTER (NO BRAND NAME) vaccine and DTAP + HEPB + IPV (PEDIARIX) vaccine. 
+10289, How many vaccine recipients got HEPAB? which FLUA3 is the most popular for people?
+5987, List all the patients who are dignosed of car accident. 
+8425, Find all records who got MEASLES shot before. 
+11303, Find all cases where people vaccinated in LL and UN. 
+2587, How many patients passed away on 11/10/2021. 
+387, Find the day 03/31/2022 when the most people choose to submit records.
+11179, How many people got vaccine in UN?
+11898,Give me all the patients who got DTAP + IPV + HIB (PENTACEL) vaccine and MENINGOCOCCAL B (TRUMENBA) vaccine. 
+988, Return all 0.33 years old vaccine recipients. 
+3856, Give me all the patients whose adverse event symptoms start from 01/21/2022. 
+10391, How many vaccine recipients got FLUA3? which DTAP is the most popular for people?
+7425, Show me all the patients who has an allergic to red apples. 
+10145, How many people has got FLUX? 
+4917, Provide all records that receive aptt test. 
+4855,Give me all the patients who took test of high temperatures up to 112. 
+10857, List all the records where they took their shot in 934906. 
+5036, Find the number of cases that the vaccine recipients had glucose levels test. 
+4120, What is the number of cases where onset date of adverse event symptom is 06/21/2021. 
+3069, How many patients were hospitalized for 23.0 days.
+12826, Is there any person have Enlarged uvula after vaccine? 
+3340, Give me all the patients who got vaccines on 09/28/2021. 
+12714, List all records that had Haemorrhagic infarction associated with the vaccination. 
+4590, What is the number of cases where the interval from the vaccination date to the onset date is 447.0 days? 
+12730, List all records that had Vulval haemorrhage associated with the vaccination. 
+8051, List all the records who was vaccinated on 07/20/21. 
+12281, which HEP B (RECOMBIVAX HB) vaccine is the most popular for people 
+11360, Provide all records that took vaccination in LG and LA. 
+9145, Search for any cases where the vaccine recipient got vaccine manufactured by USPFIZER INC2021496450. 
+9201, Search for any cases where the vaccine recipient got vaccine manufactured by USPFIZER INC202200545353. 
+273, List all the record received on 02/08/2022. 
+538, Give me all the patients who comes from VI. 
+1349, Return all records whose cage year is 48.0.
+11770,Give me all the patients who got TYPHOID VI POLYSACCHARIDE (NO BRAND NAME) vaccine and DTAP + IPV + HIB (PENTACEL) vaccine. 
+3859, Give me all the patients whose adverse event symptoms start from 07/01/2020. 
+2853,Give me all the patients who were hospitalized for 10.0 days. 
+9843, How many people recorded on 02/08/2022. 
+4828,Give me all the patients who took test of physical. 
+12937, which  Plantar fasciitis is the most common after vaccine?
+7718, What is the number of vaccine recipients that had an allergic to hydromorphone hcl?Which is The most common talc for patients?
+4014, Find all the records where the adverse event started on 12/31/2020. 
+10078," On 12/16/2021, how many people have been recorded?"
+4972, Provide all records that receive bacteriology sars cov antigen test. 
+6798, Search all the patients who are dignosed of palpitations. 
+7026, How many patients are dignosed of clinical depression? 
+11296, Find all cases where people vaccinated in LG and AR. 
+1890, Provide all the patients who have Rhesus antigen negative. 
+3629, How many patitents who got vaccines on 12/14/2021?
+5912,Give me all the patients who have right kidney cyst. 
+12838, Is there any person have Impulse-control disorder after vaccine? 
+9044,Give me all the patients who got vaccine manufactured by USPFIZER INC202101630906. 
+2535, Find all vaccine recipients who died on 04/20/2022.  
+5767, Is there any patients who was taking atorvastatin?
+1802, Give me all the patients who have Renal replacement therapy after the vaccination. 
+2829,Give me all the patients who were hospitalized for 8.0 days. 
+2826,Give me all the patients who were hospitalized for 14.0 days. 
+4112, What is the number of cases where onset date of adverse event symptom is 02/19/2022. 
+1665,Give me all the patients who reported Blood testosterone normal after the vaccination. 
+5482, List all the vaccine recipients who took one pill daily at the time of the vaccination. 
+6647,Give me all the patients who had prostate cancer. 
+5806, Is there any patients who was taking vyvanse?
+1862, Provide all the patients who have Carbon dioxide abnormal. 
+10451, How many PFIZER\BIONTECH vaccine has been used. 
+6691,Give me all the patients who had brain inflammation. 
+11833,"Give me all the patients who got TD ADSORBED (TDVAX) vaccine and POLIO VIRUS, INACT. (POLIOVAX) vaccine. "
+5675, How many patients was taking advil prn? 
+12203, How many people received HEP A (HAVRIX) vaccine and MENINGOCOCCAL B (BEXSERO) vaccine. 
+520, Give me all the patients who comes from NV. 
+11563, Search any vaccine recipients who had ZOSTER (NO BRAND NAME) shot.  
+6741, Search all the patients who are dignosed of ankylosing spondylitis. 
+3993, Find all the records where the adverse event started on 05/01/2020. 
+2686, How many patients died on 09/08/2021.
+6040, List all the patients who are dignosed of type ii diabetes. 
+12571, How many people have Infrequent bowel movements after vaccine? 
+4472, List all the records that the interval from the vaccination date to the onset date is 20.0 days. 
+8903, How many records had BCG and HIB before.
+8742," List all the recipients who took ZOSTER and ADENOVIRUS TYPES 4 & 7, LIVE, ORAL before. "
+9659, Return all records using the VAERS 2 form. 
+663, How many patients are from MT? 
+11918,Give me all the patients who got INFLUENZA (SEASONAL) (FLUARIX) vaccine and COVID19 (COVID19 (JANSSEN)) vaccine. 
+4902, Provide all records that receive blood sugar test test. 
+12282, which HIB (ACTHIB) vaccine is the most popular for people 
+9893, Return all cases recorded on 02/23/2022. 
+5007, Find the number of cases that the vaccine recipients had mchc test. 
+716, Give me the SD which has the most numbers of records
+11002, How many people have been injected with UT7319NA
+12175, How many people received INFLUENZA (SEASONAL) (FLUZONE) vaccine and MENINGOCOCCAL (MENOMUNE) vaccine. 
+9004,Give me all the patients who got vaccine manufactured by USPFIZER INC2021285292. 
+8989,Give me all the patients who got vaccine manufactured by USPFIZER INC202101706345. 
+10406,Give me all the patients who got vaccine fromUNKNOWN MANUFACTURER. 
+3767,Give me all the patients whose onset date of adverse event symptoms is 11/30/2021. 
+12506, How many people have Acoustic stimulation tests after vaccine? 
+1519, How many patients completed their reports on 12/30/2021.
+1619,Give me all the patients who reported Polychromasia after the vaccination. 
+11957, List all the patients who got HEP A + HEP B (TWINRIX) vaccine and INFLUENZA (SEASONAL) (FLULAVAL QUADRIVALENT) vaccine. 
+1880, Provide all the patients who have Biopsy lung. 
+11936, List all the patients who got HIB (HIBERIX) vaccine and COVID19 (COVID19 (MODERNA)) vaccine. 
+5718, How many patients was taking dutasteride? 
+8609,Give me all the patients who got TDAP and ROTAVIRUS before. 
+448, Find the day 03/05/2022 when the most people choose to submit records.
+1553,Give me all the patients who reported Tympanic membrane disorder after the vaccination. 
+714, Give me the TX which has the most numbers of records
+4087, What is the number of cases where onset date of adverse event symptom is 07/22/2013. 
+1162, How many patients are 5.83 years old.
+12070, How many people received RABIES (RABAVERT) vaccine and INFLUENZA (SEASONAL) (FLUZONE) vaccine. 
+5177, How many patients has a mri test after vaccination.
+10401,Give me all the patients who got vaccine fromGLAXOSMITHKLINE BIOLOGICALS. 
+12069, How many people received PNEUMO (PNEUMOVAX) vaccine and ANTHRAX (NO BRAND NAME) vaccine. 
+382, Find the day 01/09/2022 when the most people choose to submit records.
+10051," On 03/29/2022, how many people have been recorded?"
+9647, How many patients got vaccine manufactured by USPFIZER INC202200730509?
+7796, What is the number of vaccine recipients that had an allergic to petroleum pushed inhalants?Which is The most common seasonal for patients?
+8935,Give me all the patients who got vaccine manufactured by USPFIZER INC202101742578. 
+3167,Give me all the patients whose date of vaccination is 09/27/2017. 
+9322, What is the number of records that the vaccine recipient got USPFIZER INC202200027124 vaccine. 
+945, Return all 68.0 years old vaccine recipients. 
+10138,Give me all the patients who got RV1. 
+9343, What is the number of records that the vaccine recipient got USPFIZER INC202101475740 vaccine. 
+7768, What is the number of vaccine recipients that had an allergic to sumatriptans?Which is The most common grape juice for patients?
+10780, Find all the cases where the vaccine recipients got vaccinated in u031560. 
+6221, Return all the cases where the vaccine recipients was reported polyarthralgia rheumatica. 
+9681,Give me all the patients who were recorded on 04/18/2022. 
+8262, How many patients got a shot on 05/13/2021?
+1517, How many patients completed their reports on 01/11/2022.
+5346,GIve me all the patients who was taking one pill daily. 
+1177, How many patients are 0.25 years old.
+2497, Find all vaccine recipients who died on 04/11/2021.  
+2419,Give me all the patients who died on 01/29/2022. 
+4967, Provide all records that receive creatinine test. 
+12842, Is there any person have Delirium tremens after vaccine? 
+247, List all the record received on 01/05/2022. 
+11543, Search any vaccine recipients who had PNEUMO (PREVNAR20) shot.  
+8513,Give me all the patients who got ZOSTER LIVE and HEP B before. 
+3916, Give me all the patients whose adverse event symptoms start from 08/15/2021. 
+1054, List all patients who are 0.67 years old. 
+9246, What is the number of records that the vaccine recipient got USPFIZER INC2021444230 vaccine. 
+628, How many patients are from GU? 
+7902,Give me all the patients who priviously got vaccinated on 03/29/21. 
+1044, List all patients who are 104.0 years old. 
+6586, Which is the most common seen march for patients.
+10060," On 12/08/2021, how many people have been recorded?"
+1215,Give me all the patients whose cage year is 10.0. 
+2727, How many patients died on 03/07/2021.
+3376, Give me all the patients who got vaccines on 10/14/2021. 
+5473, List all the vaccine recipients who took amlodipine besylate at the time of the vaccination. 
+6328, How many vaccine recipients are dignosed of fibrous at the time of vaccination? 
+4762,Give me all the patients who took test of ana choice screen. 
+10584,Give me all the patients who got vaccine from WAG4512. 
+11207,How many people got vaccine in LA and RA. 
+10566,Give me all the patients who got vaccine from AMXA688A. 
+8406, Find all records who got VARICELLA shot before. 
+3679,Give me all the patients whose onset date of adverse event symptoms is 06/05/2021. 
+1873, Provide all the patients who have Arteriovenous fistula site complication. 
+7037, How many patients are dignosed of cidp? 
+10362, How many vaccine recipients got DTAP? which HPV9 is the most popular for people?
+1773, Give me all the patients who have Adverse event after the vaccination. 
+9185, Search for any cases where the vaccine recipient got vaccine manufactured by USPFIZER INC202200133167. 
+1379,Give me all the patients whose cage months is 0.9. 
+6568, Which is the most common muscle wasting and atrophy for patients.
+6455, What is the number of vaccine recipients that had arterial hypertension when they took the shot? 
+9612, How many patients got vaccine manufactured by USPFIZER INC202101495427?
+12755, Is there any person have Erythema multiforme after vaccine? 
+4656, How many patients whose interval from the vaccination date to the onset date is 494.0 days?
+933, Return all 76.0 years old vaccine recipients. 
+12130, How many people received VARICELLA (NO BRAND NAME) vaccine and PNEUMO (VAXNEUVANCE) vaccine. 
+7237, Which is the most common malabsorption for patients.
+5072, Find the number of cases that the vaccine recipients had left shoulder mri test. 
+183, Find all cases that receved on 01/23/2022. 
+1835, Give me all the patients who have Myoglobin blood after the vaccination. 
+1820, Give me all the patients who have Prostate infection after the vaccination. 
+12653, List all records that had Cytomegalovirus test negative associated with the vaccination. 
+5056, Find the number of cases that the vaccine recipients had excison test. 
+11438, Find the most popular RL for people. 
+10769, Find all the cases where the vaccine recipients got vaccinated in FJ1619. 
+7332,Give me all the patients who was allergic to pvc 
+10466, How many GLAXOSMITHKLINE BIOLOGICALS vaccine has been used. 
+1109, How many patients are 100.0 years old.
+7771, What is the number of vaccine recipients that had an allergic to insect?Which is The most common walnut sensitivity for patients?
+1378,Give me all the patients whose cage months is 0.3. 
